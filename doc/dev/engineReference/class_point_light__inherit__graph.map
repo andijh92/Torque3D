@@ -1,4 +1,5 @@
 <map id="PointLight" name="PointLight">
+<area shape="rect" id="node18" href="$class_point_light_proxy.html" title="PointLightProxy" alt="" coords="381,827,496,853"/>
 <area shape="rect" id="node2" href="$class_light_base.html" title="LightBase" alt="" coords="399,677,479,704"/>
 <area shape="rect" id="node3" href="$class_scene_object.html" title="SceneObject" alt="" coords="271,603,369,629"/>
 <area shape="rect" id="node4" href="$class_net_object.html" title="NetObject" alt="" coords="143,528,223,555"/>

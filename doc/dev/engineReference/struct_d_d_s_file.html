@@ -135,11 +135,12 @@ Public Types</h2></td></tr>
 <b>CubeMap_NegY_Flag</b> = BIT(11), 
 <br />
 &#160;&#160;<b>CubeMap_PosZ_Flag</b> = BIT(12), 
-<b>CubeMap_NegZ_Flag</b> = BIT(13)
+<b>CubeMap_NegZ_Flag</b> = BIT(13), 
+<b>CubeMap_All_Flags</b> = CubeMapFlag|CubeMap_PosX_Flag | CubeMap_NegX_Flag | CubeMap_PosY_Flag | CubeMap_NegY_Flag | CubeMap_PosZ_Flag | CubeMap_NegZ_Flag
 <br />
  }</td></tr>
 <tr class="separator:a8eb961b4b9d24df0a945833c2a8c0c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53be7c85bcad850e7ae25d0896468aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:a036a76afeccd8be163d9c29c4e0dac67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>Cubemap_Surface_PosX</b>, 
 <b>Cubemap_Surface_NegX</b>, 
 <b>Cubemap_Surface_PosY</b>, 
@@ -150,7 +151,7 @@ Public Types</h2></td></tr>
 <b>Cubemap_Surface_Count</b>
 <br />
  }</td></tr>
-<tr class="separator:aa53be7c85bcad850e7ae25d0896468aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a036a76afeccd8be163d9c29c4e0dac67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -214,6 +215,9 @@ const <a class="el" href="class_string.html">String</a> &amp;&#160;</td><td clas
 <tr class="memitem:aedc54eb14bd2f9b4cd9c2005eea4a16d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedc54eb14bd2f9b4cd9c2005eea4a16d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DDSFile</b> (const <a class="el" href="struct_d_d_s_file.html">DDSFile</a> &amp;dds)</td></tr>
 <tr class="separator:aedc54eb14bd2f9b4cd9c2005eea4a16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f0f2463a54428c5bc1bae630c8b4147"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f0f2463a54428c5bc1bae630c8b4147"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>decompressToGBitmap</b> (<a class="el" href="class_g_bitmap.html">GBitmap</a> *dest)</td></tr>
+<tr class="separator:a7f0f2463a54428c5bc1bae630c8b4147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -226,6 +230,9 @@ static <a class="el" href="class_resource.html">Resource</a>&lt; <a class="el" h
 <tr class="memitem:a98cc6f7c8d10432dd8c15f91cb1ee201"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98cc6f7c8d10432dd8c15f91cb1ee201"></a>
 static <a class="el" href="struct_d_d_s_file.html">DDSFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createDDSFileFromGBitmap</b> (const <a class="el" href="class_g_bitmap.html">GBitmap</a> *gbmp)</td></tr>
 <tr class="separator:a98cc6f7c8d10432dd8c15f91cb1ee201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bd5e7937f9dfa44295a325199e21a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0bd5e7937f9dfa44295a325199e21a2"></a>
+static <a class="el" href="struct_d_d_s_file.html">DDSFile</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>createDDSCubemapFileFromGBitmaps</b> (<a class="el" href="class_g_bitmap.html">GBitmap</a> **gbmps)</td></tr>
+<tr class="separator:ad0bd5e7937f9dfa44295a325199e21a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -280,7 +287,7 @@ static S32&#160;</td><td class="memItemRight" valign="bottom"><b>smActiveCopies<
 <tr class="separator:ae811b8c5239b7f149b4dc7bd8bdb1e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="aa53be7c85bcad850e7ae25d0896468aa"></a>
+<a class="anchor" id="a036a76afeccd8be163d9c29c4e0dac67"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -378,7 +385,7 @@ static S32&#160;</td><td class="memItemRight" valign="bottom"><b>smActiveCopies<
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>C:/projects/torque3d-qw64q/Engine/source/gfx/bitmap/<a class="el" href="dds_file_8h_source.html">ddsFile.h</a></li>
-<li>C:/projects/torque3d-qw64q/Engine/source/gfx/bitmap/ddsLoader.cpp</li>
+<li>C:/projects/torque3d-qw64q/Engine/source/gfx/bitmap/ddsFile.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

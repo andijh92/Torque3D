@@ -7,7 +7,7 @@ var searchData=
   ['_5f_5ftsmeshvertexbase',['__TSMeshVertexBase',['../struct_t_s_mesh_1_1_____t_s_mesh_vertex_base.html',1,'TSMesh']]],
   ['_5fabstractclassbase',['_AbstractClassBase',['../struct___private_1_1___abstract_class_base.html',1,'_Private']]],
   ['_5faddbuffer',['_addBuffer',['../class_s_f_x_device.html#a0e6c2a6a3c19bc2367deac6a08d013d9',1,'SFXDevice']]],
-  ['_5faddcolortarget',['_addColorTarget',['../class_time_of_day.html#a700dc88fc83ce47f2b7a6471382c3ae7',1,'TimeOfDay']]],
+  ['_5faddcolortarget',['_addColorTarget',['../class_time_of_day.html#a4dafe2b296bbd6a9f005f9814635e6b8',1,'TimeOfDay']]],
   ['_5fadddecaltospheres',['_addDecalToSpheres',['../class_decal_data_file.html#a2145c4632d0ccbe0b5552100941e2e8f',1,'DecalDataFile']]],
   ['_5faddlightinfoex',['_addLightInfoEx',['../class_advanced_light_manager.html#a1d577a1aaf98f01c19c359013c76af16',1,'AdvancedLightManager::_addLightInfoEx()'],['../class_basic_light_manager.html#a95fed250680f10176e2bb815d27e8be4',1,'BasicLightManager::_addLightInfoEx()'],['../class_light_manager.html#a4de652595ecbe38ba8f50ecaeea9dce5',1,'LightManager::_addLightInfoEx()']]],
   ['_5faddoccluder',['_addOccluder',['../class_scene_zone_space.html#ab808b759b57e2f8b45f021a5e961d486',1,'SceneZoneSpace']]],
@@ -330,5 +330,6 @@ var searchData=
   ['_5fvalidatetexparams',['_validateTexParams',['../class_g_f_x_texture_manager.html#a4247ccb9366663d1145a4bef3dffaadf',1,'GFXTextureManager']]],
   ['_5fwaitforeventandreset',['_waitForEventAndReset',['../class_async_update_thread.html#ac95008158b5c4bb39ad72adbd90c9c17',1,'AsyncUpdateThread::_waitForEventAndReset()'],['../class_async_periodic_update_thread.html#a8234ae267a802d95a54e944a6551fe18',1,'AsyncPeriodicUpdateThread::_waitForEventAndReset()']]],
   ['_5fzoneinsert',['_zoneInsert',['../class_scene_zone_space_manager.html#ab664e31393c34b623e345c79bf0ff941',1,'SceneZoneSpaceManager']]],
-  ['_5fzoneremove',['_zoneRemove',['../class_scene_zone_space_manager.html#acff33a446bc77ca74b05f7ed555eef47',1,'SceneZoneSpaceManager']]]
+  ['_5fzoneremove',['_zoneRemove',['../class_scene_zone_space_manager.html#acff33a446bc77ca74b05f7ed555eef47',1,'SceneZoneSpaceManager']]],
+  ['_5fzupfaceindex',['_zUpFaceIndex',['../class_g_f_x_cubemap.html#ad0403504c346ecf9bbf0d208ab35daed',1,'GFXCubemap']]]
 ];

@@ -115,20 +115,22 @@ Public Types</h2></td></tr>
 <a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82daa6bb823fc92adbec55ba4c34cd586062">KeepBitmap</a> = BIT(7), 
 <br />
 &#160;&#160;<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82daa3a2027753aec009ced4f0818a231296">ZTarget</a> = BIT(8), 
-<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82da8e64fa44eaa9b6444614dac7bdb1dcf8">Pooled</a> = BIT(9), 
-<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82da80d43e9b398433d953f373496edacc7b">NoDiscard</a> = BIT(10), 
-<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82da64941246453c186259db8754c8b2ef43">NoModify</a> = BIT(11)
+<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82daf6773a6da8ddf28520016603401b8f23">SRGB</a> = BIT(9), 
+<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82da8e64fa44eaa9b6444614dac7bdb1dcf8">Pooled</a> = BIT(10), 
+<a class="el" href="class_g_f_x_texture_profile.html#a09105f0bf717a1f2ae49ceda21b8e82da80d43e9b398433d953f373496edacc7b">NoDiscard</a> = BIT(11), 
+<br />
+&#160;&#160;<b>NoModify</b> = BIT(11)
 <br />
  }</td></tr>
 <tr class="separator:a09105f0bf717a1f2ae49ceda21b8e82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d505c60c60abec30d0705d44bb61de8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d505c60c60abec30d0705d44bb61de8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Compression</b> { <br />
 &#160;&#160;<b>NONE</b>, 
-<b>DXT1</b>, 
-<b>DXT2</b>, 
-<b>DXT3</b>, 
+<b>BC1</b>, 
+<b>BC2</b>, 
+<b>BC3</b>, 
 <br />
-&#160;&#160;<b>DXT4</b>, 
-<b>DXT5</b>
+&#160;&#160;<b>BC4</b>, 
+<b>BC5</b>
 <br />
  }</td></tr>
 <tr class="separator:a9d505c60c60abec30d0705d44bb61de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,6 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a62a799a3ea3659c7f61e57b29d32f2a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62a799a3ea3659c7f61e57b29d32f2a3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>GFXTextureProfile</b> (const <a class="el" href="class_string.html">String</a> &amp;name, Types type, U32 flags, Compression compression=NONE)</td></tr>
 <tr class="separator:a62a799a3ea3659c7f61e57b29d32f2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe2330ad5f8ca3bbd61b16083c3d0a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adfe2330ad5f8ca3bbd61b16083c3d0a6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="class_g_f_x_texture_profile.html">GFXTextureProfile</a> &amp;in_Cmp) const </td></tr>
+<tr class="separator:adfe2330ad5f8ca3bbd61b16083c3d0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b17bca58c2469c241f98836e09d6b55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b17bca58c2469c241f98836e09d6b55"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="class_g_f_x_texture_profile.html">GFXTextureProfile</a> &amp;in_Cmp) const </td></tr>
+<tr class="separator:a7b17bca58c2469c241f98836e09d6b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e7932d66619ed42d405e6fcf428977"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56e7932d66619ed42d405e6fcf428977"></a>
 <a class="el" href="class_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> () const </td></tr>
 <tr class="separator:a56e7932d66619ed42d405e6fcf428977"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,9 +205,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPooled</b> () const
 <tr class="memitem:ac63c14c3c0ed3b9e349ae067c13dea3a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac63c14c3c0ed3b9e349ae067c13dea3a"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>canDiscard</b> () const </td></tr>
 <tr class="separator:ac63c14c3c0ed3b9e349ae067c13dea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affefd81eac545d94b14ed0d09410eed4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affefd81eac545d94b14ed0d09410eed4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>canModify</b> () const </td></tr>
-<tr class="separator:affefd81eac545d94b14ed0d09410eed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3fb9bd578d95f392ff5e63ea09aea03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3fb9bd578d95f392ff5e63ea09aea03"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSRGB</b> () const </td></tr>
+<tr class="separator:af3fb9bd578d95f392ff5e63ea09aea03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031a3c5e093238b3751c73074ca02545"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a031a3c5e093238b3751c73074ca02545"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>compareFlags</b> (const <a class="el" href="class_g_f_x_texture_profile.html">GFXTextureProfile</a> &amp;in_Cmp) const </td></tr>
+<tr class="separator:a031a3c5e093238b3751c73074ca02545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -264,6 +275,9 @@ static <a class="el" href="class_g_f_x_texture_profile.html">GFXTextureProfile</
 <tr><td class="fieldname"><a class="anchor" id="a09105f0bf717a1f2ae49ceda21b8e82daa3a2027753aec009ced4f0818a231296"></a>ZTarget&#160;</td><td class="fielddoc">
 <p>This texture will be used as a Z target. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a09105f0bf717a1f2ae49ceda21b8e82daf6773a6da8ddf28520016603401b8f23"></a>SRGB&#160;</td><td class="fielddoc">
+<p>sRGB texture </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a09105f0bf717a1f2ae49ceda21b8e82da8e64fa44eaa9b6444614dac7bdb1dcf8"></a>Pooled&#160;</td><td class="fielddoc">
 <p>Track and pool textures of this type for reuse. </p><pre class="fragment">  You should use this profile flag sparingly.  Odd
   sized textures and spikes in allocation can cause
@@ -272,9 +286,6 @@ static <a class="el" href="class_g_f_x_texture_profile.html">GFXTextureProfile</
 <tr><td class="fieldname"><a class="anchor" id="a09105f0bf717a1f2ae49ceda21b8e82da80d43e9b398433d953f373496edacc7b"></a>NoDiscard&#160;</td><td class="fielddoc">
 <p>A hint that the device is not allowed to discard the content of a target texture after presentation or deactivated.</p>
 <p>This is mainly a depth buffer optimization. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a09105f0bf717a1f2ae49ceda21b8e82da64941246453c186259db8754c8b2ef43"></a>NoModify&#160;</td><td class="fielddoc">
-<p>Texture is managed by another process, thus should not be modified. </p>
 </td></tr>
 </table>
 

@@ -1,4 +1,5 @@
 <map id="SFXProfile" name="SFXProfile">
+<area shape="rect" id="node10" href="$class_audio_profile.html" title="AudioProfile" alt="" coords="80,603,171,629"/>
 <area shape="rect" id="node2" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="86,453,165,480"/>
 <area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="73,379,178,405"/>
 <area shape="rect" id="node4" href="$class_sim_object.html" title="SimObject" alt="" coords="84,304,167,331"/>

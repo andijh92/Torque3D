@@ -11,7 +11,7 @@
 <area shape="rect" id="node9" href="$class_process_object.html" title="ProcessObject" alt="" coords="743,872,851,899"/>
 <area shape="rect" id="node10" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="523,761,651,788"/>
 <area shape="rect" id="node11" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="29,1472,85,1499"/>
-<area shape="rect" id="node34" href="$class_material.html" title="The basic material definition. " alt="" coords="1162,2063,1230,2089"/>
+<area shape="rect" id="node34" href="$class_material.html" title="The basic material definition. " alt="" coords="1162,2123,1230,2149"/>
 <area shape="rect" id="node42" href="$class_file_name.html" title="FileName" alt="" coords="347,1743,425,1769"/>
 <area shape="rect" id="node12" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="747,923,846,949"/>
 <area shape="rect" id="node14" href="$class_matrix_f.html" title="MatrixF" alt="" coords="353,1131,419,1157"/>
@@ -36,16 +36,16 @@
 <area shape="rect" id="node29" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="1135,1349,1257,1376"/>
 <area shape="rect" id="node30" href="$class_vector.html" title="Vector\&lt; MatInstanceHook * \&gt;" alt="" coords="699,1349,894,1376"/>
 <area shape="rect" id="node32" href="$class_vector.html" title="Vector\&lt; GroundCoverCell * \&gt;" alt="" coords="1101,1404,1291,1431"/>
-<area shape="rect" id="node35" href="$class_base_material_definition.html" title="BaseMaterialDefinition" alt="" coords="721,2063,872,2089"/>
-<area shape="rect" id="node36" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="757,2291,836,2317"/>
-<area shape="rect" id="node38" href="$class_color_f.html" title="ColorF" alt="" coords="767,2240,827,2267"/>
-<area shape="rect" id="node39" href="$class_engine_enum_table.html" title="Table of values for an enumeration or bitfield type. " alt="" coords="733,2341,860,2368"/>
-<area shape="rect" id="node40" href="$class_point4_f.html" title="Point4F" alt="" coords="763,2012,830,2039"/>
+<area shape="rect" id="node35" href="$class_base_material_definition.html" title="BaseMaterialDefinition" alt="" coords="721,2136,872,2163"/>
+<area shape="rect" id="node36" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="757,2237,836,2264"/>
+<area shape="rect" id="node38" href="$class_engine_enum_table.html" title="Table of values for an enumeration or bitfield type. " alt="" coords="733,2187,860,2213"/>
+<area shape="rect" id="node39" href="$class_point4_f.html" title="Point4F" alt="" coords="763,2341,830,2368"/>
+<area shape="rect" id="node40" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="749,2085,844,2112"/>
 <area shape="rect" id="node41" href="$class_cubemap_data.html" title="A script interface for creating static or dynamic cubemaps. " alt="" coords="745,1743,849,1769"/>
 <area shape="rect" id="node43" href="$class_material_parameters.html" title="MaterialParameters" alt="" coords="1129,1248,1263,1275"/>
 <area shape="rect" id="node44" href="$class_vector.html" title="Vector\&lt; GFXShaderConstDesc \&gt;" alt="" coords="689,1232,904,1259"/>
 <area shape="rect" id="node45" href="$class_g_f_x_primitive_buffer_handle.html" title="GFXPrimitiveBufferHandle" alt="" coords="1111,1299,1281,1325"/>
 <area shape="rect" id="node46" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXPrimitive\lBuffer \&gt;" alt="" coords="705,1283,888,1325"/>
 <area shape="rect" id="node48" href="$class_vector.html" title="Vector\&lt; TSShapeInstance\l::TSCallbackRecord \&gt;" alt="" coords="299,1249,473,1290"/>
-<area shape="rect" id="node50" href="$class_material_parameter_handle.html" title="MaterialParameterHandle" alt="" coords="1112,2113,1280,2140"/>
+<area shape="rect" id="node50" href="$class_material_parameter_handle.html" title="MaterialParameterHandle" alt="" coords="1112,2173,1280,2200"/>
 </map>

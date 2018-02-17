@@ -37,14 +37,14 @@
 <area shape="rect" id="node47" href="$class_volumetric_fog.html" title="VolumetricFog" alt="" coords="378,1728,485,1755"/>
 <area shape="rect" id="node48" href="$class_volumetric_fog_r_t_manager.html" title="VolumetricFogRTManager" alt="" coords="345,1779,517,1805"/>
 <area shape="rect" id="node49" href="$class_water_object.html" title="WaterObject" alt="" coords="384,1829,479,1856"/>
-<area shape="rect" id="node14" href="$class_collision_trigger.html" title="CollisionTrigger" alt="" coords="587,284,698,311"/>
-<area shape="rect" id="node15" href="$class_debris.html" title="Debris" alt="" coords="613,335,672,361"/>
-<area shape="rect" id="node16" href="$class_entity.html" title="Entity" alt="" coords="615,385,671,412"/>
-<area shape="rect" id="node17" href="$class_explosion.html" title="Explosion" alt="" coords="603,436,682,463"/>
-<area shape="rect" id="node18" href="$class_lightning.html" title="Lightning" alt="" coords="605,487,680,513"/>
-<area shape="rect" id="node19" href="$class_open_v_r_tracked_object.html" title="Implements a GameObject which tracks an OpenVR controller. " alt="" coords="565,537,720,564"/>
-<area shape="rect" id="node20" href="$class_particle_emitter.html" title="ParticleEmitter" alt="" coords="589,588,697,615"/>
-<area shape="rect" id="node21" href="$class_particle_emitter_node.html" title="ParticleEmitterNode" alt="" coords="573,639,712,665"/>
-<area shape="rect" id="node22" href="$class_physics_debris.html" title="PhysicsDebris" alt="" coords="589,689,696,716"/>
-<area shape="rect" id="node23" href="$class_physics_shape.html" title="A simple single body dynamic physics object. " alt="" coords="589,740,696,767"/>
+<area shape="rect" id="node14" href="$classafx_billboard.html" title="afxBillboard" alt="" coords="582,284,671,311"/>
+<area shape="rect" id="node15" href="$classafx_choreographer.html" title="afxChoreographer" alt="" coords="565,335,688,361"/>
+<area shape="rect" id="node16" href="$classafx_magic_missile.html" title="afxMagicMissile" alt="" coords="569,385,684,412"/>
+<area shape="rect" id="node17" href="$classafx_model.html" title="afxModel" alt="" coords="589,436,664,463"/>
+<area shape="rect" id="node18" href="$classafx_mooring.html" title="afxMooring" alt="" coords="584,487,669,513"/>
+<area shape="rect" id="node19" href="$classafx_particle_pool.html" title="afxParticlePool" alt="" coords="572,537,681,564"/>
+<area shape="rect" id="node20" href="$classafx_residue_mgr.html" title="afxResidueMgr" alt="" coords="573,588,681,615"/>
+<area shape="rect" id="node21" href="$classafx_spell_book.html" title="afxSpellBook" alt="" coords="577,639,676,665"/>
+<area shape="rect" id="node22" href="$classafx_zodiac_plane.html" title="afxZodiacPlane" alt="" coords="571,689,682,716"/>
+<area shape="rect" id="node23" href="$class_collision_trigger.html" title="CollisionTrigger" alt="" coords="571,740,682,767"/>
 </map>

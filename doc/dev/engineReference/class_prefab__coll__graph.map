@@ -19,19 +19,19 @@
 <area shape="rect" id="node13" href="$class_g_f_x_resource.html" title="GFXResource" alt="" coords="45,912,148,939"/>
 <area shape="rect" id="node17" href="$class_g_f_x_device.html" title="GFXDevice" alt="" coords="466,559,551,585"/>
 <area shape="rect" id="node14" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="69,1009,125,1036"/>
-<area shape="rect" id="node39" href="$class_light_manager.html" title="LightManager" alt="" coords="2560,243,2660,269"/>
+<area shape="rect" id="node39" href="$class_light_manager.html" title="LightManager" alt="" coords="2560,235,2660,261"/>
 <area shape="rect" id="node16" href="$class_point3_i.html" title="Point3I" alt="" coords="477,841,540,868"/>
 <area shape="rect" id="node18" href="$class_point3_f.html" title="Point3F" alt="" coords="63,407,130,433"/>
 <area shape="rect" id="node32" href="$class_sphere_f.html" title="SphereF" alt="" coords="655,412,726,439"/>
 <area shape="rect" id="node33" href="$class_box3_f.html" title="Box3F" alt="" coords="847,248,907,275"/>
 <area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="63,161,130,188"/>
-<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2255,265,2364,292"/>
+<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2255,257,2364,284"/>
 <area shape="rect" id="node20" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="445,892,572,919"/>
 <area shape="rect" id="node21" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="472,609,545,636"/>
 <area shape="rect" id="node25" href="$class_sim_object.html" title="SimObject" alt="" coords="1226,1169,1309,1196"/>
 <area shape="rect" id="node23" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="423,1145,594,1172"/>
 <area shape="rect" id="node24" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="459,1235,558,1261"/>
-<area shape="rect" id="node42" href="$class_render_pass_manager.html" title="RenderPassManager" alt="" coords="2539,356,2681,383"/>
+<area shape="rect" id="node42" href="$class_render_pass_manager.html" title="RenderPassManager" alt="" coords="2539,348,2681,375"/>
 <area shape="rect" id="node27" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="1936,440,2052,467"/>
 <area shape="rect" id="node30" href="$class_scene_tracker.html" title="SceneTracker" alt="" coords="1216,719,1319,745"/>
 <area shape="rect" id="node31" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="779,852,975,879"/>
@@ -40,8 +40,8 @@
 <area shape="rect" id="node35" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="777,683,976,709"/>
 <area shape="rect" id="node36" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SceneObject \&gt;" alt="" coords="413,508,604,535"/>
 <area shape="rect" id="node37" href="$class_scene_container.html" title="SceneContainer" alt="" coords="819,299,934,325"/>
-<area shape="rect" id="node43" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1959,265,2029,292"/>
-<area shape="rect" id="node44" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="1903,199,2085,241"/>
+<area shape="rect" id="node43" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="1903,250,2085,291"/>
+<area shape="rect" id="node44" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1959,199,2029,225"/>
 <area shape="rect" id="node45" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="801,903,953,929"/>
 <area shape="rect" id="node46" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="787,528,966,555"/>
 <area shape="rect" id="node47" href="$class_map.html" title="Map\&lt; SimObjectId, Transform \&gt;" alt="" coords="1164,1411,1371,1437"/>

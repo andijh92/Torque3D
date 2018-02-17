@@ -165,8 +165,8 @@ Collaboration diagram for ScatterSky:</div>
 <area shape="rect" id="node31" href="class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="172,453,360,480"/>
 <area shape="rect" id="node34" href="class_g_f_x_vertex_buffer_handle.html" title="GFXVertexBufferHandle\l\&lt; GFXVertexPCT \&gt;" alt="" coords="637,390,796,431"/>
 <area shape="rect" id="node33" href="class_g_f_x_occlusion_query_handle.html" title="Handle for GFXOcclusionQuery than store last valid state. " alt="" coords="627,456,807,483"/>
-<area shape="rect" id="node36" href="class_color_f.html" title="ColorF" alt="" coords="236,689,296,716"/>
-<area shape="rect" id="node37" href="class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="187,512,345,539"/>
+<area shape="rect" id="node36" href="class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="187,512,345,539"/>
+<area shape="rect" id="node37" href="class_linear_color_f.html" title="LinearColorF" alt="" coords="219,689,313,716"/>
 <area shape="rect" id="node38" href="class_float_curve.html" title="FloatCurve" alt="" coords="1063,896,1145,923"/>
 <area shape="rect" id="node39" href="class_response_curve.html" title="ResponseCurve\&lt; F32 \&gt;" alt="" coords="637,885,796,912"/>
 <area shape="rect" id="node40" href="class_matrix_set.html" title="MatrixSet" alt="" coords="1065,189,1143,216"/>
@@ -184,11 +184,11 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:a22d2dd510f455e51c0ce938b9a66bfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_scene_object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_scene_object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_scene_object.html">SceneObject</a></td></tr>
-<tr class="memitem:a0a8cca03fb758b7cccc5ab2f3073417f inherit pub_types_class_scene_object"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_scene_object.html#a0a8cca03fb758b7cccc5ab2f3073417fae71d9965fef6453f0a120fbf6c10718d">MaxObjectZones</a> = 128, 
+<tr class="memitem:a9c76be5a848a82c540731836ba3d63de inherit pub_types_class_scene_object"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_scene_object.html#a9c76be5a848a82c540731836ba3d63deae71d9965fef6453f0a120fbf6c10718d">MaxObjectZones</a> = 128, 
 <b>NumMountPoints</b> = 32, 
 <b>NumMountPointBits</b> = 5
  }</td></tr>
-<tr class="separator:a0a8cca03fb758b7cccc5ab2f3073417f inherit pub_types_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a9c76be5a848a82c540731836ba3d63de inherit pub_types_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734f877488182b9a3e1b03ea2961b5de inherit pub_types_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a734f877488182b9a3e1b03ea2961b5de"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a734f877488182b9a3e1b03ea2961b5de">SceneObjectMasks</a> { <br />
 &#160;&#160;<b>InitialUpdateMask</b> = BIT( 0 ), 
 <b>ScaleMask</b> = BIT( 1 ), 
@@ -211,9 +211,17 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a55e2310d14bebafbc4eee8e20d4e1efc inherit pub_types_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d36b3537f188dda1aa3f67932f07cd inherit pub_types_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2d36b3537f188dda1aa3f67932f07cd"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>SELECTED</b> = BIT(0), 
+<b>PRE_SELECTED</b> = BIT(1)
+ }</td></tr>
+<tr class="separator:aa2d36b3537f188dda1aa3f67932f07cd inherit pub_types_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ac906fc3fbfdd08c470f6366e866f1 inherit pub_types_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3ac906fc3fbfdd08c470f6366e866f1"></a>
 typedef <a class="el" href="class_net_object.html">NetObject</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
 <tr class="separator:aa3ac906fc3fbfdd08c470f6366e866f1 inherit pub_types_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_net_object"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_net_object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_net_object.html">NetObject</a></td></tr>
+<tr class="memitem:a22d3d68eb4874fe89b4cb67732061375 inherit pub_types_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a22d3d68eb4874fe89b4cb67732061375"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>SCOPE_ID_BITS</b> = 14
+ }</td></tr>
+<tr class="separator:a22d3d68eb4874fe89b4cb67732061375 inherit pub_types_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_sim_group"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_sim_group')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_sim_group.html">SimGroup</a></td></tr>
 <tr class="memitem:a7e2bc9ccf15c1134d9a5a745528b86c7 inherit pub_types_class_sim_group"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e2bc9ccf15c1134d9a5a745528b86c7"></a>
 typedef <a class="el" href="class_sim_set.html">SimSet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
@@ -312,6 +320,18 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:a99c324f6b28bd794578f3e23eb65c926 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99c324f6b28bd794578f3e23eb65c926"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_CONOBJECT</b> (<a class="el" href="class_scene_object.html">SceneObject</a>)</td></tr>
 <tr class="separator:a99c324f6b28bd794578f3e23eb65c926 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8dc0128db35b93cafdc99f45c74a0fb inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8dc0128db35b93cafdc99f45c74a0fb"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setSelectionFlags</b> (U8 flags)</td></tr>
+<tr class="separator:af8dc0128db35b93cafdc99f45c74a0fb inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32dcad886f5b2984548910a9682193b1 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32dcad886f5b2984548910a9682193b1"></a>
+U8&#160;</td><td class="memItemRight" valign="bottom"><b>getSelectionFlags</b> () const </td></tr>
+<tr class="separator:a32dcad886f5b2984548910a9682193b1 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a511df53212979adc6b723eb3d8dc78da inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a511df53212979adc6b723eb3d8dc78da"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>needsSelectionHighlighting</b> () const </td></tr>
+<tr class="separator:a511df53212979adc6b723eb3d8dc78da inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca132de4706dcbad3be66ef9f9789bb inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adca132de4706dcbad3be66ef9f9789bb"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCamera</b> () const </td></tr>
+<tr class="separator:adca132de4706dcbad3be66ef9f9789bb inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77e0a22a02c83f8ad0baa234348d9f69 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77e0a22a02c83f8ad0baa234348d9f69"></a>
 <a class="el" href="class_scene_manager.html">SceneManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a77e0a22a02c83f8ad0baa234348d9f69">getSceneManager</a> () const </td></tr>
 <tr class="memdesc:a77e0a22a02c83f8ad0baa234348d9f69 inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. ">SceneManager</a> that this <a class="el" href="class_scene_object.html">SceneObject</a> belongs to. <br /></td></tr>
@@ -406,6 +426,10 @@ const <a class="el" href="class_sphere_f.html">SphereF</a> &amp;&#160;</td><td c
 <tr class="separator:a03d28d63a56b0b9bf19016fc3a7d6e42 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e0307f046bc7679ffef6592e531a690 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a4e0307f046bc7679ffef6592e531a690">setScale</a> (const <a class="el" href="class_point3_f.html">VectorF</a> &amp;scale)</td></tr>
 <tr class="separator:a4e0307f046bc7679ffef6592e531a690 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207dc1248e8968b763047ac0f3379df8 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a207dc1248e8968b763047ac0f3379df8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a207dc1248e8968b763047ac0f3379df8">setForwardVector</a> (<a class="el" href="class_point3_f.html">VectorF</a> newForward, <a class="el" href="class_point3_f.html">VectorF</a> upVector=<a class="el" href="class_point3_f.html">VectorF</a>(0, 0, 1))</td></tr>
+<tr class="memdesc:a207dc1248e8968b763047ac0f3379df8 inherit pub_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the forward vector of the object. <br /></td></tr>
+<tr class="separator:a207dc1248e8968b763047ac0f3379df8 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ddabe6814abb9807945dbf17e147947 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a1ddabe6814abb9807945dbf17e147947">setRenderTransform</a> (const <a class="el" href="class_matrix_f.html">MatrixF</a> &amp;mat)</td></tr>
 <tr class="separator:a1ddabe6814abb9807945dbf17e147947 inherit pub_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accb8560f46d189ef8790d8be7a4125c3 inherit pub_methods_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="accb8560f46d189ef8790d8be7a4125c3"></a>
@@ -575,6 +599,21 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_object.html#a7b2ea894b491f82a5ba33688bd65a24b">isGhostAlways</a> () const </td></tr>
 <tr class="memdesc:a7b2ea894b491f82a5ba33688bd65a24b inherit pub_methods_class_net_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should this object always be ghosted? <br /></td></tr>
 <tr class="separator:a7b2ea894b491f82a5ba33688bd65a24b inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f95c35834610a5b3a69d3e18256c48 inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae7f95c35834610a5b3a69d3e18256c48"></a>
+U16&#160;</td><td class="memItemRight" valign="bottom"><b>getScopeId</b> () const </td></tr>
+<tr class="separator:ae7f95c35834610a5b3a69d3e18256c48 inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8675144c1f06abb3e03f6cc6b614daa7 inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8675144c1f06abb3e03f6cc6b614daa7"></a>
+U16&#160;</td><td class="memItemRight" valign="bottom"><b>addScopeRef</b> ()</td></tr>
+<tr class="separator:a8675144c1f06abb3e03f6cc6b614daa7 inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5315161b2eb220382f00435c965420f1 inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5315161b2eb220382f00435c965420f1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removeScopeRef</b> ()</td></tr>
+<tr class="separator:a5315161b2eb220382f00435c965420f1 inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc2f1a7edc00f270a55a3c12bc4b367 inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacc2f1a7edc00f270a55a3c12bc4b367"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setScopeRegistered</b> (bool flag)</td></tr>
+<tr class="separator:aacc2f1a7edc00f270a55a3c12bc4b367 inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae47c895334ff27bde4136e87a7894adc inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae47c895334ff27bde4136e87a7894adc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>getScopeRegistered</b> () const </td></tr>
+<tr class="separator:ae47c895334ff27bde4136e87a7894adc inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0125205b8dc1fb7900e42d68cbbc411 inherit pub_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0125205b8dc1fb7900e42d68cbbc411"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_CONOBJECT</b> (<a class="el" href="class_net_object.html">NetObject</a>)</td></tr>
 <tr class="separator:aa0125205b8dc1fb7900e42d68cbbc411 inherit pub_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -769,6 +808,21 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>getConsoleMet
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a11f85a77b6df09d56738301cc2ce35ef">destroySelf</a> ()</td></tr>
 <tr class="memdesc:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">object destroy self call (from <a class="el" href="class_strong_ref_ptr.html">StrongRefPtr</a>). Override if this class has specially allocated memory. <br /></td></tr>
 <tr class="separator:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fb370d735a815b86ede89b26b9894dc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SimObject</b> (const <a class="el" href="class_sim_object.html">SimObject</a> &amp;, bool=false)</td></tr>
+<tr class="separator:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39f2148694db7188e81d30cadac48302"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isTempClone</b> () const </td></tr>
+<tr class="separator:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92951c59302db8d68e6d2fc4ae47f16d"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>allowSubstitutions</b> () const </td></tr>
+<tr class="separator:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e2a081ded6c27a56221d81b35cfde03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assignDynamicFieldsFrom</b> (<a class="el" href="class_sim_object.html">SimObject</a> *, const char *filter, bool no_replace=false)</td></tr>
+<tr class="separator:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c509b296a4255f74c0f480427757ed8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reloadReset</b> ()</td></tr>
+<tr class="separator:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaca11b4f91d3a780b02462c2286fd91b inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aaca11b4f91d3a780b02462c2286fd91b">writeFields</a> (<a class="el" href="class_stream.html">Stream</a> &amp;stream, U32 tabStop)</td></tr>
 <tr class="separator:aaca11b4f91d3a780b02462c2286fd91b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6821520bddc2364f2ace13df6fa436db inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6821520bddc2364f2ace13df6fa436db"></a>
@@ -1341,18 +1395,18 @@ F32&#160;</td><td class="memItemRight" valign="bottom"><b>_vernierScale</b> (F32
 <tr class="memitem:afea539629d8656a2fb6b5cc8f88f9a2f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afea539629d8656a2fb6b5cc8f88f9a2f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_generateSkyPoints</b> ()</td></tr>
 <tr class="separator:afea539629d8656a2fb6b5cc8f88f9a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fb0a002864e049daa1eb71bdfc399fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fb0a002864e049daa1eb71bdfc399fb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_getColor</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, <a class="el" href="class_color_f.html">ColorF</a> *outColor)</td></tr>
-<tr class="separator:a0fb0a002864e049daa1eb71bdfc399fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35f78f3d79dbbdf7a91173c18226b996"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35f78f3d79dbbdf7a91173c18226b996"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_getFogColor</b> (<a class="el" href="class_color_f.html">ColorF</a> *outColor)</td></tr>
-<tr class="separator:a35f78f3d79dbbdf7a91173c18226b996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac17ab0cec9668f7b368278e2d151a138"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac17ab0cec9668f7b368278e2d151a138"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_getAmbientColor</b> (<a class="el" href="class_color_f.html">ColorF</a> *outColor)</td></tr>
-<tr class="separator:ac17ab0cec9668f7b368278e2d151a138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeac2343df29d64805ae4875804aa6b83"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeac2343df29d64805ae4875804aa6b83"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_getSunColor</b> (<a class="el" href="class_color_f.html">ColorF</a> *outColor)</td></tr>
-<tr class="separator:aeac2343df29d64805ae4875804aa6b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7267f8983b488a349956e0a1948a8c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f7267f8983b488a349956e0a1948a8c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_getColor</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, <a class="el" href="class_linear_color_f.html">LinearColorF</a> *outColor)</td></tr>
+<tr class="separator:a7f7267f8983b488a349956e0a1948a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d6f885602bd55bf80a31ac896ab264"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27d6f885602bd55bf80a31ac896ab264"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_getFogColor</b> (<a class="el" href="class_linear_color_f.html">LinearColorF</a> *outColor)</td></tr>
+<tr class="separator:a27d6f885602bd55bf80a31ac896ab264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9185a89a5df481cbfaf470b41266df7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9185a89a5df481cbfaf470b41266df7d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_getAmbientColor</b> (<a class="el" href="class_linear_color_f.html">LinearColorF</a> *outColor)</td></tr>
+<tr class="separator:a9185a89a5df481cbfaf470b41266df7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fad70edf225b3755d4bda46fee1b91b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fad70edf225b3755d4bda46fee1b91b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_getSunColor</b> (<a class="el" href="class_linear_color_f.html">LinearColorF</a> *outColor)</td></tr>
+<tr class="separator:a4fad70edf225b3755d4bda46fee1b91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936af2eeac96501f458bc486a1b37f64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a936af2eeac96501f458bc486a1b37f64"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_interpolateColors</b> ()</td></tr>
 <tr class="separator:a936af2eeac96501f458bc486a1b37f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1417,6 +1471,10 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a46a1df4ceb45ebea85ad57389b216012">setContainerSeqKey</a> (const U32 key)</td></tr>
 <tr class="memdesc:a46a1df4ceb45ebea85ad57389b216012 inherit pro_methods_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the container sequence key. <br /></td></tr>
 <tr class="separator:a46a1df4ceb45ebea85ad57389b216012 inherit pro_methods_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_net_object"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_net_object')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_net_object.html">NetObject</a></td></tr>
+<tr class="memitem:ade165cbdcf008e8d9441dff24ce2a2ac inherit pro_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade165cbdcf008e8d9441dff24ce2a2ac"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onScopeIdChange</b> ()</td></tr>
+<tr class="separator:ade165cbdcf008e8d9441dff24ce2a2ac inherit pro_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_sim_set"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_sim_set')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_sim_set.html">SimSet</a></td></tr>
 <tr class="memitem:a0d5d54913fb3ee625a290b9cc3894d5f inherit pro_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d5d54913fb3ee625a290b9cc3894d5f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_CALLBACK</b> (void, onObjectAdded,(<a class="el" href="class_sim_object.html">SimObject</a> *object))</td></tr>
@@ -1493,10 +1551,28 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ptSetElevation
 <tr class="memitem:a5f528d5c9770a0ad9fad1d5505cbfa46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5f528d5c9770a0ad9fad1d5505cbfa46"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>ptSetAzimuth</b> (void *object, const char *index, const char *data)</td></tr>
 <tr class="separator:a5f528d5c9770a0ad9fad1d5505cbfa46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_net_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_net_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_net_object.html">NetObject</a></td></tr>
+<tr class="memitem:a4c7efc32cc8f2e09f11bd06e41279cb9 inherit pro_static_methods_class_net_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_object.html#a4c7efc32cc8f2e09f11bd06e41279cb9">addNetworkedField</a> (const char *in_pFieldname, const U32 in_fieldType, const dsize_t in_fieldOffset, const U32 in_elementCount=1, const char *in_pFieldDocs=NULL, U32 flags=0, U32 networkMask=0)</td></tr>
+<tr class="separator:a4c7efc32cc8f2e09f11bd06e41279cb9 inherit pro_static_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9407a73d0981a16dd30a0e2a5d1894b0 inherit pro_static_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9407a73d0981a16dd30a0e2a5d1894b0"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>addNetworkedField</b> (const char *in_pFieldname, const U32 in_fieldType, const dsize_t in_fieldOffset, <a class="el" href="class_abstract_class_rep.html#ab9c83ca5ec5077ae147f4f325ad08811">AbstractClassRep::WriteDataNotify</a> in_writeDataFn, const U32 in_elementCount=1, const char *in_pFieldDocs=NULL, U32 flags=0, U32 networkMask=0)</td></tr>
+<tr class="separator:a9407a73d0981a16dd30a0e2a5d1894b0 inherit pro_static_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad891065c376689c0a59c7e01dab96ed0 inherit pro_static_methods_class_net_object"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_object.html#ad891065c376689c0a59c7e01dab96ed0">addNetworkedField</a> (const char *in_pFieldname, const U32 in_fieldType, const dsize_t in_fieldOffset, const char *in_pFieldDocs, U32 flags=0, U32 networkMask=0)</td></tr>
+<tr class="separator:ad891065c376689c0a59c7e01dab96ed0 inherit pro_static_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad4cb1dc105d64b0abfe6844d96f873 inherit pro_static_methods_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ad4cb1dc105d64b0abfe6844d96f873"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>addNetworkedField</b> (const char *in_pFieldname, const U32 in_fieldType, const dsize_t in_fieldOffset, <a class="el" href="class_abstract_class_rep.html#ab9c83ca5ec5077ae147f4f325ad08811">AbstractClassRep::WriteDataNotify</a> in_writeDataFn, const char *in_pFieldDocs, U32 flags=0, U32 networkMask=0)</td></tr>
+<tr class="separator:a5ad4cb1dc105d64b0abfe6844d96f873 inherit pro_static_methods_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_sim_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_sim_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_sim_object.html">SimObject</a></td></tr>
 <tr class="memitem:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69975a1eed16a4314169600d1d79c05b"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>_setPersistentID</b> (void *object, const char *index, const char *data)</td></tr>
 <tr class="separator:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
+<tr class="memitem:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec04847b418255a38a5a109c4d784839"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>disableFieldSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8037b9498d066dabec703779b675fdbe"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>onlyKeepClearSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_engine_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_engine_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_engine_object.html">EngineObject</a></td></tr>
 <tr class="memitem:aaefd60e1a2e880f3f1a806a63dc208cc inherit pro_static_methods_class_engine_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaefd60e1a2e880f3f1a806a63dc208cc"></a>
 static void *&#160;</td><td class="memItemRight" valign="bottom"><b>_allocateObject</b> (size_t size, <a class="el" href="class_i_engine_object_pool.html">IEngineObjectPool</a> *pool <a class="el" href="group___obj_trickery.html#gae739ad67a308f4785d4e9a2dd94e83b5">TORQUE_TMM_ARGS_DECL</a>)</td></tr>
@@ -1540,9 +1616,9 @@ F32&#160;</td><td class="memItemRight" valign="bottom"><b>mOuterRadius</b></td><
 <tr class="memitem:a13e280e9636942b5fdc091131a573d43"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13e280e9636942b5fdc091131a573d43"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>mScale</b></td></tr>
 <tr class="separator:a13e280e9636942b5fdc091131a573d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab32bf9070b35dc86a2172b780fa3b5b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab32bf9070b35dc86a2172b780fa3b5b2"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mWavelength</b></td></tr>
-<tr class="separator:ab32bf9070b35dc86a2172b780fa3b5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac714074d9807d7c1d197d89851877c6f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac714074d9807d7c1d197d89851877c6f"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mWavelength</b></td></tr>
+<tr class="separator:ac714074d9807d7c1d197d89851877c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaeddf62b122f33e801e57b036beedce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acaeddf62b122f33e801e57b036beedce"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>mWavelength4</b> [3]</td></tr>
 <tr class="separator:acaeddf62b122f33e801e57b036beedce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1591,33 +1667,33 @@ F32&#160;</td><td class="memItemRight" valign="bottom"><b>mTimeOfDay</b></td></t
 <tr class="memitem:af1112293f069c69f1f80b4e6fa4a5d45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af1112293f069c69f1f80b4e6fa4a5d45"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>mBrightness</b></td></tr>
 <tr class="separator:af1112293f069c69f1f80b4e6fa4a5d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae470cf7ccbf03022a80886cc2bceead2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae470cf7ccbf03022a80886cc2bceead2"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mNightColor</b></td></tr>
-<tr class="separator:ae470cf7ccbf03022a80886cc2bceead2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b267f6b8b9a521cb93ca81174d31e24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b267f6b8b9a521cb93ca81174d31e24"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mNightFogColor</b></td></tr>
-<tr class="separator:a1b267f6b8b9a521cb93ca81174d31e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76f9f92327d40831b67c6e258323f0b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76f9f92327d40831b67c6e258323f0b8"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#a76f9f92327d40831b67c6e258323f0b8">mAmbientColor</a></td></tr>
-<tr class="memdesc:a76f9f92327d40831b67c6e258323f0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
-<tr class="separator:a76f9f92327d40831b67c6e258323f0b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f32fa5cabab0faba40cf0c39f5d8b93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f32fa5cabab0faba40cf0c39f5d8b93"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#a0f32fa5cabab0faba40cf0c39f5d8b93">mSunColor</a></td></tr>
-<tr class="memdesc:a0f32fa5cabab0faba40cf0c39f5d8b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
-<tr class="separator:a0f32fa5cabab0faba40cf0c39f5d8b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8295d34618b9d61657797f820cdc7999"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8295d34618b9d61657797f820cdc7999"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#a8295d34618b9d61657797f820cdc7999">mFogColor</a></td></tr>
-<tr class="memdesc:a8295d34618b9d61657797f820cdc7999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
-<tr class="separator:a8295d34618b9d61657797f820cdc7999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1413b204bc40c6762b50b15e4019034d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1413b204bc40c6762b50b15e4019034d"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mAmbientScale</b></td></tr>
-<tr class="separator:a1413b204bc40c6762b50b15e4019034d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e50d72e013ba05ccf65e3ff4c961ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2e50d72e013ba05ccf65e3ff4c961ab"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mSunScale</b></td></tr>
-<tr class="separator:ab2e50d72e013ba05ccf65e3ff4c961ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c78aedbb80d8d83d370f78ef24b51f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75c78aedbb80d8d83d370f78ef24b51f"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mFogScale</b></td></tr>
-<tr class="separator:a75c78aedbb80d8d83d370f78ef24b51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2977752cab79a1d66f1297cef9e436"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4c2977752cab79a1d66f1297cef9e436"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mNightColor</b></td></tr>
+<tr class="separator:a4c2977752cab79a1d66f1297cef9e436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811c994c5b3c1c87bf43f047080edad5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a811c994c5b3c1c87bf43f047080edad5"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mNightFogColor</b></td></tr>
+<tr class="separator:a811c994c5b3c1c87bf43f047080edad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf168ab015e42258ec4f21fbee77cf0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaaf168ab015e42258ec4f21fbee77cf0"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#aaaf168ab015e42258ec4f21fbee77cf0">mAmbientColor</a></td></tr>
+<tr class="memdesc:aaaf168ab015e42258ec4f21fbee77cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
+<tr class="separator:aaaf168ab015e42258ec4f21fbee77cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719a5e105d155be23cf2a800edb132af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a719a5e105d155be23cf2a800edb132af"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#a719a5e105d155be23cf2a800edb132af">mSunColor</a></td></tr>
+<tr class="memdesc:a719a5e105d155be23cf2a800edb132af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
+<tr class="separator:a719a5e105d155be23cf2a800edb132af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d41b9d219a3fc7d646464da18b05005"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4d41b9d219a3fc7d646464da18b05005"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scatter_sky.html#a4d41b9d219a3fc7d646464da18b05005">mFogColor</a></td></tr>
+<tr class="memdesc:a4d41b9d219a3fc7d646464da18b05005"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not a field. <br /></td></tr>
+<tr class="separator:a4d41b9d219a3fc7d646464da18b05005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8737ba26c371ccdaf2a556af716a56c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8737ba26c371ccdaf2a556af716a56c"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mAmbientScale</b></td></tr>
+<tr class="separator:af8737ba26c371ccdaf2a556af716a56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0162ac57b7ed637c8122e8bbd0206aeb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0162ac57b7ed637c8122e8bbd0206aeb"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mSunScale</b></td></tr>
+<tr class="separator:a0162ac57b7ed637c8122e8bbd0206aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3b772f3465fcbb4a03e9e1654d1d67"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9c3b772f3465fcbb4a03e9e1654d1d67"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mFogScale</b></td></tr>
+<tr class="separator:a9c3b772f3465fcbb4a03e9e1654d1d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a380ec86656dc0fb1dea36bed29d6d0ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a380ec86656dc0fb1dea36bed29d6d0ad"></a>
 <a class="el" href="class_light_info.html">LightInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mLight</b></td></tr>
 <tr class="separator:a380ec86656dc0fb1dea36bed29d6d0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1654,9 +1730,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>mMoonEnabled</b></td>
 <tr class="memitem:a24d634b1906d0113aa63e04bc52fa350"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24d634b1906d0113aa63e04bc52fa350"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>mMoonScale</b></td></tr>
 <tr class="separator:a24d634b1906d0113aa63e04bc52fa350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b48099f531bc48563ae6feea90bf01b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b48099f531bc48563ae6feea90bf01b"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mMoonTint</b></td></tr>
-<tr class="separator:a4b48099f531bc48563ae6feea90bf01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f44d3656ae271f089c0798918bc3c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42f44d3656ae271f089c0798918bc3c6"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mMoonTint</b></td></tr>
+<tr class="separator:a42f44d3656ae271f089c0798918bc3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa362ccc07e9bbe7bd2f3179b65936906"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa362ccc07e9bbe7bd2f3179b65936906"></a>
 <a class="el" href="class_point3_f.html">VectorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mMoonLightDir</b></td></tr>
 <tr class="separator:aa362ccc07e9bbe7bd2f3179b65936906"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1726,9 +1802,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>mUseNightCubemap</b><
 <tr class="memitem:a6451f9588de815f1c06a17e2d4f77d9a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6451f9588de815f1c06a17e2d4f77d9a"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>mColorizeAmt</b></td></tr>
 <tr class="separator:a6451f9588de815f1c06a17e2d4f77d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c749b365720f354a883f4b05009297"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7c749b365720f354a883f4b05009297"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mColorize</b></td></tr>
-<tr class="separator:ac7c749b365720f354a883f4b05009297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc24092bc7720655718d02d30c5f40d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9cc24092bc7720655718d02d30c5f40d"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>mColorize</b></td></tr>
+<tr class="separator:a9cc24092bc7720655718d02d30c5f40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af440f7d5672e1680cbf672a2c5fa05bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af440f7d5672e1680cbf672a2c5fa05bc"></a>
 <a class="el" href="class_g_f_x_shader_const_handle.html">GFXShaderConstHandle</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>mColorizeSC</b></td></tr>
 <tr class="separator:af440f7d5672e1680cbf672a2c5fa05bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1755,6 +1831,9 @@ F32&#160;</td><td class="memItemRight" valign="bottom"><b>mColorizeAmt</b></td><
 <a class="el" href="class_sim_object_ptr.html">SimObjectPtr</a>&lt; <a class="el" href="class_scene_object.html">SceneObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a2e89fa60619c7a5342867f304de5ecda">mAfterObject</a></td></tr>
 <tr class="memdesc:a2e89fa60619c7a5342867f304de5ecda inherit pro_attribs_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object which must be ticked before this object. <br /></td></tr>
 <tr class="separator:a2e89fa60619c7a5342867f304de5ecda inherit pro_attribs_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde6fc89086b52fc25d10afcd0df309d inherit pro_attribs_class_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afde6fc89086b52fc25d10afcd0df309d"></a>
+U8&#160;</td><td class="memItemRight" valign="bottom"><b>mSelectionFlags</b></td></tr>
+<tr class="separator:afde6fc89086b52fc25d10afcd0df309d inherit pro_attribs_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add83ade502b0f2de31dd3169f83cc189 inherit pro_attribs_class_scene_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#add83ade502b0f2de31dd3169f83cc189">mZoneRefDirty</a></td></tr>
 <tr class="separator:add83ade502b0f2de31dd3169f83cc189 inherit pro_attribs_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75983fb5db74647dae440845a83cc6b7 inherit pro_attribs_class_scene_object"><td class="memItemLeft" align="right" valign="top">U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a75983fb5db74647dae440845a83cc6b7">mNumCurrZones</a></td></tr>
@@ -1854,6 +1933,15 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <a class="el" href="struct_ghost_info.html">GhostInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_object.html#a8f4fdec893c262c14081694a3bc51118">mFirstObjectRef</a></td></tr>
 <tr class="memdesc:a8f4fdec893c262c14081694a3bc51118 inherit pro_attribs_class_net_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Head of a linked list storing GhostInfos referencing this <a class="el" href="class_net_object.html">NetObject</a>. <br /></td></tr>
 <tr class="separator:a8f4fdec893c262c14081694a3bc51118 inherit pro_attribs_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4193dd7dc9e4575cac23fdb86cffe19b inherit pro_attribs_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4193dd7dc9e4575cac23fdb86cffe19b"></a>
+U16&#160;</td><td class="memItemRight" valign="bottom"><b>scope_id</b></td></tr>
+<tr class="separator:a4193dd7dc9e4575cac23fdb86cffe19b inherit pro_attribs_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa82d07df318aa88b573225beb9d4d7d inherit pro_attribs_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa82d07df318aa88b573225beb9d4d7d"></a>
+U16&#160;</td><td class="memItemRight" valign="bottom"><b>scope_refs</b></td></tr>
+<tr class="separator:aaa82d07df318aa88b573225beb9d4d7d inherit pro_attribs_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c13ebcf2c69b9664d540dbd3cee4bb inherit pro_attribs_class_net_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55c13ebcf2c69b9664d540dbd3cee4bb"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>scope_registered</b></td></tr>
+<tr class="separator:a55c13ebcf2c69b9664d540dbd3cee4bb inherit pro_attribs_class_net_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_sim_set"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_sim_set')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_sim_set.html">SimSet</a></td></tr>
 <tr class="memitem:ad05400011bb168818b85b6fb17b952e1 inherit pro_attribs_class_sim_set"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad05400011bb168818b85b6fb17b952e1"></a>
 <a class="el" href="class_sim_object_list.html">SimObjectList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>objectList</b></td></tr>
@@ -1879,6 +1967,9 @@ StringTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1dfd4ae4b628f69df932347c4b1b078c"></a>
 return&#160;</td><td class="memItemRight" valign="bottom"><b>object</b></td></tr>
 <tr class="separator:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80c4fe12a79df74df466ad6ead9d28d5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_temp_clone</b></td></tr>
+<tr class="separator:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bd6ff7b62999faf3a6b38ca4dc0cd27"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a6bd6ff7b62999faf3a6b38ca4dc0cd27">mCanSaveFieldDictionary</a></td></tr>
 <tr class="memdesc:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether dynamic fields should be saved out in serialization. Defaults to true. <br /></td></tr>
@@ -1968,6 +2059,10 @@ static <a class="el" href="class_signal.html">Signal</a>&lt; void(<a class="el" 
 static <a class="el" href="class_signal.html">Signal</a>&lt; void(<a class="el" href="class_scene_object.html">SceneObject</a> *) &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene_object.html#a9d85dc5a720b8b3b66bb5f6a6650419f">smSceneObjectRemove</a></td></tr>
 <tr class="memdesc:a9d85dc5a720b8b3b66bb5f6a6650419f inherit pub_static_attribs_class_scene_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a <a class="el" href="class_scene_object.html">SceneObject</a> onRemove is called. <br /></td></tr>
 <tr class="separator:a9d85dc5a720b8b3b66bb5f6a6650419f inherit pub_static_attribs_class_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_sim_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_sim_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_sim_object.html">SimObject</a></td></tr>
+<tr class="memitem:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff9b7b2e562ab7eb6029aa31780d8f5"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>preventNameChanging</b> = false</td></tr>
+<tr class="separator:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
 <tr class="memitem:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_console_object.html#a2011f71e5469720d0c1b5c62337a5149">__smIsDatablock</a> = false</td></tr>
 <tr class="separator:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -1,18 +1,21 @@
 <map id="ITickable" name="ITickable">
-<area shape="rect" id="node2" href="$class_forest_wind_mgr.html" title="ForestWindMgr" alt="" coords="131,56,241,83"/>
-<area shape="rect" id="node3" href="$class_gui_tick_ctrl.html" title="GuiTickCtrl" alt="" coords="143,107,229,133"/>
-<area shape="rect" id="node14" href="$class_light_base.html" title="LightBase" alt="" coords="146,157,226,184"/>
-<area shape="rect" id="node17" href="$class_script_tick_object.html" title="ScriptTickObject" alt="" coords="127,208,245,235"/>
-<area shape="rect" id="node4" href="$class_gui_auto_scroll_ctrl.html" title="A control that automatically scrolls its child control upwards. " alt="" coords="293,5,416,32"/>
-<area shape="rect" id="node5" href="$class_gui_menu_bar.html" title="GuiMenuBar" alt="" coords="307,56,402,83"/>
-<area shape="rect" id="node7" href="$class_gui_rollout_ctrl.html" title="GuiRolloutCtrl" alt="" coords="303,107,406,133"/>
-<area shape="rect" id="node6" href="$class_gui_platform_generic_menu_bar.html" title="GuiPlatformGenericMenuBar" alt="" coords="464,56,651,83"/>
-<area shape="rect" id="node8" href="$class_gui_inspector_group.html" title="GuiInspectorGroup" alt="" coords="492,107,623,133"/>
-<area shape="rect" id="node9" href="$class_gui_inspector_component_group.html" title="GuiInspectorComponentGroup" alt="" coords="699,5,895,32"/>
-<area shape="rect" id="node10" href="$class_gui_inspector_dynamic_group.html" title="GuiInspectorDynamicGroup" alt="" coords="706,56,887,83"/>
-<area shape="rect" id="node11" href="$class_gui_inspector_entity_group.html" title="GuiInspectorEntityGroup" alt="" coords="715,107,879,133"/>
-<area shape="rect" id="node12" href="$class_gui_inspector_mounting_group.html" title="GuiInspectorMountingGroup" alt="" coords="705,157,888,184"/>
-<area shape="rect" id="node13" href="$class_gui_inspector_variable_group.html" title="GuiInspectorVariableGroup" alt="" coords="708,208,885,235"/>
-<area shape="rect" id="node15" href="$class_point_light.html" title="PointLight" alt="" coords="315,157,395,184"/>
-<area shape="rect" id="node16" href="$class_spot_light.html" title="SpotLight" alt="" coords="316,208,393,235"/>
+<area shape="rect" id="node2" href="$classafx_t_s_ctrl.html" title="afxTSCtrl" alt="" coords="149,5,223,32"/>
+<area shape="rect" id="node3" href="$class_context_action.html" title="ContextAction" alt="" coords="134,56,238,83"/>
+<area shape="rect" id="node4" href="$class_forest_wind_mgr.html" title="ForestWindMgr" alt="" coords="131,107,241,133"/>
+<area shape="rect" id="node5" href="$class_gui_tick_ctrl.html" title="GuiTickCtrl" alt="" coords="143,157,229,184"/>
+<area shape="rect" id="node15" href="$class_light_base.html" title="LightBase" alt="" coords="146,208,226,235"/>
+<area shape="rect" id="node20" href="$class_script_tick_object.html" title="ScriptTickObject" alt="" coords="127,259,245,285"/>
+<area shape="rect" id="node6" href="$class_gui_auto_scroll_ctrl.html" title="A control that automatically scrolls its child control upwards. " alt="" coords="293,56,416,83"/>
+<area shape="rect" id="node7" href="$class_gui_menu_bar.html" title="GuiMenuBar" alt="" coords="307,107,402,133"/>
+<area shape="rect" id="node8" href="$class_gui_rollout_ctrl.html" title="GuiRolloutCtrl" alt="" coords="303,157,406,184"/>
+<area shape="rect" id="node9" href="$class_gui_inspector_group.html" title="GuiInspectorGroup" alt="" coords="464,157,595,184"/>
+<area shape="rect" id="node10" href="$class_gui_inspector_component_group.html" title="GuiInspectorComponentGroup" alt="" coords="643,56,839,83"/>
+<area shape="rect" id="node11" href="$class_gui_inspector_dynamic_group.html" title="GuiInspectorDynamicGroup" alt="" coords="650,107,831,133"/>
+<area shape="rect" id="node12" href="$class_gui_inspector_entity_group.html" title="GuiInspectorEntityGroup" alt="" coords="659,157,823,184"/>
+<area shape="rect" id="node13" href="$class_gui_inspector_mounting_group.html" title="GuiInspectorMountingGroup" alt="" coords="649,208,832,235"/>
+<area shape="rect" id="node14" href="$class_gui_inspector_variable_group.html" title="GuiInspectorVariableGroup" alt="" coords="652,259,829,285"/>
+<area shape="rect" id="node16" href="$class_point_light.html" title="PointLight" alt="" coords="315,208,395,235"/>
+<area shape="rect" id="node18" href="$class_spot_light.html" title="SpotLight" alt="" coords="316,259,393,285"/>
+<area shape="rect" id="node17" href="$class_point_light_proxy.html" title="PointLightProxy" alt="" coords="472,208,587,235"/>
+<area shape="rect" id="node19" href="$class_spot_light_proxy.html" title="SpotLightProxy" alt="" coords="474,259,585,285"/>
 </map>

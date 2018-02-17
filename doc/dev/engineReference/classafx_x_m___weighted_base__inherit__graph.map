@@ -1,0 +1,28 @@
+<map id="afxXM_WeightedBase" name="afxXM_WeightedBase">
+<area shape="rect" id="node4" href="$classafx_x_m___aim__weighted.html" title="afxXM_Aim_weighted" alt="" coords="507,5,652,32"/>
+<area shape="rect" id="node5" href="$classafx_x_m___aim__weighted__z.html" title="afxXM_Aim_weighted_z" alt="" coords="500,56,659,83"/>
+<area shape="rect" id="node6" href="$classafx_x_m___altitude_conform.html" title="afxXM_AltitudeConform" alt="" coords="501,107,657,133"/>
+<area shape="rect" id="node7" href="$classafx_x_m___box_adapt.html" title="afxXM_BoxAdapt" alt="" coords="519,157,640,184"/>
+<area shape="rect" id="node8" href="$classafx_x_m___force.html" title="afxXM_Force" alt="" coords="531,208,628,235"/>
+<area shape="rect" id="node9" href="$classafx_x_m___ground_conform.html" title="afxXM_GroundConform" alt="" coords="502,259,657,285"/>
+<area shape="rect" id="node10" href="$classafx_x_m___height_sampler.html" title="afxXM_HeightSampler" alt="" coords="505,309,654,336"/>
+<area shape="rect" id="node11" href="$classafx_x_m___local_offset2__weighted.html" title="afxXM_LocalOffset2\l_weighted" alt="" coords="511,361,647,402"/>
+<area shape="rect" id="node12" href="$classafx_x_m___local_offset__weighted.html" title="afxXM_LocalOffset_weighted" alt="" coords="486,427,673,453"/>
+<area shape="rect" id="node13" href="$classafx_x_m___oscillate.html" title="afxXM_Oscillate" alt="" coords="522,477,637,504"/>
+<area shape="rect" id="node14" href="$classafx_x_m___oscillate__position.html" title="afxXM_Oscillate_position" alt="" coords="496,528,663,555"/>
+<area shape="rect" id="node15" href="$classafx_x_m___oscillate__position2.html" title="afxXM_Oscillate_position2" alt="" coords="492,579,667,605"/>
+<area shape="rect" id="node16" href="$classafx_x_m___oscillate__rot.html" title="afxXM_Oscillate_rot" alt="" coords="511,629,648,656"/>
+<area shape="rect" id="node17" href="$classafx_x_m___oscillate__scale.html" title="afxXM_Oscillate_scale" alt="" coords="503,680,656,707"/>
+<area shape="rect" id="node18" href="$classafx_x_m___oscillate_zodiac_color.html" title="afxXM_OscillateZodiacColor" alt="" coords="488,731,671,757"/>
+<area shape="rect" id="node19" href="$classafx_x_m___path_conform.html" title="afxXM_PathConform" alt="" coords="510,781,649,808"/>
+<area shape="rect" id="node20" href="$classafx_x_m___scale__weighted.html" title="afxXM_Scale_weighted" alt="" coords="502,832,657,859"/>
+<area shape="rect" id="node21" href="$classafx_x_m___spin__weighted.html" title="afxXM_Spin_weighted" alt="" coords="505,883,653,909"/>
+<area shape="rect" id="node22" href="$classafx_x_m___velocity_offset2__weighted.html" title="afxXM_VelocityOffset2\l_weighted" alt="" coords="503,934,655,975"/>
+<area shape="rect" id="node23" href="$classafx_x_m___velocity_offset__weighted.html" title="afxXM_VelocityOffset\l_weighted" alt="" coords="507,999,652,1041"/>
+<area shape="rect" id="node24" href="$classafx_x_m___wave_base.html" title="afxXM_WaveBase" alt="" coords="516,1065,643,1092"/>
+<area shape="rect" id="node25" href="$classafx_x_m___wave_rider_base.html" title="afxXM_WaveRiderBase" alt="" coords="501,1116,657,1143"/>
+<area shape="rect" id="node26" href="$classafx_x_m___world_offset2__weighted.html" title="afxXM_WorldOffset2\l_weighted" alt="" coords="510,1167,649,1209"/>
+<area shape="rect" id="node27" href="$classafx_x_m___world_offset__weighted.html" title="afxXM_WorldOffset_weighted" alt="" coords="484,1233,675,1260"/>
+<area shape="rect" id="node2" href="$classafx_x_m___base.html" title="afxXM_Base" alt="" coords="144,604,239,631"/>
+<area shape="rect" id="node3" href="$classafx_x_m___defs.html" title="afxXM_Defs" alt="" coords="5,604,96,631"/>
+</map>

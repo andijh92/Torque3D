@@ -41,11 +41,11 @@
 <area shape="rect" id="node38" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; PostEffect \&gt;" alt="" coords="1437,1452,1613,1479"/>
 <area shape="rect" id="node41" href="$class_reflector_desc.html" title="ReflectorDesc" alt="" coords="1120,867,1223,893"/>
 <area shape="rect" id="node42" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="776,852,881,879"/>
-<area shape="rect" id="node47" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1649,1017,1753,1044"/>
+<area shape="rect" id="node46" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1649,1017,1753,1044"/>
 <area shape="rect" id="node43" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lTarget \&gt;" alt="" coords="1437,754,1613,795"/>
-<area shape="rect" id="node44" href="$class_color_f.html" title="ColorF" alt="" coords="1852,1403,1912,1429"/>
-<area shape="rect" id="node45" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1843,1453,1921,1480"/>
-<area shape="rect" id="node46" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1849,1587,1915,1613"/>
+<area shape="rect" id="node44" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1843,1276,1921,1303"/>
+<area shape="rect" id="node45" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1849,1409,1915,1436"/>
+<area shape="rect" id="node47" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1835,1587,1929,1613"/>
 <area shape="rect" id="node48" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="1777,1637,1987,1664"/>
 <area shape="rect" id="node50" href="$struct_water_mat_params.html" title="WaterMatParams" alt="" coords="1820,1688,1944,1715"/>
 </map>

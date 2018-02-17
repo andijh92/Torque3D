@@ -1,14 +1,15 @@
 <map id="StaticShapeData" name="StaticShapeData">
-<area shape="rect" id="node2" href="$class_shape_base_data.html" title="Defines properties for a ShapeBase object. " alt="" coords="7,532,123,559"/>
-<area shape="rect" id="node3" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="207,157,321,184"/>
-<area shape="rect" id="node6" href="$class_debris_data.html" title="Stores properties for an individual debris type. " alt="" coords="103,337,190,364"/>
-<area shape="rect" id="node7" href="$class_particle_emitter_data.html" title="Defines particle emission properties such as ejection angle, period and velocity for a ParticleEmitte..." alt="" coords="197,247,331,273"/>
-<area shape="rect" id="node8" href="$class_explosion_data.html" title="Defines the attributes of an Explosion: particleEmitters, debris, lighting and camera shake effects..." alt="" coords="207,428,313,455"/>
-<area shape="rect" id="node4" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="418,81,523,108"/>
-<area shape="rect" id="node9" href="$class_s_f_x_track.html" title="Abstract base class for sound data that can be played back by the sound system. " alt="" coords="429,247,507,273"/>
-<area shape="rect" id="node10" href="$class_s_f_x_description.html" title="A description for how a sound should be played. " alt="" coords="486,157,597,184"/>
-<area shape="rect" id="node5" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="489,5,572,32"/>
-<area shape="rect" id="node13" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="550,81,615,108"/>
-<area shape="rect" id="node11" href="$class_s_f_x_source.html" title="Playback controller for a sound source. " alt="" coords="701,247,787,273"/>
-<area shape="rect" id="node12" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="691,157,771,184"/>
+<area shape="rect" id="node2" href="$class_shape_base_data.html" title="Defines properties for a ShapeBase object. " alt="" coords="7,621,123,648"/>
+<area shape="rect" id="node3" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="148,157,263,184"/>
+<area shape="rect" id="node6" href="$class_debris_data.html" title="Stores properties for an individual debris type. " alt="" coords="95,427,182,453"/>
+<area shape="rect" id="node7" href="$class_particle_emitter_data.html" title="Defines particle emission properties such as ejection angle, period and velocity for a ParticleEmitte..." alt="" coords="181,336,315,363"/>
+<area shape="rect" id="node8" href="$classafx_particle_pool_data.html" title="A ParticlePool datablock. " alt="" coords="255,247,391,273"/>
+<area shape="rect" id="node9" href="$class_explosion_data.html" title="Defines the attributes of an Explosion: particleEmitters, debris, lighting and camera shake effects..." alt="" coords="207,517,313,544"/>
+<area shape="rect" id="node4" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="455,81,561,108"/>
+<area shape="rect" id="node10" href="$class_s_f_x_track.html" title="Abstract base class for sound data that can be played back by the sound system. " alt="" coords="466,247,545,273"/>
+<area shape="rect" id="node11" href="$class_s_f_x_description.html" title="A description for how a sound should be played. " alt="" coords="523,157,634,184"/>
+<area shape="rect" id="node5" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="527,5,609,32"/>
+<area shape="rect" id="node14" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="587,81,653,108"/>
+<area shape="rect" id="node12" href="$class_s_f_x_source.html" title="Playback controller for a sound source. " alt="" coords="738,247,825,273"/>
+<area shape="rect" id="node13" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="728,157,808,184"/>
 </map>

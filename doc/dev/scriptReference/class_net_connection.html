@@ -125,39 +125,43 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8bec173059087fad42df4ab99a48eeba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a8bec173059087fad42df4ab99a48eeba">clearPaths</a> (())</td></tr>
 <tr class="memdesc:a8bec173059087fad42df4ab99a48eeba"><td class="mdescLeft">&#160;</td><td class="mdescRight">On the server, resets the connection to indicate that motion spline paths have not been transmitted.  <a href="#a8bec173059087fad42df4ab99a48eeba">More...</a><br /></td></tr>
 <tr class="separator:a8bec173059087fad42df4ab99a48eeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a950f68edb8ebfbf743d64cfa18739e1d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a950f68edb8ebfbf743d64cfa18739e1d">getAddress</a> (())</td></tr>
-<tr class="memdesc:a950f68edb8ebfbf743d64cfa18739e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the far end network address for the connection.  <a href="#a950f68edb8ebfbf743d64cfa18739e1d">More...</a><br /></td></tr>
-<tr class="separator:a950f68edb8ebfbf743d64cfa18739e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdcab9a65fca5c9120708280b19cb84"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#afbdcab9a65fca5c9120708280b19cb84">getAddress</a> (())</td></tr>
+<tr class="memdesc:afbdcab9a65fca5c9120708280b19cb84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the far end network address for the connection.  <a href="#afbdcab9a65fca5c9120708280b19cb84">More...</a><br /></td></tr>
+<tr class="separator:afbdcab9a65fca5c9120708280b19cb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c816cc6ce711615cc71ff32505b5c43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a2c816cc6ce711615cc71ff32505b5c43">setSimulatedNetParams</a> ((float packetLoss, int delay))</td></tr>
 <tr class="memdesc:a2c816cc6ce711615cc71ff32505b5c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simulate network issues on the connection for testing.  <a href="#a2c816cc6ce711615cc71ff32505b5c43">More...</a><br /></td></tr>
 <tr class="separator:a2c816cc6ce711615cc71ff32505b5c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7af2057177d3c51421d773c0600f2530"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a7af2057177d3c51421d773c0600f2530">getPing</a> (())</td></tr>
-<tr class="memdesc:a7af2057177d3c51421d773c0600f2530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the average round trip time (in ms) for the connection.  <a href="#a7af2057177d3c51421d773c0600f2530">More...</a><br /></td></tr>
-<tr class="separator:a7af2057177d3c51421d773c0600f2530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa70966e23287aeebfa585728dbb6159c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#aa70966e23287aeebfa585728dbb6159c">getPacketLoss</a> (())</td></tr>
-<tr class="memdesc:aa70966e23287aeebfa585728dbb6159c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the percentage of packets lost per tick.  <a href="#aa70966e23287aeebfa585728dbb6159c">More...</a><br /></td></tr>
-<tr class="separator:aa70966e23287aeebfa585728dbb6159c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ecb1aadc8378f3af69a5bcc3b65e3d"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#ab9ecb1aadc8378f3af69a5bcc3b65e3d">getPing</a> (())</td></tr>
+<tr class="memdesc:ab9ecb1aadc8378f3af69a5bcc3b65e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the average round trip time (in ms) for the connection.  <a href="#ab9ecb1aadc8378f3af69a5bcc3b65e3d">More...</a><br /></td></tr>
+<tr class="separator:ab9ecb1aadc8378f3af69a5bcc3b65e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29c5f4354828d3021d832e5cf6290788"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a29c5f4354828d3021d832e5cf6290788">getPacketLoss</a> (())</td></tr>
+<tr class="memdesc:a29c5f4354828d3021d832e5cf6290788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the percentage of packets lost per tick.  <a href="#a29c5f4354828d3021d832e5cf6290788">More...</a><br /></td></tr>
+<tr class="separator:a29c5f4354828d3021d832e5cf6290788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a441ed8524b1f3192ff66f0dbf92a953f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a441ed8524b1f3192ff66f0dbf92a953f">checkMaxRate</a> (())</td></tr>
 <tr class="memdesc:a441ed8524b1f3192ff66f0dbf92a953f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures that all configured packet rates and sizes meet minimum requirements.  <a href="#a441ed8524b1f3192ff66f0dbf92a953f">More...</a><br /></td></tr>
 <tr class="separator:a441ed8524b1f3192ff66f0dbf92a953f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca3fd8fb3ff81e1c9ea02e1f429770ee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#aca3fd8fb3ff81e1c9ea02e1f429770ee">resolveGhostID</a> ((int ghostID))</td></tr>
-<tr class="memdesc:aca3fd8fb3ff81e1c9ea02e1f429770ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">On the client, convert a ghost ID from this connection to a real <a class="el" href="class_sim_object.html" title="Base class for almost all objects involved in the simulation. ">SimObject</a> ID.  <a href="#aca3fd8fb3ff81e1c9ea02e1f429770ee">More...</a><br /></td></tr>
-<tr class="separator:aca3fd8fb3ff81e1c9ea02e1f429770ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae83998f92a0527abba8d3f5d3c35c4bf"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#ae83998f92a0527abba8d3f5d3c35c4bf">resolveObjectFromGhostIndex</a> ((int ghostID))</td></tr>
-<tr class="memdesc:ae83998f92a0527abba8d3f5d3c35c4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">On the server, convert a ghost ID from this connection to a real <a class="el" href="class_sim_object.html" title="Base class for almost all objects involved in the simulation. ">SimObject</a> ID.  <a href="#ae83998f92a0527abba8d3f5d3c35c4bf">More...</a><br /></td></tr>
-<tr class="separator:ae83998f92a0527abba8d3f5d3c35c4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae753e238bd15a77913ca332ab123a4a3"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#ae753e238bd15a77913ca332ab123a4a3">getGhostID</a> ((int realID))</td></tr>
-<tr class="memdesc:ae753e238bd15a77913ca332ab123a4a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">On server or client, convert a real id to the ghost id for this connection.  <a href="#ae753e238bd15a77913ca332ab123a4a3">More...</a><br /></td></tr>
-<tr class="separator:ae753e238bd15a77913ca332ab123a4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8453b19ba35c431f992f064132c9ef4f"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a8453b19ba35c431f992f064132c9ef4f">resolveGhostID</a> ((int ghostID))</td></tr>
+<tr class="memdesc:a8453b19ba35c431f992f064132c9ef4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">On the client, convert a ghost ID from this connection to a real <a class="el" href="class_sim_object.html" title="Base class for almost all objects involved in the simulation. ">SimObject</a> ID.  <a href="#a8453b19ba35c431f992f064132c9ef4f">More...</a><br /></td></tr>
+<tr class="separator:a8453b19ba35c431f992f064132c9ef4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883bc6ff05682e550d1c42f2df09efcd"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a883bc6ff05682e550d1c42f2df09efcd">resolveObjectFromGhostIndex</a> ((int ghostID))</td></tr>
+<tr class="memdesc:a883bc6ff05682e550d1c42f2df09efcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">On the server, convert a ghost ID from this connection to a real <a class="el" href="class_sim_object.html" title="Base class for almost all objects involved in the simulation. ">SimObject</a> ID.  <a href="#a883bc6ff05682e550d1c42f2df09efcd">More...</a><br /></td></tr>
+<tr class="separator:a883bc6ff05682e550d1c42f2df09efcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5768fee088392098905ee7dc176f9bf9"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a5768fee088392098905ee7dc176f9bf9">getGhostID</a> ((int realID))</td></tr>
+<tr class="memdesc:a5768fee088392098905ee7dc176f9bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">On server or client, convert a real id to the ghost id for this connection.  <a href="#a5768fee088392098905ee7dc176f9bf9">More...</a><br /></td></tr>
+<tr class="separator:a5768fee088392098905ee7dc176f9bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cbae7ef3fe0ae2561fee17928f8c638"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a5cbae7ef3fe0ae2561fee17928f8c638">connect</a> ((string remoteAddress))</td></tr>
 <tr class="memdesc:a5cbae7ef3fe0ae2561fee17928f8c638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to the remote address.  <a href="#a5cbae7ef3fe0ae2561fee17928f8c638">More...</a><br /></td></tr>
 <tr class="separator:a5cbae7ef3fe0ae2561fee17928f8c638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab157138884d875ecca0742927b74d851"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#ab157138884d875ecca0742927b74d851">connectLocal</a> (())</td></tr>
-<tr class="memdesc:ab157138884d875ecca0742927b74d851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects with the server that is running within the same process as the client.  <a href="#ab157138884d875ecca0742927b74d851">More...</a><br /></td></tr>
-<tr class="separator:ab157138884d875ecca0742927b74d851"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d7d29ae8e12bd164da4257004f8f082"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a7d7d29ae8e12bd164da4257004f8f082">getGhostsActive</a> (())</td></tr>
-<tr class="memdesc:a7d7d29ae8e12bd164da4257004f8f082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the number of active ghosts on the connection.  <a href="#a7d7d29ae8e12bd164da4257004f8f082">More...</a><br /></td></tr>
-<tr class="separator:a7d7d29ae8e12bd164da4257004f8f082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8015a8385e6c50bda87cd29f7f9f0b1"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#af8015a8385e6c50bda87cd29f7f9f0b1">connectLocal</a> (())</td></tr>
+<tr class="memdesc:af8015a8385e6c50bda87cd29f7f9f0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects with the server that is running within the same process as the client.  <a href="#af8015a8385e6c50bda87cd29f7f9f0b1">More...</a><br /></td></tr>
+<tr class="separator:af8015a8385e6c50bda87cd29f7f9f0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de3bc9d6407b6c5f9c2e97db7f387d7"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a4de3bc9d6407b6c5f9c2e97db7f387d7">getGhostsActive</a> (())</td></tr>
+<tr class="memdesc:a4de3bc9d6407b6c5f9c2e97db7f387d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the number of active ghosts on the connection.  <a href="#a4de3bc9d6407b6c5f9c2e97db7f387d7">More...</a><br /></td></tr>
+<tr class="separator:a4de3bc9d6407b6c5f9c2e97db7f387d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc2e2f2e4529032d38fe41495ac8edf2"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_f_x.html#gacc2e2f2e4529032d38fe41495ac8edf2">GetGhostIndex</a> ((<a class="el" href="class_net_object.html">NetObject</a> obj))</td></tr>
+<tr class="separator:gacc2e2f2e4529032d38fe41495ac8edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22bc2f3a72cd00066e7bb0953b6c0c99"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_f_x.html#ga22bc2f3a72cd00066e7bb0953b6c0c99">ResolveGhost</a> ((int ghostIndex))</td></tr>
+<tr class="separator:ga22bc2f3a72cd00066e7bb0953b6c0c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a254626ba67b3feb6ec008a89ddf976ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a254626ba67b3feb6ec008a89ddf976ee">transmitPaths</a> ()</td></tr>
 <tr class="memdesc:a254626ba67b3feb6ec008a89ddf976ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent by the server during phase 2 of the mission download to update motion spline paths.  <a href="#a254626ba67b3feb6ec008a89ddf976ee">More...</a><br /></td></tr>
 <tr class="separator:a254626ba67b3feb6ec008a89ddf976ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +201,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f4367652c08cb4500bbb2758e8bdd46"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_net_connection.html#a6f4367652c08cb4500bbb2758e8bdd46">getGhostsActive</a> ()</td></tr>
 <tr class="memdesc:a6f4367652c08cb4500bbb2758e8bdd46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the number of active ghosts on the connection.  <a href="#a6f4367652c08cb4500bbb2758e8bdd46">More...</a><br /></td></tr>
 <tr class="separator:a6f4367652c08cb4500bbb2758e8bdd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga836b9f240e77173ef7d5c2bd02265d68"><td class="memItemLeft" align="right" valign="top">
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_f_x.html#ga836b9f240e77173ef7d5c2bd02265d68">GetGhostIndex</a> (<a class="el" href="class_net_object.html">NetObject</a> obj)</td></tr>
+<tr class="memdesc:ga836b9f240e77173ef7d5c2bd02265d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the ghost-index for an object. <br /></td></tr>
+<tr class="separator:ga836b9f240e77173ef7d5c2bd02265d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76ddca79bfd3c165d31d95a835382167"><td class="memItemLeft" align="right" valign="top">
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___a_f_x.html#ga76ddca79bfd3c165d31d95a835382167">ResolveGhost</a> (int ghostIndex)</td></tr>
+<tr class="memdesc:ga76ddca79bfd3c165d31d95a835382167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves a ghost-index into an object ID. <br /></td></tr>
+<tr class="separator:ga76ddca79bfd3c165d31d95a835382167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_sim_set"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_sim_set')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_sim_set.html">SimSet</a></td></tr>
 <tr class="memitem:a02c648ccdffff973acb3717560b9d9fb inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a02c648ccdffff973acb3717560b9d9fb">onObjectAdded</a> (<a class="el" href="class_sim_object.html">SimObject</a> object)</td></tr>
 <tr class="separator:a02c648ccdffff973acb3717560b9d9fb inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,34 +216,34 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a54966ef226ef7d8d9bc02ad04f032fe9 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aceb02fdf40351b60ea7e724c08ffea8a inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#aceb02fdf40351b60ea7e724c08ffea8a">listObjects</a> (())</td></tr>
 <tr class="separator:aceb02fdf40351b60ea7e724c08ffea8a inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90ba701ba6a7d509b1fd5aede0fd5d1e inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a90ba701ba6a7d509b1fd5aede0fd5d1e">add</a> ((<a class="el" href="class_sim_object.html">SimObject</a> objects...))</td></tr>
-<tr class="separator:a90ba701ba6a7d509b1fd5aede0fd5d1e inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec13e57339b6ff9335c81478a9be9f58 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#aec13e57339b6ff9335c81478a9be9f58">remove</a> ((<a class="el" href="class_sim_object.html">SimObject</a> objects...))</td></tr>
-<tr class="separator:aec13e57339b6ff9335c81478a9be9f58 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79069f8ac1eeeb829f591b5fe751a910 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a79069f8ac1eeeb829f591b5fe751a910">add</a> ((<a class="el" href="class_sim_object.html">SimObject</a> objects...)...)</td></tr>
+<tr class="separator:a79069f8ac1eeeb829f591b5fe751a910 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ea782c87ab09f19ee34b8a5e6efa87 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a42ea782c87ab09f19ee34b8a5e6efa87">remove</a> ((<a class="el" href="class_sim_object.html">SimObject</a> objects...)...)</td></tr>
+<tr class="separator:a42ea782c87ab09f19ee34b8a5e6efa87 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bb9ed93b4acfd9f4c92fe25a446967b inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a7bb9ed93b4acfd9f4c92fe25a446967b">clear</a> (())</td></tr>
 <tr class="separator:a7bb9ed93b4acfd9f4c92fe25a446967b inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ab7ff2350083b51bd3897d618f5e478 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a5ab7ff2350083b51bd3897d618f5e478">deleteAllObjects</a> (())</td></tr>
 <tr class="separator:a5ab7ff2350083b51bd3897d618f5e478 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad35dc2d76de990e69be6dc11e52adb4f inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ad35dc2d76de990e69be6dc11e52adb4f">getRandom</a> (())</td></tr>
-<tr class="separator:ad35dc2d76de990e69be6dc11e52adb4f inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a049be1e71ad851235d8d515583903489 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a049be1e71ad851235d8d515583903489">callOnChildren</a> ((string method, string args...))</td></tr>
-<tr class="separator:a049be1e71ad851235d8d515583903489 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab718ddf4d7d440917389dabf8dcd2856 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ab718ddf4d7d440917389dabf8dcd2856">callOnChildrenNoRecurse</a> ((string method, string args...))</td></tr>
-<tr class="separator:ab718ddf4d7d440917389dabf8dcd2856 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492c88ff211dc17b0252dd729999a9a6 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a492c88ff211dc17b0252dd729999a9a6">getRandom</a> (())</td></tr>
+<tr class="separator:a492c88ff211dc17b0252dd729999a9a6 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3898f3f77393ac45db380c2eaf6101 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ada3898f3f77393ac45db380c2eaf6101">callOnChildren</a> ((string method, string args...)...)</td></tr>
+<tr class="separator:ada3898f3f77393ac45db380c2eaf6101 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea5e34982a63afdfe0b546bc93b84a2 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a8ea5e34982a63afdfe0b546bc93b84a2">callOnChildrenNoRecurse</a> ((string method, string args...)...)</td></tr>
+<tr class="separator:a8ea5e34982a63afdfe0b546bc93b84a2 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeeddebca92f5de255aa239185651c7a inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#abeeddebca92f5de255aa239185651c7a">reorderChild</a> ((<a class="el" href="class_sim_object.html">SimObject</a> child1, <a class="el" href="class_sim_object.html">SimObject</a> child2))</td></tr>
 <tr class="separator:abeeddebca92f5de255aa239185651c7a inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36cc53f72fceb09647400f25d37d6f8b inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a36cc53f72fceb09647400f25d37d6f8b">getCount</a> (())</td></tr>
-<tr class="separator:a36cc53f72fceb09647400f25d37d6f8b inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a965e72a9aca2ddac3df4ef3e8ed4dbe2 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a965e72a9aca2ddac3df4ef3e8ed4dbe2">getFullCount</a> (())</td></tr>
-<tr class="separator:a965e72a9aca2ddac3df4ef3e8ed4dbe2 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fccdccdcf61fed84cdda98da7d49408 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a7fccdccdcf61fed84cdda98da7d49408">getObject</a> ((int index))</td></tr>
-<tr class="separator:a7fccdccdcf61fed84cdda98da7d49408 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70e4675600a103d8022448a85cecc9fc inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a70e4675600a103d8022448a85cecc9fc">getObjectIndex</a> ((<a class="el" href="class_sim_object.html">SimObject</a> obj))</td></tr>
-<tr class="separator:a70e4675600a103d8022448a85cecc9fc inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ee7e706bb3ebc102ab5b83ab23d938 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ab2ee7e706bb3ebc102ab5b83ab23d938">getCount</a> (())</td></tr>
+<tr class="separator:ab2ee7e706bb3ebc102ab5b83ab23d938 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52728db6810ad58c3df2cef675fe98c7 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a52728db6810ad58c3df2cef675fe98c7">getFullCount</a> (())</td></tr>
+<tr class="separator:a52728db6810ad58c3df2cef675fe98c7 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7636b4fe876ded76985f26d952b5f5d6 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a7636b4fe876ded76985f26d952b5f5d6">getObject</a> ((uint index))</td></tr>
+<tr class="separator:a7636b4fe876ded76985f26d952b5f5d6 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a888717935a60b3689d2f448f4c93d0d6 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a888717935a60b3689d2f448f4c93d0d6">getObjectIndex</a> ((<a class="el" href="class_sim_object.html">SimObject</a> obj))</td></tr>
+<tr class="separator:a888717935a60b3689d2f448f4c93d0d6 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c7387a213129ed1968eb0154e184df inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ab6c7387a213129ed1968eb0154e184df">isMember</a> ((<a class="el" href="class_sim_object.html">SimObject</a> obj))</td></tr>
 <tr class="separator:ab6c7387a213129ed1968eb0154e184df inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58c7dabf392d2147a341339113c9f4f inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ae58c7dabf392d2147a341339113c9f4f">findObjectByInternalName</a> ((string <a class="el" href="class_sim_object.html#ad03202387165717f164f996a5b22c9bb">internalName</a>, bool searchChildren=false))</td></tr>
-<tr class="separator:ae58c7dabf392d2147a341339113c9f4f inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74646dd0eacc781128e2adbdddc9cc74 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a74646dd0eacc781128e2adbdddc9cc74">findObjectByInternalName</a> ((string <a class="el" href="class_sim_object.html#ad03202387165717f164f996a5b22c9bb">internalName</a>, bool searchChildren=false))</td></tr>
+<tr class="separator:a74646dd0eacc781128e2adbdddc9cc74 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1049ae72320490fe74bc7f18f2e4ef4 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#ae1049ae72320490fe74bc7f18f2e4ef4">bringToFront</a> ((<a class="el" href="class_sim_object.html">SimObject</a> obj))</td></tr>
 <tr class="separator:ae1049ae72320490fe74bc7f18f2e4ef4 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5373e76276d7e6c5a18224cd487131 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a3b5373e76276d7e6c5a18224cd487131">pushToBack</a> ((<a class="el" href="class_sim_object.html">SimObject</a> obj))</td></tr>
@@ -276,9 +288,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a34672d09c5c5aecc3ccc9752ad5b49ea inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a34672d09c5c5aecc3ccc9752ad5b49ea">getFullCount</a> ()</td></tr>
 <tr class="memdesc:a34672d09c5c5aecc3ccc9752ad5b49ea inherit pub_methods_class_sim_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of direct and indirect child objects contained in the set.  <a href="#a34672d09c5c5aecc3ccc9752ad5b49ea">More...</a><br /></td></tr>
 <tr class="separator:a34672d09c5c5aecc3ccc9752ad5b49ea inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf737651330d0715d3386d01faeb80fc inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sim_object.html">SimObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#acf737651330d0715d3386d01faeb80fc">getObject</a> (int index)</td></tr>
-<tr class="memdesc:acf737651330d0715d3386d01faeb80fc inherit pub_methods_class_sim_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the object at the given index.  <a href="#acf737651330d0715d3386d01faeb80fc">More...</a><br /></td></tr>
-<tr class="separator:acf737651330d0715d3386d01faeb80fc inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491f014c49153a797e7a5f7810affc34 inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sim_object.html">SimObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a491f014c49153a797e7a5f7810affc34">getObject</a> (uint index)</td></tr>
+<tr class="memdesc:a491f014c49153a797e7a5f7810affc34 inherit pub_methods_class_sim_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the object at the given index.  <a href="#a491f014c49153a797e7a5f7810affc34">More...</a><br /></td></tr>
+<tr class="separator:a491f014c49153a797e7a5f7810affc34 inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75b0e6cfc2a64e6d601509872619434d inherit pub_methods_class_sim_set"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_set.html#a75b0e6cfc2a64e6d601509872619434d">getObjectIndex</a> (<a class="el" href="class_sim_object.html">SimObject</a> obj)</td></tr>
 <tr class="memdesc:a75b0e6cfc2a64e6d601509872619434d inherit pub_methods_class_sim_set"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the index of the given object in this set.  <a href="#a75b0e6cfc2a64e6d601509872619434d">More...</a><br /></td></tr>
 <tr class="separator:a75b0e6cfc2a64e6d601509872619434d inherit pub_methods_class_sim_set"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,10 +325,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:adecd09cd84254a41f2c094654786376b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f410aa95780e59b66d928bd228b874e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7f410aa95780e59b66d928bd228b874e">isChildOfGroup</a> ((<a class="el" href="class_sim_group.html">SimGroup</a> group))</td></tr>
 <tr class="separator:a7f410aa95780e59b66d928bd228b874e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac507f136686052531e336915c07e9c04 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac507f136686052531e336915c07e9c04">getClassNamespace</a> (())</td></tr>
-<tr class="separator:ac507f136686052531e336915c07e9c04 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a911d07c00078aa2e677093280d63d9a9 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a911d07c00078aa2e677093280d63d9a9">getSuperClassNamespace</a> (())</td></tr>
-<tr class="separator:a911d07c00078aa2e677093280d63d9a9 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a37838ed0f7be56f3d062e60319d14a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a5a37838ed0f7be56f3d062e60319d14a">getClassNamespace</a> (())</td></tr>
+<tr class="separator:a5a37838ed0f7be56f3d062e60319d14a inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845876e01b8ee0612ba5b139535943e4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a845876e01b8ee0612ba5b139535943e4">getSuperClassNamespace</a> (())</td></tr>
+<tr class="separator:a845876e01b8ee0612ba5b139535943e4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad195e8bfb1c344d35279f1c3542e9594 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad195e8bfb1c344d35279f1c3542e9594">setClassNamespace</a> ((string name))</td></tr>
 <tr class="separator:ad195e8bfb1c344d35279f1c3542e9594 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e103cf061bb1db81234aa58faa3ce8a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4e103cf061bb1db81234aa58faa3ce8a">setSuperClassNamespace</a> ((string name))</td></tr>
@@ -329,12 +341,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:ab6993e18e596eef4b0740f5eeccb13e6 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7aa8a1d841cb9371621205bee6f2d2 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a0f7aa8a1d841cb9371621205bee6f2d2">setIsExpanded</a> ((bool state=true))</td></tr>
 <tr class="separator:a0f7aa8a1d841cb9371621205bee6f2d2 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe518ff586a46bcdfa106f59cf1ebdb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7fe518ff586a46bcdfa106f59cf1ebdb">getFilename</a> (())</td></tr>
-<tr class="separator:a7fe518ff586a46bcdfa106f59cf1ebdb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e5f35decae37300e503ceab6154e9f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ab5e5f35decae37300e503ceab6154e9f">getFilename</a> (())</td></tr>
+<tr class="separator:ab5e5f35decae37300e503ceab6154e9f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7497d91c38114556b283d5fa52937f93 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7497d91c38114556b283d5fa52937f93">setFilename</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>))</td></tr>
 <tr class="separator:a7497d91c38114556b283d5fa52937f93 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4601c0b2a0162aa9b1adb9bb691bfea4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4601c0b2a0162aa9b1adb9bb691bfea4">getDeclarationLine</a> (())</td></tr>
-<tr class="separator:a4601c0b2a0162aa9b1adb9bb691bfea4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abfa8335c0afb3972cefddb3a780c0e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1abfa8335c0afb3972cefddb3a780c0e">getDeclarationLine</a> (())</td></tr>
+<tr class="separator:a1abfa8335c0afb3972cefddb3a780c0e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0a8b01f978efa53b3baa6e282ffa458 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad0a8b01f978efa53b3baa6e282ffa458">assignFieldsFrom</a> ((<a class="el" href="class_sim_object.html">SimObject</a> fromObject))</td></tr>
 <tr class="separator:ad0a8b01f978efa53b3baa6e282ffa458 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa57aa7c9dcf20f327516a8d921c72630 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aa57aa7c9dcf20f327516a8d921c72630">assignPersistentId</a> (())</td></tr>
@@ -351,64 +363,64 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a86f630969049612616e0912cc1b8197e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a9f890c3340d9faecac2841c36cb7b inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#af8a9f890c3340d9faecac2841c36cb7b">setNameChangeAllowed</a> ((bool value=true))</td></tr>
 <tr class="separator:af8a9f890c3340d9faecac2841c36cb7b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae989855e8337a07df7bbcb4696bd043a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ae989855e8337a07df7bbcb4696bd043a">clone</a> (())</td></tr>
-<tr class="separator:ae989855e8337a07df7bbcb4696bd043a inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb81c6cdcf66c2845ee7f558fa617115 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afb81c6cdcf66c2845ee7f558fa617115">deepClone</a> (())</td></tr>
-<tr class="separator:afb81c6cdcf66c2845ee7f558fa617115 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6cddb4a57e6fd86f836deee0f6a1bc inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a6d6cddb4a57e6fd86f836deee0f6a1bc">clone</a> (())</td></tr>
+<tr class="separator:a6d6cddb4a57e6fd86f836deee0f6a1bc inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52ee33a329e489a733ddae3b6e6fd1e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac52ee33a329e489a733ddae3b6e6fd1e">deepClone</a> (())</td></tr>
+<tr class="separator:ac52ee33a329e489a733ddae3b6e6fd1e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103626db4c5965c2881a56ec4f1463cb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a103626db4c5965c2881a56ec4f1463cb">setLocked</a> ((bool value=true))</td></tr>
 <tr class="separator:a103626db4c5965c2881a56ec4f1463cb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8efbe0e71eb43cb531b9ec4c029722b0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a8efbe0e71eb43cb531b9ec4c029722b0">setHidden</a> ((bool value=true))</td></tr>
 <tr class="separator:a8efbe0e71eb43cb531b9ec4c029722b0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1748a0d6d55fc2dcf84354c4c83ea3 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#adc1748a0d6d55fc2dcf84354c4c83ea3">dumpMethods</a> (())</td></tr>
-<tr class="separator:adc1748a0d6d55fc2dcf84354c4c83ea3 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78b4a59f90d315ff4912ec3c44de7b4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_array_object.html">ArrayObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad78b4a59f90d315ff4912ec3c44de7b4">dumpMethods</a> (())</td></tr>
+<tr class="separator:ad78b4a59f90d315ff4912ec3c44de7b4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7f339245097a2ef610fa9027ad4c4b inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7e7f339245097a2ef610fa9027ad4c4b">dump</a> ((bool detailed=false))</td></tr>
 <tr class="separator:a7e7f339245097a2ef610fa9027ad4c4b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a063465d61bfcbf28cf851d7fbce754f7 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a063465d61bfcbf28cf851d7fbce754f7">save</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>, bool selectedOnly=false, string preAppendString=&quot;&quot;))</td></tr>
 <tr class="separator:a063465d61bfcbf28cf851d7fbce754f7 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4be15742e8be6550549912c687a4d14 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ab4be15742e8be6550549912c687a4d14">setName</a> ((string newName))</td></tr>
 <tr class="separator:ab4be15742e8be6550549912c687a4d14 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a118ec786c8f2b1e46026e33036bebd03 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a118ec786c8f2b1e46026e33036bebd03">getName</a> (())</td></tr>
-<tr class="separator:a118ec786c8f2b1e46026e33036bebd03 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adedd06ccb1f5d354e36cafe69b93cbfa inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#adedd06ccb1f5d354e36cafe69b93cbfa">getClassName</a> (())</td></tr>
-<tr class="separator:adedd06ccb1f5d354e36cafe69b93cbfa inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f246820bc242d26292b1136d72a3bd inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a90f246820bc242d26292b1136d72a3bd">getName</a> (())</td></tr>
+<tr class="separator:a90f246820bc242d26292b1136d72a3bd inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae179fd366603d4387127d10727901c81 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ae179fd366603d4387127d10727901c81">getClassName</a> (())</td></tr>
+<tr class="separator:ae179fd366603d4387127d10727901c81 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4083989413c80da0076dbc1bbae0f059 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4083989413c80da0076dbc1bbae0f059">isField</a> ((string fieldName))</td></tr>
 <tr class="separator:a4083989413c80da0076dbc1bbae0f059 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477c513b628fdeb8ca271a0344a6e75d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a477c513b628fdeb8ca271a0344a6e75d">getFieldValue</a> ((string fieldName, int index=-1))</td></tr>
-<tr class="separator:a477c513b628fdeb8ca271a0344a6e75d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1851ff47be7d3869d60c87ee287015cb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1851ff47be7d3869d60c87ee287015cb">getFieldValue</a> ((string fieldName, int index=-1))</td></tr>
+<tr class="separator:a1851ff47be7d3869d60c87ee287015cb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7789239b65bdd0268c9470fdf6d20e47 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7789239b65bdd0268c9470fdf6d20e47">setFieldValue</a> ((string fieldName, string value, int index=-1))</td></tr>
 <tr class="separator:a7789239b65bdd0268c9470fdf6d20e47 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a027a59b57762bae8a4df9388e645d88c inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a027a59b57762bae8a4df9388e645d88c">getFieldType</a> ((string fieldName))</td></tr>
-<tr class="separator:a027a59b57762bae8a4df9388e645d88c inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6eb6dc4b5a906697786570e0d1e66e0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aa6eb6dc4b5a906697786570e0d1e66e0">getFieldType</a> ((string fieldName))</td></tr>
+<tr class="separator:aa6eb6dc4b5a906697786570e0d1e66e0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02504df99e49c143b3007388ebec8ae1 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a02504df99e49c143b3007388ebec8ae1">setFieldType</a> ((string fieldName, string type))</td></tr>
 <tr class="separator:a02504df99e49c143b3007388ebec8ae1 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe7622af9548f3e2e5b2c1a501ccda82 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afe7622af9548f3e2e5b2c1a501ccda82">call</a> ((string method, string args...))</td></tr>
-<tr class="separator:afe7622af9548f3e2e5b2c1a501ccda82 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57cc15451420e2cbf2b07eb155e19669 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a57cc15451420e2cbf2b07eb155e19669">call</a> ((string method, string args...)...)</td></tr>
+<tr class="separator:a57cc15451420e2cbf2b07eb155e19669 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04822dd99fded3661cf36860d0f2ea47 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a04822dd99fded3661cf36860d0f2ea47">setInternalName</a> ((string newInternalName))</td></tr>
 <tr class="separator:a04822dd99fded3661cf36860d0f2ea47 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1a7b7393bde7b867b9f62d336f2d0f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a3e1a7b7393bde7b867b9f62d336f2d0f">getInternalName</a> (())</td></tr>
-<tr class="separator:a3e1a7b7393bde7b867b9f62d336f2d0f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db69d63f826a6259266662580631614 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2db69d63f826a6259266662580631614">getInternalName</a> (())</td></tr>
+<tr class="separator:a2db69d63f826a6259266662580631614 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b1342557cd9b8b2742dd656e1518c8 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad5b1342557cd9b8b2742dd656e1518c8">dumpClassHierarchy</a> (())</td></tr>
 <tr class="separator:ad5b1342557cd9b8b2742dd656e1518c8 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d1802b3b9ae4062b1e5a6674e38633 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a30d1802b3b9ae4062b1e5a6674e38633">isMemberOfClass</a> ((string <a class="el" href="class_sim_object.html#a2cc1b913d92fec41e452b7189ad8d668">className</a>))</td></tr>
 <tr class="separator:a30d1802b3b9ae4062b1e5a6674e38633 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f98ad383bdb2643ea6525d51dc067e1 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4f98ad383bdb2643ea6525d51dc067e1">isInNamespaceHierarchy</a> ((string name))</td></tr>
 <tr class="separator:a4f98ad383bdb2643ea6525d51dc067e1 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb5cb754661486f18c9ebdfe08aa173 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4fb5cb754661486f18c9ebdfe08aa173">getId</a> (())</td></tr>
-<tr class="separator:a4fb5cb754661486f18c9ebdfe08aa173 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7030cb156e4fdf316207cdbafa313da2 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7030cb156e4fdf316207cdbafa313da2">getGroup</a> (())</td></tr>
-<tr class="separator:a7030cb156e4fdf316207cdbafa313da2 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a57e814e5d34e9dfd8245a06f8d8921 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a5a57e814e5d34e9dfd8245a06f8d8921">getId</a> (())</td></tr>
+<tr class="separator:a5a57e814e5d34e9dfd8245a06f8d8921 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69854b3d2980a9af24db4ae9d3bd09e0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_group.html">SimGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a69854b3d2980a9af24db4ae9d3bd09e0">getGroup</a> (())</td></tr>
+<tr class="separator:a69854b3d2980a9af24db4ae9d3bd09e0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0dfb89a1081f8afae7ae80a2851e585 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac0dfb89a1081f8afae7ae80a2851e585">delete</a> (())</td></tr>
 <tr class="separator:ac0dfb89a1081f8afae7ae80a2851e585 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d04645b5d8ea49388b75e42cfb732d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a42d04645b5d8ea49388b75e42cfb732d">schedule</a> ((float time, string method, string args...))</td></tr>
-<tr class="separator:a42d04645b5d8ea49388b75e42cfb732d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcf7cf72456066bf7fd8cc3b0ac6e3f6 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afcf7cf72456066bf7fd8cc3b0ac6e3f6">getDynamicFieldCount</a> (())</td></tr>
-<tr class="separator:afcf7cf72456066bf7fd8cc3b0ac6e3f6 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5a8034dd39e38e08cf6de327f10c82 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7b5a8034dd39e38e08cf6de327f10c82">getDynamicField</a> ((int index))</td></tr>
-<tr class="separator:a7b5a8034dd39e38e08cf6de327f10c82 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd4d63a0545e56be35586e899067143 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a8cd4d63a0545e56be35586e899067143">getFieldCount</a> (())</td></tr>
-<tr class="separator:a8cd4d63a0545e56be35586e899067143 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0406289f1c972716706bfdb32b15cbf inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a> ((int index))</td></tr>
-<tr class="separator:ac0406289f1c972716706bfdb32b15cbf inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4148c954b72b9053c4ecc0d65eb3e4b7 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4148c954b72b9053c4ecc0d65eb3e4b7">schedule</a> ((float time, string method, string args...)...)</td></tr>
+<tr class="separator:a4148c954b72b9053c4ecc0d65eb3e4b7 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e95f91c70b440dccde0608a4bed4014 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2e95f91c70b440dccde0608a4bed4014">getDynamicFieldCount</a> (())</td></tr>
+<tr class="separator:a2e95f91c70b440dccde0608a4bed4014 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1f771ccd19d250eff21357e68a864d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#abc1f771ccd19d250eff21357e68a864d">getDynamicField</a> ((int index))</td></tr>
+<tr class="separator:abc1f771ccd19d250eff21357e68a864d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf18f598c953c3550d56aa39cb0ca7f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1cf18f598c953c3550d56aa39cb0ca7f">getFieldCount</a> (())</td></tr>
+<tr class="separator:a1cf18f598c953c3550d56aa39cb0ca7f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2863d42acdd3266003465d542c4c24fa inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a> ((int index))</td></tr>
+<tr class="separator:a2863d42acdd3266003465d542c4c24fa inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea04a2b7d1545f39b05a43249948a800 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea04a2b7d1545f39b05a43249948a800"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aea04a2b7d1545f39b05a43249948a800">dumpGroupHierarchy</a> ()</td></tr>
 <tr class="memdesc:aea04a2b7d1545f39b05a43249948a800 inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the hierarchy of this object up to <a class="el" href="class_root_group.html">RootGroup</a> to the console. <br /></td></tr>
@@ -691,7 +703,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>On the server, resets the connection to indicate that motion spline paths have not been transmitted. </p>
 <p>Typically when a mission has ended on the server, all connected clients are informed of this change and their connections are reset back to a starting state. This method resets a connection on the server to indicate that motion spline paths have not been transmitted.</p>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Inform the clients</span></div><div class="line"><span class="keywordflow">for</span> (%clientIndex = 0; %clientIndex &lt; <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a36cc53f72fceb09647400f25d37d6f8b">getCount</a>(); %clientIndex++)</div><div class="line">{</div><div class="line">   <span class="comment">// clear ghosts and paths from all clients</span></div><div class="line">   %cl = <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a7fccdccdcf61fed84cdda98da7d49408">getObject</a>(%clientIndex);</div><div class="line">   %cl.endMission();</div><div class="line">   %cl.resetGhosting();</div><div class="line">   %cl.clearPaths();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Inform the clients</span></div><div class="line"><span class="keywordflow">for</span> (%clientIndex = 0; %clientIndex &lt; <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#ab2ee7e706bb3ebc102ab5b83ab23d938">getCount</a>(); %clientIndex++)</div><div class="line">{</div><div class="line">   <span class="comment">// clear ghosts and paths from all clients</span></div><div class="line">   %cl = <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a7636b4fe876ded76985f26d952b5f5d6">getObject</a>(%clientIndex);</div><div class="line">   %cl.endMission();</div><div class="line">   %cl.resetGhosting();</div><div class="line">   %cl.clearPaths();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_net_connection.html#a254626ba67b3feb6ec008a89ddf976ee" title="Sent by the server during phase 2 of the mission download to update motion spline paths...">transmitPaths()</a> </dd>
 <dd>
 <a class="el" href="class_path.html" title="A spline along which various objects can move along. The spline object acts like a container for Mark...">Path</a> </dd></dl>
@@ -713,7 +725,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>On the server, resets the connection to indicate that motion spline paths have not been transmitted. </p>
 <p>Typically when a mission has ended on the server, all connected clients are informed of this change and their connections are reset back to a starting state. This method resets a connection on the server to indicate that motion spline paths have not been transmitted.</p>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Inform the clients</span></div><div class="line"><span class="keywordflow">for</span> (%clientIndex = 0; %clientIndex &lt; <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a36cc53f72fceb09647400f25d37d6f8b">getCount</a>(); %clientIndex++)</div><div class="line">{</div><div class="line">   <span class="comment">// clear ghosts and paths from all clients</span></div><div class="line">   %cl = <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a7fccdccdcf61fed84cdda98da7d49408">getObject</a>(%clientIndex);</div><div class="line">   %cl.endMission();</div><div class="line">   %cl.resetGhosting();</div><div class="line">   %cl.clearPaths();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Inform the clients</span></div><div class="line"><span class="keywordflow">for</span> (%clientIndex = 0; %clientIndex &lt; <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#ab2ee7e706bb3ebc102ab5b83ab23d938">getCount</a>(); %clientIndex++)</div><div class="line">{</div><div class="line">   <span class="comment">// clear ghosts and paths from all clients</span></div><div class="line">   %cl = <a class="code" href="class_client_group.html">ClientGroup</a>.<a class="code" href="class_sim_set.html#a7636b4fe876ded76985f26d952b5f5d6">getObject</a>(%clientIndex);</div><div class="line">   %cl.endMission();</div><div class="line">   %cl.resetGhosting();</div><div class="line">   %cl.clearPaths();</div><div class="line">}</div></div><!-- fragment --> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_net_connection.html#a254626ba67b3feb6ec008a89ddf976ee" title="Sent by the server during phase 2 of the mission download to update motion spline paths...">transmitPaths()</a> </dd>
 <dd>
 <a class="el" href="class_path.html" title="A spline along which various objects can move along. The spline object acts like a container for Mark...">Path</a> </dd></dl>
@@ -778,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab157138884d875ecca0742927b74d851"></a>
+<a class="anchor" id="af8015a8385e6c50bda87cd29f7f9f0b1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -786,7 +798,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string NetConnection::connectLocal </td>
+          <td class="memname">virtual const char* NetConnection::connectLocal </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -825,7 +837,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a950f68edb8ebfbf743d64cfa18739e1d"></a>
+<a class="anchor" id="afbdcab9a65fca5c9120708280b19cb84"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -833,7 +845,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string NetConnection::getAddress </td>
+          <td class="memname">virtual const char* NetConnection::getAddress </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -854,7 +866,7 @@ Additional Inherited Members</h2></td></tr>
 <li><b>local</b> when connected locally (server and client running in same process </li>
 </ul>
 
-<p>Reimplemented in <a class="el" href="class_a_i_connection.html#a61094c4d7d1e8022baf1d6a85dc5554f">AIConnection</a>.</p>
+<p>Reimplemented in <a class="el" href="class_a_i_connection.html#ae42d3e9b1020fc2d8397206f3f1377fd">AIConnection</a>.</p>
 
 </div>
 </div>
@@ -880,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae753e238bd15a77913ca332ab123a4a3"></a>
+<a class="anchor" id="a5768fee088392098905ee7dc176f9bf9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -888,7 +900,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::getGhostID </td>
+          <td class="memname">virtual S32 NetConnection::getGhostID </td>
           <td>(</td>
           <td class="paramtype">(int realID)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -940,7 +952,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7d7d29ae8e12bd164da4257004f8f082"></a>
+<a class="anchor" id="a4de3bc9d6407b6c5f9c2e97db7f387d7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -948,7 +960,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::getGhostsActive </td>
+          <td class="memname">virtual S32 NetConnection::getGhostsActive </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -987,7 +999,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa70966e23287aeebfa585728dbb6159c"></a>
+<a class="anchor" id="a29c5f4354828d3021d832e5cf6290788"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -995,7 +1007,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::getPacketLoss </td>
+          <td class="memname">virtual S32 NetConnection::getPacketLoss </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1032,7 +1044,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7af2057177d3c51421d773c0600f2530"></a>
+<a class="anchor" id="ab9ecb1aadc8378f3af69a5bcc3b65e3d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1040,7 +1052,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::getPing </td>
+          <td class="memname">virtual S32 NetConnection::getPing </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1077,7 +1089,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca3fd8fb3ff81e1c9ea02e1f429770ee"></a>
+<a class="anchor" id="a8453b19ba35c431f992f064132c9ef4f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1085,7 +1097,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::resolveGhostID </td>
+          <td class="memname">virtual S32 NetConnection::resolveGhostID </td>
           <td>(</td>
           <td class="paramtype">(int ghostID)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1139,7 +1151,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae83998f92a0527abba8d3f5d3c35c4bf"></a>
+<a class="anchor" id="a883bc6ff05682e550d1c42f2df09efcd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1147,7 +1159,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int NetConnection::resolveObjectFromGhostIndex </td>
+          <td class="memname">virtual S32 NetConnection::resolveObjectFromGhostIndex </td>
           <td>(</td>
           <td class="paramtype">(int ghostID)&#160;</td>
           <td class="paramname"></td><td>)</td>

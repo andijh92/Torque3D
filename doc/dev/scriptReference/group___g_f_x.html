@@ -180,40 +180,41 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ga81aab0c9b2675820d5721e6152d939cb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">GFXFormat</a> { <br />
 &#160;&#160;<b>GFXFormatR8G8B8</b>, 
 <b>GFXFormatR8G8B8A8</b>, 
+<b>GFXFormatR8G8B8A8_SRGB</b>, 
 <b>GFXFormatR8G8B8X8</b>, 
-<b>GFXFormatR32F</b>, 
 <br />
-&#160;&#160;<b>GFXFormatR5G6B5</b>, 
+&#160;&#160;<b>GFXFormatR32F</b>, 
+<b>GFXFormatR5G6B5</b>, 
 <b>GFXFormatR5G5B5A1</b>, 
 <b>GFXFormatR5G5B5X1</b>, 
-<b>GFXFormatA4L4</b>, 
 <br />
-&#160;&#160;<b>GFXFormatA8L8</b>, 
+&#160;&#160;<b>GFXFormatA4L4</b>, 
+<b>GFXFormatA8L8</b>, 
 <b>GFXFormatA8</b>, 
 <b>GFXFormatL8</b>, 
-<b>GFXFormatDXT1</b>, 
 <br />
-&#160;&#160;<b>GFXFormatDXT2</b>, 
-<b>GFXFormatDXT3</b>, 
-<b>GFXFormatDXT4</b>, 
-<b>GFXFormatDXT5</b>, 
+&#160;&#160;<b>GFXFormatBC1</b>, 
+<b>GFXFormatBC2</b>, 
+<b>GFXFormatBC3</b>, 
+<b>GFXFormatBC4</b>, 
 <br />
-&#160;&#160;<b>GFXFormatD32</b>, 
+&#160;&#160;<b>GFXFormatBC5</b>, 
+<b>GFXFormatD32</b>, 
 <b>GFXFormatD24X8</b>, 
 <b>GFXFormatD24S8</b>, 
-<b>GFXFormatD24FS8</b>, 
 <br />
-&#160;&#160;<b>GFXFormatD16</b>, 
+&#160;&#160;<b>GFXFormatD24FS8</b>, 
+<b>GFXFormatD16</b>, 
 <b>GFXFormatR32G32B32A32F</b>, 
 <b>GFXFormatR16G16B16A16F</b>, 
-<b>GFXFormatL16</b>, 
 <br />
-&#160;&#160;<b>GFXFormatR16G16B16A16</b>, 
+&#160;&#160;<b>GFXFormatL16</b>, 
+<b>GFXFormatR16G16B16A16</b>, 
 <b>GFXFormatR16G16</b>, 
 <b>GFXFormatR16F</b>, 
-<b>GFXFormatR16G16F</b>, 
 <br />
-&#160;&#160;<b>GFXFormatR10G10B10A2</b>
+&#160;&#160;<b>GFXFormatR16G16F</b>, 
+<b>GFXFormatR10G10B10A2</b>
 <br />
  }<tr class="memdesc:ga81aab0c9b2675820d5721e6152d939cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The texture formats.  <a href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">More...</a><br /></td></tr>
 </td></tr>
@@ -346,8 +347,8 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6ef1b49c65187e6b8ebe6d9c64c2112c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga6ef1b49c65187e6b8ebe6d9c64c2112c">GFXInit::getAdapterCount</a> (())</td></tr>
-<tr class="separator:ga6ef1b49c65187e6b8ebe6d9c64c2112c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa1251eb2d429a07431e6a4efea932c99"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gaa1251eb2d429a07431e6a4efea932c99">GFXInit::getAdapterCount</a> (())</td></tr>
+<tr class="separator:gaa1251eb2d429a07431e6a4efea932c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga65060b1793a5a5603ab877b73ddd5523"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga65060b1793a5a5603ab877b73ddd5523"></a>
 String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga65060b1793a5a5603ab877b73ddd5523">getDisplayDeviceList</a> ()</td></tr>
 <tr class="memdesc:ga65060b1793a5a5603ab877b73ddd5523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a tab-seperated string of the detected devices across all adapters. <br /></td></tr>
@@ -405,9 +406,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gaaa1c68b11914027106afa90fb85ff5e8">getTextureProfileStats</a> ()</td></tr>
 <tr class="memdesc:gaaa1c68b11914027106afa90fb85ff5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of texture profiles in the format: ProfileName TextureCount TextureMB. <br /></td></tr>
 <tr class="separator:gaaa1c68b11914027106afa90fb85ff5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga199b4459b019c9d3b31cc926ea2dbc49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga199b4459b019c9d3b31cc926ea2dbc49">screenShot</a> (string file, string format, int tileCount=1, float tileOverlap=0)</td></tr>
-<tr class="memdesc:ga199b4459b019c9d3b31cc926ea2dbc49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a screenshot with optional tiling to produce huge screenshots.  <a href="#ga199b4459b019c9d3b31cc926ea2dbc49">More...</a><br /></td></tr>
-<tr class="separator:ga199b4459b019c9d3b31cc926ea2dbc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0979168cf6410b800c0b43c75c7eb765"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga0979168cf6410b800c0b43c75c7eb765">screenShot</a> (string file, string format, uint tileCount=1, float tileOverlap=0)</td></tr>
+<tr class="memdesc:ga0979168cf6410b800c0b43c75c7eb765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes a screenshot with optional tiling to produce huge screenshots.  <a href="#ga0979168cf6410b800c0b43c75c7eb765">More...</a><br /></td></tr>
+<tr class="separator:ga0979168cf6410b800c0b43c75c7eb765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0295dfc6c244d36536c9c13c09975eaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0295dfc6c244d36536c9c13c09975eaa"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga0295dfc6c244d36536c9c13c09975eaa">setReflectFormat</a> (<a class="el" href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">GFXFormat</a> format)</td></tr>
 <tr class="memdesc:ga0295dfc6c244d36536c9c13c09975eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the reflection texture format. <br /></td></tr>
@@ -461,8 +462,8 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gr
 Redbook</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpfe00212a4be7442179a88e183a196745"></a>Control functions for Redbook audio (ie, CD audio). </p>
 </td></tr>
-<tr class="memitem:ga9ed5a1d713e1803817774d88fea1202b"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga9ed5a1d713e1803817774d88fea1202b">Global::getDisplayDeviceList</a> (())</td></tr>
-<tr class="separator:ga9ed5a1d713e1803817774d88fea1202b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga983f3583892a978691cc60ea8b6d1d76"><td class="memItemLeft" align="right" valign="top">virtual String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga983f3583892a978691cc60ea8b6d1d76">Global::getDisplayDeviceList</a> (())</td></tr>
+<tr class="separator:ga983f3583892a978691cc60ea8b6d1d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga68becfeae1665685b88692ac62498064"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga68becfeae1665685b88692ac62498064">Global::listGFXResources</a> ((bool unflaggedOnly=false))</td></tr>
 <tr class="separator:ga68becfeae1665685b88692ac62498064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gade3c7215393bb50355189f3974165c00"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gade3c7215393bb50355189f3974165c00">Global::flagCurrentGFXResources</a> (())</td></tr>
@@ -475,17 +476,17 @@ Redbook</h2></td></tr>
 <tr class="separator:ga26797783e81ac80a7e9904a84527d48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3f01d6f39757d8c3e74e66705a0d2868"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga3f01d6f39757d8c3e74e66705a0d2868">Global::describeGFXStateBlocks</a> ((string <a class="el" href="group___file_system.html#ga2d5c4d2e8a9369daccc90b435aa419d5">filePath</a>))</td></tr>
 <tr class="separator:ga3f01d6f39757d8c3e74e66705a0d2868"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c53a698b547398b9ef1bbe50623b28b"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga6c53a698b547398b9ef1bbe50623b28b">Global::getPixelShaderVersion</a> (())</td></tr>
-<tr class="separator:ga6c53a698b547398b9ef1bbe50623b28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4ab3c522a28501fd955251f0cfabc75"><td class="memItemLeft" align="right" valign="top">virtual F32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gaa4ab3c522a28501fd955251f0cfabc75">Global::getPixelShaderVersion</a> (())</td></tr>
+<tr class="separator:gaa4ab3c522a28501fd955251f0cfabc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab83f686434df00fad961d0d705e4fc43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gab83f686434df00fad961d0d705e4fc43">Global::setPixelShaderVersion</a> ((float version))</td></tr>
 <tr class="memdesc:gab83f686434df00fad961d0d705e4fc43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the pixel shader version for the active device. This can be used to force a lower pixel shader version than is supported by the device for testing or performance optimization.  <a href="group___g_f_x.html#gab83f686434df00fad961d0d705e4fc43">More...</a><br /></td></tr>
 <tr class="separator:gab83f686434df00fad961d0d705e4fc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga68d8665d3e0bfe860391798f745e0a65"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga68d8665d3e0bfe860391798f745e0a65">Global::getDisplayDeviceInformation</a> (())</td></tr>
-<tr class="separator:ga68d8665d3e0bfe860391798f745e0a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58860cfe27fcb5a0839f0a6d632da869"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga58860cfe27fcb5a0839f0a6d632da869">Global::getBestHDRFormat</a> (())</td></tr>
-<tr class="separator:ga58860cfe27fcb5a0839f0a6d632da869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga492229d7ee79335a2fe7363da3bffb98"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga492229d7ee79335a2fe7363da3bffb98">Global::getDesktopResolution</a> (())</td></tr>
-<tr class="separator:ga492229d7ee79335a2fe7363da3bffb98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95cb1bd423f688ff6ba94295d9033ab2"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga95cb1bd423f688ff6ba94295d9033ab2">Global::getDisplayDeviceInformation</a> (())</td></tr>
+<tr class="separator:ga95cb1bd423f688ff6ba94295d9033ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga896aaabf26bee9a47c793dcc56a50a14"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">GFXFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga896aaabf26bee9a47c793dcc56a50a14">Global::getBestHDRFormat</a> (())</td></tr>
+<tr class="separator:ga896aaabf26bee9a47c793dcc56a50a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9cd24f22137e785ff481723f01e49bfb"><td class="memItemLeft" align="right" valign="top">virtual Point3F&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga9cd24f22137e785ff481723f01e49bfb">Global::getDesktopResolution</a> (())</td></tr>
+<tr class="separator:ga9cd24f22137e785ff481723f01e49bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac4ce54a738f998dc1e3b7adc392cdebb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gac4ce54a738f998dc1e3b7adc392cdebb">Global::flushTextureCache</a> (())</td></tr>
 <tr class="separator:gac4ce54a738f998dc1e3b7adc392cdebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8f55a6a4ed639d51c9cf9d104ed34c63"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga8f55a6a4ed639d51c9cf9d104ed34c63">Global::cleanupTexturePool</a> (())</td></tr>
@@ -494,10 +495,10 @@ Redbook</h2></td></tr>
 <tr class="separator:ga769bd54765e44038da4673b61899984d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2f7eb6b73f0b1fee879d4251b5a1aefd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga2f7eb6b73f0b1fee879d4251b5a1aefd">Global::dumpTextureObjects</a> (())</td></tr>
 <tr class="separator:ga2f7eb6b73f0b1fee879d4251b5a1aefd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2c22a28796addbd1bed9d0d5bcc0353f"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga2c22a28796addbd1bed9d0d5bcc0353f">Global::getTextureProfileStats</a> (())</td></tr>
-<tr class="separator:ga2c22a28796addbd1bed9d0d5bcc0353f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae68a1f33ca2cc12a1cc24507aa6a6f41"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gae68a1f33ca2cc12a1cc24507aa6a6f41">Global::screenShot</a> ((string file, string format, int tileCount=1, float tileOverlap=0))</td></tr>
-<tr class="separator:gae68a1f33ca2cc12a1cc24507aa6a6f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88b180b031c6c5762a0f34ba66b06bc6"><td class="memItemLeft" align="right" valign="top">virtual String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga88b180b031c6c5762a0f34ba66b06bc6">Global::getTextureProfileStats</a> (())</td></tr>
+<tr class="separator:ga88b180b031c6c5762a0f34ba66b06bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga111e5d4c81c1ab3e642ef55abf85f64b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#ga111e5d4c81c1ab3e642ef55abf85f64b">Global::screenShot</a> ((string file, string format, uint tileCount=1, float tileOverlap=0))</td></tr>
+<tr class="separator:ga111e5d4c81c1ab3e642ef55abf85f64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf8caa5d2a9250c467c3632ac36635dc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_f_x.html#gaf8caa5d2a9250c467c3632ac36635dc4">Global::setReflectFormat</a> ((<a class="el" href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">GFXFormat</a> format))</td></tr>
 <tr class="separator:gaf8caa5d2a9250c467c3632ac36635dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -1055,7 +1056,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga6ef1b49c65187e6b8ebe6d9c64c2112c"></a>
+<a class="anchor" id="gaa1251eb2d429a07431e6a4efea932c99"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1063,7 +1064,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int GFXInit::getAdapterCount </td>
+          <td class="memname">virtual S32 GFXInit::getAdapterCount </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1080,7 +1081,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga58860cfe27fcb5a0839f0a6d632da869"></a>
+<a class="anchor" id="ga896aaabf26bee9a47c793dcc56a50a14"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1088,7 +1089,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getBestHDRFormat </td>
+          <td class="memname">virtual <a class="el" href="group___g_f_x.html#ga81aab0c9b2675820d5721e6152d939cb">GFXFormat</a> Global::getBestHDRFormat </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1105,7 +1106,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga492229d7ee79335a2fe7363da3bffb98"></a>
+<a class="anchor" id="ga9cd24f22137e785ff481723f01e49bfb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1113,7 +1114,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getDesktopResolution </td>
+          <td class="memname">virtual Point3F Global::getDesktopResolution </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1130,7 +1131,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga68d8665d3e0bfe860391798f745e0a65"></a>
+<a class="anchor" id="ga95cb1bd423f688ff6ba94295d9033ab2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1138,7 +1139,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getDisplayDeviceInformation </td>
+          <td class="memname">virtual const char* Global::getDisplayDeviceInformation </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1155,7 +1156,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga9ed5a1d713e1803817774d88fea1202b"></a>
+<a class="anchor" id="ga983f3583892a978691cc60ea8b6d1d76"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1163,7 +1164,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getDisplayDeviceList </td>
+          <td class="memname">virtual String Global::getDisplayDeviceList </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1180,7 +1181,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga6c53a698b547398b9ef1bbe50623b28b"></a>
+<a class="anchor" id="gaa4ab3c522a28501fd955251f0cfabc75"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1188,7 +1189,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual float Global::getPixelShaderVersion </td>
+          <td class="memname">virtual F32 Global::getPixelShaderVersion </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1205,7 +1206,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga2c22a28796addbd1bed9d0d5bcc0353f"></a>
+<a class="anchor" id="ga88b180b031c6c5762a0f34ba66b06bc6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1213,7 +1214,7 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getTextureProfileStats </td>
+          <td class="memname">virtual String Global::getTextureProfileStats </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1300,7 +1301,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gae68a1f33ca2cc12a1cc24507aa6a6f41"></a>
+<a class="anchor" id="ga111e5d4c81c1ab3e642ef55abf85f64b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1310,7 +1311,7 @@ Containers</h2></td></tr>
         <tr>
           <td class="memname">virtual void Global::screenShot </td>
           <td>(</td>
-          <td class="paramtype">(string file, string format, int tileCount=1, float tileOverlap=0)&#160;</td>
+          <td class="paramtype">(string file, string format, uint tileCount=1, float tileOverlap=0)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1333,7 +1334,7 @@ Containers</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga199b4459b019c9d3b31cc926ea2dbc49"></a>
+<a class="anchor" id="ga0979168cf6410b800c0b43c75c7eb765"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1352,7 +1353,7 @@ Containers</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>tileCount</em> = <code>1</code>, </td>
         </tr>
         <tr>

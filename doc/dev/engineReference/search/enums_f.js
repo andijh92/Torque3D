@@ -10,6 +10,7 @@ var searchData=
   ['side',['Side',['../class_portal.html#adcbb1271dd6ad450a405392ab90d71cc',1,'Portal']]],
   ['simtype',['SimType',['../class_physics_shape_data.html#af3edd7df15ccd747f83c69ff03022e9a',1,'PhysicsShapeData']]],
   ['size',['Size',['../class_cover_point.html#ae2c2622fa6e256c75917d8e0ee989684',1,'CoverPoint']]],
+  ['soundcomponentmasks',['SoundComponentMasks',['../class_sound_component.html#a43ef0e7a3c135112b1e2a94e69d7df86',1,'SoundComponent']]],
   ['sounds',['Sounds',['../struct_player_data.html#a00fefa65bfa356c1a644854c2349dadd',1,'PlayerData']]],
   ['spinstate',['SpinState',['../struct_shape_base_image_data_1_1_state_data.html#ac094049fd8e4fa6f7700024919292751',1,'ShapeBaseImageData::StateData']]],
   ['stackingtype',['StackingType',['../class_gui_stack_control.html#aaac3996bbd666dc053cc79db0a45f36a',1,'GuiStackControl']]],

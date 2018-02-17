@@ -46,6 +46,6 @@
 <area shape="rect" id="node45" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; GuiControl \&gt;" alt="" coords="1832,984,2009,1011"/>
 <area shape="rect" id="node46" href="$class_vector.html" title="Vector\&lt; GuiGradientCtrl\l::ColorRange \&gt;" alt="" coords="2465,233,2627,274"/>
 <area shape="rect" id="node47" href="$struct_gui_gradient_ctrl_1_1_color_range.html" title="GuiGradientCtrl::ColorRange" alt="" coords="2116,240,2303,267"/>
-<area shape="rect" id="node48" href="$class_color_f.html" title="ColorF" alt="" coords="1156,158,1216,184"/>
+<area shape="rect" id="node48" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1139,158,1233,184"/>
 <area shape="rect" id="node49" href="$class_gui_gradient_swatch_ctrl.html" title="GuiGradientSwatchCtrl" alt="" coords="1843,247,1998,274"/>
 </map>

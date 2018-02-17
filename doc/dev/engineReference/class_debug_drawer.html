@@ -202,6 +202,21 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>getConsoleMet
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a11f85a77b6df09d56738301cc2ce35ef">destroySelf</a> ()</td></tr>
 <tr class="memdesc:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">object destroy self call (from <a class="el" href="class_strong_ref_ptr.html">StrongRefPtr</a>). Override if this class has specially allocated memory. <br /></td></tr>
 <tr class="separator:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fb370d735a815b86ede89b26b9894dc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SimObject</b> (const <a class="el" href="class_sim_object.html">SimObject</a> &amp;, bool=false)</td></tr>
+<tr class="separator:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39f2148694db7188e81d30cadac48302"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isTempClone</b> () const </td></tr>
+<tr class="separator:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92951c59302db8d68e6d2fc4ae47f16d"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>allowSubstitutions</b> () const </td></tr>
+<tr class="separator:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e2a081ded6c27a56221d81b35cfde03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assignDynamicFieldsFrom</b> (<a class="el" href="class_sim_object.html">SimObject</a> *, const char *filter, bool no_replace=false)</td></tr>
+<tr class="separator:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c509b296a4255f74c0f480427757ed8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reloadReset</b> ()</td></tr>
+<tr class="separator:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11dfabd41966e989653dba3aeeccc470 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a11dfabd41966e989653dba3aeeccc470">writeField</a> (StringTableEntry fieldname, const char *value)</td></tr>
 <tr class="separator:a11dfabd41966e989653dba3aeeccc470 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bff189dfe9dbd1d66c616dcbffaaebf inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2bff189dfe9dbd1d66c616dcbffaaebf">write</a> (<a class="el" href="class_stream.html">Stream</a> &amp;stream, U32 tabStop, U32 flags=0)</td></tr>
@@ -732,40 +747,40 @@ static const char *&#160;</td><td class="memItemRight" valign="bottom"><b>__getO
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 ddrawmeth Debug Draw Methods</h2></td></tr>
-<tr class="memitem:a1a8b50440371244b08fc2c8c0c32f663"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: U32 { <b>DD_INFINITE</b> = U32_MAX
+<tr class="memitem:a5e8c3bbda4981682afe564d2b448e763"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: U32 { <b>DD_INFINITE</b> = U32_MAX
  }</td></tr>
-<tr class="separator:a1a8b50440371244b08fc2c8c0c32f663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa056b2cb90dd1aeca42270d3ae84fc0f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa056b2cb90dd1aeca42270d3ae84fc0f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawBoxOutline</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:aa056b2cb90dd1aeca42270d3ae84fc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1113c7009f79a4d7560fc189b94e05b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa1113c7009f79a4d7560fc189b94e05b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTransformedBoxOutline</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color, const <a class="el" href="class_matrix_f.html">MatrixF</a> &amp;transform)</td></tr>
-<tr class="separator:aa1113c7009f79a4d7560fc189b94e05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77186a02cbdda3be5feea3d69e139b89"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a77186a02cbdda3be5feea3d69e139b89"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawBox</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:a77186a02cbdda3be5feea3d69e139b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530ca63cdffa08181ab767b4501f7e41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a530ca63cdffa08181ab767b4501f7e41"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLine</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:a530ca63cdffa08181ab767b4501f7e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83460618cba60f82107f2c8a7386814c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a83460618cba60f82107f2c8a7386814c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTri</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;c, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:a83460618cba60f82107f2c8a7386814c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70fb1c8209727454fccd1f06225f405f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a70fb1c8209727454fccd1f06225f405f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawText</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, const <a class="el" href="class_string.html">String</a> &amp;text, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:a70fb1c8209727454fccd1f06225f405f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7c5c14860aff2473bd7e3db999185a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b7c5c14860aff2473bd7e3db999185a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCapsule</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const F32 &amp;radius, const F32 &amp;height, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:a1b7c5c14860aff2473bd7e3db999185a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59788c51d0338dc7d38f3712b95d7cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa59788c51d0338dc7d38f3712b95d7cf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawDirectionLine</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
-<tr class="separator:aa59788c51d0338dc7d38f3712b95d7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa57938292a1eddf96d575189bfa27976"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa57938292a1eddf96d575189bfa27976"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>drawOutlinedText</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, const <a class="el" href="class_string.html">String</a> &amp;text, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.0f, 1.0f, 1.0f), const ColorF &amp;colorOutline=ColorF(0.0f, 0.0f, 0.0f))</td></tr>
-<tr class="separator:aa57938292a1eddf96d575189bfa27976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a6aaad938dbedc3925f764985eb028"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a06a6aaad938dbedc3925f764985eb028"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_drawer.html#a06a6aaad938dbedc3925f764985eb028">drawPolyhedron</a> (const <a class="el" href="m_polyhedron_8h.html#a8f152fa7d30f8047803de365ad562b6f">AnyPolyhedron</a> &amp;polyhedron, const <a class="el" href="class_color_f.html">ColorF</a> &amp;color=<a class="el" href="class_color_f.html">ColorF</a>(1.f, 1.f, 1.f))</td></tr>
-<tr class="memdesc:a06a6aaad938dbedc3925f764985eb028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a wireframe view of the given polyhedron. <br /></td></tr>
-<tr class="separator:a06a6aaad938dbedc3925f764985eb028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a5e8c3bbda4981682afe564d2b448e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28db08c99bfb511bfe3d9289cab8adda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28db08c99bfb511bfe3d9289cab8adda"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawBoxOutline</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:a28db08c99bfb511bfe3d9289cab8adda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adefd0c8c5dd54a07bd85283049a4011e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adefd0c8c5dd54a07bd85283049a4011e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTransformedBoxOutline</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color, const <a class="el" href="class_matrix_f.html">MatrixF</a> &amp;transform)</td></tr>
+<tr class="separator:adefd0c8c5dd54a07bd85283049a4011e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0efa9be16bb2f8ac2ff77e5c558fb51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0efa9be16bb2f8ac2ff77e5c558fb51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawBox</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:aa0efa9be16bb2f8ac2ff77e5c558fb51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb498d964c31c253dd7d329c13e07db"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afbb498d964c31c253dd7d329c13e07db"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawLine</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:afbb498d964c31c253dd7d329c13e07db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810527d6bf078a50432ad94615b73fb7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a810527d6bf078a50432ad94615b73fb7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawTri</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;c, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:a810527d6bf078a50432ad94615b73fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6bd153c4bfc66a7e564f967eef73706"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6bd153c4bfc66a7e564f967eef73706"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawText</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, const <a class="el" href="class_string.html">String</a> &amp;text, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:ad6bd153c4bfc66a7e564f967eef73706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66982a4a850b06dd6c55b10c1b46536f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66982a4a850b06dd6c55b10c1b46536f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawCapsule</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const F32 &amp;radius, const F32 &amp;height, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:a66982a4a850b06dd6c55b10c1b46536f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339ba238cbc4e2e26d690f9ab5d7205c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a339ba238cbc4e2e26d690f9ab5d7205c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawDirectionLine</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;a, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;b, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f))</td></tr>
+<tr class="separator:a339ba238cbc4e2e26d690f9ab5d7205c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66140e73e12654ed215a2c47f326ebf1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66140e73e12654ed215a2c47f326ebf1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>drawOutlinedText</b> (const <a class="el" href="class_point3_f.html">Point3F</a> &amp;pos, const <a class="el" href="class_string.html">String</a> &amp;text, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.0f, 1.0f, 1.0f), const LinearColorF &amp;colorOutline=LinearColorF(0.0f, 0.0f, 0.0f))</td></tr>
+<tr class="separator:a66140e73e12654ed215a2c47f326ebf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07eb6845008fbeea9ff5e432d9e7ac8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07eb6845008fbeea9ff5e432d9e7ac8d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_drawer.html#a07eb6845008fbeea9ff5e432d9e7ac8d">drawPolyhedron</a> (const <a class="el" href="m_polyhedron_8h.html#a8f152fa7d30f8047803de365ad562b6f">AnyPolyhedron</a> &amp;polyhedron, const <a class="el" href="class_linear_color_f.html">LinearColorF</a> &amp;color=<a class="el" href="class_linear_color_f.html">LinearColorF</a>(1.f, 1.f, 1.f))</td></tr>
+<tr class="memdesc:a07eb6845008fbeea9ff5e432d9e7ac8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a wireframe view of the given polyhedron. <br /></td></tr>
+<tr class="separator:a07eb6845008fbeea9ff5e432d9e7ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097cbe2db82919a061c272fe93a3d00f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_debug_drawer.html#a097cbe2db82919a061c272fe93a3d00f">drawPolyhedronDebugInfo</a> (const <a class="el" href="m_polyhedron_8h.html#a8f152fa7d30f8047803de365ad562b6f">AnyPolyhedron</a> &amp;polyhedron, const <a class="el" href="class_matrix_f.html">MatrixF</a> &amp;transform, const <a class="el" href="class_point3_f.html">Point3F</a> &amp;scale)</td></tr>
 <tr class="separator:a097cbe2db82919a061c272fe93a3d00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ef274517a90449e949a4c8780a5134a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2ef274517a90449e949a4c8780a5134a"></a>
@@ -790,6 +805,10 @@ typedef <a class="el" href="class_console_object.html">ConsoleObject</a>&#160;</
 <tr class="memitem:ae9b771c3ebaaf386a396354b6985c8f8 inherit pub_attribs_class_engine_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9b771c3ebaaf386a396354b6985c8f8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_INSTANTIABLE</b></td></tr>
 <tr class="separator:ae9b771c3ebaaf386a396354b6985c8f8 inherit pub_attribs_class_engine_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_sim_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_sim_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_sim_object.html">SimObject</a></td></tr>
+<tr class="memitem:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff9b7b2e562ab7eb6029aa31780d8f5"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>preventNameChanging</b> = false</td></tr>
+<tr class="separator:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
 <tr class="memitem:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_console_object.html#a2011f71e5469720d0c1b5c62337a5149">__smIsDatablock</a> = false</td></tr>
 <tr class="separator:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -872,6 +891,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearWeakReferences</
 <tr class="memitem:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69975a1eed16a4314169600d1d79c05b"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>_setPersistentID</b> (void *object, const char *index, const char *data)</td></tr>
 <tr class="separator:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
+<tr class="memitem:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec04847b418255a38a5a109c4d784839"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>disableFieldSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8037b9498d066dabec703779b675fdbe"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>onlyKeepClearSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_engine_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_engine_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_engine_object.html">EngineObject</a></td></tr>
 <tr class="memitem:aaefd60e1a2e880f3f1a806a63dc208cc inherit pro_static_methods_class_engine_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaefd60e1a2e880f3f1a806a63dc208cc"></a>
 static void *&#160;</td><td class="memItemRight" valign="bottom"><b>_allocateObject</b> (size_t size, <a class="el" href="class_i_engine_object_pool.html">IEngineObjectPool</a> *pool <a class="el" href="group___obj_trickery.html#gae739ad67a308f4785d4e9a2dd94e83b5">TORQUE_TMM_ARGS_DECL</a>)</td></tr>
@@ -890,6 +916,9 @@ StringTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1dfd4ae4b628f69df932347c4b1b078c"></a>
 return&#160;</td><td class="memItemRight" valign="bottom"><b>object</b></td></tr>
 <tr class="separator:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80c4fe12a79df74df466ad6ead9d28d5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_temp_clone</b></td></tr>
+<tr class="separator:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bd6ff7b62999faf3a6b38ca4dc0cd27"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a6bd6ff7b62999faf3a6b38ca4dc0cd27">mCanSaveFieldDictionary</a></td></tr>
 <tr class="memdesc:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether dynamic fields should be saved out in serialization. Defaults to true. <br /></td></tr>
@@ -938,7 +967,7 @@ static SimObjectId&#160;</td><td class="memItemRight" valign="bottom"><a class="
 <p><a class="el" href="class_debug_drawer.html">DebugDrawer</a> is accessible by script under the name <a class="el" href="class_debug_drawer.html">DebugDrawer</a>, and by C++ under the symbol gDebugDraw. There are a variety of methods available for drawing different sorts of output; see the class reference for more information.</p>
 <p><a class="el" href="class_debug_drawer.html">DebugDrawer</a> works solely in worldspace. Primitives are rendered with cull mode of none. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a1a8b50440371244b08fc2c8c0c32f663"></a>
+<a class="anchor" id="a5e8c3bbda4981682afe564d2b448e763"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">

@@ -1,6 +1,6 @@
 <map id="LightBase" name="LightBase">
 <area shape="rect" id="node17" href="$class_point_light.html" title="PointLight" alt="" coords="348,752,428,779"/>
-<area shape="rect" id="node18" href="$class_spot_light.html" title="SpotLight" alt="" coords="452,752,529,779"/>
+<area shape="rect" id="node19" href="$class_spot_light.html" title="SpotLight" alt="" coords="469,752,547,779"/>
 <area shape="rect" id="node2" href="$class_scene_object.html" title="SceneObject" alt="" coords="271,603,369,629"/>
 <area shape="rect" id="node3" href="$class_net_object.html" title="NetObject" alt="" coords="143,528,223,555"/>
 <area shape="rect" id="node4" href="$class_sim_group.html" title="SimGroup" alt="" coords="143,453,223,480"/>
@@ -16,4 +16,6 @@
 <area shape="rect" id="node14" href="$class_process_object.html" title="ProcessObject" alt="" coords="418,528,526,555"/>
 <area shape="rect" id="node15" href="$class_i_scene_light.html" title="ISceneLight" alt="" coords="393,603,484,629"/>
 <area shape="rect" id="node16" href="$class_i_tickable.html" title="ITickable" alt="" coords="509,603,582,629"/>
+<area shape="rect" id="node18" href="$class_point_light_proxy.html" title="PointLightProxy" alt="" coords="323,827,437,853"/>
+<area shape="rect" id="node20" href="$class_spot_light_proxy.html" title="SpotLightProxy" alt="" coords="462,827,573,853"/>
 </map>

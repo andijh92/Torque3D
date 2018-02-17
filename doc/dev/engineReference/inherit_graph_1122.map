@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_thread_safe_deque.html" title="ThreadSafeDeque\&lt; T \&gt;" alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node1" href="$class_system_interface.html" title="SystemInterface\&lt; UpdateSystem\lInterface \&gt;" alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$class_update_system_interface.html" title="UpdateSystemInterface" alt="" coords="268,13,425,39"/>
 </map>

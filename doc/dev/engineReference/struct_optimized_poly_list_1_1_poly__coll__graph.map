@@ -42,8 +42,8 @@
 <area shape="rect" id="node35" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="777,919,976,945"/>
 <area shape="rect" id="node36" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SceneObject \&gt;" alt="" coords="413,976,604,1003"/>
 <area shape="rect" id="node37" href="$class_scene_container.html" title="SceneContainer" alt="" coords="819,1221,934,1248"/>
-<area shape="rect" id="node43" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1913,655,1984,681"/>
-<area shape="rect" id="node44" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="1857,706,2040,747"/>
+<area shape="rect" id="node43" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="1857,655,2040,697"/>
+<area shape="rect" id="node44" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1913,721,1984,748"/>
 <area shape="rect" id="node46" href="$class_point2_i.html" title="Point2I" alt="" coords="1917,855,1980,881"/>
 <area shape="rect" id="node48" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="1895,1084,2002,1111"/>
 <area shape="rect" id="node49" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="801,517,953,544"/>

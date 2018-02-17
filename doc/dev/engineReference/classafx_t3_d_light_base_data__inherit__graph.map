@@ -1,0 +1,12 @@
+<map id="afxT3DLightBaseData" name="afxT3DLightBaseData">
+<area shape="rect" id="node10" href="$classafx_t3_d_point_light_data.html" title="afxT3DPointLightData" alt="" coords="5,603,152,629"/>
+<area shape="rect" id="node11" href="$classafx_t3_d_spot_light_data.html" title="afxT3DSpotLightData" alt="" coords="176,603,320,629"/>
+<area shape="rect" id="node2" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="105,453,220,480"/>
+<area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="110,379,215,405"/>
+<area shape="rect" id="node4" href="$class_sim_object.html" title="SimObject" alt="" coords="121,304,204,331"/>
+<area shape="rect" id="node5" href="$class_console_object.html" title="ConsoleObject" alt="" coords="44,229,151,256"/>
+<area shape="rect" id="node6" href="$class_engine_object.html" title="EngineObject" alt="" coords="47,155,147,181"/>
+<area shape="rect" id="node7" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="43,80,152,107"/>
+<area shape="rect" id="node8" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="45,5,150,32"/>
+<area shape="rect" id="node9" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="175,229,281,256"/>
+</map>

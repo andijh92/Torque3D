@@ -1,5 +1,5 @@
 <map id="GuiGradientCtrl::ColorRange" name="GuiGradientCtrl::ColorRange">
-<area shape="rect" id="node2" href="$class_color_f.html" title="ColorF" alt="" coords="2333,132,2393,159"/>
+<area shape="rect" id="node2" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="2316,132,2411,159"/>
 <area shape="rect" id="node4" href="$class_gui_swatch_button_ctrl.html" title="GuiSwatchButtonCtrl" alt="" coords="2619,197,2761,224"/>
 <area shape="rect" id="node3" href="$class_gui_gradient_swatch_ctrl.html" title="GuiGradientSwatchCtrl" alt="" coords="2843,176,2997,203"/>
 <area shape="rect" id="node5" href="$class_gui_button_base_ctrl.html" title="GuiButtonBaseCtrl" alt="" coords="2298,321,2429,348"/>

@@ -19,15 +19,15 @@
 <area shape="rect" id="node14" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="82,487,138,513"/>
 <area shape="rect" id="node48" href="$class_light_flare_data.html" title="LightFlareData" alt="" coords="477,1749,583,1776"/>
 <area shape="rect" id="node16" href="$class_point3_i.html" title="Point3I" alt="" coords="499,753,561,780"/>
-<area shape="rect" id="node18" href="$class_color_f.html" title="ColorF" alt="" coords="80,1715,140,1741"/>
-<area shape="rect" id="node41" href="$class_light_info.html" title="LightInfo" alt="" coords="495,1323,565,1349"/>
-<area shape="rect" id="node47" href="$struct_light_anim_state.html" title="The light animation state required by LightAnimData. " alt="" coords="475,1537,585,1564"/>
-<area shape="rect" id="node19" href="$class_point3_f.html" title="Point3F" alt="" coords="77,855,143,881"/>
+<area shape="rect" id="node18" href="$class_point3_f.html" title="Point3F" alt="" coords="77,855,143,881"/>
 <area shape="rect" id="node29" href="$class_sphere_f.html" title="SphereF" alt="" coords="671,369,742,396"/>
 <area shape="rect" id="node30" href="$class_box3_f.html" title="Box3F" alt="" coords="677,811,737,837"/>
-<area shape="rect" id="node20" href="$class_matrix_f.html" title="MatrixF" alt="" coords="77,1151,143,1177"/>
+<area shape="rect" id="node41" href="$class_light_info.html" title="LightInfo" alt="" coords="495,1323,565,1349"/>
+<area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="77,1151,143,1177"/>
 <area shape="rect" id="node33" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="652,1084,761,1111"/>
 <area shape="rect" id="node38" href="$struct_light_flare_state.html" title="LightFlareState" alt="" coords="837,1395,948,1421"/>
+<area shape="rect" id="node47" href="$struct_light_anim_state.html" title="The light animation state required by LightAnimData. " alt="" coords="475,1537,585,1564"/>
+<area shape="rect" id="node20" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="63,1715,157,1741"/>
 <area shape="rect" id="node21" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="56,1537,164,1564"/>
 <area shape="rect" id="node22" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="467,599,593,625"/>
 <area shape="rect" id="node23" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="493,649,567,676"/>

@@ -18,27 +18,27 @@
 <area shape="rect" id="node19" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="2296,1103,2423,1129"/>
 <area shape="rect" id="node15" href="$class_code_block.html" title="CodeBlock" alt="" coords="1259,955,1345,981"/>
 <area shape="rect" id="node16" href="$struct_console_function_header.html" title="Extended information about a console function. " alt="" coords="1222,1005,1382,1032"/>
-<area shape="rect" id="node17" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1253,677,1351,704"/>
+<area shape="rect" id="node17" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1253,695,1351,721"/>
 <area shape="rect" id="node26" href="$class_multi_typed_chunker.html" title="MultiTypedChunker" alt="" coords="1576,553,1709,580"/>
-<area shape="rect" id="node18" href="$struct_data_chunker_1_1_data_block.html" title="DataChunker::DataBlock" alt="" coords="846,677,1011,704"/>
+<area shape="rect" id="node18" href="$struct_data_chunker_1_1_data_block.html" title="DataChunker::DataBlock" alt="" coords="846,695,1011,721"/>
 <area shape="rect" id="node20" href="$class_console_base_type.html" title="Information about a console type. " alt="" coords="1915,1116,2042,1143"/>
 <area shape="rect" id="node21" href="$class_vector.html" title="Vector\&lt; Field \&gt;" alt="" coords="1923,1167,2035,1193"/>
 <area shape="rect" id="node22" href="$class_render_inst_type.html" title="RenderInstType" alt="" coords="575,245,687,272"/>
 <area shape="rect" id="node46" href="$class_vector.html" title="Vector\&lt; RenderInstType \&gt;" alt="" coords="841,333,1016,360"/>
 <area shape="rect" id="node23" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="341,120,397,147"/>
-<area shape="rect" id="node30" href="$class_light_manager.html" title="LightManager" alt="" coords="2987,739,3087,765"/>
-<area shape="rect" id="node29" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2673,671,2782,697"/>
+<area shape="rect" id="node30" href="$class_light_manager.html" title="LightManager" alt="" coords="2987,743,3087,769"/>
+<area shape="rect" id="node29" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2673,675,2782,701"/>
 <area shape="rect" id="node38" href="$class_scene_render_state.html" title="SceneRenderState" alt="" coords="2294,740,2425,767"/>
 <area shape="rect" id="node25" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1603,604,1682,631"/>
 <area shape="rect" id="node27" href="$class_hash_table.html" title="HashTable\&lt; RenderInstType\lHash, AddInstSignal \&gt;" alt="" coords="1550,655,1735,697"/>
-<area shape="rect" id="node31" href="$class_signal.html" title="Signal\&lt; void(const\l char *, bool)\&gt;" alt="" coords="2663,754,2791,795"/>
+<area shape="rect" id="node31" href="$class_signal.html" title="Signal\&lt; void(const\l char *, bool)\&gt;" alt="" coords="2663,758,2791,799"/>
 <area shape="rect" id="node32" href="$class_point3_f.html" title="Point3F" alt="" coords="1945,879,2012,905"/>
 <area shape="rect" id="node41" href="$class_scene_camera_state.html" title="SceneCameraState" alt="" coords="2292,791,2427,817"/>
 <area shape="rect" id="node33" href="$class_available_s_l_interfaces.html" title="AvailableSLInterfaces" alt="" coords="2655,1009,2800,1036"/>
 <area shape="rect" id="node34" href="$class_scene_zone_space_manager.html" title="Object that manages zone spaces in a scene. " alt="" coords="2272,576,2447,603"/>
 <area shape="rect" id="node35" href="$class_vector.html" title="Vector\&lt; SceneObject * \&gt;" alt="" coords="1895,547,2063,573"/>
-<area shape="rect" id="node36" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2324,841,2395,868"/>
-<area shape="rect" id="node37" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="2268,893,2451,934"/>
+<area shape="rect" id="node36" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="2268,842,2451,883"/>
+<area shape="rect" id="node37" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2324,908,2395,935"/>
 <area shape="rect" id="node39" href="$class_matrix_f.html" title="MatrixF" alt="" coords="1945,701,2012,728"/>
 <area shape="rect" id="node40" href="$class_point2_i.html" title="Point2I" alt="" coords="2328,385,2391,412"/>
 <area shape="rect" id="node42" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="2306,627,2413,653"/>

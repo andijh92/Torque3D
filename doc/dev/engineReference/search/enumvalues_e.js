@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['padddbsize',['PaddDBSize',['../class_data_chunker.html#a4e7a7560982526271ec8cfb61bf42811a26c20bd412b8c1d0b7dfcb8b908793fe',1,'DataChunker']]],
-  ['passablemask',['PassableMask',['../class_portal.html#a29f57b55f9a630824adbfda332c47eefa0d9eef60d2b79e5faa6fc38e4e610459',1,'Portal']]],
+  ['padddbsize',['PaddDBSize',['../class_data_chunker.html#ade8fb4b614fa1fef8c4fa6e353972896a26c20bd412b8c1d0b7dfcb8b908793fe',1,'DataChunker']]],
+  ['passablemask',['PassableMask',['../class_portal.html#a217ee3df98b6c4ea1b69e1ad4a00bbf8a0d9eef60d2b79e5faa6fc38e4e610459',1,'Portal']]],
   ['pblendcolorrange',['pBlendColorRange',['../class_gui_color_picker_ctrl.html#afaa4ee813970ee1e566ae1ddf718b3a1abf5a6daea19193241e651d3cfcce917a',1,'GuiColorPickerCtrl']]],
   ['pdropperbackground',['pDropperBackground',['../class_gui_color_picker_ctrl.html#afaa4ee813970ee1e566ae1ddf718b3a1a4097bcb0bcf51a1e77459e014763e4b1',1,'GuiColorPickerCtrl']]],
   ['pending',['Pending',['../class_g_f_x_fence.html#a52eb48f7df740a6eb11a851f2e1e7672a053c905a288dc1edd19e5ce02981416b',1,'GFXFence']]],
@@ -13,7 +13,7 @@ var searchData=
   ['phorizcolorbrightnessrange',['pHorizColorBrightnessRange',['../class_gui_color_picker_ctrl.html#afaa4ee813970ee1e566ae1ddf718b3a1a8d03b460367f736c7da19a08549c316b',1,'GuiColorPickerCtrl']]],
   ['phorizcolorrange',['pHorizColorRange',['../class_gui_color_picker_ctrl.html#afaa4ee813970ee1e566ae1ddf718b3a1a43cffa4fb094daf41f0f184df058953f',1,'GuiColorPickerCtrl::pHorizColorRange()'],['../class_gui_gradient_ctrl.html#ac5f1f876be1bf8c2171e810ef6fcbb8fa643751d905aea14cd45e24887c0c5ae1',1,'GuiGradientCtrl::pHorizColorRange()']]],
   ['pitchsizeflag',['PitchSizeFlag',['../struct_d_d_s_file.html#a8eb961b4b9d24df0a945833c2a8c0c82af854bd0eb9d600612bdb2fb8ec541600',1,'DDSFile']]],
-  ['planecount',['PlaneCount',['../struct_frustum_data.html#a3b45d572889f6bfc8b55fa8abab5d4eaa7b69b0d1bd61580661d78e42784e0d62',1,'FrustumData']]],
+  ['planecount',['PlaneCount',['../struct_frustum_data.html#a182cbfa484cc7bb4524008e4f2990c96a7b69b0d1bd61580661d78e42784e0d62',1,'FrustumData']]],
   ['plc_5fcollision',['PLC_Collision',['../scene_container_8h.html#a1d753f0f9f62007982f6f7646899f130a8cad66400deefeef4b083c78f54a684f',1,'sceneContainer.h']]],
   ['plc_5fdecal',['PLC_Decal',['../scene_container_8h.html#a1d753f0f9f62007982f6f7646899f130aeb390e991cc813b9d7a70d917ada30c8',1,'sceneContainer.h']]],
   ['plc_5fexport',['PLC_Export',['../scene_container_8h.html#a1d753f0f9f62007982f6f7646899f130af116b653a2b170c4eacbb69680a79049',1,'sceneContainer.h']]],

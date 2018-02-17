@@ -19,21 +19,21 @@
 <area shape="rect" id="node13" href="$class_g_f_x_resource.html" title="GFXResource" alt="" coords="45,551,148,577"/>
 <area shape="rect" id="node17" href="$class_g_f_x_device.html" title="GFXDevice" alt="" coords="466,759,551,785"/>
 <area shape="rect" id="node14" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="69,376,125,403"/>
-<area shape="rect" id="node39" href="$class_light_manager.html" title="LightManager" alt="" coords="2549,1132,2649,1159"/>
+<area shape="rect" id="node39" href="$class_light_manager.html" title="LightManager" alt="" coords="2549,1139,2649,1165"/>
 <area shape="rect" id="node16" href="$class_point3_i.html" title="Point3I" alt="" coords="477,657,540,684"/>
 <area shape="rect" id="node18" href="$class_point3_f.html" title="Point3F" alt="" coords="63,1089,130,1116"/>
 <area shape="rect" id="node32" href="$class_sphere_f.html" title="SphereF" alt="" coords="655,951,726,977"/>
 <area shape="rect" id="node33" href="$class_box3_f.html" title="Box3F" alt="" coords="847,1285,907,1312"/>
-<area shape="rect" id="node45" href="$class_scene_render_state.html" title="SceneRenderState" alt="" coords="2805,1387,2936,1413"/>
+<area shape="rect" id="node45" href="$class_scene_render_state.html" title="SceneRenderState" alt="" coords="2805,1388,2936,1415"/>
 <area shape="rect" id="node47" href="$class_scene_camera_state.html" title="SceneCameraState" alt="" coords="441,1387,576,1413"/>
 <area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="63,1535,130,1561"/>
-<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2244,1132,2353,1159"/>
+<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2244,1139,2353,1165"/>
 <area shape="rect" id="node20" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="445,375,572,401"/>
 <area shape="rect" id="node21" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="472,425,545,452"/>
 <area shape="rect" id="node25" href="$class_sim_object.html" title="SimObject" alt="" coords="1193,117,1275,144"/>
 <area shape="rect" id="node23" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="423,5,594,32"/>
 <area shape="rect" id="node24" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="459,95,558,121"/>
-<area shape="rect" id="node42" href="$class_render_pass_manager.html" title="RenderPassManager" alt="" coords="2528,651,2671,677"/>
+<area shape="rect" id="node42" href="$class_render_pass_manager.html" title="RenderPassManager" alt="" coords="2528,655,2671,681"/>
 <area shape="rect" id="node27" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="1891,756,2007,783"/>
 <area shape="rect" id="node30" href="$class_scene_tracker.html" title="SceneTracker" alt="" coords="1183,588,1285,615"/>
 <area shape="rect" id="node31" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="779,619,975,645"/>
@@ -42,8 +42,8 @@
 <area shape="rect" id="node35" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="777,720,976,747"/>
 <area shape="rect" id="node36" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SceneObject \&gt;" alt="" coords="413,809,604,836"/>
 <area shape="rect" id="node37" href="$class_scene_container.html" title="SceneContainer" alt="" coords="819,1336,934,1363"/>
-<area shape="rect" id="node43" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1913,1039,1984,1065"/>
-<area shape="rect" id="node44" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="1857,1090,2040,1131"/>
+<area shape="rect" id="node43" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="1857,1039,2040,1081"/>
+<area shape="rect" id="node44" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="1913,1105,1984,1132"/>
 <area shape="rect" id="node46" href="$class_point2_i.html" title="Point2I" alt="" coords="1917,1239,1980,1265"/>
 <area shape="rect" id="node48" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="801,899,953,925"/>
 <area shape="rect" id="node49" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="787,949,966,976"/>

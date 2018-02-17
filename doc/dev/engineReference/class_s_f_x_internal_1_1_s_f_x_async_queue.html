@@ -160,9 +160,9 @@ Collaboration diagram for SFXInternal::SFXAsyncQueue:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8bf0a99cbdf8455b6578377a2adbebf1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_queue.html#a8bf0a99cbdf8455b6578377a2adbebf1aa96efb384c2af0eac3751b5693786f94">DEFAULT_STREAM_QUEUE_LENGTH</a> = 3
+<tr class="memitem:adb10e8e28bf7567e90945ea811125e41"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_queue.html#adb10e8e28bf7567e90945ea811125e41aa96efb384c2af0eac3751b5693786f94">DEFAULT_STREAM_QUEUE_LENGTH</a> = 3
  }</td></tr>
-<tr class="separator:a8bf0a99cbdf8455b6578377a2adbebf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:adb10e8e28bf7567e90945ea811125e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794d9d45a871c60b1286635cad86166b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a794d9d45a871c60b1286635cad86166b"></a>
 typedef <a class="el" href="class_async_packet_queue.html">AsyncPacketQueue</a>&lt; <a class="el" href="class_s_f_x_internal_1_1_s_f_x_stream_packet.html">SFXStreamPacket</a> *, <a class="el" href="class_s_f_x_internal_1_1_s_f_x_voice_time_source.html">SFXVoiceTimeSource</a>, <a class="el" href="class_s_f_x_buffer.html">SFXBuffer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
 <tr class="separator:a794d9d45a871c60b1286635cad86166b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,7 +254,7 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <div class="textblock"><p>An async stream queue that writes sound packets to SFXBuffers in sync to the playback of an <a class="el" href="class_s_f_x_voice.html">SFXVoice</a>.</p>
 <p>Sound packet queues use sample counts as tick counts. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a8bf0a99cbdf8455b6578377a2adbebf1"></a>
+<a class="anchor" id="adb10e8e28bf7567e90945ea811125e41"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -264,7 +264,7 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a8bf0a99cbdf8455b6578377a2adbebf1aa96efb384c2af0eac3751b5693786f94"></a>DEFAULT_STREAM_QUEUE_LENGTH&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="adb10e8e28bf7567e90945ea811125e41aa96efb384c2af0eac3751b5693786f94"></a>DEFAULT_STREAM_QUEUE_LENGTH&#160;</td><td class="fielddoc">
 <p>The number of stream packets that the playback queue for streaming sounds will be sliced into. This should generally be left at three since there is an overhead incurred for each additional segment. Having three segments gives one segment for current immediate playback, one segment as intermediate buffer, and one segment for stream writes. </p>
 </td></tr>
 </table>

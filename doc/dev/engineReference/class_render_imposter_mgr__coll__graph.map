@@ -36,8 +36,8 @@
 <area shape="rect" id="node40" href="$class_scene_camera_state.html" title="SceneCameraState" alt="" coords="2288,685,2423,712"/>
 <area shape="rect" id="node33" href="$class_scene_zone_space_manager.html" title="Object that manages zone spaces in a scene. " alt="" coords="2268,876,2443,903"/>
 <area shape="rect" id="node34" href="$class_vector.html" title="Vector\&lt; SceneObject * \&gt;" alt="" coords="1891,845,2059,872"/>
-<area shape="rect" id="node35" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2320,927,2391,953"/>
-<area shape="rect" id="node36" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="2264,978,2447,1019"/>
+<area shape="rect" id="node35" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="2264,927,2447,969"/>
+<area shape="rect" id="node36" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2320,993,2391,1020"/>
 <area shape="rect" id="node38" href="$class_matrix_f.html" title="MatrixF" alt="" coords="1941,737,2008,764"/>
 <area shape="rect" id="node39" href="$class_point2_i.html" title="Point2I" alt="" coords="2324,460,2387,487"/>
 <area shape="rect" id="node41" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="2302,635,2409,661"/>

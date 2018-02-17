@@ -1,4 +1,5 @@
 <map id="SpotLight" name="SpotLight">
+<area shape="rect" id="node18" href="$class_spot_light_proxy.html" title="SpotLightProxy" alt="" coords="383,827,494,853"/>
 <area shape="rect" id="node2" href="$class_light_base.html" title="LightBase" alt="" coords="399,677,479,704"/>
 <area shape="rect" id="node3" href="$class_scene_object.html" title="SceneObject" alt="" coords="271,603,369,629"/>
 <area shape="rect" id="node4" href="$class_net_object.html" title="NetObject" alt="" coords="143,528,223,555"/>

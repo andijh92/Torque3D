@@ -36,9 +36,9 @@
 <area shape="rect" id="node27" href="$class_g_f_x_device_statistics.html" title="GFXDeviceStatistics" alt="" coords="1004,1351,1144,1377"/>
 <area shape="rect" id="node28" href="$class_g_f_x_cubemap_handle.html" title="A reference counted handle to a cubemap resource. " alt="" coords="1003,1405,1145,1432"/>
 <area shape="rect" id="node29" href="$class_swizzle.html" title="Swizzle\&lt; U8, 3 \&gt;" alt="" coords="1013,1300,1135,1327"/>
-<area shape="rect" id="node30" href="$class_color_f.html" title="ColorF" alt="" coords="1044,748,1104,775"/>
-<area shape="rect" id="node31" href="$class_rect_i.html" title="RectI" alt="" coords="1048,852,1100,879"/>
-<area shape="rect" id="node32" href="$class_point2_i.html" title="Point2I" alt="" coords="594,547,657,573"/>
+<area shape="rect" id="node30" href="$class_rect_i.html" title="RectI" alt="" coords="1048,852,1100,879"/>
+<area shape="rect" id="node31" href="$class_point2_i.html" title="Point2I" alt="" coords="594,547,657,573"/>
+<area shape="rect" id="node32" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1027,748,1121,775"/>
 <area shape="rect" id="node34" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="1020,571,1128,597"/>
 <area shape="rect" id="node36" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="1451,1633,1577,1660"/>
 <area shape="rect" id="node37" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="1477,1361,1551,1388"/>

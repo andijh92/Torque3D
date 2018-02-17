@@ -135,9 +135,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29f67c95aeff4767f970d5990f187277"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29f67c95aeff4767f970d5990f187277"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>allocateBitmap</b> (const U32 in_width, const U32 in_height, const bool in_extrudeMipLevels=false, const GFXFormat in_format=GFXFormatR8G8B8)</td></tr>
 <tr class="separator:a29f67c95aeff4767f970d5990f187277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bd68d05b3e1fe3050e54a5dc8d24bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25bd68d05b3e1fe3050e54a5dc8d24bc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>allocateBitmapWithMips</b> (const U32 in_width, const U32 in_height, const U32 in_numMips, const GFXFormat in_format=GFXFormatR8G8B8)</td></tr>
+<tr class="separator:a25bd68d05b3e1fe3050e54a5dc8d24bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b917550ef3ad877dfdce5195c98cb3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b917550ef3ad877dfdce5195c98cb3b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>extrudeMipLevels</b> (bool clearBorders=false)</td></tr>
 <tr class="separator:a4b917550ef3ad877dfdce5195c98cb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcaeb6fdf0d8e591f82b5775db8992ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcaeb6fdf0d8e591f82b5775db8992ff"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>chopTopMips</b> (U32 mipsToChop)</td></tr>
+<tr class="separator:abcaeb6fdf0d8e591f82b5775db8992ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac8f365f6c1d0c2f824de47e9228002d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac8f365f6c1d0c2f824de47e9228002d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>extrudeMipLevelsDetail</b> ()</td></tr>
 <tr class="separator:aac8f365f6c1d0c2f824de47e9228002d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +194,9 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><b>getByteSize</b> () con
 <tr class="memitem:a9dacd5dc0052cc0082c10e340f2ab3ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9dacd5dc0052cc0082c10e340f2ab3ca"></a>
 U32&#160;</td><td class="memItemRight" valign="bottom"><b>getBytesPerPixel</b> () const </td></tr>
 <tr class="separator:a9dacd5dc0052cc0082c10e340f2ab3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb4c14d4afcbb8006323fc46bac373e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2cb4c14d4afcbb8006323fc46bac373e"></a>
+U32&#160;</td><td class="memItemRight" valign="bottom"><b>getSurfaceSize</b> (const U32 mipLevel) const </td></tr>
+<tr class="separator:a2cb4c14d4afcbb8006323fc46bac373e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2de74ab2838b2c55e3dbb190720553"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_bitmap.html#add2de74ab2838b2c55e3dbb190720553">getHasTransparency</a> () const </td></tr>
 <tr class="separator:add2de74ab2838b2c55e3dbb190720553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c52b0479424783db90eb3d378b830eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c52b0479424783db90eb3d378b830eb"></a>
@@ -195,15 +204,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setHasTransparency</b
 <tr class="separator:a0c52b0479424783db90eb3d378b830eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9460363c40f0159382865847f2cf1d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_bitmap.html#af9460363c40f0159382865847f2cf1d2">checkForTransparency</a> ()</td></tr>
 <tr class="separator:af9460363c40f0159382865847f2cf1d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae81cf2d9b2da2601bc20ec683b1cd7b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae81cf2d9b2da2601bc20ec683b1cd7b8"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sampleTexel</b> (F32 u, F32 v) const </td></tr>
-<tr class="separator:ae81cf2d9b2da2601bc20ec683b1cd7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0362e23e656709916b553d9250b7969a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0362e23e656709916b553d9250b7969a"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sampleTexel</b> (F32 u, F32 v) const </td></tr>
+<tr class="separator:a0362e23e656709916b553d9250b7969a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad652d95e59de3f9007500b84bc1eebcd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad652d95e59de3f9007500b84bc1eebcd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getColor</b> (const U32 x, const U32 y, <a class="el" href="class_color_i.html">ColorI</a> &amp;rColor) const </td></tr>
 <tr class="separator:ad652d95e59de3f9007500b84bc1eebcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff72578b2eed3712d7e70d80a897bb9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ff72578b2eed3712d7e70d80a897bb9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>setColor</b> (const U32 x, const U32 y, const <a class="el" href="class_color_i.html">ColorI</a> &amp;rColor)</td></tr>
 <tr class="separator:a6ff72578b2eed3712d7e70d80a897bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40561a0cdfac5f837680af2df6fca675"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40561a0cdfac5f837680af2df6fca675"></a>
+U8&#160;</td><td class="memItemRight" valign="bottom"><b>getChanelValueAt</b> (U32 x, U32 y, U32 chan)</td></tr>
+<tr class="separator:a40561a0cdfac5f837680af2df6fca675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52f5e6e535e9fc65431faa78dbc32bf0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_g_bitmap.html#a52f5e6e535e9fc65431faa78dbc32bf0">combine</a> (const <a class="el" href="class_g_bitmap.html">GBitmap</a> *bitmapA, const <a class="el" href="class_g_bitmap.html">GBitmap</a> *bitmapB, const GFXTextureOp combineOp)</td></tr>
 <tr class="separator:a52f5e6e535e9fc65431faa78dbc32bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1b5d1a894577a75af05338ae570884f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1b5d1a894577a75af05338ae570884f"></a>

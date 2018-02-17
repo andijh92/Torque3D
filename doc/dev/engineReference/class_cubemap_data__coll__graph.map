@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$class_sim_object.html" title="SimObject" alt="" coords="1005,480,1088,507"/>
 <area shape="rect" id="node8" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1354,304,1453,331"/>
 <area shape="rect" id="node13" href="$union_namespace_1_1_entry_1_1_callback_union.html" title="Namespace::Entry::Callback\lUnion" alt="" coords="1309,597,1497,638"/>
-<area shape="rect" id="node3" href="$class_console_object.html" title="ConsoleObject" alt="" coords="584,407,691,433"/>
+<area shape="rect" id="node3" href="$class_console_object.html" title="ConsoleObject" alt="" coords="584,399,691,425"/>
 <area shape="rect" id="node4" href="$class_engine_object.html" title="EngineObject" alt="" coords="379,353,479,380"/>
 <area shape="rect" id="node24" href="$class_static_engine_object.html" title="StaticEngineObject" alt="" coords="570,325,705,352"/>
 <area shape="rect" id="node5" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,353,269,380"/>

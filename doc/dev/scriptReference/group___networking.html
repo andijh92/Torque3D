@@ -125,12 +125,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga84266f9908ea106ee337e1e4a9d5cc1f"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga84266f9908ea106ee337e1e4a9d5cc1f">Global::detag</a> ((string str))</td></tr>
-<tr class="memdesc:ga84266f9908ea106ee337e1e4a9d5cc1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the string from a tag string.  <a href="group___networking.html#ga84266f9908ea106ee337e1e4a9d5cc1f">More...</a><br /></td></tr>
-<tr class="separator:ga84266f9908ea106ee337e1e4a9d5cc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga91313aea22b0241d807122834735b8b3"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga91313aea22b0241d807122834735b8b3">Global::getTag</a> ((string textTagString))</td></tr>
-<tr class="memdesc:ga91313aea22b0241d807122834735b8b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts the tag from a tagged string.  <a href="group___networking.html#ga91313aea22b0241d807122834735b8b3">More...</a><br /></td></tr>
-<tr class="separator:ga91313aea22b0241d807122834735b8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7b755f58eee37f24d6ee1a8365f6111"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gac7b755f58eee37f24d6ee1a8365f6111">Global::detag</a> ((string str))</td></tr>
+<tr class="memdesc:gac7b755f58eee37f24d6ee1a8365f6111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the string from a tag string.  <a href="group___networking.html#gac7b755f58eee37f24d6ee1a8365f6111">More...</a><br /></td></tr>
+<tr class="separator:gac7b755f58eee37f24d6ee1a8365f6111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac47af42cbf1a991cca838dbfbe455082"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gac47af42cbf1a991cca838dbfbe455082">Global::getTag</a> ((string textTagString))</td></tr>
+<tr class="memdesc:gac47af42cbf1a991cca838dbfbe455082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts the tag from a tagged string.  <a href="group___networking.html#gac47af42cbf1a991cca838dbfbe455082">More...</a><br /></td></tr>
+<tr class="separator:gac47af42cbf1a991cca838dbfbe455082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac14ccfb5b57f047d9b6561adb540af4f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gac14ccfb5b57f047d9b6561adb540af4f">Global::dumpNetStats</a> (())</td></tr>
 <tr class="memdesc:gac14ccfb5b57f047d9b6561adb540af4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps network statistics for each class to the console.  <a href="group___networking.html#gac14ccfb5b57f047d9b6561adb540af4f">More...</a><br /></td></tr>
 <tr class="separator:gac14ccfb5b57f047d9b6561adb540af4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,6 +193,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="grou
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:gaa5b98de580b7ba987087109ef78340e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gaa5b98de580b7ba987087109ef78340e8">$pref::Net::LagThreshold</a></td></tr>
+<tr class="memdesc:gaa5b98de580b7ba987087109ef78340e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long between received packets before the client is considered as lagging (in ms).  <a href="group___networking.html#gaa5b98de580b7ba987087109ef78340e8">More...</a><br /></td></tr>
+<tr class="separator:gaa5b98de580b7ba987087109ef78340e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga839ddda5c2b0f749ffba33dc0bc2078b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga839ddda5c2b0f749ffba33dc0bc2078b">$pref::Net::PacketRateToServer</a></td></tr>
 <tr class="memdesc:ga839ddda5c2b0f749ffba33dc0bc2078b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets how often packets are sent from the client to the server.  <a href="group___networking.html#ga839ddda5c2b0f749ffba33dc0bc2078b">More...</a><br /></td></tr>
 <tr class="separator:ga839ddda5c2b0f749ffba33dc0bc2078b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,9 +215,6 @@ Variables</h2></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga25a72af007c29138f1646c427b780bd5">$Stats::netGhostUpdates</a></td></tr>
 <tr class="memdesc:ga25a72af007c29138f1646c427b780bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of ghosts added, removed, and/or updated on the client during the last packet process operation. <br /></td></tr>
 <tr class="separator:ga25a72af007c29138f1646c427b780bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5b98de580b7ba987087109ef78340e8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gaa5b98de580b7ba987087109ef78340e8">$pref::Net::LagThreshold</a></td></tr>
-<tr class="memdesc:gaa5b98de580b7ba987087109ef78340e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">How long between received packets before the client is considered as lagging (in ms).  <a href="group___networking.html#gaa5b98de580b7ba987087109ef78340e8">More...</a><br /></td></tr>
-<tr class="separator:gaa5b98de580b7ba987087109ef78340e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Platform</h2></td></tr>
@@ -234,24 +234,24 @@ Platform</h2></td></tr>
 Net</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp5012af45088eb8e999bb8350077b12ca"></a>Functions for use with the network; tagged strings and remote commands. </p>
 </td></tr>
-<tr class="memitem:ga8480b8f373b5f2fc92c9b28cae43036a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga8480b8f373b5f2fc92c9b28cae43036a">Global::commandToServer</a> ((string func,...))</td></tr>
-<tr class="memdesc:ga8480b8f373b5f2fc92c9b28cae43036a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a command to the server.  <a href="group___networking.html#ga8480b8f373b5f2fc92c9b28cae43036a">More...</a><br /></td></tr>
-<tr class="separator:ga8480b8f373b5f2fc92c9b28cae43036a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8baed142a9cc1bdb65cdeafeaf0c1f48"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga8baed142a9cc1bdb65cdeafeaf0c1f48">Global::commandToClient</a> ((<a class="el" href="class_net_connection.html">NetConnection</a> client, string func,...))</td></tr>
-<tr class="memdesc:ga8baed142a9cc1bdb65cdeafeaf0c1f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a command from the server to the client.  <a href="group___networking.html#ga8baed142a9cc1bdb65cdeafeaf0c1f48">More...</a><br /></td></tr>
-<tr class="separator:ga8baed142a9cc1bdb65cdeafeaf0c1f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a4cb7d3f89a2f66538c0504b07bae1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga0a4cb7d3f89a2f66538c0504b07bae1d">Global::commandToServer</a> ((string func,...)...)</td></tr>
+<tr class="memdesc:ga0a4cb7d3f89a2f66538c0504b07bae1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a command to the server.  <a href="group___networking.html#ga0a4cb7d3f89a2f66538c0504b07bae1d">More...</a><br /></td></tr>
+<tr class="separator:ga0a4cb7d3f89a2f66538c0504b07bae1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a8904a41e1f8ee839dc7876f5dbe6b0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga5a8904a41e1f8ee839dc7876f5dbe6b0">Global::commandToClient</a> ((<a class="el" href="class_net_connection.html">NetConnection</a> client, string func,...)...)</td></tr>
+<tr class="memdesc:ga5a8904a41e1f8ee839dc7876f5dbe6b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a command from the server to the client.  <a href="group___networking.html#ga5a8904a41e1f8ee839dc7876f5dbe6b0">More...</a><br /></td></tr>
+<tr class="separator:ga5a8904a41e1f8ee839dc7876f5dbe6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga09e97b2701bb160812aa326a003ab097"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga09e97b2701bb160812aa326a003ab097">Global::removeTaggedString</a> ((int tag=-1))</td></tr>
 <tr class="memdesc:ga09e97b2701bb160812aa326a003ab097"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a tagged string from the Net String Table.  <a href="group___networking.html#ga09e97b2701bb160812aa326a003ab097">More...</a><br /></td></tr>
 <tr class="separator:ga09e97b2701bb160812aa326a003ab097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2b6b4edac872324b91c453926f1f9849"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga2b6b4edac872324b91c453926f1f9849">Global::addTaggedString</a> ((string str=&quot;&quot;))</td></tr>
-<tr class="memdesc:ga2b6b4edac872324b91c453926f1f9849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the addTaggedString function to tag a new string and add it to the NetStringTable.  <a href="group___networking.html#ga2b6b4edac872324b91c453926f1f9849">More...</a><br /></td></tr>
-<tr class="separator:ga2b6b4edac872324b91c453926f1f9849"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e31da02da43389ec01a02c2671cb97e"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga7e31da02da43389ec01a02c2671cb97e">Global::getTaggedString</a> ((string tag=&quot;&quot;))</td></tr>
-<tr class="memdesc:ga7e31da02da43389ec01a02c2671cb97e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the getTaggedString function to convert a tag to a string.  <a href="group___networking.html#ga7e31da02da43389ec01a02c2671cb97e">More...</a><br /></td></tr>
-<tr class="separator:ga7e31da02da43389ec01a02c2671cb97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99d2df5b819bcbb1ec8c0fedaae7a364"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga99d2df5b819bcbb1ec8c0fedaae7a364">Global::buildTaggedString</a> ((string format,...))</td></tr>
-<tr class="memdesc:ga99d2df5b819bcbb1ec8c0fedaae7a364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a string using the specified tagged string format.  <a href="group___networking.html#ga99d2df5b819bcbb1ec8c0fedaae7a364">More...</a><br /></td></tr>
-<tr class="separator:ga99d2df5b819bcbb1ec8c0fedaae7a364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf762076eaff14d0668dd9c8263f5d6dc"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gaf762076eaff14d0668dd9c8263f5d6dc">Global::addTaggedString</a> ((string str=&quot;&quot;))</td></tr>
+<tr class="memdesc:gaf762076eaff14d0668dd9c8263f5d6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the addTaggedString function to tag a new string and add it to the NetStringTable.  <a href="group___networking.html#gaf762076eaff14d0668dd9c8263f5d6dc">More...</a><br /></td></tr>
+<tr class="separator:gaf762076eaff14d0668dd9c8263f5d6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga80742946de9ee7fd227ed06d847e1afa"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#ga80742946de9ee7fd227ed06d847e1afa">Global::getTaggedString</a> ((string tag=&quot;&quot;))</td></tr>
+<tr class="memdesc:ga80742946de9ee7fd227ed06d847e1afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the getTaggedString function to convert a tag to a string.  <a href="group___networking.html#ga80742946de9ee7fd227ed06d847e1afa">More...</a><br /></td></tr>
+<tr class="separator:ga80742946de9ee7fd227ed06d847e1afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaffd06190b768dce99679f4a09fd2a736"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___networking.html#gaffd06190b768dce99679f4a09fd2a736">Global::buildTaggedString</a> ((string format,...)...)</td></tr>
+<tr class="memdesc:gaffd06190b768dce99679f4a09fd2a736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a string using the specified tagged string format.  <a href="group___networking.html#gaffd06190b768dce99679f4a09fd2a736">More...</a><br /></td></tr>
+<tr class="separator:gaffd06190b768dce99679f4a09fd2a736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 NetInterface</h2></td></tr>
@@ -268,19 +268,19 @@ Containers</h2></td></tr>
 <tr class="memitem:gabb3fcde73e0ccdd00b79be99e04fdfb0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabb3fcde73e0ccdd00b79be99e04fdfb0">Global::pathOnMissionLoadDone</a> (())</td></tr>
 <tr class="memdesc:gabb3fcde73e0ccdd00b79be99e04fdfb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all <a class="el" href="class_path.html" title="A spline along which various objects can move along. The spline object acts like a container for Mark...">Path</a> information from the mission.  <a href="group___game.html#gabb3fcde73e0ccdd00b79be99e04fdfb0">More...</a><br /></td></tr>
 <tr class="separator:gabb3fcde73e0ccdd00b79be99e04fdfb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7cf3704de80c7cdb82cbc8945d7e63ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#ga7cf3704de80c7cdb82cbc8945d7e63ca">Global::onDataBlockObjectReceived</a> (int index, int total)</td></tr>
-<tr class="memdesc:ga7cf3704de80c7cdb82cbc8945d7e63ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="group___game.html#ga7cf3704de80c7cdb82cbc8945d7e63ca">More...</a><br /></td></tr>
-<tr class="separator:ga7cf3704de80c7cdb82cbc8945d7e63ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6638eff5b16d44b3ca2f97c5db2fa0ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#ga6638eff5b16d44b3ca2f97c5db2fa0ad">Global::onDataBlockObjectReceived</a> (uint index, uint total)</td></tr>
+<tr class="memdesc:ga6638eff5b16d44b3ca2f97c5db2fa0ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="group___game.html#ga6638eff5b16d44b3ca2f97c5db2fa0ad">More...</a><br /></td></tr>
+<tr class="separator:ga6638eff5b16d44b3ca2f97c5db2fa0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Callbacks</h2></td></tr>
-<tr class="memitem:gaa8c2f80c082f141cd59855f4c75f8163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gaa8c2f80c082f141cd59855f4c75f8163">onDataBlockObjectReceived</a> (int index, int total)</td></tr>
-<tr class="memdesc:gaa8c2f80c082f141cd59855f4c75f8163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="#gaa8c2f80c082f141cd59855f4c75f8163">More...</a><br /></td></tr>
-<tr class="separator:gaa8c2f80c082f141cd59855f4c75f8163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7876dffeb09ea231cf33bda9279bbee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gab7876dffeb09ea231cf33bda9279bbee">onDataBlockObjectReceived</a> (uint index, uint total)</td></tr>
+<tr class="memdesc:gab7876dffeb09ea231cf33bda9279bbee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="#gab7876dffeb09ea231cf33bda9279bbee">More...</a><br /></td></tr>
+<tr class="separator:gab7876dffeb09ea231cf33bda9279bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga2b6b4edac872324b91c453926f1f9849"></a>
+<a class="anchor" id="gaf762076eaff14d0668dd9c8263f5d6dc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -288,7 +288,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::addTaggedString </td>
+          <td class="memname">virtual const char* Global::addTaggedString </td>
           <td>(</td>
           <td class="paramtype">(string str=&quot;&quot;)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -404,7 +404,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga99d2df5b819bcbb1ec8c0fedaae7a364"></a>
+<a class="anchor" id="gaffd06190b768dce99679f4a09fd2a736"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -415,7 +415,7 @@ Callbacks</h2></td></tr>
           <td class="memname">virtual string Global::buildTaggedString </td>
           <td>(</td>
           <td class="paramtype">(string format,...)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -514,7 +514,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga8baed142a9cc1bdb65cdeafeaf0c1f48"></a>
+<a class="anchor" id="ga5a8904a41e1f8ee839dc7876f5dbe6b0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -525,7 +525,7 @@ Callbacks</h2></td></tr>
           <td class="memname">virtual void Global::commandToClient </td>
           <td>(</td>
           <td class="paramtype">(<a class="el" href="class_net_connection.html">NetConnection</a> client, string func,...)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -592,7 +592,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga8480b8f373b5f2fc92c9b28cae43036a"></a>
+<a class="anchor" id="ga0a4cb7d3f89a2f66538c0504b07bae1d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -603,7 +603,7 @@ Callbacks</h2></td></tr>
           <td class="memname">virtual void Global::commandToServer </td>
           <td>(</td>
           <td class="paramtype">(string func,...)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -662,7 +662,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga84266f9908ea106ee337e1e4a9d5cc1f"></a>
+<a class="anchor" id="gac7b755f58eee37f24d6ee1a8365f6111"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -670,7 +670,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::detag </td>
+          <td class="memname">virtual const char* Global::detag </td>
           <td>(</td>
           <td class="paramtype">(string str)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -868,7 +868,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga91313aea22b0241d807122834735b8b3"></a>
+<a class="anchor" id="gac47af42cbf1a991cca838dbfbe455082"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -876,7 +876,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getTag </td>
+          <td class="memname">virtual const char* Global::getTag </td>
           <td>(</td>
           <td class="paramtype">(string textTagString)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -934,7 +934,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga7e31da02da43389ec01a02c2671cb97e"></a>
+<a class="anchor" id="ga80742946de9ee7fd227ed06d847e1afa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -942,7 +942,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getTaggedString </td>
+          <td class="memname">virtual const char* Global::getTaggedString </td>
           <td>(</td>
           <td class="paramtype">(string tag=&quot;&quot;)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1030,20 +1030,20 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga7cf3704de80c7cdb82cbc8945d7e63ca"></a>
+<a class="anchor" id="ga6638eff5b16d44b3ca2f97c5db2fa0ad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Global::onDataBlockObjectReceived </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>total</em>&#160;</td>
         </tr>
         <tr>
@@ -1063,24 +1063,24 @@ Callbacks</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a109781c86b8429be1f7f9f5cef6d5089" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a80547846b8d271acea0d324606c14dfd" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="gaa8c2f80c082f141cd59855f4c75f8163"></a>
+<a class="anchor" id="gab7876dffeb09ea231cf33bda9279bbee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void onDataBlockObjectReceived </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>total</em>&#160;</td>
         </tr>
         <tr>
@@ -1100,7 +1100,7 @@ Callbacks</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a109781c86b8429be1f7f9f5cef6d5089" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a80547846b8d271acea0d324606c14dfd" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
 
 </div>
 </div>

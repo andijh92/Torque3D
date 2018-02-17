@@ -115,17 +115,17 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga31af75d9444166847510ae9c88f1fcc8"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga31af75d9444166847510ae9c88f1fcc8">Global::call</a> ((string functionName, string args...))</td></tr>
-<tr class="separator:ga31af75d9444166847510ae9c88f1fcc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadbe370ff8c1003e7c0c83f3486e059c2"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gadbe370ff8c1003e7c0c83f3486e059c2">Global::getDSOPath</a> ((string scriptFileName))</td></tr>
-<tr class="separator:gadbe370ff8c1003e7c0c83f3486e059c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga559e35d7a2d9e0cc950bf34d655cc3ad"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga559e35d7a2d9e0cc950bf34d655cc3ad">Global::call</a> ((string functionName, string args...)...)</td></tr>
+<tr class="separator:ga559e35d7a2d9e0cc950bf34d655cc3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5cbc041c11613735b1e8f47b9b80b47"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gaf5cbc041c11613735b1e8f47b9b80b47">Global::getDSOPath</a> ((string scriptFileName))</td></tr>
+<tr class="separator:gaf5cbc041c11613735b1e8f47b9b80b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga657bb37129ca1f89a459054e87ad1183"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga657bb37129ca1f89a459054e87ad1183">Global::compile</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>, bool overrideNoDSO=false))</td></tr>
 <tr class="separator:ga657bb37129ca1f89a459054e87ad1183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab718b1d367c85439e8f6b0bbf68afc36"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gab718b1d367c85439e8f6b0bbf68afc36">Global::exec</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>, bool noCalls=false, bool journalScript=false))</td></tr>
 <tr class="separator:gab718b1d367c85439e8f6b0bbf68afc36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac4d0f5bbc04b557326c9b31509d0197d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gac4d0f5bbc04b557326c9b31509d0197d">Global::getVariable</a> ((string varName))</td></tr>
-<tr class="memdesc:gac4d0f5bbc04b557326c9b31509d0197d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the named variable or an empty string if not found.  <a href="group___scripting.html#gac4d0f5bbc04b557326c9b31509d0197d">More...</a><br /></td></tr>
-<tr class="separator:gac4d0f5bbc04b557326c9b31509d0197d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf77f420ad9121169e59ae0fa5e49e79d"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gaf77f420ad9121169e59ae0fa5e49e79d">Global::getVariable</a> ((string varName))</td></tr>
+<tr class="memdesc:gaf77f420ad9121169e59ae0fa5e49e79d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the named variable or an empty string if not found.  <a href="group___scripting.html#gaf77f420ad9121169e59ae0fa5e49e79d">More...</a><br /></td></tr>
+<tr class="separator:gaf77f420ad9121169e59ae0fa5e49e79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f0a4c2f12f9d003c52aff87308ddd5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga0f0a4c2f12f9d003c52aff87308ddd5f">Global::setVariable</a> ((string varName, string value))</td></tr>
 <tr class="memdesc:ga0f0a4c2f12f9d003c52aff87308ddd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of the named variable.  <a href="group___scripting.html#ga0f0a4c2f12f9d003c52aff87308ddd5f">More...</a><br /></td></tr>
 <tr class="separator:ga0f0a4c2f12f9d003c52aff87308ddd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,9 +138,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7b9a676ab0a8eb7c8b1f2a4b4410803a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga7b9a676ab0a8eb7c8b1f2a4b4410803a">Global::isDefined</a> ((string varName, string varValue=&quot;&quot;))</td></tr>
 <tr class="memdesc:ga7b9a676ab0a8eb7c8b1f2a4b4410803a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if a variable exists and contains a value.  <a href="group___scripting.html#ga7b9a676ab0a8eb7c8b1f2a4b4410803a">More...</a><br /></td></tr>
 <tr class="separator:ga7b9a676ab0a8eb7c8b1f2a4b4410803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7157a74f02cbb750c12a9840e5246e06"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga7157a74f02cbb750c12a9840e5246e06">Global::execPrefs</a> ((string relativeFileName, bool noCalls=false, bool journalScript=false))</td></tr>
-<tr class="memdesc:ga7157a74f02cbb750c12a9840e5246e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manually execute a special script file that contains game or editor preferences.  <a href="group___scripting.html#ga7157a74f02cbb750c12a9840e5246e06">More...</a><br /></td></tr>
-<tr class="separator:ga7157a74f02cbb750c12a9840e5246e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacdc9566eda463658b2fc1b7264b031b4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#gacdc9566eda463658b2fc1b7264b031b4">Global::execPrefs</a> ((string relativeFileName, bool noCalls=false, bool journalScript=false)...)</td></tr>
+<tr class="memdesc:gacdc9566eda463658b2fc1b7264b031b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manually execute a special script file that contains game or editor preferences.  <a href="group___scripting.html#gacdc9566eda463658b2fc1b7264b031b4">More...</a><br /></td></tr>
+<tr class="separator:gacdc9566eda463658b2fc1b7264b031b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7357f3d71c983084c6eda897639243ac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga7357f3d71c983084c6eda897639243ac">Global::export</a> ((string pattern, string filename=&quot;&quot;, bool append=false))</td></tr>
 <tr class="separator:ga7357f3d71c983084c6eda897639243ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7f3f0ffe42522db92b6a824b05931dc0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___scripting.html#ga7f3f0ffe42522db92b6a824b05931dc0">Global::deleteVariables</a> ((string pattern))</td></tr>
@@ -184,7 +184,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga31af75d9444166847510ae9c88f1fcc8"></a>
+<a class="anchor" id="ga559e35d7a2d9e0cc950bf34d655cc3ad"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -195,7 +195,7 @@ Functions</h2></td></tr>
           <td class="memname">virtual string Global::call </td>
           <td>(</td>
           <td class="paramtype">(string functionName, string args...)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -474,7 +474,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga7157a74f02cbb750c12a9840e5246e06"></a>
+<a class="anchor" id="gacdc9566eda463658b2fc1b7264b031b4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -485,7 +485,7 @@ Functions</h2></td></tr>
           <td class="memname">virtual bool Global::execPrefs </td>
           <td>(</td>
           <td class="paramtype">(string relativeFileName, bool noCalls=false, bool journalScript=false)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -634,7 +634,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gadbe370ff8c1003e7c0c83f3486e059c2"></a>
+<a class="anchor" id="gaf5cbc041c11613735b1e8f47b9b80b47"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -642,7 +642,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getDSOPath </td>
+          <td class="memname">virtual const char* Global::getDSOPath </td>
           <td>(</td>
           <td class="paramtype">(string scriptFileName)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -698,7 +698,7 @@ getPrefsPath </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="gac4d0f5bbc04b557326c9b31509d0197d"></a>
+<a class="anchor" id="gaf77f420ad9121169e59ae0fa5e49e79d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -706,7 +706,7 @@ getPrefsPath </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getVariable </td>
+          <td class="memname">virtual const char* Global::getVariable </td>
           <td>(</td>
           <td class="paramtype">(string varName)&#160;</td>
           <td class="paramname"></td><td>)</td>

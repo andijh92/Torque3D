@@ -1,4 +1,8 @@
 <map id="AssetPtrBase" name="AssetPtrBase">
-<area shape="rect" id="node2" href="$class_asset_ptr.html" title="AssetPtr\&lt; T \&gt;" alt="" coords="5,80,109,107"/>
-<area shape="rect" id="node3" href="$class_asset_ptr.html" title="AssetPtr\&lt; ShapeAsset \&gt;" alt="" coords="133,80,301,107"/>
+<area shape="rect" id="node2" href="$class_asset_ptr.html" title="AssetPtr\&lt; T \&gt;" alt="" coords="206,5,310,32"/>
+<area shape="rect" id="node3" href="$class_asset_ptr.html" title="AssetPtr\&lt; ComponentAsset \&gt;" alt="" coords="159,56,357,83"/>
+<area shape="rect" id="node4" href="$class_asset_ptr.html" title="AssetPtr\&lt; GameObjectAsset \&gt;" alt="" coords="156,107,360,133"/>
+<area shape="rect" id="node5" href="$class_asset_ptr.html" title="AssetPtr\&lt; MaterialAsset \&gt;" alt="" coords="169,157,347,184"/>
+<area shape="rect" id="node6" href="$class_asset_ptr.html" title="AssetPtr\&lt; ShapeAnimation\lAsset \&gt;" alt="" coords="168,209,348,250"/>
+<area shape="rect" id="node7" href="$class_asset_ptr.html" title="AssetPtr\&lt; ShapeAsset \&gt;" alt="" coords="174,275,342,301"/>
 </map>

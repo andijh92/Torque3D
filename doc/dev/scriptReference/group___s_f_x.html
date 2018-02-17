@@ -99,14 +99,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_track.html">SFXTrack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for sound data that can be played back by the sound system.  <a href="class_s_f_x_track.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_profile.html">SFXProfile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encapsulates a single sound file for playback by the sound system.  <a href="class_s_f_x_profile.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_source.html">SFXSource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Playback controller for a sound source.  <a href="class_s_f_x_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_controller.html">SFXController</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sound source that drives multi-source playback.  <a href="class_s_f_x_controller.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_profile.html">SFXProfile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encapsulates a single sound file for playback by the sound system.  <a href="class_s_f_x_profile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_state.html">SFXState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A boolean switch used to modify playlist behavior.  <a href="class_s_f_x_state.html#details">More...</a><br /></td></tr>
@@ -215,38 +215,38 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaca2a6d89d5a8fcacf23c9396d959f56f"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaca2a6d89d5a8fcacf23c9396d959f56f">Global::sfxGetActiveStates</a> (())</td></tr>
-<tr class="separator:gaca2a6d89d5a8fcacf23c9396d959f56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb2c56ba394b28609da59a3fb6102d54"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaeb2c56ba394b28609da59a3fb6102d54">Global::sfxGetAvailableDevices</a> (())</td></tr>
-<tr class="separator:gaeb2c56ba394b28609da59a3fb6102d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadcc50ae7ede230ff921c27ba34e54392"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gadcc50ae7ede230ff921c27ba34e54392">Global::sfxGetActiveStates</a> (())</td></tr>
+<tr class="separator:gadcc50ae7ede230ff921c27ba34e54392"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac698ca3935e8d5797bd0206db2061201"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gac698ca3935e8d5797bd0206db2061201">Global::sfxGetAvailableDevices</a> (())</td></tr>
+<tr class="separator:gac698ca3935e8d5797bd0206db2061201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1927b7799decae02c5958b54cc717b93"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga1927b7799decae02c5958b54cc717b93">Global::sfxCreateDevice</a> ((string provider, string device, bool useHardware, int maxBuffers))</td></tr>
 <tr class="separator:ga1927b7799decae02c5958b54cc717b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa7c13e4164f962608bcee80cad2c5683"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaa7c13e4164f962608bcee80cad2c5683">Global::sfxDeleteDevice</a> (())</td></tr>
 <tr class="separator:gaa7c13e4164f962608bcee80cad2c5683"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeff3877f4cb78e1f78aa4d241c93215b"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaeff3877f4cb78e1f78aa4d241c93215b">Global::sfxGetDeviceInfo</a> (())</td></tr>
-<tr class="separator:gaeff3877f4cb78e1f78aa4d241c93215b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae02ee3b6695bb88a8586bdd9edaefea1"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gae02ee3b6695bb88a8586bdd9edaefea1">Global::sfxGetDeviceInfo</a> (())</td></tr>
+<tr class="separator:gae02ee3b6695bb88a8586bdd9edaefea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga07f658edcada16a1dcfb212f51150a34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga07f658edcada16a1dcfb212f51150a34">Global::sfxStop</a> ((<a class="el" href="class_s_f_x_source.html">SFXSource</a> source))</td></tr>
 <tr class="separator:ga07f658edcada16a1dcfb212f51150a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaec7692a035fe29ceed7fd66424abc497"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaec7692a035fe29ceed7fd66424abc497">Global::sfxStopAndDelete</a> ((<a class="el" href="class_s_f_x_source.html">SFXSource</a> source))</td></tr>
 <tr class="separator:gaec7692a035fe29ceed7fd66424abc497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf619cdfef2e76bc953a4b044b9bc8d4f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gaf619cdfef2e76bc953a4b044b9bc8d4f">Global::sfxDeleteWhenStopped</a> ((<a class="el" href="class_s_f_x_source.html">SFXSource</a> source))</td></tr>
 <tr class="separator:gaf619cdfef2e76bc953a4b044b9bc8d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3aebbded7b8bfb9b8f9e1cec1956607"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gab3aebbded7b8bfb9b8f9e1cec1956607">Global::sfxGetDistanceModel</a> (())</td></tr>
-<tr class="separator:gab3aebbded7b8bfb9b8f9e1cec1956607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga076a4ac2834f97dd72f7167600ac3ef4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___s_f_x.html#ga76f98c3664cea2ac1759473802d3f174">SFXDistanceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga076a4ac2834f97dd72f7167600ac3ef4">Global::sfxGetDistanceModel</a> (())</td></tr>
+<tr class="separator:ga076a4ac2834f97dd72f7167600ac3ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4f9d30c88ab7417001aff4df69d2c4e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga4f9d30c88ab7417001aff4df69d2c4e7">Global::sfxSetDistanceModel</a> ((<a class="el" href="group___s_f_x.html#ga76f98c3664cea2ac1759473802d3f174">SFXDistanceModel</a> model))</td></tr>
 <tr class="separator:ga4f9d30c88ab7417001aff4df69d2c4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0399d38843f8505323ff2d91e7c95340"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga0399d38843f8505323ff2d91e7c95340">Global::sfxGetDopplerFactor</a> (())</td></tr>
-<tr class="separator:ga0399d38843f8505323ff2d91e7c95340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga816e7202cd2b44f32f44959490494361"><td class="memItemLeft" align="right" valign="top">virtual F32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga816e7202cd2b44f32f44959490494361">Global::sfxGetDopplerFactor</a> (())</td></tr>
+<tr class="separator:ga816e7202cd2b44f32f44959490494361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37e97ebd859a07f699d20754b7f15468"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga37e97ebd859a07f699d20754b7f15468">Global::sfxSetDopplerFactor</a> ((float value))</td></tr>
 <tr class="separator:ga37e97ebd859a07f699d20754b7f15468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga775ad536bca58df74bf2e5b807cc3731"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga775ad536bca58df74bf2e5b807cc3731">Global::sfxGetRolloffFactor</a> (())</td></tr>
-<tr class="separator:ga775ad536bca58df74bf2e5b807cc3731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85cb3535a34b7cc9b13c9931030ad53a"><td class="memItemLeft" align="right" valign="top">virtual F32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga85cb3535a34b7cc9b13c9931030ad53a">Global::sfxGetRolloffFactor</a> (())</td></tr>
+<tr class="separator:ga85cb3535a34b7cc9b13c9931030ad53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9049710491e345dba2398177df0503cb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga9049710491e345dba2398177df0503cb">Global::sfxSetRolloffFactor</a> ((float value))</td></tr>
 <tr class="separator:ga9049710491e345dba2398177df0503cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad543c2798081189187333b5865f439c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gad543c2798081189187333b5865f439c7">Global::sfxDumpSources</a> ((bool includeGroups=false))</td></tr>
 <tr class="separator:gad543c2798081189187333b5865f439c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad2f94290ee92c80f81cc81eacfe49312"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gad2f94290ee92c80f81cc81eacfe49312">Global::sfxDumpSourcesToString</a> ((bool includeGroups=false))</td></tr>
-<tr class="separator:gad2f94290ee92c80f81cc81eacfe49312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22fbdc5104355037c7557b23b5c63bd4"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga22fbdc5104355037c7557b23b5c63bd4">Global::sfxDumpSourcesToString</a> ((bool includeGroups=false))</td></tr>
+<tr class="separator:ga22fbdc5104355037c7557b23b5c63bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafabd424a9560334f6bea9689db7fc9b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_f_x_source.html">SFXSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gafabd424a9560334f6bea9689db7fc9b8">sfxPlayOnce</a> (<a class="el" href="class_s_f_x_description.html">SFXDescription</a> description, string filename, float x, float y, float z, float fadeInTime=-1)</td></tr>
 <tr class="memdesc:gafabd424a9560334f6bea9689db7fc9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new temporary <a class="el" href="class_s_f_x_profile.html" title="Encapsulates a single sound file for playback by the sound system. ">SFXProfile</a> from the given <em>description</em> and <em>filename</em>, then create a play-once source for it and start playback. Position the source's 3D sound at the given coordinates (only if the description is set up for 3D sound).  <a href="#gafabd424a9560334f6bea9689db7fc9b8">More...</a><br /></td></tr>
 <tr class="separator:gafabd424a9560334f6bea9689db7fc9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,6 +379,18 @@ static ColorI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 static ColorI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga9601f17589dbd1deba1d9596da9d2218">SFXEmitter::renderColorRangeSphere</a></td></tr>
 <tr class="memdesc:ga9601f17589dbd1deba1d9596da9d2218"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color of the range sphere with which to render sound emitters in the editor. <br /></td></tr>
 <tr class="separator:ga9601f17589dbd1deba1d9596da9d2218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9750a1ba9bac218b2ac6f6e16e18659e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga9750a1ba9bac218b2ac6f6e16e18659e">$SFX::numSources</a></td></tr>
+<tr class="memdesc:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of <a class="el" href="class_s_f_x_source.html" title="Playback controller for a sound source. ">SFXSource</a> type objects that are currently instantiated. <br /></td></tr>
+<tr class="separator:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf5cf877a019139a216e37cb7a348102"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadf5cf877a019139a216e37cb7a348102"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gadf5cf877a019139a216e37cb7a348102">$SFX::numSounds</a></td></tr>
+<tr class="memdesc:gadf5cf877a019139a216e37cb7a348102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of <a class="el" href="class_s_f_x_sound.html" title="A sound controller that directly plays a single sound file. ">SFXSound</a> type objects (i.e. actual single-file sounds) that are currently instantiated. <br /></td></tr>
+<tr class="separator:gadf5cf877a019139a216e37cb7a348102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27ecf28493d3ed23b870df5b03367b5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga27ecf28493d3ed23b870df5b03367b5e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga27ecf28493d3ed23b870df5b03367b5e">$SFX::numPlaying</a></td></tr>
+<tr class="memdesc:ga27ecf28493d3ed23b870df5b03367b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of SFXSources that are currently in playing state. <br /></td></tr>
+<tr class="separator:ga27ecf28493d3ed23b870df5b03367b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga372b16350cc182009edb93cd55c95dbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga372b16350cc182009edb93cd55c95dbd">$SFX::numCulled</a></td></tr>
 <tr class="memdesc:ga372b16350cc182009edb93cd55c95dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of SFXSounds that are currently in virtualized playback mode.  <a href="group___s_f_x.html#ga372b16350cc182009edb93cd55c95dbd">More...</a><br /></td></tr>
 <tr class="separator:ga372b16350cc182009edb93cd55c95dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -428,18 +440,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 <tr class="memitem:ga139b2cd82aa6042a4a706aa17cf39ce9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga139b2cd82aa6042a4a706aa17cf39ce9">$SFX::DEVICE_INFO_CAPS</a></td></tr>
 <tr class="memdesc:ga139b2cd82aa6042a4a706aa17cf39ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of device capability flags in device info string.  <a href="group___s_f_x.html#ga139b2cd82aa6042a4a706aa17cf39ce9">More...</a><br /></td></tr>
 <tr class="separator:ga139b2cd82aa6042a4a706aa17cf39ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9750a1ba9bac218b2ac6f6e16e18659e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga9750a1ba9bac218b2ac6f6e16e18659e">$SFX::numSources</a></td></tr>
-<tr class="memdesc:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of <a class="el" href="class_s_f_x_source.html" title="Playback controller for a sound source. ">SFXSource</a> type objects that are currently instantiated. <br /></td></tr>
-<tr class="separator:ga9750a1ba9bac218b2ac6f6e16e18659e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf5cf877a019139a216e37cb7a348102"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadf5cf877a019139a216e37cb7a348102"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#gadf5cf877a019139a216e37cb7a348102">$SFX::numSounds</a></td></tr>
-<tr class="memdesc:gadf5cf877a019139a216e37cb7a348102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of <a class="el" href="class_s_f_x_sound.html" title="A sound controller that directly plays a single sound file. ">SFXSound</a> type objects (i.e. actual single-file sounds) that are currently instantiated. <br /></td></tr>
-<tr class="separator:gadf5cf877a019139a216e37cb7a348102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27ecf28493d3ed23b870df5b03367b5e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga27ecf28493d3ed23b870df5b03367b5e"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_f_x.html#ga27ecf28493d3ed23b870df5b03367b5e">$SFX::numPlaying</a></td></tr>
-<tr class="memdesc:ga27ecf28493d3ed23b870df5b03367b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of SFXSources that are currently in playing state. <br /></td></tr>
-<tr class="separator:ga27ecf28493d3ed23b870df5b03367b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -639,7 +639,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 </div><div class="memdoc">
 
 <p>Behavior when hitting the play stage of a slot that is still playing from a previous cycle. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#af3abfde3c87b33b6b82474c3b71a5b47" title="Behavior when an already playing sound is encountered on this slot from a previous cycle...">SFXPlayList::replay</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#a6a0372cc9027c8a289d5f48c7b1efe40" title="Behavior when an already playing sound is encountered on this slot from a previous cycle...">SFXPlayList::replay</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga2e1d809067310e61975c4802551d4b25acea75f0191aa4343cce638ac58752701"></a>IgnorePlaying&#160;</td><td class="fielddoc">
 <p>Ignore any sources that may already be playing on the slot and just create a new source. </p>
@@ -671,7 +671,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 </div><div class="memdoc">
 
 <p>Reaction behavior when a state is changed incompatibly on a slot that has already started playing. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#a66dc93f207db07eb0295585c9844cd18" title="Behavior when assigned state is deactivated while slot is playing. ">SFXPlayList::stateMode</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#aa00b2e3da4d66060578292ac2427c30d" title="Behavior when assigned state is deactivated while slot is playing. ">SFXPlayList::stateMode</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga48c40fa75af48fede96fc9bb285fd6dca735dc3933bf1bf1e8e361cc780bb57e0"></a>StopWhenDeactivated&#160;</td><td class="fielddoc">
 <p>Stop the sources playing on the slot when a state changes to a setting that is incompatible with the slot's state setting. </p>
@@ -699,9 +699,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 
 <p>Playlist behavior when transitioning in and out of invididual slots. </p>
 <p>Transition behaviors apply when the playback controller starts processing a playlist slot and when it ends processing a slot. Using transition behaviors, playback can be synchronized.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#abe8c4d13d1a000ef59cb8b23f138fb40" title="Behavior when moving into this slot. ">SFXPlayList::transitionIn</a></dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_s_f_x_play_list.html#aa824a54b07e4d770fefa62423fe46e9b" title="Behavior when moving into this slot. ">SFXPlayList::transitionIn</a></dd>
 <dd>
-<a class="el" href="class_s_f_x_play_list.html#a0c25e798ac75ade465752c5a55dae5f9" title="Behavior when moving out of this slot. ">SFXPlayList::transitionOut</a> </dd></dl>
+<a class="el" href="class_s_f_x_play_list.html#ae49fd67aa5c50d613ee1eacfcd89f9e7" title="Behavior when moving out of this slot. ">SFXPlayList::transitionOut</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga39cd074fb04cba742f184fb3924adf7eac7485dcc8d256a6f197ed7802687f252"></a>None&#160;</td><td class="fielddoc">
 <p>Simple point sampled filtering. This is the fastest and lowest quality mode. </p>
@@ -1209,7 +1209,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 
 </div>
 </div>
-<a class="anchor" id="gad2f94290ee92c80f81cc81eacfe49312"></a>
+<a class="anchor" id="ga22fbdc5104355037c7557b23b5c63bd4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1217,7 +1217,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::sfxDumpSourcesToString </td>
+          <td class="memname">virtual const char* Global::sfxDumpSourcesToString </td>
           <td>(</td>
           <td class="paramtype">(bool includeGroups=false)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1271,7 +1271,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 
 </div>
 </div>
-<a class="anchor" id="gaca2a6d89d5a8fcacf23c9396d959f56f"></a>
+<a class="anchor" id="gadcc50ae7ede230ff921c27ba34e54392"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1279,7 +1279,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::sfxGetActiveStates </td>
+          <td class="memname">virtual const char* Global::sfxGetActiveStates </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1318,7 +1318,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
 
 </div>
 </div>
-<a class="anchor" id="gaeb2c56ba394b28609da59a3fb6102d54"></a>
+<a class="anchor" id="gac698ca3935e8d5797bd0206db2061201"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1326,7 +1326,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::sfxGetAvailableDevices </td>
+          <td class="memname">virtual const char* Global::sfxGetAvailableDevices </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1399,7 +1399,7 @@ $SFX::DEVICE_INFO_MAXBUFFERS</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="gaeff3877f4cb78e1f78aa4d241c93215b"></a>
+<a class="anchor" id="gae02ee3b6695bb88a8586bdd9edaefea1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1407,7 +1407,7 @@ $SFX::DEVICE_INFO_MAXBUFFERS</dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::sfxGetDeviceInfo </td>
+          <td class="memname">virtual const char* Global::sfxGetDeviceInfo </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1510,7 +1510,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="gab3aebbded7b8bfb9b8f9e1cec1956607"></a>
+<a class="anchor" id="ga076a4ac2834f97dd72f7167600ac3ef4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1518,7 +1518,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::sfxGetDistanceModel </td>
+          <td class="memname">virtual <a class="el" href="group___s_f_x.html#ga76f98c3664cea2ac1759473802d3f174">SFXDistanceModel</a> Global::sfxGetDistanceModel </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1558,7 +1558,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ga0399d38843f8505323ff2d91e7c95340"></a>
+<a class="anchor" id="ga816e7202cd2b44f32f44959490494361"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1566,7 +1566,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual float Global::sfxGetDopplerFactor </td>
+          <td class="memname">virtual F32 Global::sfxGetDopplerFactor </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1606,7 +1606,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ga775ad536bca58df74bf2e5b807cc3731"></a>
+<a class="anchor" id="ga85cb3535a34b7cc9b13c9931030ad53a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1614,7 +1614,7 @@ $SFX::DEVICE_CAPS_FMODDESIGNER</dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual float Global::sfxGetRolloffFactor </td>
+          <td class="memname">virtual F32 Global::sfxGetRolloffFactor </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>

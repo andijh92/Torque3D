@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevel',['LogLevel',['../group___logging.html#gaca1fd1d8935433e6ba2e3918214e07f9',1,'scriptModules.txt']]]
+  ['itemlighttype',['ItemLightType',['../group__game_objects.html#ga83561f94bade04e6af65a6848f8ebe62',1,'scriptModules.txt']]]
 ];

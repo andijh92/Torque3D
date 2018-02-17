@@ -108,11 +108,11 @@ Collaboration diagram for ColladaAppMaterial:</div>
 <map name="_collada_app_material_coll__map" id="_collada_app_material_coll__map">
 <area shape="rect" id="node2" href="struct_app_material.html" title="AppMaterial" alt="" coords="5,279,96,306"/>
 <area shape="rect" id="node3" href="class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="120,279,176,306"/>
-<area shape="rect" id="node4" href="class_color_f.html" title="ColorF" alt="" coords="302,279,362,306"/>
-<area shape="rect" id="node5" href="class_collada_extension__effect.html" title="Extensions for the &lt;effect&gt; element (and its children) " alt="" coords="457,279,618,306"/>
-<area shape="rect" id="node6" href="class_collada_extension.html" title="ColladaExtension" alt="" coords="304,5,427,32"/>
-<area shape="rect" id="node7" href="struct_animated_element.html" title="AnimatedElement\&lt; bool \&gt;" alt="" coords="451,5,624,32"/>
-<area shape="rect" id="node8" href="struct_animated_element.html" title="AnimatedElement\&lt; double \&gt;" alt="" coords="648,5,835,32"/>
+<area shape="rect" id="node4" href="class_collada_extension__effect.html" title="Extensions for the &lt;effect&gt; element (and its children) " alt="" coords="302,279,463,306"/>
+<area shape="rect" id="node5" href="class_collada_extension.html" title="ColladaExtension" alt="" coords="149,5,272,32"/>
+<area shape="rect" id="node6" href="struct_animated_element.html" title="AnimatedElement\&lt; bool \&gt;" alt="" coords="296,5,469,32"/>
+<area shape="rect" id="node7" href="struct_animated_element.html" title="AnimatedElement\&lt; double \&gt;" alt="" coords="493,5,680,32"/>
+<area shape="rect" id="node8" href="class_linear_color_f.html" title="LinearColorF" alt="" coords="487,279,582,306"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -130,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3a8b9792af8fac56807dd145c0d1d33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3a8b9792af8fac56807dd145c0d1d33"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>resolveFloat</b> (const domCommon_float_or_param_type *value, F32 *dst)</td></tr>
 <tr class="separator:aa3a8b9792af8fac56807dd145c0d1d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac00a3a21f3cfa21d602226328962e56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac00a3a21f3cfa21d602226328962e56"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>resolveColor</b> (const domCommon_color_or_texture_type *value, <a class="el" href="class_color_f.html">ColorF</a> *dst)</td></tr>
-<tr class="separator:aac00a3a21f3cfa21d602226328962e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17fc771bc1a6a932ea51a3a5c707ae8e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a17fc771bc1a6a932ea51a3a5c707ae8e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>resolveColor</b> (const domCommon_color_or_texture_type *value, <a class="el" href="class_linear_color_f.html">LinearColorF</a> *dst)</td></tr>
+<tr class="separator:a17fc771bc1a6a932ea51a3a5c707ae8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3457a194cc3a8e95ffedcb8661ae84dc"><td class="memTemplParams" colspan="2"><a class="anchor" id="a3457a194cc3a8e95ffedcb8661ae84dc"></a>
 template&lt;class T &gt; </td></tr>
 <tr class="memitem:a3457a194cc3a8e95ffedcb8661ae84dc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>resolveTransparency</b> (const T shader, F32 *dst)</td></tr>
@@ -175,12 +175,12 @@ domEffect *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a8a4ef338932e31c6ba97d9464434fc04"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a4ef338932e31c6ba97d9464434fc04"></a>
 <a class="el" href="class_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>specularMap</b></td></tr>
 <tr class="separator:a8a4ef338932e31c6ba97d9464434fc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a803507a9016011efea6c739eb73e0b70"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a803507a9016011efea6c739eb73e0b70"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>diffuseColor</b></td></tr>
-<tr class="separator:a803507a9016011efea6c739eb73e0b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fe862eaf01e60b75255927051f0fd60"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9fe862eaf01e60b75255927051f0fd60"></a>
-<a class="el" href="class_color_f.html">ColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>specularColor</b></td></tr>
-<tr class="separator:a9fe862eaf01e60b75255927051f0fd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b0b884e4f412e39c8ab3fda0708049"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4b0b884e4f412e39c8ab3fda0708049"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>diffuseColor</b></td></tr>
+<tr class="separator:ad4b0b884e4f412e39c8ab3fda0708049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a568fba9e371faa45d21c0f86ef567087"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a568fba9e371faa45d21c0f86ef567087"></a>
+<a class="el" href="class_linear_color_f.html">LinearColorF</a>&#160;</td><td class="memItemRight" valign="bottom"><b>specularColor</b></td></tr>
+<tr class="separator:a568fba9e371faa45d21c0f86ef567087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a053444e6dede10420f6461f6e80930fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a053444e6dede10420f6461f6e80930fd"></a>
 F32&#160;</td><td class="memItemRight" valign="bottom"><b>specularPower</b></td></tr>
 <tr class="separator:a053444e6dede10420f6461f6e80930fd"><td class="memSeparator" colspan="2">&#160;</td></tr>

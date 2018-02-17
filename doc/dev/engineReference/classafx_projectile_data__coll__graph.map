@@ -1,0 +1,51 @@
+<map id="afxProjectileData" name="afxProjectileData">
+<area shape="rect" id="node2" href="$class_projectile_data.html" title="Datablock for projectiles. This class is the base class for all other projectiles. " alt="" coords="2454,951,2557,977"/>
+<area shape="rect" id="node3" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="1378,929,1493,956"/>
+<area shape="rect" id="node18" href="$class_particle_emitter_data.html" title="ParticleEmitterData" alt="" coords="1689,1148,1823,1175"/>
+<area shape="rect" id="node40" href="$class_explosion_data.html" title="ExplosionData" alt="" coords="1979,1109,2085,1136"/>
+<area shape="rect" id="node41" href="$struct_debris_data.html" title="DebrisData" alt="" coords="2263,985,2350,1012"/>
+<area shape="rect" id="node46" href="$class_splash_data.html" title="SplashData" alt="" coords="2262,1319,2351,1345"/>
+<area shape="rect" id="node4" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="673,871,779,897"/>
+<area shape="rect" id="node12" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="1396,1415,1475,1441"/>
+<area shape="rect" id="node13" href="$class_s_f_x_description.html" title="SFXDescription" alt="" coords="1041,1500,1152,1527"/>
+<area shape="rect" id="node21" href="$class_particle_data.html" title="ParticleData" alt="" coords="1050,1184,1143,1211"/>
+<area shape="rect" id="node28" href="$class_decal_data.html" title="DataBlock implementation for decals. " alt="" coords="1055,307,1138,333"/>
+<area shape="rect" id="node35" href="$class_light_description.html" title="LightDescription" alt="" coords="1378,649,1493,676"/>
+<area shape="rect" id="node36" href="$class_light_anim_data.html" title="LightAnimData" alt="" coords="1043,524,1150,551"/>
+<area shape="rect" id="node39" href="$class_light_flare_data.html" title="LightFlareData" alt="" coords="1043,599,1150,625"/>
+<area shape="rect" id="node5" href="$class_sim_object.html" title="SimObject" alt="" coords="308,1715,391,1741"/>
+<area shape="rect" id="node8" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="677,1751,775,1777"/>
+<area shape="rect" id="node6" href="$class_console_object.html" title="ConsoleObject" alt="" coords="11,1664,117,1691"/>
+<area shape="rect" id="node7" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="11,1715,117,1741"/>
+<area shape="rect" id="node9" href="$class_namespace.html" title="Namespace" alt="" coords="19,1848,109,1875"/>
+<area shape="rect" id="node10" href="$class_vector.html" title="Vector\&lt; SimDataBlock\l::SubstitutionStatement * \&gt;" alt="" coords="259,839,439,881"/>
+<area shape="rect" id="node11" href="$class_signal.html" title="Signal\&lt; void(void)\&gt;" alt="" coords="1031,880,1162,907"/>
+<area shape="rect" id="node48" href="$class_s_f_x_profile.html" title="SFXProfile" alt="" coords="1715,1415,1797,1441"/>
+<area shape="rect" id="node14" href="$class_s_f_x_source.html" title="Baseclass for sources and controllers. " alt="" coords="683,1512,769,1539"/>
+<area shape="rect" id="node15" href="$class_ease_f.html" title="EaseF" alt="" coords="319,1633,379,1660"/>
+<area shape="rect" id="node16" href="$class_point3_f.html" title="Point3F" alt="" coords="316,1399,383,1425"/>
+<area shape="rect" id="node17" href="$class_s_f_x_sound_reverb_properties.html" title="SFXSoundReverbProperties" alt="" coords="635,1563,817,1589"/>
+<area shape="rect" id="node19" href="$class_vector.html" title="Vector\&lt; U32 \&gt;" alt="" coords="1382,1111,1489,1137"/>
+<area shape="rect" id="node20" href="$class_vector.html" title="Vector\&lt; ParticleData * \&gt;" alt="" coords="1353,1161,1517,1188"/>
+<area shape="rect" id="node22" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="316,468,383,495"/>
+<area shape="rect" id="node32" href="$class_rect_f.html" title="RectF" alt="" coords="697,451,755,477"/>
+<area shape="rect" id="node23" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="679,1048,773,1075"/>
+<area shape="rect" id="node24" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="672,1244,780,1271"/>
+<area shape="rect" id="node25" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="261,1206,437,1247"/>
+<area shape="rect" id="node26" href="$class_g_f_x_primitive_buffer_handle.html" title="GFXPrimitiveBufferHandle" alt="" coords="641,757,811,784"/>
+<area shape="rect" id="node27" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXPrimitive\lBuffer \&gt;" alt="" coords="258,774,441,815"/>
+<area shape="rect" id="node29" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="665,140,787,167"/>
+<area shape="rect" id="node30" href="$class_vector.html" title="Vector\&lt; MatInstanceHook * \&gt;" alt="" coords="252,5,447,32"/>
+<area shape="rect" id="node31" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="698,591,754,617"/>
+<area shape="rect" id="node33" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; Material \&gt;" alt="" coords="641,241,811,268"/>
+<area shape="rect" id="node34" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; Material \&gt;" alt="" coords="268,56,431,83"/>
+<area shape="rect" id="node37" href="$struct_light_anim_data_1_1_anim_value.html" title="LightAnimData::AnimValue\&lt; 3 \&gt;" alt="" coords="621,400,831,427"/>
+<area shape="rect" id="node38" href="$struct_light_anim_data_1_1_anim_value.html" title="LightAnimData::AnimValue\&lt; 1 \&gt;" alt="" coords="621,501,831,528"/>
+<area shape="rect" id="node42" href="$class_resource.html" title="Resource\&lt; TSShape \&gt;" alt="" coords="1679,827,1833,853"/>
+<area shape="rect" id="node43" href="$class_resource_base.html" title="ResourceBase" alt="" coords="1382,821,1489,848"/>
+<area shape="rect" id="node44" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; ResourceBase\l::Header \&gt;" alt="" coords="1000,814,1193,855"/>
+<area shape="rect" id="node45" href="$class_resource_base_1_1_header.html" title="ResourceBase::Header" alt="" coords="1019,763,1175,789"/>
+<area shape="rect" id="node47" href="$class_audio_profile.html" title="AudioProfile" alt="" coords="1987,1363,2077,1389"/>
+<area shape="rect" id="node49" href="$classafx_effect_defs.html" title="afxEffectDefs" alt="" coords="2257,1680,2356,1707"/>
+<area shape="rect" id="node50" href="$structafx_constraint_def.html" title="afxConstraintDef" alt="" coords="2447,1701,2564,1728"/>
+</map>

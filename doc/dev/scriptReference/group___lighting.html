@@ -160,10 +160,10 @@ Redbook</h2></td></tr>
 <tr class="separator:ga880b86fc95d94c0dce5650ae69701c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4e0ae43509d91ea9a9fd43e6ba1a5aa4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga4e0ae43509d91ea9a9fd43e6ba1a5aa4">Global::lightScene</a> ((string completeCallbackFn=nullAsType&lt; const char * &gt;(), string mode=nullAsType&lt; const char * &gt;()))</td></tr>
 <tr class="separator:ga4e0ae43509d91ea9a9fd43e6ba1a5aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f7c56605333038253a87e3d9e6397b2"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga1f7c56605333038253a87e3d9e6397b2">Global::getLightManagerNames</a> (())</td></tr>
-<tr class="separator:ga1f7c56605333038253a87e3d9e6397b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0ea1ab0994be5b7f0c6535b6441822ab"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga0ea1ab0994be5b7f0c6535b6441822ab">Global::getActiveLightManager</a> (())</td></tr>
-<tr class="separator:ga0ea1ab0994be5b7f0c6535b6441822ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac403b79579336d91791fd111ab097495"><td class="memItemLeft" align="right" valign="top">virtual String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gac403b79579336d91791fd111ab097495">Global::getLightManagerNames</a> (())</td></tr>
+<tr class="separator:gac403b79579336d91791fd111ab097495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1520087c57a7cd01ef536c5f39a0e57d"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga1520087c57a7cd01ef536c5f39a0e57d">Global::getActiveLightManager</a> (())</td></tr>
+<tr class="separator:ga1520087c57a7cd01ef536c5f39a0e57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga044a09bbe2b1b6c1f6ddc1bf2cd9f841"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga044a09bbe2b1b6c1f6ddc1bf2cd9f841"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga044a09bbe2b1b6c1f6ddc1bf2cd9f841">Global::resetLightManager</a> (())</td></tr>
 <tr class="memdesc:ga044a09bbe2b1b6c1f6ddc1bf2cd9f841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates and then activates the currently active light manager.This causes most shaders to be regenerated and is often used when global rendering changes have occured. <br /></td></tr>
@@ -177,13 +177,29 @@ Callbacks</h2></td></tr>
 <tr class="memitem:ga89706e82a5ea0b9d9c4424e8d93b66a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga89706e82a5ea0b9d9c4424e8d93b66a2">onLightManagerDeactivate</a> (string name)</td></tr>
 <tr class="memdesc:ga89706e82a5ea0b9d9c4424e8d93b66a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callback called by the engine when a light manager is deactivated.  <a href="#ga89706e82a5ea0b9d9c4424e8d93b66a2">More...</a><br /></td></tr>
 <tr class="separator:ga89706e82a5ea0b9d9c4424e8d93b66a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa8c2f80c082f141cd59855f4c75f8163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gaa8c2f80c082f141cd59855f4c75f8163">onDataBlockObjectReceived</a> (int index, int total)</td></tr>
-<tr class="memdesc:gaa8c2f80c082f141cd59855f4c75f8163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="#gaa8c2f80c082f141cd59855f4c75f8163">More...</a><br /></td></tr>
-<tr class="separator:gaa8c2f80c082f141cd59855f4c75f8163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7876dffeb09ea231cf33bda9279bbee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gab7876dffeb09ea231cf33bda9279bbee">onDataBlockObjectReceived</a> (uint index, uint total)</td></tr>
+<tr class="memdesc:gab7876dffeb09ea231cf33bda9279bbee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called on the client each time a datablock has been received.  <a href="#gab7876dffeb09ea231cf33bda9279bbee">More...</a><br /></td></tr>
+<tr class="separator:gab7876dffeb09ea231cf33bda9279bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa94c02e64670cc115ac43dc253740fbd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa94c02e64670cc115ac43dc253740fbd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#gaa94c02e64670cc115ac43dc253740fbd">onCastingStart</a> ()</td></tr>
+<tr class="memdesc:gaa94c02e64670cc115ac43dc253740fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callout called on clients by spells when the casting stage begins. <br /></td></tr>
+<tr class="separator:gaa94c02e64670cc115ac43dc253740fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga093e3d218b7ca6d1c3f570a7f1c613b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga093e3d218b7ca6d1c3f570a7f1c613b6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga093e3d218b7ca6d1c3f570a7f1c613b6">onCastingProgressUpdate</a> (float frac)</td></tr>
+<tr class="memdesc:ga093e3d218b7ca6d1c3f570a7f1c613b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callout called periodically on clients by spells to indicate casting progress. <br /></td></tr>
+<tr class="separator:ga093e3d218b7ca6d1c3f570a7f1c613b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga79f813806b28bba62c8d7420e1b7f045"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga79f813806b28bba62c8d7420e1b7f045"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga79f813806b28bba62c8d7420e1b7f045">onCastingEnd</a> ()</td></tr>
+<tr class="memdesc:ga79f813806b28bba62c8d7420e1b7f045"><td class="mdescLeft">&#160;</td><td class="mdescRight">A callout called on clients by spells when the casting stage ends. <br /></td></tr>
+<tr class="separator:ga79f813806b28bba62c8d7420e1b7f045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3881732ea514480b9d04a5734dd85684"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3881732ea514480b9d04a5734dd85684"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___lighting.html#ga3881732ea514480b9d04a5734dd85684">DisplayScreenMessage</a> (<a class="el" href="class_game_connection.html">GameConnection</a> client, string message)</td></tr>
+<tr class="memdesc:ga3881732ea514480b9d04a5734dd85684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called to display a screen message. <br /></td></tr>
+<tr class="separator:ga3881732ea514480b9d04a5734dd85684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga0ea1ab0994be5b7f0c6535b6441822ab"></a>
+<a class="anchor" id="ga1520087c57a7cd01ef536c5f39a0e57d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -191,7 +207,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getActiveLightManager </td>
+          <td class="memname">virtual const char* Global::getActiveLightManager </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -208,7 +224,7 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga1f7c56605333038253a87e3d9e6397b2"></a>
+<a class="anchor" id="gac403b79579336d91791fd111ab097495"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -216,7 +232,7 @@ Callbacks</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string Global::getLightManagerNames </td>
+          <td class="memname">virtual String Global::getLightManagerNames </td>
           <td>(</td>
           <td class="paramtype">()&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -302,20 +318,20 @@ Callbacks</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gaa8c2f80c082f141cd59855f4c75f8163"></a>
+<a class="anchor" id="gab7876dffeb09ea231cf33bda9279bbee"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void onDataBlockObjectReceived </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>total</em>&#160;</td>
         </tr>
         <tr>
@@ -335,7 +351,7 @@ Callbacks</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a109781c86b8429be1f7f9f5cef6d5089" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_game_connection.html" title="The game-specific subclass of NetConnection. ">GameConnection</a>, <a class="el" href="class_game_connection.html#ad35816a570fc3a891286db1eb479f203" title="Sent by the server during phase 1 of the mission download to send the datablocks to the client...">GameConnection::transmitDataBlocks()</a>, <a class="el" href="class_game_connection.html#a80547846b8d271acea0d324606c14dfd" title="Called on the server when all datablocks has been sent to the client. ">GameConnection::onDataBlocksDone()</a> </dd></dl>
 
 </div>
 </div>

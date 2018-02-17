@@ -11,7 +11,7 @@ var searchData=
   ['hasbitmaparray',['hasBitmapArray',['../class_gui_control_profile.html#a4052af4d39cb7739887086294c782b29',1,'GuiControlProfile']]],
   ['hasmount',['hasMount',['../class_forest_wind_emitter.html#a134370e80a3c5e8f9a429b381a9cfc8f',1,'ForestWindEmitter']]],
   ['headingrate',['headingRate',['../class_turret_shape_data.html#a32ddfe5a4f3226959726c45ff7a4a6ce',1,'TurretShapeData']]],
-  ['height',['height',['../class_basic_clouds.html#a7f192803369ed7808f49b75ad170c017',1,'BasicClouds::height()'],['../class_cloud_layer.html#a88dcfc4f4bf4c372f9dfefd80b82d483',1,'CloudLayer::height()'],['../class_splash_data.html#a018195a490570f05e242a3a5c1f820f7',1,'SplashData::height()']]],
+  ['height',['height',['../class_basic_clouds.html#a55867e7755021e5a5bb38d4359b9d5a8',1,'BasicClouds::height()'],['../class_cloud_layer.html#a88dcfc4f4bf4c372f9dfefd80b82d483',1,'CloudLayer::height()'],['../class_splash_data.html#a018195a490570f05e242a3a5c1f820f7',1,'SplashData::height()'],['../classafx_x_m___altitude_conform_data.html#a59814b2dfe12c04ebc6c5dc63ee44f5b',1,'afxXM_AltitudeConformData::height()'],['../classafx_x_m___ground_conform_data.html#ab823cff77d52a00a86e8b4e928e84fb7',1,'afxXM_GroundConformData::height()']]],
   ['hfreference',['HFReference',['../class_s_f_x_environment.html#ad70fe85bc81c8350e9b471092a0a356e',1,'SFXEnvironment']]],
   ['hidden',['hidden',['../class_sim_object.html#a903f2368cb0be5a2ad153468132ad25c',1,'SimObject']]],
   ['hidefoliage',['HideFoliage',['../classfx_foliage_replicator.html#af3c8ecc47d07ab36baa12513126f22ac',1,'fxFoliageReplicator']]],

@@ -62,6 +62,8 @@ var searchData=
   ['rendertextargetbinmanager',['RenderTexTargetBinManager',['../class_render_tex_target_bin_manager.html',1,'']]],
   ['rendertranslucentmgr',['RenderTranslucentMgr',['../class_render_translucent_mgr.html',1,'']]],
   ['reservedsocketlist',['ReservedSocketList',['../class_reserved_socket_list.html',1,'']]],
+  ['residuedata',['ResidueData',['../unionafx_residue_mgr_1_1_residue_1_1_residue_data.html',1,'afxResidueMgr::Residue']]],
+  ['residueparams',['ResidueParams',['../unionafx_residue_mgr_1_1_residue_1_1_residue_params.html',1,'afxResidueMgr::Residue']]],
   ['resizebitstream',['ResizeBitStream',['../class_resize_bit_stream.html',1,'']]],
   ['resizefilterstream',['ResizeFilterStream',['../class_resize_filter_stream.html',1,'']]],
   ['resource',['Resource',['../class_resource.html',1,'']]],

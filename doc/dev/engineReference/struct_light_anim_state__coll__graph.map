@@ -1,4 +1,4 @@
 <map id="LightAnimState" name="LightAnimState">
-<area shape="rect" id="node2" href="$class_color_f.html" title="ColorF" alt="" coords="5,43,65,70"/>
-<area shape="rect" id="node3" href="$class_matrix_f.html" title="MatrixF" alt="" coords="161,43,227,70"/>
+<area shape="rect" id="node2" href="$class_matrix_f.html" title="MatrixF" alt="" coords="5,43,72,70"/>
+<area shape="rect" id="node3" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="167,43,262,70"/>
 </map>

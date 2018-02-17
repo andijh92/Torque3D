@@ -46,5 +46,5 @@
 <area shape="rect" id="node46" href="$class_volumetric_fog_r_t_manager.html" title="Creates and maintains one set of rendertargets to be used by every VolumetricFog object in the scene..." alt="" coords="673,1880,845,1907"/>
 <area shape="rect" id="node47" href="$class_water_object.html" title="Abstract base class for representing a body of water. " alt="" coords="712,1931,807,1957"/>
 <area shape="rect" id="node48" href="$class_zone.html" title="An object that represents an interior space. " alt="" coords="734,1981,785,2008"/>
-<area shape="rect" id="node21" href="$class_debris.html" title="Base debris class. Uses the DebrisData datablock for properties of individual debris objects..." alt="" coords="893,613,952,640"/>
+<area shape="rect" id="node21" href="$classafx_billboard.html" title="A Billboard effect as defined by an afxBillboardData datablock. " alt="" coords="893,613,983,640"/>
 </map>

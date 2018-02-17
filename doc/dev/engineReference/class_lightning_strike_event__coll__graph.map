@@ -39,10 +39,10 @@
 <area shape="rect" id="node46" href="$class_cubemap_data.html" title="A script interface for creating static or dynamic cubemaps. " alt="" coords="1258,704,1362,730"/>
 <area shape="rect" id="node36" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="1249,349,1371,376"/>
 <area shape="rect" id="node37" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; PostEffect \&gt;" alt="" coords="1218,400,1402,426"/>
-<area shape="rect" id="node39" href="$class_color_f.html" title="ColorF" alt="" coords="1280,298,1340,325"/>
-<area shape="rect" id="node40" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1271,450,1349,477"/>
-<area shape="rect" id="node41" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1277,121,1343,148"/>
-<area shape="rect" id="node42" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1258,501,1362,528"/>
+<area shape="rect" id="node39" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1271,450,1349,477"/>
+<area shape="rect" id="node40" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1277,121,1343,148"/>
+<area shape="rect" id="node41" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1258,501,1362,528"/>
+<area shape="rect" id="node42" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1263,298,1357,325"/>
 <area shape="rect" id="node43" href="$class_reflector_desc.html" title="ReflectorDesc" alt="" coords="1259,552,1361,578"/>
 <area shape="rect" id="node44" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="1205,1242,1415,1269"/>
 <area shape="rect" id="node47" href="$struct_water_mat_params.html" title="WaterMatParams" alt="" coords="1248,602,1372,629"/>

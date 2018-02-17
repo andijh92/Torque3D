@@ -18,7 +18,7 @@
 <area shape="rect" id="node39" href="$class_t_s_shape_instance.html" title="TSShapeInstance" alt="" coords="1174,2068,1298,2095"/>
 <area shape="rect" id="node50" href="$class_vector.html" title="Vector\&lt; MatrixF \&gt;" alt="" coords="746,781,874,808"/>
 <area shape="rect" id="node6" href="$class_bit_set32.html" title="BitSet32" alt="" coords="372,492,444,519"/>
-<area shape="rect" id="node8" href="$class_color_f.html" title="ColorF" alt="" coords="378,669,438,696"/>
+<area shape="rect" id="node8" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="361,669,455,696"/>
 <area shape="rect" id="node35" href="$class_light_description.html" title="LightDescription" alt="" coords="961,859,1076,885"/>
 <area shape="rect" id="node9" href="$class_i_scene_light.html" title="ISceneLight" alt="" coords="1576,581,1667,608"/>
 <area shape="rect" id="node10" href="$struct_light_state.html" title="LightState" alt="" coords="1581,127,1662,153"/>

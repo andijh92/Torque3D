@@ -40,8 +40,8 @@
 <area shape="rect" id="node31" href="$class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="172,453,360,480"/>
 <area shape="rect" id="node34" href="$class_g_f_x_vertex_buffer_handle.html" title="GFXVertexBufferHandle\l\&lt; GFXVertexPCT \&gt;" alt="" coords="637,390,796,431"/>
 <area shape="rect" id="node33" href="$class_g_f_x_occlusion_query_handle.html" title="Handle for GFXOcclusionQuery than store last valid state. " alt="" coords="627,456,807,483"/>
-<area shape="rect" id="node36" href="$class_color_f.html" title="ColorF" alt="" coords="236,689,296,716"/>
-<area shape="rect" id="node37" href="$class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="187,512,345,539"/>
+<area shape="rect" id="node36" href="$class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="187,512,345,539"/>
+<area shape="rect" id="node37" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="219,689,313,716"/>
 <area shape="rect" id="node38" href="$class_float_curve.html" title="FloatCurve" alt="" coords="1063,896,1145,923"/>
 <area shape="rect" id="node39" href="$class_response_curve.html" title="ResponseCurve\&lt; F32 \&gt;" alt="" coords="637,885,796,912"/>
 <area shape="rect" id="node40" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1065,189,1143,216"/>

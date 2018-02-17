@@ -145,9 +145,9 @@ Collaboration diagram for SFXInternal::SFXAsyncStream:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a5b37c23d4cba92b2e6c006e678ed94e1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a5b37c23d4cba92b2e6c006e678ed94e1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a> = 8
+<tr class="memitem:a223821116278c04670ecbaee56e57ab1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a223821116278c04670ecbaee56e57ab1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a> = 8
  }</td></tr>
-<tr class="separator:a5b37c23d4cba92b2e6c006e678ed94e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a223821116278c04670ecbaee56e57ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefa6a9fb2a19387a9944b1cb32d98155"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aefa6a9fb2a19387a9944b1cb32d98155"></a>
 typedef <a class="el" href="class_async_packet_buffered_input_stream.html">AsyncPacketBufferedInputStream</a>&lt; <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a>, <a class="el" href="class_s_f_x_internal_1_1_s_f_x_stream_packet.html">SFXStreamPacket</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
 <tr class="separator:aefa6a9fb2a19387a9944b1cb32d98155"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,8 +162,8 @@ typedef SFXStreamPacket&#160;</td><td class="memItemRight" valign="bottom"><b>Pa
 typedef <a class="el" href="struct_type_traits.html">TypeTraits</a>&lt; <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &gt;::BaseType&#160;</td><td class="memItemRight" valign="bottom"><b>StreamType</b></td></tr>
 <tr class="separator:a22ce2d3b95043def4ff910359a8115f6 inherit pub_types_class_async_packet_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_class_async_buffered_input_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_async_buffered_input_stream')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_async_buffered_input_stream.html">AsyncBufferedInputStream&lt; SFXStreamPacket *, SFXStreamRef &gt;</a></td></tr>
-<tr class="memitem:a082b08e164f884c9970842e1efe17b43 inherit pub_types_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a082b08e164f884c9970842e1efe17b43"></a>enum &#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a082b08e164f884c9970842e1efe17b43 inherit pub_types_class_async_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62322b74636c680ead76af0fb7c1cff0 inherit pub_types_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62322b74636c680ead76af0fb7c1cff0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a62322b74636c680ead76af0fb7c1cff0 inherit pub_types_class_async_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e8791eb0690dd88623caeb588404a01 inherit pub_types_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e8791eb0690dd88623caeb588404a01"></a>
 typedef <a class="el" href="class_i_input_stream_filter.html">IInputStreamFilter</a>&lt; SFXStreamPacket *, <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></td></tr>
 <tr class="separator:a0e8791eb0690dd88623caeb588404a01 inherit pub_types_class_async_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,7 +203,7 @@ typedef void&#160;</td><td class="memItemRight" valign="bottom"><b>Parent</b></t
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5cb8c81628077dcdc8457765e31dfd5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a5cb8c81628077dcdc8457765e31dfd5e">SFXAsyncStream</a> (const <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &amp;stream, bool isIncremental, U32 streamPacketLength=<a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a5b37c23d4cba92b2e6c006e678ed94e1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a>, U32 numReadAhead=<a class="el" href="class_async_buffered_input_stream.html#a082b08e164f884c9970842e1efe17b43a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a>, bool <a class="el" href="class_async_buffered_input_stream.html#adebe059e8973bfab26f0b68a0f93a807">isLooping</a>=false)</td></tr>
+<tr class="memitem:a5cb8c81628077dcdc8457765e31dfd5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a5cb8c81628077dcdc8457765e31dfd5e">SFXAsyncStream</a> (const <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &amp;stream, bool isIncremental, U32 streamPacketLength=<a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a223821116278c04670ecbaee56e57ab1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a>, U32 numReadAhead=<a class="el" href="class_async_buffered_input_stream.html#a62322b74636c680ead76af0fb7c1cff0a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a>, bool <a class="el" href="class_async_buffered_input_stream.html#adebe059e8973bfab26f0b68a0f93a807">isLooping</a>=false)</td></tr>
 <tr class="separator:a5cb8c81628077dcdc8457765e31dfd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecb023414271b5ceb400897144ba927e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecb023414271b5ceb400897144ba927e"></a>
 U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#aecb023414271b5ceb400897144ba927e">getReadSilenceAtEnd</a> () const </td></tr>
@@ -219,7 +219,7 @@ U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:a8b3577904c2622f74860db1ccd9d8d3d inherit pub_methods_class_async_packet_buffered_input_stream"><td class="memItemLeft" align="right" valign="top">U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_async_packet_buffered_input_stream.html#a8b3577904c2622f74860db1ccd9d8d3d">getPacketSize</a> () const</td></tr>
 <tr class="separator:a8b3577904c2622f74860db1ccd9d8d3d inherit pub_methods_class_async_packet_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_async_buffered_input_stream"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_async_buffered_input_stream')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_async_buffered_input_stream.html">AsyncBufferedInputStream&lt; SFXStreamPacket *, SFXStreamRef &gt;</a></td></tr>
-<tr class="memitem:a9c40ee936e2a777b5cfe2b73edf336d5 inherit pub_methods_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_async_buffered_input_stream.html#a9c40ee936e2a777b5cfe2b73edf336d5">AsyncBufferedInputStream</a> (const <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &amp;stream, U32 numSourceElementsToRead=0, U32 numReadAhead=<a class="el" href="class_async_buffered_input_stream.html#a082b08e164f884c9970842e1efe17b43a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a>, bool <a class="el" href="class_async_buffered_input_stream.html#adebe059e8973bfab26f0b68a0f93a807">isLooping</a>=false, <a class="el" href="class_thread_pool.html">ThreadPool</a> *pool=&amp;<a class="el" href="class_thread_pool.html#a1550a848c845e18e232de06b53a809e0">ThreadPool::GLOBAL</a>(), <a class="el" href="class_thread_pool_1_1_context.html">ThreadContext</a> *context=<a class="el" href="class_thread_pool_1_1_context.html#a395f88a662265ff1eac88a351687de0a">ThreadContext::ROOT_CONTEXT</a>())</td></tr>
+<tr class="memitem:a9c40ee936e2a777b5cfe2b73edf336d5 inherit pub_methods_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_async_buffered_input_stream.html#a9c40ee936e2a777b5cfe2b73edf336d5">AsyncBufferedInputStream</a> (const <a class="el" href="class_thread_safe_ref.html">SFXStreamRef</a> &amp;stream, U32 numSourceElementsToRead=0, U32 numReadAhead=<a class="el" href="class_async_buffered_input_stream.html#a62322b74636c680ead76af0fb7c1cff0a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a>, bool <a class="el" href="class_async_buffered_input_stream.html#adebe059e8973bfab26f0b68a0f93a807">isLooping</a>=false, <a class="el" href="class_thread_pool.html">ThreadPool</a> *pool=&amp;<a class="el" href="class_thread_pool.html#a1550a848c845e18e232de06b53a809e0">ThreadPool::GLOBAL</a>(), <a class="el" href="class_thread_pool_1_1_context.html">ThreadContext</a> *context=<a class="el" href="class_thread_pool_1_1_context.html#a395f88a662265ff1eac88a351687de0a">ThreadContext::ROOT_CONTEXT</a>())</td></tr>
 <tr class="separator:a9c40ee936e2a777b5cfe2b73edf336d5 inherit pub_methods_class_async_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adebe059e8973bfab26f0b68a0f93a807 inherit pub_methods_class_async_buffered_input_stream"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_async_buffered_input_stream.html#adebe059e8973bfab26f0b68a0f93a807">isLooping</a> () const</td></tr>
 <tr class="separator:adebe059e8973bfab26f0b68a0f93a807 inherit pub_methods_class_async_buffered_input_stream"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,7 +361,7 @@ typedef <a class="el" href="class_thread_safe_ref.html">ThreadSafeRef</a>&lt; Pa
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Asynchronous sound data stream that delivers sound data in discrete packets. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a5b37c23d4cba92b2e6c006e678ed94e1"></a>
+<a class="anchor" id="a223821116278c04670ecbaee56e57ab1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -371,7 +371,7 @@ typedef <a class="el" href="class_thread_safe_ref.html">ThreadSafeRef</a>&lt; Pa
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a5b37c23d4cba92b2e6c006e678ed94e1ae58750b287a3fc558ae7c944c49a9851"></a>DEFAULT_STREAM_PACKET_LENGTH&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a223821116278c04670ecbaee56e57ab1ae58750b287a3fc558ae7c944c49a9851"></a>DEFAULT_STREAM_PACKET_LENGTH&#160;</td><td class="fielddoc">
 <p>The number of seconds of sample data to load per streaming packet by default. Set this reasonably high to ensure the system is able to cope with latencies in the buffer update chain. </p>
 </td></tr>
 </table>
@@ -399,13 +399,13 @@ typedef <a class="el" href="class_thread_safe_ref.html">ThreadSafeRef</a>&lt; Pa
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">U32&#160;</td>
-          <td class="paramname"><em>streamPacketLength</em> = <code><a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a5b37c23d4cba92b2e6c006e678ed94e1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a></code>, </td>
+          <td class="paramname"><em>streamPacketLength</em> = <code><a class="el" href="class_s_f_x_internal_1_1_s_f_x_async_stream.html#a223821116278c04670ecbaee56e57ab1ae58750b287a3fc558ae7c944c49a9851">DEFAULT_STREAM_PACKET_LENGTH</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">U32&#160;</td>
-          <td class="paramname"><em>numReadAhead</em> = <code><a class="el" href="class_async_buffered_input_stream.html#a082b08e164f884c9970842e1efe17b43a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a></code>, </td>
+          <td class="paramname"><em>numReadAhead</em> = <code><a class="el" href="class_async_buffered_input_stream.html#a62322b74636c680ead76af0fb7c1cff0a8b844f8e4a553a9e6d347412fa1beb77">DEFAULT_STREAM_LOOKAHEAD</a></code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

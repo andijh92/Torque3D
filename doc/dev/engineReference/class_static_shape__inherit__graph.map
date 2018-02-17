@@ -1,5 +1,6 @@
 <map id="StaticShape" name="StaticShape">
-<area shape="rect" id="node18" href="$class_scope_always_shape.html" title="ScopeAlwaysShape" alt="" coords="307,901,445,928"/>
+<area shape="rect" id="node18" href="$classafx_static_shape.html" title="afxStaticShape" alt="" coords="246,901,357,928"/>
+<area shape="rect" id="node19" href="$class_scope_always_shape.html" title="ScopeAlwaysShape" alt="" coords="381,901,520,928"/>
 <area shape="rect" id="node2" href="$class_shape_base.html" title="ShapeBase" alt="" coords="331,752,421,779"/>
 <area shape="rect" id="node3" href="$class_game_base.html" title="GameBase" alt="" coords="277,677,363,704"/>
 <area shape="rect" id="node4" href="$class_scene_object.html" title="SceneObject" alt="" coords="271,603,369,629"/>

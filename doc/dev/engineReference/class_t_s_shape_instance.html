@@ -172,7 +172,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a83276c55637bfefda2736c6d15df6839"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:ab628889d0fb5f18309bf5a657fb99fe1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>MaskNodeRotation</b> = 0x01, 
 <b>MaskNodePosX</b> = 0x02, 
 <b>MaskNodePosY</b> = 0x04, 
@@ -186,13 +186,13 @@ Public Types</h2></td></tr>
 &#160;&#160;<b>MaskNodeAllButPosX</b> = MaskNodeRotation|MaskNodePosY|MaskNodePosZ|MaskNodeBlend, 
 <b>MaskNodeAllButPosY</b> = MaskNodeRotation|MaskNodePosX|MaskNodePosZ|MaskNodeBlend, 
 <b>MaskNodeAllButPosZ</b> = MaskNodeRotation|MaskNodePosX|MaskNodePosY|MaskNodeBlend, 
-<a class="el" href="class_t_s_shape_instance.html#a83276c55637bfefda2736c6d15df6839a6a449dfb45b124cd8a1778b6f5509bce">MaskNodeHandsOff</a> = 0x20, 
+<a class="el" href="class_t_s_shape_instance.html#ab628889d0fb5f18309bf5a657fb99fe1a6a449dfb45b124cd8a1778b6f5509bce">MaskNodeHandsOff</a> = 0x20, 
 <br />
-&#160;&#160;<a class="el" href="class_t_s_shape_instance.html#a83276c55637bfefda2736c6d15df6839a87ae243de67ef16d4968813882818ea4">MaskNodeCallback</a> = 0x40
+&#160;&#160;<a class="el" href="class_t_s_shape_instance.html#ab628889d0fb5f18309bf5a657fb99fe1a87ae243de67ef16d4968813882818ea4">MaskNodeCallback</a> = 0x40
 <br />
  }</td></tr>
-<tr class="separator:a83276c55637bfefda2736c6d15df6839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2ef8a003740c20eab705acb5b5d8a5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa2ef8a003740c20eab705acb5b5d8a5f"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="separator:ab628889d0fb5f18309bf5a657fb99fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03fadb01e757f9d933291437128dd817"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03fadb01e757f9d933291437128dd817"></a>enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>TransformDirty</b> = BIT(0), 
 <b>VisDirty</b> = BIT(1), 
 <b>FrameDirty</b> = BIT(2), 
@@ -202,7 +202,7 @@ Public Types</h2></td></tr>
 <b>AllDirtyMask</b> = TransformDirty | VisDirty | FrameDirty | MatFrameDirty | ThreadDirty
 <br />
  }</td></tr>
-<tr class="separator:aa2ef8a003740c20eab705acb5b5d8a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a03fadb01e757f9d933291437128dd817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -356,6 +356,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>prepCollision</b> ()<
 <tr class="memitem:ac1c6e77203e7f25e3b265bbeea9698f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1c6e77203e7f25e3b265bbeea9698f6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasAccumulation</b> ()</td></tr>
 <tr class="separator:ac1c6e77203e7f25e3b265bbeea9698f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99fa72650d5fe0edccb32e7f44590574"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a99fa72650d5fe0edccb32e7f44590574"></a>
+U32&#160;</td><td class="memItemRight" valign="bottom"><b>getTriggerStateMask</b> () const </td></tr>
+<tr class="separator:a99fa72650d5fe0edccb32e7f44590574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Node Masking</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>set node masking... </p>
 </div></td></tr>
@@ -773,7 +776,7 @@ What Does TSShapeInstance Do?</h1>
 </ul>
 <p>For an excellent example of how to render a <a class="el" href="class_t_s_shape.html">TSShape</a> in game, see <a class="el" href="class_t_s_static.html" title="A simple mesh shape with optional ambient animation. ">TSStatic</a>. For examples of how to procedurally animate models, look at <a class="el" href="class_player.html#aa03573614288db2341736035fc2f7030" title="Update head animation. ">Player::updateLookAnimation()</a>. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a83276c55637bfefda2736c6d15df6839"></a>
+<a class="anchor" id="ab628889d0fb5f18309bf5a657fb99fe1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -783,10 +786,10 @@ What Does TSShapeInstance Do?</h1>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a83276c55637bfefda2736c6d15df6839a6a449dfb45b124cd8a1778b6f5509bce"></a>MaskNodeHandsOff&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ab628889d0fb5f18309bf5a657fb99fe1a6a449dfb45b124cd8a1778b6f5509bce"></a>MaskNodeHandsOff&#160;</td><td class="fielddoc">
 <p>meaning, don't even set to default, programmer controls it (blend still applies) </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a83276c55637bfefda2736c6d15df6839a87ae243de67ef16d4968813882818ea4"></a>MaskNodeCallback&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ab628889d0fb5f18309bf5a657fb99fe1a87ae243de67ef16d4968813882818ea4"></a>MaskNodeCallback&#160;</td><td class="fielddoc">
 <p>meaning, get local transform via callback function (see setCallback) callback data2 is node index, callback return value is pointer to local transform Note: won't get this callback everytime you animate...application responsibility to make sure matrix pointer continues to point to valid and updated local transform </p>
 </td></tr>
 </table>

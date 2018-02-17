@@ -1,4 +1,5 @@
 <map id="StaticShapeData" name="StaticShapeData">
+<area shape="rect" id="node11" href="$classafx_static_shape_data.html" title="afxStaticShapeData" alt="" coords="57,677,194,704"/>
 <area shape="rect" id="node2" href="$struct_shape_base_data.html" title="ShapeBaseData" alt="" coords="67,528,183,555"/>
 <area shape="rect" id="node3" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="68,453,183,480"/>
 <area shape="rect" id="node4" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="73,379,178,405"/>

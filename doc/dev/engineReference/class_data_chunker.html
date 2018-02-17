@@ -128,10 +128,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4e7a7560982526271ec8cfb61bf42811"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_data_chunker.html#a4e7a7560982526271ec8cfb61bf42811a26c20bd412b8c1d0b7dfcb8b908793fe">PaddDBSize</a> = (sizeof(DataBlock) + 3) &amp; ~3, 
-<a class="el" href="class_data_chunker.html#a4e7a7560982526271ec8cfb61bf42811a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a> = 16384 - PaddDBSize
+<tr class="memitem:ade8fb4b614fa1fef8c4fa6e353972896"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_data_chunker.html#ade8fb4b614fa1fef8c4fa6e353972896a26c20bd412b8c1d0b7dfcb8b908793fe">PaddDBSize</a> = (sizeof(DataBlock) + 3) &amp; ~3, 
+<a class="el" href="class_data_chunker.html#ade8fb4b614fa1fef8c4fa6e353972896a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a> = 16384 - PaddDBSize
  }</td></tr>
-<tr class="separator:a4e7a7560982526271ec8cfb61bf42811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ade8fb4b614fa1fef8c4fa6e353972896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,7 +139,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a73257a49053ad349f25b5b36a060c82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfd50a031e61d52e3977f1d2df308dea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_chunker.html#abfd50a031e61d52e3977f1d2df308dea">freeBlocks</a> (bool keepOne=false)</td></tr>
 <tr class="separator:abfd50a031e61d52e3977f1d2df308dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd20e1ef0ccc6b0727fd5a3f2f4e56f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_chunker.html#afd20e1ef0ccc6b0727fd5a3f2f4e56f8">DataChunker</a> (S32 size=<a class="el" href="class_data_chunker.html#a4e7a7560982526271ec8cfb61bf42811a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a>)</td></tr>
+<tr class="memitem:afd20e1ef0ccc6b0727fd5a3f2f4e56f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_chunker.html#afd20e1ef0ccc6b0727fd5a3f2f4e56f8">DataChunker</a> (S32 size=<a class="el" href="class_data_chunker.html#ade8fb4b614fa1fef8c4fa6e353972896a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a>)</td></tr>
 <tr class="separator:afd20e1ef0ccc6b0727fd5a3f2f4e56f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1278ca7f4f2be89abf94c371aa706612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_data_chunker.html#a1278ca7f4f2be89abf94c371aa706612">swap</a> (<a class="el" href="class_data_chunker.html">DataChunker</a> &amp;d)</td></tr>
 <tr class="separator:a1278ca7f4f2be89abf94c371aa706612"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +165,7 @@ S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>It will assert if you try to get more than ChunkSize bytes at a time, and it deals with the logic of allocating new blocks and giving out word-aligned chunks.</p>
 <p>Note that new/free/realloc WILL NOT WORK on memory gotten from the <a class="el" href="class_data_chunker.html">DataChunker</a>. This also only grows (you can call freeBlocks to deallocate and reset things). </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a class="anchor" id="a4e7a7560982526271ec8cfb61bf42811"></a>
+<a class="anchor" id="ade8fb4b614fa1fef8c4fa6e353972896"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -175,10 +175,10 @@ S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a4e7a7560982526271ec8cfb61bf42811a26c20bd412b8c1d0b7dfcb8b908793fe"></a>PaddDBSize&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ade8fb4b614fa1fef8c4fa6e353972896a26c20bd412b8c1d0b7dfcb8b908793fe"></a>PaddDBSize&#160;</td><td class="fielddoc">
 <p>Padded size of <a class="el" href="struct_data_chunker_1_1_data_block.html">DataBlock</a>. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a4e7a7560982526271ec8cfb61bf42811a536630bb06ed00f89cfb97eadca9c7c4"></a>ChunkSize&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="ade8fb4b614fa1fef8c4fa6e353972896a536630bb06ed00f89cfb97eadca9c7c4"></a>ChunkSize&#160;</td><td class="fielddoc">
 <p>Default size of each <a class="el" href="struct_data_chunker_1_1_data_block.html">DataBlock</a> page in the <a class="el" href="class_data_chunker.html">DataChunker</a>. </p>
 </td></tr>
 </table>
@@ -194,7 +194,7 @@ S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
           <td class="memname">DataChunker::DataChunker </td>
           <td>(</td>
           <td class="paramtype">S32&#160;</td>
-          <td class="paramname"><em>size</em> = <code><a class="el" href="class_data_chunker.html#a4e7a7560982526271ec8cfb61bf42811a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a></code></td><td>)</td>
+          <td class="paramname"><em>size</em> = <code><a class="el" href="class_data_chunker.html#ade8fb4b614fa1fef8c4fa6e353972896a536630bb06ed00f89cfb97eadca9c7c4">ChunkSize</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>

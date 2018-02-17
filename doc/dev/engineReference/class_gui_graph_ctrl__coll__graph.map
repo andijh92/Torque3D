@@ -27,9 +27,9 @@
 <area shape="rect" id="node22" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="1494,763,1550,789"/>
 <area shape="rect" id="node24" href="$class_color_i.html" title="ColorI" alt="" coords="1495,673,1549,700"/>
 <area shape="rect" id="node25" href="$class_resource.html" title="Resource\&lt; GFont \&gt;" alt="" coords="1453,496,1591,523"/>
-<area shape="rect" id="node26" href="$class_resource_base.html" title="ResourceBase" alt="" coords="1097,559,1203,585"/>
+<area shape="rect" id="node26" href="$class_resource_base.html" title="ResourceBase" alt="" coords="1097,560,1203,587"/>
 <area shape="rect" id="node27" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; ResourceBase\l::Header \&gt;" alt="" coords="640,566,833,607"/>
-<area shape="rect" id="node35" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="857,498,1033,539"/>
+<area shape="rect" id="node35" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="857,502,1033,543"/>
 <area shape="rect" id="node46" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="1781,875,1991,901"/>
 <area shape="rect" id="node29" href="$class_point2_i.html" title="Point2I" alt="" coords="705,177,768,204"/>
 <area shape="rect" id="node33" href="$class_rect_i.html" title="RectI" alt="" coords="1124,281,1176,308"/>
@@ -46,6 +46,6 @@
 <area shape="rect" id="node44" href="$class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="2163,1253,2351,1280"/>
 <area shape="rect" id="node47" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; GuiControl \&gt;" alt="" coords="2480,1369,2665,1396"/>
 <area shape="rect" id="node48" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; GuiControl \&gt;" alt="" coords="2168,1369,2345,1396"/>
-<area shape="rect" id="node49" href="$class_color_f.html" title="ColorF" alt="" coords="2227,1152,2287,1179"/>
-<area shape="rect" id="node50" href="$class_vector.html" title="Vector\&lt; F32 \&gt;" alt="" coords="2203,975,2310,1001"/>
+<area shape="rect" id="node49" href="$class_vector.html" title="Vector\&lt; F32 \&gt;" alt="" coords="2203,1152,2310,1179"/>
+<area shape="rect" id="node50" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="2209,1101,2304,1128"/>
 </map>

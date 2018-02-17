@@ -43,7 +43,7 @@
 <area shape="rect" id="node40" href="$class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="1881,1269,2069,1296"/>
 <area shape="rect" id="node43" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; GuiControl \&gt;" alt="" coords="2193,1329,2379,1356"/>
 <area shape="rect" id="node44" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; GuiControl \&gt;" alt="" coords="1887,1329,2064,1356"/>
-<area shape="rect" id="node45" href="$class_color_f.html" title="ColorF" alt="" coords="1945,581,2005,608"/>
+<area shape="rect" id="node45" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1928,581,2023,608"/>
 <area shape="rect" id="node46" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="1939,280,2012,307"/>
 <area shape="rect" id="node48" href="$struct_g_bitmap_1_1_registration.html" title="GBitmap::Registration" alt="" coords="1163,272,1313,299"/>
 <area shape="rect" id="node47" href="$class_vector.html" title="Vector\&lt; GBitmap::Registration \&gt;" alt="" coords="1497,228,1709,255"/>

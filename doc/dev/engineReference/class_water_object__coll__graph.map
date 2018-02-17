@@ -10,7 +10,7 @@
 <area shape="rect" id="node7" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="765,1029,893,1056"/>
 <area shape="rect" id="node8" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="444,264,500,291"/>
 <area shape="rect" id="node27" href="$class_named_tex_target.html" title="NamedTexTarget" alt="" coords="1815,381,1935,408"/>
-<area shape="rect" id="node32" href="$class_conditioner_feature.html" title="ConditionerFeature" alt="" coords="1260,284,1391,311"/>
+<area shape="rect" id="node32" href="$class_conditioner_feature.html" title="ConditionerFeature" alt="" coords="1260,283,1391,309"/>
 <area shape="rect" id="node9" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="779,2003,878,2029"/>
 <area shape="rect" id="node11" href="$class_matrix_f.html" title="MatrixF" alt="" coords="439,1211,505,1237"/>
 <area shape="rect" id="node20" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="774,1181,883,1208"/>
@@ -24,8 +24,8 @@
 <area shape="rect" id="node18" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="729,1232,928,1259"/>
 <area shape="rect" id="node19" href="$class_scene_container.html" title="SceneContainer" alt="" coords="771,1283,886,1309"/>
 <area shape="rect" id="node21" href="$class_point2_i.html" title="Point2I" alt="" coords="441,643,503,669"/>
-<area shape="rect" id="node29" href="$class_rect_i.html" title="RectI" alt="" coords="996,413,1048,440"/>
-<area shape="rect" id="node22" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="419,841,525,868"/>
+<area shape="rect" id="node29" href="$class_rect_i.html" title="RectI" alt="" coords="996,404,1048,431"/>
+<area shape="rect" id="node22" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="419,837,525,864"/>
 <area shape="rect" id="node23" href="$class_color_i.html" title="ColorI" alt="" coords="221,1081,276,1108"/>
 <area shape="rect" id="node25" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="753,1333,905,1360"/>
 <area shape="rect" id="node26" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="739,1384,918,1411"/>
@@ -40,12 +40,12 @@
 <area shape="rect" id="node37" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; PostEffect \&gt;" alt="" coords="1437,1456,1613,1483"/>
 <area shape="rect" id="node40" href="$class_reflector_desc.html" title="ReflectorDesc" alt="" coords="1120,911,1223,937"/>
 <area shape="rect" id="node41" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="776,911,881,937"/>
-<area shape="rect" id="node46" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1473,1024,1577,1051"/>
-<area shape="rect" id="node47" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="1132,1033,1211,1060"/>
+<area shape="rect" id="node45" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1473,1024,1577,1051"/>
+<area shape="rect" id="node46" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="1132,1033,1211,1060"/>
 <area shape="rect" id="node42" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lTarget \&gt;" alt="" coords="1437,754,1613,795"/>
-<area shape="rect" id="node43" href="$class_color_f.html" title="ColorF" alt="" coords="1845,1415,1905,1441"/>
-<area shape="rect" id="node44" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1836,1465,1915,1492"/>
-<area shape="rect" id="node45" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1842,1599,1909,1625"/>
+<area shape="rect" id="node43" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1836,1288,1915,1315"/>
+<area shape="rect" id="node44" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1842,1421,1909,1448"/>
+<area shape="rect" id="node47" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1828,1599,1923,1625"/>
 <area shape="rect" id="node48" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="1771,1649,1980,1676"/>
 <area shape="rect" id="node50" href="$struct_water_mat_params.html" title="WaterMatParams" alt="" coords="1813,1700,1937,1727"/>
 </map>

@@ -228,6 +228,21 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>getConsoleMet
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a11f85a77b6df09d56738301cc2ce35ef">destroySelf</a> ()</td></tr>
 <tr class="memdesc:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">object destroy self call (from <a class="el" href="class_strong_ref_ptr.html">StrongRefPtr</a>). Override if this class has specially allocated memory. <br /></td></tr>
 <tr class="separator:a11f85a77b6df09d56738301cc2ce35ef inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6fb370d735a815b86ede89b26b9894dc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>SimObject</b> (const <a class="el" href="class_sim_object.html">SimObject</a> &amp;, bool=false)</td></tr>
+<tr class="separator:a6fb370d735a815b86ede89b26b9894dc inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39f2148694db7188e81d30cadac48302"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isTempClone</b> () const </td></tr>
+<tr class="separator:a39f2148694db7188e81d30cadac48302 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92951c59302db8d68e6d2fc4ae47f16d"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>allowSubstitutions</b> () const </td></tr>
+<tr class="separator:a92951c59302db8d68e6d2fc4ae47f16d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e2a081ded6c27a56221d81b35cfde03"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assignDynamicFieldsFrom</b> (<a class="el" href="class_sim_object.html">SimObject</a> *, const char *filter, bool no_replace=false)</td></tr>
+<tr class="separator:a6e2a081ded6c27a56221d81b35cfde03 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c509b296a4255f74c0f480427757ed8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>reloadReset</b> ()</td></tr>
+<tr class="separator:a5c509b296a4255f74c0f480427757ed8 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada0f955ca9c32932a2d9226f2dbe798e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada0f955ca9c32932a2d9226f2dbe798e"></a>
 <a class="el" href="struct_sim_object_1_1_notify.html">Notify</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ada0f955ca9c32932a2d9226f2dbe798e">removeNotify</a> (void *ptr, <a class="el" href="struct_sim_object_1_1_notify.html#a56f3156d998675c2ce8fac9a0b0640bb">Notify::Type</a>)</td></tr>
 <tr class="memdesc:ada0f955ca9c32932a2d9226f2dbe798e inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a notification from the list. <br /></td></tr>
@@ -759,6 +774,9 @@ StringTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1dfd4ae4b628f69df932347c4b1b078c"></a>
 return&#160;</td><td class="memItemRight" valign="bottom"><b>object</b></td></tr>
 <tr class="separator:a1dfd4ae4b628f69df932347c4b1b078c inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80c4fe12a79df74df466ad6ead9d28d5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_temp_clone</b></td></tr>
+<tr class="separator:a80c4fe12a79df74df466ad6ead9d28d5 inherit pro_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bd6ff7b62999faf3a6b38ca4dc0cd27"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a6bd6ff7b62999faf3a6b38ca4dc0cd27">mCanSaveFieldDictionary</a></td></tr>
 <tr class="memdesc:a6bd6ff7b62999faf3a6b38ca4dc0cd27 inherit pro_attribs_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether dynamic fields should be saved out in serialization. Defaults to true. <br /></td></tr>
@@ -888,6 +906,10 @@ static const char *&#160;</td><td class="memItemRight" valign="bottom"><b>__getO
 <tr class="memitem:ae9b771c3ebaaf386a396354b6985c8f8 inherit pub_attribs_class_engine_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9b771c3ebaaf386a396354b6985c8f8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>DECLARE_INSTANTIABLE</b></td></tr>
 <tr class="separator:ae9b771c3ebaaf386a396354b6985c8f8 inherit pub_attribs_class_engine_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_sim_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_sim_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_sim_object.html">SimObject</a></td></tr>
+<tr class="memitem:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afff9b7b2e562ab7eb6029aa31780d8f5"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>preventNameChanging</b> = false</td></tr>
+<tr class="separator:afff9b7b2e562ab7eb6029aa31780d8f5 inherit pub_static_attribs_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
 <tr class="memitem:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_console_object.html#a2011f71e5469720d0c1b5c62337a5149">__smIsDatablock</a> = false</td></tr>
 <tr class="separator:a2011f71e5469720d0c1b5c62337a5149 inherit pub_static_attribs_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -902,6 +924,13 @@ typedef ::<a class="el" href="struct_false_type.html">FalseType</a>&#160;</td><t
 <tr class="memitem:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69975a1eed16a4314169600d1d79c05b"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>_setPersistentID</b> (void *object, const char *index, const char *data)</td></tr>
 <tr class="separator:a69975a1eed16a4314169600d1d79c05b inherit pro_static_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_methods_class_console_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_console_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_console_object.html">ConsoleObject</a></td></tr>
+<tr class="memitem:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aec04847b418255a38a5a109c4d784839"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>disableFieldSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:aec04847b418255a38a5a109c4d784839 inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8037b9498d066dabec703779b675fdbe"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><b>onlyKeepClearSubstitutions</b> (const char *in_pFieldname)</td></tr>
+<tr class="separator:a8037b9498d066dabec703779b675fdbe inherit pro_static_methods_class_console_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_class_engine_object"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_class_engine_object')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="class_engine_object.html">EngineObject</a></td></tr>
 <tr class="memitem:aaefd60e1a2e880f3f1a806a63dc208cc inherit pro_static_methods_class_engine_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaefd60e1a2e880f3f1a806a63dc208cc"></a>
 static void *&#160;</td><td class="memItemRight" valign="bottom"><b>_allocateObject</b> (size_t size, <a class="el" href="class_i_engine_object_pool.html">IEngineObjectPool</a> *pool <a class="el" href="group___obj_trickery.html#gae739ad67a308f4785d4e9a2dd94e83b5">TORQUE_TMM_ARGS_DECL</a>)</td></tr>

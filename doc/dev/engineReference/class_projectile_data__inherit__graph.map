@@ -1,4 +1,5 @@
 <map id="ProjectileData" name="ProjectileData">
+<area shape="rect" id="node10" href="$classafx_projectile_data.html" title="afxProjectileData" alt="" coords="65,603,185,629"/>
 <area shape="rect" id="node2" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="68,453,183,480"/>
 <area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="73,379,178,405"/>
 <area shape="rect" id="node4" href="$class_sim_object.html" title="SimObject" alt="" coords="84,304,167,331"/>

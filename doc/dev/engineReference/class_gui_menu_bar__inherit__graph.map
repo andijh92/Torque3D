@@ -1,5 +1,4 @@
 <map id="GuiMenuBar" name="GuiMenuBar">
-<area shape="rect" id="node14" href="$class_gui_platform_generic_menu_bar.html" title="GuiPlatformGenericMenuBar" alt="" coords="140,752,327,779"/>
 <area shape="rect" id="node2" href="$class_gui_tick_ctrl.html" title="GuiTickCtrl" alt="" coords="190,603,277,629"/>
 <area shape="rect" id="node3" href="$class_gui_control.html" title="GuiControl" alt="" coords="141,528,224,555"/>
 <area shape="rect" id="node4" href="$class_sim_group.html" title="SimGroup" alt="" coords="143,453,223,480"/>

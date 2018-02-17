@@ -11,7 +11,7 @@ var searchData=
   ['lasttransformtime',['lastTransformTime',['../class_collada_app_node.html#ae6028374f40d2878ffc681ede7bf577b',1,'ColladaAppNode']]],
   ['lastvel',['lastVel',['../struct_a_i_turret_shape_1_1_target_info.html#a3c5de106267654dff60ce1560f362c64',1,'AITurretShape::TargetInfo']]],
   ['lifespan',['lifeSpan',['../class_decal_data.html#a40995a9bfb4808d490c31713ac76cb1d',1,'DecalData']]],
-  ['lifetime',['lifetime',['../class_projectile_data.html#a1eeefb28d16212073a12a47923b38864',1,'ProjectileData']]],
+  ['lifetime',['lifetime',['../classafx_magic_missile_data.html#adbbcad3ee597735dc3c814c9f05baa13',1,'afxMagicMissileData::lifetime()'],['../class_projectile_data.html#a1eeefb28d16212073a12a47923b38864',1,'ProjectileData::lifetime()']]],
   ['lifetimems',['lifetimeMS',['../class_particle_emitter_data.html#a2d987597c4f821fc630cb66f9787cd39',1,'ParticleEmitterData']]],
   ['lifetimevariancems',['lifetimeVarianceMS',['../class_particle_emitter_data.html#a61a960cc13e88895c7b0d581656aa1a9',1,'ParticleEmitterData']]],
   ['lightbrightness',['lightBrightness',['../struct_shape_base_image_data.html#af65ebdc20445726d4677c141a84ad977',1,'ShapeBaseImageData']]],

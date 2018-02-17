@@ -125,6 +125,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_i_turret_shape_data.html">AITurretShapeData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines properties for an <a class="el" href="class_a_i_turret_shape.html">AITurretShape</a> object.  <a href="class_a_i_turret_shape_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_projectile_data.html">ProjectileData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores properties for an individual projectile type.  <a href="class_projectile_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_projectile.html">Projectile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base projectile class. Uses the <a class="el" href="class_projectile_data.html" title="Stores properties for an individual projectile type. ">ProjectileData</a> class for properties of individual projectiles.  <a href="class_projectile.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_t_s_shape_constructor.html">TSShapeConstructor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object used to modify a DTS or COLLADA shape model after it has been loaded by Torque.  <a href="class_t_s_shape_constructor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +147,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_player_data.html">PlayerData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines properties for a <a class="el" href="class_player.html">Player</a> object.  <a href="class_player_data.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_projectile_data.html">ProjectileData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores properties for an individual projectile type.  <a href="class_projectile_data.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_projectile.html">Projectile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base projectile class. Uses the <a class="el" href="class_projectile_data.html" title="Stores properties for an individual projectile type. ">ProjectileData</a> class for properties of individual projectiles.  <a href="class_projectile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_proximity_mine_data.html">ProximityMineData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores common properties for a <a class="el" href="class_proximity_mine.html" title="A simple proximity mine. ">ProximityMine</a>.  <a href="class_proximity_mine_data.html#details">More...</a><br /></td></tr>
@@ -170,9 +170,24 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_i_turret_shape.html">AITurretShape</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_collision_trigger.html">CollisionTrigger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_collision_trigger.html" title="A CollisionTrigger is a volume of space that initiates script callbacks when objects pass through the...">CollisionTrigger</a> is a volume of space that initiates script callbacks when objects pass through the <a class="el" href="class_collision_trigger.html" title="A CollisionTrigger is a volume of space that initiates script callbacks when objects pass through the...">CollisionTrigger</a>.  <a href="class_collision_trigger.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ga37ae9efd2907971ad1897fe32b468220"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#ga37ae9efd2907971ad1897fe32b468220">BatchingMode</a> { <a class="el" href="group__game_objects.html#gga37ae9efd2907971ad1897fe32b468220ab0257211e60ed5eb6767ec8ed3ec2524">Individual</a>, 
+<a class="el" href="group__game_objects.html#gga37ae9efd2907971ad1897fe32b468220afecad2f670a2dc26c4c9ce38b9d15a7c">Batching</a>
+ }<tr class="memdesc:ga37ae9efd2907971ad1897fe32b468220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of mesh data available in a shape.  <a href="group__game_objects.html#ga37ae9efd2907971ad1897fe32b468220">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga37ae9efd2907971ad1897fe32b468220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50d74bad674b74bc67786d47268ee707"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#ga50d74bad674b74bc67786d47268ee707">CollisionMeshMeshType</a> { <a class="el" href="group___s_f_x.html#gga39cd074fb04cba742f184fb3924adf7eac7485dcc8d256a6f197ed7802687f252">None</a>, 
+<a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3a6c9f0dc89d75993537560054fe82c985">Bounds</a>, 
+<a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200">Mesh</a>, 
+<a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200">Mesh</a>
+ }<tr class="memdesc:ga50d74bad674b74bc67786d47268ee707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of mesh data available in a shape.  <a href="group__game_objects.html#ga50d74bad674b74bc67786d47268ee707">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ga50d74bad674b74bc67786d47268ee707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab176e3f04570b3726165ba5344434e87"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#gab176e3f04570b3726165ba5344434e87">TurretShapeFireLinkType</a> { <a class="el" href="group__game_objects.html#ggab176e3f04570b3726165ba5344434e87a7bb05e075407508b1bca7c7898ea8a5d">FireTogether</a>, 
 <a class="el" href="group__game_objects.html#ggab176e3f04570b3726165ba5344434e87ab5de7101a567d800aee5d750f6b126e1">GroupedFire</a>, 
 <a class="el" href="group__game_objects.html#ggab176e3f04570b3726165ba5344434e87a60089770462d6f5a09a289131527c6ec">IndividualFire</a>
@@ -180,7 +195,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr class="separator:gab176e3f04570b3726165ba5344434e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8ef0b6a45f1cd01753d5e702badb09a3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#ga8ef0b6a45f1cd01753d5e702badb09a3">TSMeshType</a> { <a class="el" href="group___s_f_x.html#gga39cd074fb04cba742f184fb3924adf7eac7485dcc8d256a6f197ed7802687f252">None</a>, 
-<a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3ac057b38e6bbae125e5258635760e806f">Bounds</a>, 
+<a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3a6c9f0dc89d75993537560054fe82c985">Bounds</a>, 
 <a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200">Mesh</a>, 
 <a class="el" href="group__game_objects.html#gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200">Mesh</a>
  }<tr class="memdesc:ga8ef0b6a45f1cd01753d5e702badb09a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of mesh data available in a shape.  <a href="group__game_objects.html#ga8ef0b6a45f1cd01753d5e702badb09a3">More...</a><br /></td></tr>
@@ -244,6 +259,9 @@ Variables</h2></td></tr>
 <tr class="memitem:gafe6eaf914e0f11b96b09e4b2c9605835"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#gafe6eaf914e0f11b96b09e4b2c9605835">Trigger::renderTriggers</a></td></tr>
 <tr class="memdesc:gafe6eaf914e0f11b96b09e4b2c9605835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces all <a class="el" href="class_trigger.html" title="A Trigger is a volume of space that initiates script callbacks when objects pass through the Trigger...">Trigger</a>'s to render.  <a href="#gafe6eaf914e0f11b96b09e4b2c9605835">More...</a><br /></td></tr>
 <tr class="separator:gafe6eaf914e0f11b96b09e4b2c9605835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e71afc50382db89f1916211810601d6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#ga5e71afc50382db89f1916211810601d6">CollisionTrigger::renderCollisionTriggers</a></td></tr>
+<tr class="memdesc:ga5e71afc50382db89f1916211810601d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces all <a class="el" href="class_collision_trigger.html" title="A CollisionTrigger is a volume of space that initiates script callbacks when objects pass through the...">CollisionTrigger</a>'s to render.  <a href="#ga5e71afc50382db89f1916211810601d6">More...</a><br /></td></tr>
+<tr class="separator:ga5e71afc50382db89f1916211810601d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga101a54c58b759591330c46b8d12ec041"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__game_objects.html#ga101a54c58b759591330c46b8d12ec041">$SB::DFDec</a></td></tr>
 <tr class="memdesc:ga101a54c58b759591330c46b8d12ec041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed to reduce the damage flash effect per tick.  <a href="group__game_objects.html#ga101a54c58b759591330c46b8d12ec041">More...</a><br /></td></tr>
 <tr class="separator:ga101a54c58b759591330c46b8d12ec041"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,6 +278,62 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gro
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ga37ae9efd2907971ad1897fe32b468220"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__game_objects.html#ga37ae9efd2907971ad1897fe32b468220">BatchingMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of mesh data available in a shape. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga37ae9efd2907971ad1897fe32b468220ab0257211e60ed5eb6767ec8ed3ec2524"></a>Individual&#160;</td><td class="fielddoc">
+<p>This mesh is rendered indivudally, wthout batching or instancing. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga37ae9efd2907971ad1897fe32b468220afecad2f670a2dc26c4c9ce38b9d15a7c"></a>Batching&#160;</td><td class="fielddoc">
+<p>Statically batches this mesh together with others to reduce drawcalls. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga50d74bad674b74bc67786d47268ee707"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__game_objects.html#ga50d74bad674b74bc67786d47268ee707">CollisionMeshMeshType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of mesh data available in a shape. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="gga39cd074fb04cba742f184fb3924adf7eac7485dcc8d256a6f197ed7802687f252"></a>None&#160;</td><td class="fielddoc">
+<p>Simple point sampled filtering. This is the fastest and lowest quality mode. </p>
+<p>No transition. Immediately move on to processing the slot or immediately move on to the next slot.</p>
+<p>Allow both childs to resize (default).</p>
+<p>Disable blending for this material.</p>
+<p>No mesh data. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3a6c9f0dc89d75993537560054fe82c985"></a>Bounds&#160;</td><td class="fielddoc">
+<p>Bounding box of the shape. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200"></a>Mesh&#160;</td><td class="fielddoc">
+<p>Specifically desingated "collision" meshes. </p>
+<p>Rendered mesh polygons. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200"></a>Mesh&#160;</td><td class="fielddoc">
+<p>Specifically desingated "collision" meshes. </p>
+<p>Rendered mesh polygons. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="ga83561f94bade04e6af65a6848f8ebe62"></a>
 <div class="memitem">
 <div class="memproto">
@@ -464,7 +538,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gro
 <p>Disable blending for this material.</p>
 <p>No mesh data. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3ac057b38e6bbae125e5258635760e806f"></a>Bounds&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3a6c9f0dc89d75993537560054fe82c985"></a>Bounds&#160;</td><td class="fielddoc">
 <p>Bounding box of the shape. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="gga8ef0b6a45f1cd01753d5e702badb09a3ac9b3996998332cf8a503b4fbcaa6b200"></a>Mesh&#160;</td><td class="fielddoc">
@@ -538,6 +612,29 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gro
 
 </div>
 </div>
+<a class="anchor" id="ga5e71afc50382db89f1916211810601d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CollisionTrigger::renderCollisionTriggers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Forces all <a class="el" href="class_collision_trigger.html" title="A CollisionTrigger is a volume of space that initiates script callbacks when objects pass through the...">CollisionTrigger</a>'s to render. </p>
+<p>Used by the Tools and debug render modes. </p>
+
+</div>
+</div>
 <a class="anchor" id="gafe6eaf914e0f11b96b09e4b2c9605835"></a>
 <div class="memitem">
 <div class="memproto">
@@ -574,7 +671,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gro
 <p>Speed to reduce the whiteout effect per tick. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_shape_base.html#ac783f1edacc75278d79e0d06d7944a79" title="Set the white-out level. ">ShapeBase::setWhiteOut()</a> </dd>
 <dd>
-<a class="el" href="class_shape_base.html#a87606603b0ae501df0e363ebbb0fcc8e" title="Get the white-out level. ">ShapeBase::getWhiteOut</a></dd></dl>
+<a class="el" href="class_shape_base.html#af264fc69d3dd1d15b96f5a7c9362fc84" title="Get the white-out level. ">ShapeBase::getWhiteOut</a></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Relies on the flash postFx. </dd></dl>
 
 </div>

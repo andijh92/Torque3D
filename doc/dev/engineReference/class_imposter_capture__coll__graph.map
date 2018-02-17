@@ -21,11 +21,11 @@
 <area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="698,1704,765,1731"/>
 <area shape="rect" id="node32" href="$class_t_s_shape_instance.html" title="TSShapeInstance" alt="" coords="2236,837,2360,864"/>
 <area shape="rect" id="node45" href="$class_vector.html" title="Vector\&lt; MatrixF \&gt;" alt="" coords="1245,1779,1373,1805"/>
-<area shape="rect" id="node20" href="$class_color_f.html" title="ColorF" alt="" coords="1483,1227,1543,1253"/>
-<area shape="rect" id="node21" href="$class_point3_f.html" title="Point3F" alt="" coords="1067,999,1134,1025"/>
-<area shape="rect" id="node22" href="$class_box3_f.html" title="Box3F" alt="" coords="1483,999,1543,1025"/>
+<area shape="rect" id="node20" href="$class_point3_f.html" title="Point3F" alt="" coords="1067,999,1134,1025"/>
+<area shape="rect" id="node21" href="$class_box3_f.html" title="Box3F" alt="" coords="1483,999,1543,1025"/>
 <area shape="rect" id="node40" href="$class_t_s_shape.html" title="TSShape" alt="" coords="1873,899,1947,925"/>
 <area shape="rect" id="node43" href="$class_vector.html" title="Vector\&lt; Point3F \&gt;" alt="" coords="1449,615,1578,641"/>
+<area shape="rect" id="node22" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1466,1227,1561,1253"/>
 <area shape="rect" id="node23" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="355,1381,463,1408"/>
 <area shape="rect" id="node24" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="5,1374,181,1415"/>
 <area shape="rect" id="node26" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="996,163,1205,189"/>

@@ -8,6 +8,6 @@ var searchData=
   ['points',['Points',['../class_box_base.html#a7287ef92ddb3754e34bee087e115bd9b',1,'BoxBase']]],
   ['polylistcontext',['PolyListContext',['../scene_container_8h.html#a1d753f0f9f62007982f6f7646899f130',1,'sceneContainer.h']]],
   ['projectileconstants',['ProjectileConstants',['../class_projectile.html#a7381cd8ca0f4055e30a763e15ce63b5e',1,'Projectile']]],
-  ['publicconstants',['PublicConstants',['../class_animation_component.html#a5cdff1a996efc2096e6fb3344db86443',1,'AnimationComponent::PublicConstants()'],['../class_shape_base.html#aa5e40ff42f47711220f666e97a316320',1,'ShapeBase::PublicConstants()']]],
+  ['publicconstants',['PublicConstants',['../class_animation_component.html#a5cdff1a996efc2096e6fb3344db86443',1,'AnimationComponent::PublicConstants()'],['../class_sound_component.html#ad2d0029c0c49870ce0706500a4041672',1,'SoundComponent::PublicConstants()'],['../class_shape_base.html#aa5e40ff42f47711220f666e97a316320',1,'ShapeBase::PublicConstants()']]],
   ['pviquerytype',['PVIQueryType',['../class_platform_video_info.html#ac5931c0bd3b20c0ea3c132c9bcfa9827',1,'PlatformVideoInfo']]]
 ];

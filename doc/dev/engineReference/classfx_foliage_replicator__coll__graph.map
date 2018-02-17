@@ -38,7 +38,7 @@
 <area shape="rect" id="node31" href="$class_g_f_x_shader_const_handle.html" title="GFXShaderConstHandle" alt="" coords="1774,2164,1937,2191"/>
 <area shape="rect" id="node32" href="$class_vector.html" title="Vector\&lt; fxFoliageQuadrant\lNode * \&gt;" alt="" coords="1767,211,1944,253"/>
 <area shape="rect" id="node34" href="$classfx_foliage_replicator_1_1tag_field_data.html" title="fxFoliageReplicator\l::tagFieldData" alt="" coords="1789,1857,1921,1898"/>
-<area shape="rect" id="node35" href="$class_color_f.html" title="ColorF" alt="" coords="1408,2041,1468,2068"/>
+<area shape="rect" id="node35" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1391,2041,1485,2068"/>
 <area shape="rect" id="node36" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="1384,1864,1492,1891"/>
 <area shape="rect" id="node38" href="$class_m_random_l_c_g.html" title="MRandomLCG" alt="" coords="1802,2215,1909,2241"/>
 <area shape="rect" id="node39" href="$class_m_random_generator.html" title="Base class for random number generators. " alt="" coords="1369,2215,1507,2241"/>

@@ -119,7 +119,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga78079a5d8e0c84b4d4f89b3d05d4fdb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___decals.html#ga78079a5d8e0c84b4d4f89b3d05d4fdb8">decalManagerClear</a> ()</td></tr>
 <tr class="memdesc:ga78079a5d8e0c84b4d4f89b3d05d4fdb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all decals currently loaded in the decal manager.  <a href="#ga78079a5d8e0c84b4d4f89b3d05d4fdb8">More...</a><br /></td></tr>
 <tr class="separator:ga78079a5d8e0c84b4d4f89b3d05d4fdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12a298c24cf1df61bcc6482e3cd950cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___decals.html#ga12a298c24cf1df61bcc6482e3cd950cc">decalManagerAddDecal</a> (Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9aebc81705969b8c5ae986b0b2ec08d1d5">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false)</td></tr>
+<tr class="memitem:ga12a298c24cf1df61bcc6482e3cd950cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___decals.html#ga12a298c24cf1df61bcc6482e3cd950cc">decalManagerAddDecal</a> (Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9a4577dc1b6b515e196385b5f8b19093c1">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false)</td></tr>
 <tr class="memdesc:ga12a298c24cf1df61bcc6482e3cd950cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new decal to the decal manager.  <a href="#ga12a298c24cf1df61bcc6482e3cd950cc">More...</a><br /></td></tr>
 <tr class="separator:ga12a298c24cf1df61bcc6482e3cd950cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4ecee34f0274814ef7d11bfd2d2587e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___decals.html#ga4ecee34f0274814ef7d11bfd2d2587e4">decalManagerRemoveDecal</a> (int decalID)</td></tr>
@@ -164,8 +164,8 @@ Containers</h2></td></tr>
 <tr class="separator:gab1cee2dfd784942c3e995b119893c606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga12541741cae08773518cb88c18b92fd7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#ga12541741cae08773518cb88c18b92fd7">Global::decalManagerClear</a> (())</td></tr>
 <tr class="separator:ga12541741cae08773518cb88c18b92fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b9ad3f058d2c350bf96e39b373f1d8d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#ga7b9ad3f058d2c350bf96e39b373f1d8d">Global::decalManagerAddDecal</a> ((Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9aebc81705969b8c5ae986b0b2ec08d1d5">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false))</td></tr>
-<tr class="separator:ga7b9ad3f058d2c350bf96e39b373f1d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2c391f98361df1de316f51ef959604b"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gad2c391f98361df1de316f51ef959604b">Global::decalManagerAddDecal</a> ((Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9a4577dc1b6b515e196385b5f8b19093c1">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false))</td></tr>
+<tr class="separator:gad2c391f98361df1de316f51ef959604b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gabc4281f47908841d399c586237e2ccb5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___game.html#gabc4281f47908841d399c586237e2ccb5">Global::decalManagerRemoveDecal</a> ((int decalID))</td></tr>
 <tr class="separator:gabc4281f47908841d399c586237e2ccb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -174,7 +174,7 @@ Containers</h2></td></tr>
 <p>The <a class="el" href="class_decal_manager.html" title="The object that manages all of the decals in the active mission. ">DecalManager</a> handles all aspects of decal management including loading, creation, saving, and automatically deleting decals that have exceeded their lifeSpan.</p>
 <p>The static decals associated with a mission are normally loaded immediately after the mission itself has loaded as shown below. </p><dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Load the static mission decals.</span></div><div class="line"><a class="code" href="group___decals.html#ga32ba9588f46708613e4552329c00db3e">decalManagerLoad</a>( %missionName @ <span class="stringliteral">&quot;.decals&quot;</span> );</div></div><!-- fragment --> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ga7b9ad3f058d2c350bf96e39b373f1d8d"></a>
+<a class="anchor" id="gad2c391f98361df1de316f51ef959604b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -182,9 +182,9 @@ Containers</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int Global::decalManagerAddDecal </td>
+          <td class="memname">virtual S32 Global::decalManagerAddDecal </td>
           <td>(</td>
-          <td class="paramtype">(Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9aebc81705969b8c5ae986b0b2ec08d1d5">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false)&#160;</td>
+          <td class="paramtype">(Point3F position, Point3F <a class="el" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9a4577dc1b6b515e196385b5f8b19093c1">normal</a>, float rot, float scale, <a class="el" href="class_decal_data.html">DecalData</a> decalData, bool isImmortal=false)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -207,7 +207,7 @@ Containers</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns the ID of the new Decal object or -1 on failure. </dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Specify the decal position</span></div><div class="line">%position = <span class="stringliteral">&quot;1.0 1.0 1.0&quot;</span>;</div><div class="line"></div><div class="line"><span class="comment">// Specify the up vector</span></div><div class="line">%<a class="code" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9aebc81705969b8c5ae986b0b2ec08d1d5">normal</a> = <span class="stringliteral">&quot;0.0 0.0 1.0&quot;</span>;</div><div class="line"></div><div class="line"><span class="comment">// Add the new decal.</span></div><div class="line">%decalObj = <a class="code" href="group___decals.html#ga12a298c24cf1df61bcc6482e3cd950cc">decalManagerAddDecal</a>( %position, %<a class="code" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9aebc81705969b8c5ae986b0b2ec08d1d5">normal</a>, 0.5, 0.35, ScorchBigDecal, <span class="keyword">false</span> );</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Specify the decal position</span></div><div class="line">%position = <span class="stringliteral">&quot;1.0 1.0 1.0&quot;</span>;</div><div class="line"></div><div class="line"><span class="comment">// Specify the up vector</span></div><div class="line">%<a class="code" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9a4577dc1b6b515e196385b5f8b19093c1">normal</a> = <span class="stringliteral">&quot;0.0 0.0 1.0&quot;</span>;</div><div class="line"></div><div class="line"><span class="comment">// Add the new decal.</span></div><div class="line">%decalObj = <a class="code" href="group___decals.html#ga12a298c24cf1df61bcc6482e3cd950cc">decalManagerAddDecal</a>( %position, %<a class="code" href="group___logging.html#ggaca1fd1d8935433e6ba2e3918214e07f9a4577dc1b6b515e196385b5f8b19093c1">normal</a>, 0.5, 0.35, ScorchBigDecal, <span class="keyword">false</span> );</div></div><!-- fragment --> </dd></dl>
 
 </div>
 </div>

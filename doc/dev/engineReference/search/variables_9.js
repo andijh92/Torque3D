@@ -15,7 +15,7 @@ var searchData=
   ['invobjectinertia',['invObjectInertia',['../class_rigid.html#aa54ff077c6feb07f8075472b236ae296',1,'Rigid']]],
   ['invworldinertia',['invWorldInertia',['../class_rigid.html#a6146027a9e4cb7755a635d178e54203b',1,'Rigid']]],
   ['isanimated',['isAnimated',['../struct_shape_base_image_data.html#ae359478c38afd6236171ce352e8484ad',1,'ShapeBaseImageData::isAnimated()'],['../class_a_i_turret_shape_data.html#aeb6a0c19339f24d6bdd4fd759bb8d72a',1,'AITurretShapeData::isAnimated()']]],
-  ['isballistic',['isBallistic',['../class_projectile_data.html#aa04e6f6051a59e35e61d4acd9c8d4be4',1,'ProjectileData']]],
+  ['isballistic',['isBallistic',['../classafx_magic_missile_data.html#a31c9a0b562bfc4bcdcb6aae0efbf5685',1,'afxMagicMissileData::isBallistic()'],['../class_projectile_data.html#aa04e6f6051a59e35e61d4acd9c8d4be4',1,'ProjectileData::isBallistic()']]],
   ['isdst',['isdst',['../struct_platform_1_1_local_time.html#aec9a7b0924351b08adf39ae0ccc9c104',1,'Platform::LocalTime']]],
   ['isinvincible',['isInvincible',['../struct_shape_base_data.html#ad223406de6a2e8b50ca10ee257f385ea',1,'ShapeBaseData']]],
   ['issphere',['isSphere',['../struct_occluder_render_inst.html#ac55b58dc120eefb12d4b9f281f798d0a',1,'OccluderRenderInst']]],

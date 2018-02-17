@@ -96,25 +96,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adb8faa6d90e4ab163cf97db027bc487a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb8faa6d90e4ab163cf97db027bc487a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> ((String className, String imageFile[, bool overwrite=true]))</td></tr>
-<tr class="separator:adb8faa6d90e4ab163cf97db027bc487a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ed8dcfb4ddcb2525293627d4421832"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a91ed8dcfb4ddcb2525293627d4421832"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>loadFromPath</b> ((String imagePath[, bool overwrite=true]))</td></tr>
-<tr class="separator:a91ed8dcfb4ddcb2525293627d4421832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fdf16194ff25d7d9ed0fd442b34626"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74fdf16194ff25d7d9ed0fd442b34626"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
-<tr class="separator:a74fdf16194ff25d7d9ed0fd442b34626"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b53c73c0b701d993592e7cfd333451"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_editor_icon_registry.html#ae6b53c73c0b701d993592e7cfd333451">findIconByClassName</a> ((String className))</td></tr>
-<tr class="separator:ae6b53c73c0b701d993592e7cfd333451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9323af6bd329792cb316e12635716e8d"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_editor_icon_registry.html#a9323af6bd329792cb316e12635716e8d">findIconBySimObject</a> ((<a class="el" href="class_sim_object.html">SimObject</a>))</td></tr>
-<tr class="separator:a9323af6bd329792cb316e12635716e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df2d51d71a85c3d27a02f533e2c25b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7df2d51d71a85c3d27a02f533e2c25b5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> ((String className, String imageFile[, bool overwrite=true])...)</td></tr>
+<tr class="separator:a7df2d51d71a85c3d27a02f533e2c25b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0c15f2a1a63e8a82373ce375bff3f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace0c15f2a1a63e8a82373ce375bff3f2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>loadFromPath</b> ((String imagePath[, bool overwrite=true])...)</td></tr>
+<tr class="separator:ace0c15f2a1a63e8a82373ce375bff3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e5e8d1ab4681bdebcd5204646bdc3e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e5e8d1ab4681bdebcd5204646bdc3e5"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> (...)</td></tr>
+<tr class="separator:a9e5e8d1ab4681bdebcd5204646bdc3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8e6fecc89820748ffdec7f336f64620"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_editor_icon_registry.html#ac8e6fecc89820748ffdec7f336f64620">findIconByClassName</a> ((String className)...)</td></tr>
+<tr class="separator:ac8e6fecc89820748ffdec7f336f64620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f70944867e9d767aa0e96d6ad7c790"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_editor_icon_registry.html#a00f70944867e9d767aa0e96d6ad7c790">findIconBySimObject</a> ((<a class="el" href="class_sim_object.html">SimObject</a>)...)</td></tr>
+<tr class="separator:a00f70944867e9d767aa0e96d6ad7c790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is used to find the correct icon file path for different <a class="el" href="class_sim_object.html" title="Base class for almost all objects involved in the simulation. ">SimObject</a> class types. </p>
 <p>It is typically used by the editors, not intended for actual game development </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ae6b53c73c0b701d993592e7cfd333451"></a>
+<a class="anchor" id="ac8e6fecc89820748ffdec7f336f64620"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -125,7 +125,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()<
           <td class="memname">virtual string EditorIconRegistry::findIconByClassName </td>
           <td>(</td>
           <td class="paramtype">(String className)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -139,7 +139,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()<
 
 </div>
 </div>
-<a class="anchor" id="a9323af6bd329792cb316e12635716e8d"></a>
+<a class="anchor" id="a00f70944867e9d767aa0e96d6ad7c790"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -150,7 +150,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()<
           <td class="memname">virtual string EditorIconRegistry::findIconBySimObject </td>
           <td>(</td>
           <td class="paramtype">(<a class="el" href="class_sim_object.html">SimObject</a>)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -1,0 +1,6 @@
+<map id="afxPhraseEffectData" name="afxPhraseEffectData">
+<area shape="rect" id="node2" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="46,157,161,184"/>
+<area shape="rect" id="node5" href="$classafx_effect_base_data.html" title="A datablock baseclass for afxEffectWrapperData and afxEffectGroupData. " alt="" coords="125,233,255,260"/>
+<area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="51,81,156,108"/>
+<area shape="rect" id="node4" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="62,5,145,32"/>
+</map>

@@ -47,5 +47,5 @@
 <area shape="rect" id="node43" href="$class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="1936,1288,2124,1315"/>
 <area shape="rect" id="node46" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; GuiControl \&gt;" alt="" coords="2225,1025,2411,1052"/>
 <area shape="rect" id="node47" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; GuiControl \&gt;" alt="" coords="1941,1025,2119,1052"/>
-<area shape="rect" id="node50" href="$class_color_f.html" title="ColorF" alt="" coords="1257,132,1317,159"/>
+<area shape="rect" id="node50" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1240,132,1335,159"/>
 </map>

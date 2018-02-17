@@ -1,4 +1,5 @@
 <map id="Projectile" name="Projectile">
+<area shape="rect" id="node17" href="$classafx_projectile.html" title="afxProjectile" alt="" coords="329,827,423,853"/>
 <area shape="rect" id="node2" href="$class_game_base.html" title="GameBase" alt="" coords="277,677,363,704"/>
 <area shape="rect" id="node3" href="$class_scene_object.html" title="SceneObject" alt="" coords="271,603,369,629"/>
 <area shape="rect" id="node4" href="$class_net_object.html" title="NetObject" alt="" coords="143,528,223,555"/>

@@ -1,10 +1,16 @@
 <map id="GuiInspectorTypeFileName" name="GuiInspectorTypeFileName">
-<area shape="rect" id="node7" href="$class_gui_inspector_type_image_file_name.html" title="Inspector field type for FileName. " alt="" coords="905,5,1119,32"/>
-<area shape="rect" id="node8" href="$class_gui_inspector_type_prefab_filename.html" title="Inspector field type for PrefabFilename. " alt="" coords="905,56,1119,83"/>
-<area shape="rect" id="node9" href="$class_gui_inspector_type_shape_filename.html" title="Inspector field type for Shapes. " alt="" coords="905,107,1119,133"/>
-<area shape="rect" id="node2" href="$class_gui_inspector_field.html" title="The GuiInspectorField control is a representation of a single abstract field for a given ConsoleObjec..." alt="" coords="508,56,631,83"/>
-<area shape="rect" id="node3" href="$class_gui_control.html" title="Base class for all Gui control objects. " alt="" coords="377,56,460,83"/>
-<area shape="rect" id="node4" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="249,56,329,83"/>
-<area shape="rect" id="node5" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="136,56,201,83"/>
-<area shape="rect" id="node6" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="5,56,88,83"/>
+<area shape="rect" id="node7" href="$class_gui_inspector_type_game_object_asset_ptr.html" title="Inspector field type for Game Objects. " alt="" coords="914,5,1110,47"/>
+<area shape="rect" id="node8" href="$class_gui_inspector_type_g_u_i_asset_ptr.html" title="Inspector field type for GUI Asset Objects. " alt="" coords="914,71,1110,98"/>
+<area shape="rect" id="node9" href="$class_gui_inspector_type_image_file_name.html" title="Inspector field type for FileName. " alt="" coords="905,122,1119,149"/>
+<area shape="rect" id="node10" href="$class_gui_inspector_type_material_asset_ptr.html" title="Inspector field type for Material Asset Objects. " alt="" coords="927,173,1097,215"/>
+<area shape="rect" id="node11" href="$class_gui_inspector_type_particle_asset_ptr.html" title="Inspector field type for Partial Asset Objects. " alt="" coords="929,239,1095,280"/>
+<area shape="rect" id="node12" href="$class_gui_inspector_type_prefab_filename.html" title="Inspector field type for PrefabFilename. " alt="" coords="905,305,1119,331"/>
+<area shape="rect" id="node13" href="$class_gui_inspector_type_shape_asset_ptr.html" title="Inspector field type for Shapes. " alt="" coords="907,355,1117,382"/>
+<area shape="rect" id="node14" href="$class_gui_inspector_type_shape_filename.html" title="Inspector field type for Shapes. " alt="" coords="905,406,1119,433"/>
+<area shape="rect" id="node15" href="$class_gui_inspector_type_state_machine_asset_ptr.html" title="Inspector field type for State Machines. " alt="" coords="911,457,1113,499"/>
+<area shape="rect" id="node2" href="$class_gui_inspector_field.html" title="The GuiInspectorField control is a representation of a single abstract field for a given ConsoleObjec..." alt="" coords="508,246,631,273"/>
+<area shape="rect" id="node3" href="$class_gui_control.html" title="Base class for all Gui control objects. " alt="" coords="377,246,460,273"/>
+<area shape="rect" id="node4" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="249,246,329,273"/>
+<area shape="rect" id="node5" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="136,246,201,273"/>
+<area shape="rect" id="node6" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="5,246,88,273"/>
 </map>

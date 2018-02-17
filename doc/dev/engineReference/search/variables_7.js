@@ -13,7 +13,7 @@ var searchData=
   ['ghostlist',['ghostList',['../struct_net_connection_1_1_packet_notify.html#a9fb29da9f8db9f3a461c78d9c48b70b7',1,'NetConnection::PacketNotify']]],
   ['ginstantgroup',['gInstantGroup',['../namespace_con.html#a9324e62bb71588ff8be531e1607b0696',1,'Con']]],
   ['glow',['glow',['../class_particle_emitter_data.html#a48b7adcf8b213f025d20af168811284a',1,'ParticleEmitterData']]],
-  ['gravitymod',['gravityMod',['../class_projectile_data.html#a696fb7e23545ac1d89fcac0171a79359',1,'ProjectileData']]],
+  ['gravitymod',['gravityMod',['../classafx_magic_missile_data.html#a0c11ed1c6c145bb3f630f419773cb3d3',1,'afxMagicMissileData::gravityMod()'],['../class_projectile_data.html#a696fb7e23545ac1d89fcac0171a79359',1,'ProjectileData::gravityMod()']]],
   ['groundimpactminspeed',['groundImpactMinSpeed',['../struct_player_data.html#a3e3e0d284726041482f4debeda9e324d',1,'PlayerData']]],
   ['groundimpactshakeamp',['groundImpactShakeAmp',['../struct_player_data.html#a4a9b07f538eb37467125ce67345aa65e',1,'PlayerData']]],
   ['groundimpactshakeduration',['groundImpactShakeDuration',['../struct_player_data.html#a28ddda82f31cb6b55e69441758ab1f74',1,'PlayerData']]],

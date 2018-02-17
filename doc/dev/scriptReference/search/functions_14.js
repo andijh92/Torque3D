@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['warn',['warn',['../group___logging.html#gaa1df228925d1d43a7bbf13d2a27fef35',1,'Global::warn()'],['../group___logging.html#ga960df4b2ab194976231b9db5ef4c1ec7',1,'warn():&#160;scriptModules.txt']]],
+  ['warn',['warn',['../group___logging.html#ga465478c8f18ec5d1aff6a5e83b67dbd9',1,'Global::warn()'],['../group___logging.html#ga960df4b2ab194976231b9db5ef4c1ec7',1,'warn():&#160;scriptModules.txt']]],
   ['warningflashes',['warningFlashes',['../class_lightning.html#a745765f18c135e2c494cd293b10253f2',1,'Lightning::warningFlashes(())'],['../class_lightning.html#a6f8c5b08ed658c77972f290f62e55e89',1,'Lightning::warningFlashes()']]],
-  ['weekdaynumtostr',['weekdayNumToStr',['../group___file_system.html#gae810fa3d5e2f96f13c018ff656706ecf',1,'Global::weekdayNumToStr()'],['../group___file_system.html#ga1fc87890d2b7995cf3586dd47b09eabf',1,'weekdayNumToStr():&#160;scriptModules.txt']]],
-  ['write',['write',['../class_settings.html#a4b457c68f760f18127e1c0dd6d21ca64',1,'Settings::write()'],['../class_taml.html#aff374781e2bc20557980cff215699cf8',1,'Taml::write((SimObject obj, string filename))'],['../class_taml.html#ae3d229b97b45afa4182c843ea1607e33',1,'Taml::write(SimObject obj, string filename)']]],
+  ['warnthru',['warnThru',['../group___game.html#gac74089feef1b4585bc9f374aa89df23c',1,'Global::warnThru()'],['../group___a_f_x.html#ga51eb5ee5da87f45ff14229c1f6677b16',1,'warnThru():&#160;scriptModules.txt']]],
+  ['wassyntaxerror',['wasSyntaxError',['../group___game.html#ga045432dc0f4831ef2c88d6f2efebc8bd',1,'Global::wasSyntaxError()'],['../group___a_f_x.html#ga3c3bafd9889db07d511a0cabf3d64f5c',1,'wasSyntaxError():&#160;scriptModules.txt']]],
+  ['weekdaynumtostr',['weekdayNumToStr',['../group___file_system.html#ga2eb574eee2d6f0efe97322a917f0e05c',1,'Global::weekdayNumToStr()'],['../group___file_system.html#ga1fc87890d2b7995cf3586dd47b09eabf',1,'weekdayNumToStr():&#160;scriptModules.txt']]],
+  ['write',['write',['../class_settings.html#aab688f8031553bc257b077309099468f',1,'Settings::write()'],['../class_taml.html#aff374781e2bc20557980cff215699cf8',1,'Taml::write((SimObject obj, string filename))'],['../class_taml.html#ae3d229b97b45afa4182c843ea1607e33',1,'Taml::write(SimObject obj, string filename)']]],
   ['writechangeset',['writeChangeSet',['../class_t_s_shape_constructor.html#a043f49fcf47a7f43057a53b239211a06',1,'TSShapeConstructor::writeChangeSet(())'],['../class_t_s_shape_constructor.html#a53d801f20ec6940eb5ff24257a33ddeb',1,'TSShapeConstructor::writeChangeSet()']]],
   ['writefontcache',['writeFontCache',['../group___font.html#ga5c2fa59b7eff39b03e3c5ac36bf5b023',1,'Global::writeFontCache()'],['../group___font.html#ga97e9cb8bcb1d93c4fffe93166341c79b',1,'writeFontCache():&#160;scriptModules.txt']]],
   ['writeguides',['writeGuides',['../class_gui_edit_ctrl.html#a46444f7432cd0238b08028b0dad0d65f',1,'GuiEditCtrl']]],

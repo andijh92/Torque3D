@@ -1,0 +1,51 @@
+<map id="afxXM_LocalOffset_fixed" name="afxXM_LocalOffset_fixed">
+<area shape="rect" id="node2" href="$classafx_x_m___base.html" title="afxXM_Base" alt="" coords="2407,1363,2501,1389"/>
+<area shape="rect" id="node4" href="$classafx_effect_wrapper.html" title="afxEffectWrapper" alt="" coords="2683,695,2805,721"/>
+<area shape="rect" id="node3" href="$classafx_x_m___defs.html" title="afxXM_Defs" alt="" coords="1686,1393,1777,1420"/>
+<area shape="rect" id="node45" href="$classafx_x_m___base_data.html" title="afxXM_BaseData" alt="" coords="2054,1360,2175,1387"/>
+<area shape="rect" id="node5" href="$class_sim_object.html" title="SimObject" alt="" coords="668,1043,751,1069"/>
+<area shape="rect" id="node11" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1017,361,1115,388"/>
+<area shape="rect" id="node16" href="$union_namespace_1_1_entry_1_1_callback_union.html" title="Namespace::Entry::Callback\lUnion" alt="" coords="972,1375,1160,1417"/>
+<area shape="rect" id="node22" href="$classafx_choreographer.html" title="afxChoreographer" alt="" coords="2393,404,2515,431"/>
+<area shape="rect" id="node41" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="1346,1120,1451,1147"/>
+<area shape="rect" id="node6" href="$class_console_object.html" title="ConsoleObject" alt="" coords="468,1043,575,1069"/>
+<area shape="rect" id="node7" href="$class_engine_object.html" title="EngineObject" alt="" coords="319,564,419,591"/>
+<area shape="rect" id="node8" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,416,269,443"/>
+<area shape="rect" id="node9" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,416,111,443"/>
+<area shape="rect" id="node10" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="468,992,575,1019"/>
+<area shape="rect" id="node24" href="$class_scene_object.html" title="SceneObject" alt="" coords="1350,349,1447,376"/>
+<area shape="rect" id="node12" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="624,215,795,241"/>
+<area shape="rect" id="node13" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="660,304,759,331"/>
+<area shape="rect" id="node14" href="$class_namespace.html" title="Namespace" alt="" coords="1686,1304,1777,1331"/>
+<area shape="rect" id="node15" href="$struct_namespace_1_1_entry.html" title="A function entry in the namespace. " alt="" coords="1333,1377,1464,1404"/>
+<area shape="rect" id="node19" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="2051,1259,2178,1285"/>
+<area shape="rect" id="node17" href="$class_code_block.html" title="CodeBlock" alt="" coords="1023,1324,1109,1351"/>
+<area shape="rect" id="node18" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1350,1285,1447,1312"/>
+<area shape="rect" id="node20" href="$classafx_effect_defs.html" title="afxEffectDefs" alt="" coords="1682,669,1781,696"/>
+<area shape="rect" id="node21" href="$classafx_constraint_mgr.html" title="afxConstraintMgr" alt="" coords="2055,619,2175,645"/>
+<area shape="rect" id="node39" href="$classafx_effect_base_data.html" title="afxEffectBaseData" alt="" coords="2050,923,2179,949"/>
+<area shape="rect" id="node46" href="$structafx_constraint_def.html" title="afxConstraintDef" alt="" coords="2056,720,2173,747"/>
+<area shape="rect" id="node23" href="$class_game_base.html" title="GameBase" alt="" coords="2071,353,2158,380"/>
+<area shape="rect" id="node29" href="$class_water_object.html" title="WaterObject" alt="" coords="1684,400,1779,427"/>
+<area shape="rect" id="node34" href="$structafx_choreographer_1_1dyn_constraint_def.html" title="afxChoreographer::dynConstraintDef" alt="" coords="1616,243,1847,269"/>
+<area shape="rect" id="node25" href="$class_point3_f.html" title="Point3F" alt="" coords="676,561,743,588"/>
+<area shape="rect" id="node26" href="$class_box3_f.html" title="Box3F" alt="" coords="1036,649,1096,676"/>
+<area shape="rect" id="node38" href="$classafx_effect_wrapper_data.html" title="afxEffectWrapperData" alt="" coords="2380,989,2528,1016"/>
+<area shape="rect" id="node27" href="$class_box_base.html" title="Base class for box geometries. " alt="" coords="672,649,747,676"/>
+<area shape="rect" id="node28" href="$class_matrix_f.html" title="MatrixF" alt="" coords="1033,181,1099,208"/>
+<area shape="rect" id="node30" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1365,711,1432,737"/>
+<area shape="rect" id="node49" href="$structafx_effect_timing_data.html" title="afxEffectTimingData" alt="" coords="2046,872,2183,899"/>
+<area shape="rect" id="node31" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="1351,577,1446,604"/>
+<area shape="rect" id="node32" href="$classafx_magic_missile_callback.html" title="afxMagicMissileCallback" alt="" coords="2032,404,2197,431"/>
+<area shape="rect" id="node33" href="$class_vector.html" title="Vector\&lt; afxChoreographer\l::dynConstraintDef * \&gt;" alt="" coords="2028,287,2201,329"/>
+<area shape="rect" id="node37" href="$class_vector.html" title="Vector\&lt; afxChoreographer\l::dynConstraintDef \&gt;" alt="" coords="2028,222,2201,263"/>
+<area shape="rect" id="node35" href="$class_vector.html" title="Vector\&lt; NetConnection * \&gt;" alt="" coords="2025,171,2204,197"/>
+<area shape="rect" id="node36" href="$class_net_connection.html" title="NetConnection" alt="" coords="1678,171,1785,197"/>
+<area shape="rect" id="node40" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="1674,1171,1789,1197"/>
+<area shape="rect" id="node42" href="$class_vector.html" title="Vector\&lt; SimDataBlock\l::SubstitutionStatement * \&gt;" alt="" coords="976,1054,1156,1095"/>
+<area shape="rect" id="node43" href="$class_signal.html" title="Signal\&lt; void(void)\&gt;" alt="" coords="1333,1184,1464,1211"/>
+<area shape="rect" id="node44" href="$classafx_effect_adapter_desc.html" title="afxEffectAdapterDesc" alt="" coords="2041,1024,2188,1051"/>
+<area shape="rect" id="node47" href="$classafx_anim_curve.html" title="afxAnimCurve" alt="" coords="2064,1075,2165,1101"/>
+<area shape="rect" id="node48" href="$class_byte_range.html" title="ByteRange" alt="" coords="2071,1309,2158,1336"/>
+<area shape="rect" id="node50" href="$structafx_constraint_i_d.html" title="afxConstraintID" alt="" coords="2399,69,2509,96"/>
+</map>

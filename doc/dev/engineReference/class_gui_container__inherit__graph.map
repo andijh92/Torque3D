@@ -6,8 +6,8 @@
 <area shape="rect" id="node17" href="$class_gui_split_container.html" title="GuiSplitContainer" alt="" coords="1281,208,1404,235"/>
 <area shape="rect" id="node18" href="$class_gui_tab_book_ctrl.html" title="GuiTabBookCtrl" alt="" coords="1286,259,1399,285"/>
 <area shape="rect" id="node19" href="$class_gui_text_ctrl.html" title="GuiTextCtrl" alt="" coords="1299,309,1386,336"/>
-<area shape="rect" id="node30" href="$class_gui_t_s_ctrl.html" title="Abstract base class for 3D viewport GUIs. " alt="" coords="1303,740,1382,767"/>
-<area shape="rect" id="node46" href="$class_gui_window_ctrl.html" title="GuiWindowCtrl" alt="" coords="1289,841,1397,868"/>
+<area shape="rect" id="node30" href="$class_gui_t_s_ctrl.html" title="Abstract base class for 3D viewport GUIs. " alt="" coords="1303,715,1382,741"/>
+<area shape="rect" id="node47" href="$class_gui_window_ctrl.html" title="GuiWindowCtrl" alt="" coords="1289,841,1397,868"/>
 <area shape="rect" id="node2" href="$class_gui_control.html" title="GuiControl" alt="" coords="1005,208,1088,235"/>
 <area shape="rect" id="node3" href="$class_sim_group.html" title="SimGroup" alt="" coords="877,208,957,235"/>
 <area shape="rect" id="node4" href="$class_sim_set.html" title="SimSet" alt="" coords="764,208,829,235"/>
@@ -29,20 +29,21 @@
 <area shape="rect" id="node27" href="$class_gui_console_edit_ctrl.html" title="GuiConsoleEditCtrl" alt="" coords="1685,335,1817,361"/>
 <area shape="rect" id="node28" href="$class_gui_text_edit_slider_bitmap_ctrl.html" title="GuiTextEditSliderBitmapCtrl" alt="" coords="1659,385,1843,412"/>
 <area shape="rect" id="node29" href="$class_gui_text_edit_slider_ctrl.html" title="GuiTextEditSliderCtrl" alt="" coords="1679,436,1822,463"/>
-<area shape="rect" id="node31" href="$class_edit_t_s_ctrl.html" title="EditTSCtrl" alt="" coords="1491,689,1572,716"/>
-<area shape="rect" id="node43" href="$class_game_t_s_ctrl.html" title="GameTSCtrl" alt="" coords="1485,740,1578,767"/>
-<area shape="rect" id="node44" href="$class_gui_material_preview.html" title="GuiMaterialPreview" alt="" coords="1465,791,1597,817"/>
-<area shape="rect" id="node45" href="$class_gui_object_view.html" title="A control that displays a TSShape in its view. " alt="" coords="1477,841,1585,868"/>
-<area shape="rect" id="node32" href="$class_forest_editor_ctrl.html" title="ForestEditorCtrl" alt="" coords="1694,487,1807,513"/>
-<area shape="rect" id="node33" href="$class_gui_convex_editor_ctrl.html" title="GuiConvexEditorCtrl" alt="" coords="1681,537,1820,564"/>
-<area shape="rect" id="node34" href="$class_gui_decal_editor_ctrl.html" title="GuiDecalEditorCtrl" alt="" coords="1686,588,1815,615"/>
-<area shape="rect" id="node35" href="$class_gui_mesh_road_editor_ctrl.html" title="GuiMeshRoadEditorCtrl" alt="" coords="1671,639,1830,665"/>
-<area shape="rect" id="node36" href="$class_gui_mission_area_editor_ctrl.html" title="GuiMissionAreaEditorCtrl" alt="" coords="1667,689,1835,716"/>
-<area shape="rect" id="node37" href="$class_gui_nav_editor_ctrl.html" title="GuiNavEditorCtrl" alt="" coords="1692,740,1809,767"/>
-<area shape="rect" id="node38" href="$class_gui_river_editor_ctrl.html" title="GuiRiverEditorCtrl" alt="" coords="1689,791,1813,817"/>
-<area shape="rect" id="node39" href="$class_gui_road_editor_ctrl.html" title="GuiRoadEditorCtrl" alt="" coords="1687,841,1814,868"/>
-<area shape="rect" id="node40" href="$class_gui_shape_ed_preview.html" title="GuiShapeEdPreview" alt="" coords="1681,892,1820,919"/>
-<area shape="rect" id="node41" href="$class_terrain_editor.html" title="TerrainEditor" alt="" coords="1703,943,1798,969"/>
-<area shape="rect" id="node42" href="$class_world_editor.html" title="WorldEditor" alt="" coords="1705,993,1796,1020"/>
-<area shape="rect" id="node47" href="$class_gui_window_collapse_ctrl.html" title="GuiWindowCollapseCtrl" alt="" coords="1452,892,1611,919"/>
+<area shape="rect" id="node31" href="$classafx_t_s_ctrl.html" title="afxTSCtrl" alt="" coords="1494,639,1569,665"/>
+<area shape="rect" id="node32" href="$class_edit_t_s_ctrl.html" title="EditTSCtrl" alt="" coords="1491,689,1572,716"/>
+<area shape="rect" id="node44" href="$class_game_t_s_ctrl.html" title="GameTSCtrl" alt="" coords="1485,740,1578,767"/>
+<area shape="rect" id="node45" href="$class_gui_material_preview.html" title="GuiMaterialPreview" alt="" coords="1465,791,1597,817"/>
+<area shape="rect" id="node46" href="$class_gui_object_view.html" title="A control that displays a TSShape in its view. " alt="" coords="1477,841,1585,868"/>
+<area shape="rect" id="node33" href="$class_forest_editor_ctrl.html" title="ForestEditorCtrl" alt="" coords="1694,487,1807,513"/>
+<area shape="rect" id="node34" href="$class_gui_convex_editor_ctrl.html" title="GuiConvexEditorCtrl" alt="" coords="1681,537,1820,564"/>
+<area shape="rect" id="node35" href="$class_gui_decal_editor_ctrl.html" title="GuiDecalEditorCtrl" alt="" coords="1686,588,1815,615"/>
+<area shape="rect" id="node36" href="$class_gui_mesh_road_editor_ctrl.html" title="GuiMeshRoadEditorCtrl" alt="" coords="1671,639,1830,665"/>
+<area shape="rect" id="node37" href="$class_gui_mission_area_editor_ctrl.html" title="GuiMissionAreaEditorCtrl" alt="" coords="1667,689,1835,716"/>
+<area shape="rect" id="node38" href="$class_gui_nav_editor_ctrl.html" title="GuiNavEditorCtrl" alt="" coords="1692,740,1809,767"/>
+<area shape="rect" id="node39" href="$class_gui_river_editor_ctrl.html" title="GuiRiverEditorCtrl" alt="" coords="1689,791,1813,817"/>
+<area shape="rect" id="node40" href="$class_gui_road_editor_ctrl.html" title="GuiRoadEditorCtrl" alt="" coords="1687,841,1814,868"/>
+<area shape="rect" id="node41" href="$class_gui_shape_ed_preview.html" title="GuiShapeEdPreview" alt="" coords="1681,892,1820,919"/>
+<area shape="rect" id="node42" href="$class_terrain_editor.html" title="TerrainEditor" alt="" coords="1703,943,1798,969"/>
+<area shape="rect" id="node43" href="$class_world_editor.html" title="WorldEditor" alt="" coords="1705,993,1796,1020"/>
+<area shape="rect" id="node48" href="$class_gui_window_collapse_ctrl.html" title="GuiWindowCollapseCtrl" alt="" coords="1452,892,1611,919"/>
 </map>

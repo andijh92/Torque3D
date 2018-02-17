@@ -113,13 +113,17 @@ Collaboration diagram for ActionMap:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad44e04dead3b65ac8c0b6dcc1381e7ed"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a> ()</td></tr>
-<tr class="separator:ad44e04dead3b65ac8c0b6dcc1381e7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a886acacaed53f44811de27e4b1da15a5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a886acacaed53f44811de27e4b1da15a5">bindObj</a> ((device, action, [modifier spec, mod...], command, object))</td></tr>
-<tr class="separator:a886acacaed53f44811de27e4b1da15a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b4369132d21a37d31f876a99ddc45d6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a> (...)</td></tr>
+<tr class="separator:a2b4369132d21a37d31f876a99ddc45d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8dfe39a0e930d427fa73c78599d956"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a7a8dfe39a0e930d427fa73c78599d956">bindObj</a> ((device, action, [modifier, spec, mod...], command, object)...)</td></tr>
+<tr class="separator:a7a8dfe39a0e930d427fa73c78599d956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7ed9cb5bfa8f7a3988974ec1c23fe29"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#af7ed9cb5bfa8f7a3988974ec1c23fe29">bindCmd</a> ((string device, string action, string makeCmd, string breakCmd=&quot;&quot;))</td></tr>
 <tr class="memdesc:af7ed9cb5bfa8f7a3988974ec1c23fe29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates a make command and optional break command to a specified input device action.  <a href="#af7ed9cb5bfa8f7a3988974ec1c23fe29">More...</a><br /></td></tr>
 <tr class="separator:af7ed9cb5bfa8f7a3988974ec1c23fe29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6d4cac2bc5019ddaaaec85a1405a58"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a4a6d4cac2bc5019ddaaaec85a1405a58">bindContext</a> ((string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, string tapFunction=&quot;&quot;, uint holdTime=0))</td></tr>
+<tr class="separator:a4a6d4cac2bc5019ddaaaec85a1405a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4615cd50991dde28366879463d4dee42"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a4615cd50991dde28366879463d4dee42">bindHold</a> ((string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, bool returnHoldTime=false))</td></tr>
+<tr class="separator:a4615cd50991dde28366879463d4dee42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a442d756b190a54719117a2c742f755"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a3a442d756b190a54719117a2c742f755">unbind</a> ((string device, string action))</td></tr>
 <tr class="memdesc:a3a442d756b190a54719117a2c742f755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the binding on an input device and action.  <a href="#a3a442d756b190a54719117a2c742f755">More...</a><br /></td></tr>
 <tr class="separator:a3a442d756b190a54719117a2c742f755"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,21 +139,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f62d19caff896ea2cb5821d972802e4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a5f62d19caff896ea2cb5821d972802e4">pop</a> (())</td></tr>
 <tr class="memdesc:a5f62d19caff896ea2cb5821d972802e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop the <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> off the ActionMap stack.  <a href="#a5f62d19caff896ea2cb5821d972802e4">More...</a><br /></td></tr>
 <tr class="separator:a5f62d19caff896ea2cb5821d972802e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a3d82097d35c464a2387554771fda8e"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a8a3d82097d35c464a2387554771fda8e">getBinding</a> ((string command))</td></tr>
-<tr class="memdesc:a8a3d82097d35c464a2387554771fda8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> binding for the specified command.  <a href="#a8a3d82097d35c464a2387554771fda8e">More...</a><br /></td></tr>
-<tr class="separator:a8a3d82097d35c464a2387554771fda8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51332891639e5c7f699f13adeb062091"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a51332891639e5c7f699f13adeb062091">getCommand</a> ((string device, string action))</td></tr>
-<tr class="memdesc:a51332891639e5c7f699f13adeb062091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> command for the device and action.  <a href="#a51332891639e5c7f699f13adeb062091">More...</a><br /></td></tr>
-<tr class="separator:a51332891639e5c7f699f13adeb062091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62db9b22e1e6bce80eb7906e4bb92bde"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a62db9b22e1e6bce80eb7906e4bb92bde">getBinding</a> ((string command))</td></tr>
+<tr class="memdesc:a62db9b22e1e6bce80eb7906e4bb92bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> binding for the specified command.  <a href="#a62db9b22e1e6bce80eb7906e4bb92bde">More...</a><br /></td></tr>
+<tr class="separator:a62db9b22e1e6bce80eb7906e4bb92bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40602d59ba3e64f6f6dedd19f98af9e2"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a40602d59ba3e64f6f6dedd19f98af9e2">getCommand</a> ((string device, string action))</td></tr>
+<tr class="memdesc:a40602d59ba3e64f6f6dedd19f98af9e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> command for the device and action.  <a href="#a40602d59ba3e64f6f6dedd19f98af9e2">More...</a><br /></td></tr>
+<tr class="separator:a40602d59ba3e64f6f6dedd19f98af9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b684c416fc0984552bf4bb870cf953"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a40b684c416fc0984552bf4bb870cf953">isInverted</a> ((string device, string action))</td></tr>
 <tr class="memdesc:a40b684c416fc0984552bf4bb870cf953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the specified device and action is inverted.  <a href="#a40b684c416fc0984552bf4bb870cf953">More...</a><br /></td></tr>
 <tr class="separator:a40b684c416fc0984552bf4bb870cf953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a998734d93908d321a93a65210a682b70"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a998734d93908d321a93a65210a682b70">getScale</a> ((string device, string action))</td></tr>
-<tr class="memdesc:a998734d93908d321a93a65210a682b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get any scaling on the specified device and action.  <a href="#a998734d93908d321a93a65210a682b70">More...</a><br /></td></tr>
-<tr class="separator:a998734d93908d321a93a65210a682b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84bb3bdb998696a7d5be9d10464a54e0"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a84bb3bdb998696a7d5be9d10464a54e0">getDeadZone</a> ((string device, string action))</td></tr>
-<tr class="memdesc:a84bb3bdb998696a7d5be9d10464a54e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Dead zone for the specified device and action.  <a href="#a84bb3bdb998696a7d5be9d10464a54e0">More...</a><br /></td></tr>
-<tr class="separator:a84bb3bdb998696a7d5be9d10464a54e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343be4445e65da2372d673e689805a4b"><td class="memItemLeft" align="right" valign="top">virtual F32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a343be4445e65da2372d673e689805a4b">getScale</a> ((string device, string action))</td></tr>
+<tr class="memdesc:a343be4445e65da2372d673e689805a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get any scaling on the specified device and action.  <a href="#a343be4445e65da2372d673e689805a4b">More...</a><br /></td></tr>
+<tr class="separator:a343be4445e65da2372d673e689805a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf5ba5907b532741293f95dac98a8223"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#aaf5ba5907b532741293f95dac98a8223">getDeadZone</a> ((string device, string action))</td></tr>
+<tr class="memdesc:aaf5ba5907b532741293f95dac98a8223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Dead zone for the specified device and action.  <a href="#aaf5ba5907b532741293f95dac98a8223">More...</a><br /></td></tr>
+<tr class="separator:aaf5ba5907b532741293f95dac98a8223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa8851f211c2034df9d823bf5899549"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#afaa8851f211c2034df9d823bf5899549">bindObj</a> (string device, string action, string flag, string deadZone, string scale, string command, SimObjectID object)</td></tr>
 <tr class="memdesc:afaa8851f211c2034df9d823bf5899549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates a function to an input event for a specified class or object.  <a href="#afaa8851f211c2034df9d823bf5899549">More...</a><br /></td></tr>
 <tr class="separator:afaa8851f211c2034df9d823bf5899549"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,6 +169,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acff303d313ce4e08bcec9f468f6c26a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#acff303d313ce4e08bcec9f468f6c26a5">bindCmd</a> (string device, string action, string makeCmd, string breakCmd=&quot;&quot;)</td></tr>
 <tr class="memdesc:acff303d313ce4e08bcec9f468f6c26a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates a make command and optional break command to a specified input device action.  <a href="#acff303d313ce4e08bcec9f468f6c26a5">More...</a><br /></td></tr>
 <tr class="separator:acff303d313ce4e08bcec9f468f6c26a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502b286082fabe0281993be41c5ac33e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a502b286082fabe0281993be41c5ac33e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a502b286082fabe0281993be41c5ac33e">bindContext</a> (string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, string tapFunction=&quot;&quot;, uint holdTime=0)</td></tr>
+<tr class="memdesc:a502b286082fabe0281993be41c5ac33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">actionMap.bindCmd( device, action, holdFunction, tapFunction, holdTime) <br /></td></tr>
+<tr class="separator:a502b286082fabe0281993be41c5ac33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cdb5c3a3d2949c8a0a3bacfb2425df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae5cdb5c3a3d2949c8a0a3bacfb2425df"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#ae5cdb5c3a3d2949c8a0a3bacfb2425df">bindHold</a> (string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, bool returnHoldTime=false)</td></tr>
+<tr class="memdesc:ae5cdb5c3a3d2949c8a0a3bacfb2425df"><td class="mdescLeft">&#160;</td><td class="mdescRight">actionMap.bindCmd( device, action, holdFunction, returnHoldTime) <br /></td></tr>
+<tr class="separator:ae5cdb5c3a3d2949c8a0a3bacfb2425df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4bfca62eeff3d85040e0f96b9fbea7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_action_map.html#a9d4bfca62eeff3d85040e0f96b9fbea7">unbind</a> (string device, string action)</td></tr>
 <tr class="memdesc:a9d4bfca62eeff3d85040e0f96b9fbea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the binding on an input device and action.  <a href="#a9d4bfca62eeff3d85040e0f96b9fbea7">More...</a><br /></td></tr>
 <tr class="separator:a9d4bfca62eeff3d85040e0f96b9fbea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,10 +214,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adecd09cd84254a41f2c094654786376b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f410aa95780e59b66d928bd228b874e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7f410aa95780e59b66d928bd228b874e">isChildOfGroup</a> ((<a class="el" href="class_sim_group.html">SimGroup</a> group))</td></tr>
 <tr class="separator:a7f410aa95780e59b66d928bd228b874e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac507f136686052531e336915c07e9c04 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac507f136686052531e336915c07e9c04">getClassNamespace</a> (())</td></tr>
-<tr class="separator:ac507f136686052531e336915c07e9c04 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a911d07c00078aa2e677093280d63d9a9 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a911d07c00078aa2e677093280d63d9a9">getSuperClassNamespace</a> (())</td></tr>
-<tr class="separator:a911d07c00078aa2e677093280d63d9a9 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a37838ed0f7be56f3d062e60319d14a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a5a37838ed0f7be56f3d062e60319d14a">getClassNamespace</a> (())</td></tr>
+<tr class="separator:a5a37838ed0f7be56f3d062e60319d14a inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845876e01b8ee0612ba5b139535943e4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a845876e01b8ee0612ba5b139535943e4">getSuperClassNamespace</a> (())</td></tr>
+<tr class="separator:a845876e01b8ee0612ba5b139535943e4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad195e8bfb1c344d35279f1c3542e9594 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad195e8bfb1c344d35279f1c3542e9594">setClassNamespace</a> ((string name))</td></tr>
 <tr class="separator:ad195e8bfb1c344d35279f1c3542e9594 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e103cf061bb1db81234aa58faa3ce8a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4e103cf061bb1db81234aa58faa3ce8a">setSuperClassNamespace</a> ((string name))</td></tr>
@@ -218,12 +230,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6993e18e596eef4b0740f5eeccb13e6 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7aa8a1d841cb9371621205bee6f2d2 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a0f7aa8a1d841cb9371621205bee6f2d2">setIsExpanded</a> ((bool state=true))</td></tr>
 <tr class="separator:a0f7aa8a1d841cb9371621205bee6f2d2 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fe518ff586a46bcdfa106f59cf1ebdb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7fe518ff586a46bcdfa106f59cf1ebdb">getFilename</a> (())</td></tr>
-<tr class="separator:a7fe518ff586a46bcdfa106f59cf1ebdb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e5f35decae37300e503ceab6154e9f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ab5e5f35decae37300e503ceab6154e9f">getFilename</a> (())</td></tr>
+<tr class="separator:ab5e5f35decae37300e503ceab6154e9f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7497d91c38114556b283d5fa52937f93 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7497d91c38114556b283d5fa52937f93">setFilename</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>))</td></tr>
 <tr class="separator:a7497d91c38114556b283d5fa52937f93 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4601c0b2a0162aa9b1adb9bb691bfea4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4601c0b2a0162aa9b1adb9bb691bfea4">getDeclarationLine</a> (())</td></tr>
-<tr class="separator:a4601c0b2a0162aa9b1adb9bb691bfea4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abfa8335c0afb3972cefddb3a780c0e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1abfa8335c0afb3972cefddb3a780c0e">getDeclarationLine</a> (())</td></tr>
+<tr class="separator:a1abfa8335c0afb3972cefddb3a780c0e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0a8b01f978efa53b3baa6e282ffa458 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad0a8b01f978efa53b3baa6e282ffa458">assignFieldsFrom</a> ((<a class="el" href="class_sim_object.html">SimObject</a> fromObject))</td></tr>
 <tr class="separator:ad0a8b01f978efa53b3baa6e282ffa458 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa57aa7c9dcf20f327516a8d921c72630 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aa57aa7c9dcf20f327516a8d921c72630">assignPersistentId</a> (())</td></tr>
@@ -240,64 +252,64 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86f630969049612616e0912cc1b8197e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a9f890c3340d9faecac2841c36cb7b inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#af8a9f890c3340d9faecac2841c36cb7b">setNameChangeAllowed</a> ((bool value=true))</td></tr>
 <tr class="separator:af8a9f890c3340d9faecac2841c36cb7b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae989855e8337a07df7bbcb4696bd043a inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ae989855e8337a07df7bbcb4696bd043a">clone</a> (())</td></tr>
-<tr class="separator:ae989855e8337a07df7bbcb4696bd043a inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb81c6cdcf66c2845ee7f558fa617115 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afb81c6cdcf66c2845ee7f558fa617115">deepClone</a> (())</td></tr>
-<tr class="separator:afb81c6cdcf66c2845ee7f558fa617115 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6cddb4a57e6fd86f836deee0f6a1bc inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a6d6cddb4a57e6fd86f836deee0f6a1bc">clone</a> (())</td></tr>
+<tr class="separator:a6d6cddb4a57e6fd86f836deee0f6a1bc inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52ee33a329e489a733ddae3b6e6fd1e inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_object.html">SimObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac52ee33a329e489a733ddae3b6e6fd1e">deepClone</a> (())</td></tr>
+<tr class="separator:ac52ee33a329e489a733ddae3b6e6fd1e inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103626db4c5965c2881a56ec4f1463cb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a103626db4c5965c2881a56ec4f1463cb">setLocked</a> ((bool value=true))</td></tr>
 <tr class="separator:a103626db4c5965c2881a56ec4f1463cb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8efbe0e71eb43cb531b9ec4c029722b0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a8efbe0e71eb43cb531b9ec4c029722b0">setHidden</a> ((bool value=true))</td></tr>
 <tr class="separator:a8efbe0e71eb43cb531b9ec4c029722b0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1748a0d6d55fc2dcf84354c4c83ea3 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#adc1748a0d6d55fc2dcf84354c4c83ea3">dumpMethods</a> (())</td></tr>
-<tr class="separator:adc1748a0d6d55fc2dcf84354c4c83ea3 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad78b4a59f90d315ff4912ec3c44de7b4 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_array_object.html">ArrayObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad78b4a59f90d315ff4912ec3c44de7b4">dumpMethods</a> (())</td></tr>
+<tr class="separator:ad78b4a59f90d315ff4912ec3c44de7b4 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7f339245097a2ef610fa9027ad4c4b inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7e7f339245097a2ef610fa9027ad4c4b">dump</a> ((bool detailed=false))</td></tr>
 <tr class="separator:a7e7f339245097a2ef610fa9027ad4c4b inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a063465d61bfcbf28cf851d7fbce754f7 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a063465d61bfcbf28cf851d7fbce754f7">save</a> ((string <a class="el" href="group___file_system.html#ga7ffd9fa2b0bc2654fa99e8e0c17256d6">fileName</a>, bool selectedOnly=false, string preAppendString=&quot;&quot;))</td></tr>
 <tr class="separator:a063465d61bfcbf28cf851d7fbce754f7 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4be15742e8be6550549912c687a4d14 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ab4be15742e8be6550549912c687a4d14">setName</a> ((string newName))</td></tr>
 <tr class="separator:ab4be15742e8be6550549912c687a4d14 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a118ec786c8f2b1e46026e33036bebd03 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a118ec786c8f2b1e46026e33036bebd03">getName</a> (())</td></tr>
-<tr class="separator:a118ec786c8f2b1e46026e33036bebd03 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adedd06ccb1f5d354e36cafe69b93cbfa inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#adedd06ccb1f5d354e36cafe69b93cbfa">getClassName</a> (())</td></tr>
-<tr class="separator:adedd06ccb1f5d354e36cafe69b93cbfa inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90f246820bc242d26292b1136d72a3bd inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a90f246820bc242d26292b1136d72a3bd">getName</a> (())</td></tr>
+<tr class="separator:a90f246820bc242d26292b1136d72a3bd inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae179fd366603d4387127d10727901c81 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ae179fd366603d4387127d10727901c81">getClassName</a> (())</td></tr>
+<tr class="separator:ae179fd366603d4387127d10727901c81 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4083989413c80da0076dbc1bbae0f059 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4083989413c80da0076dbc1bbae0f059">isField</a> ((string fieldName))</td></tr>
 <tr class="separator:a4083989413c80da0076dbc1bbae0f059 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477c513b628fdeb8ca271a0344a6e75d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a477c513b628fdeb8ca271a0344a6e75d">getFieldValue</a> ((string fieldName, int index=-1))</td></tr>
-<tr class="separator:a477c513b628fdeb8ca271a0344a6e75d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1851ff47be7d3869d60c87ee287015cb inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1851ff47be7d3869d60c87ee287015cb">getFieldValue</a> ((string fieldName, int index=-1))</td></tr>
+<tr class="separator:a1851ff47be7d3869d60c87ee287015cb inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7789239b65bdd0268c9470fdf6d20e47 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7789239b65bdd0268c9470fdf6d20e47">setFieldValue</a> ((string fieldName, string value, int index=-1))</td></tr>
 <tr class="separator:a7789239b65bdd0268c9470fdf6d20e47 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a027a59b57762bae8a4df9388e645d88c inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a027a59b57762bae8a4df9388e645d88c">getFieldType</a> ((string fieldName))</td></tr>
-<tr class="separator:a027a59b57762bae8a4df9388e645d88c inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6eb6dc4b5a906697786570e0d1e66e0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aa6eb6dc4b5a906697786570e0d1e66e0">getFieldType</a> ((string fieldName))</td></tr>
+<tr class="separator:aa6eb6dc4b5a906697786570e0d1e66e0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02504df99e49c143b3007388ebec8ae1 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a02504df99e49c143b3007388ebec8ae1">setFieldType</a> ((string fieldName, string type))</td></tr>
 <tr class="separator:a02504df99e49c143b3007388ebec8ae1 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe7622af9548f3e2e5b2c1a501ccda82 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afe7622af9548f3e2e5b2c1a501ccda82">call</a> ((string method, string args...))</td></tr>
-<tr class="separator:afe7622af9548f3e2e5b2c1a501ccda82 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57cc15451420e2cbf2b07eb155e19669 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a57cc15451420e2cbf2b07eb155e19669">call</a> ((string method, string args...)...)</td></tr>
+<tr class="separator:a57cc15451420e2cbf2b07eb155e19669 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04822dd99fded3661cf36860d0f2ea47 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a04822dd99fded3661cf36860d0f2ea47">setInternalName</a> ((string newInternalName))</td></tr>
 <tr class="separator:a04822dd99fded3661cf36860d0f2ea47 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1a7b7393bde7b867b9f62d336f2d0f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a3e1a7b7393bde7b867b9f62d336f2d0f">getInternalName</a> (())</td></tr>
-<tr class="separator:a3e1a7b7393bde7b867b9f62d336f2d0f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db69d63f826a6259266662580631614 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2db69d63f826a6259266662580631614">getInternalName</a> (())</td></tr>
+<tr class="separator:a2db69d63f826a6259266662580631614 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b1342557cd9b8b2742dd656e1518c8 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ad5b1342557cd9b8b2742dd656e1518c8">dumpClassHierarchy</a> (())</td></tr>
 <tr class="separator:ad5b1342557cd9b8b2742dd656e1518c8 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d1802b3b9ae4062b1e5a6674e38633 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a30d1802b3b9ae4062b1e5a6674e38633">isMemberOfClass</a> ((string <a class="el" href="class_sim_object.html#a2cc1b913d92fec41e452b7189ad8d668">className</a>))</td></tr>
 <tr class="separator:a30d1802b3b9ae4062b1e5a6674e38633 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f98ad383bdb2643ea6525d51dc067e1 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4f98ad383bdb2643ea6525d51dc067e1">isInNamespaceHierarchy</a> ((string name))</td></tr>
 <tr class="separator:a4f98ad383bdb2643ea6525d51dc067e1 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb5cb754661486f18c9ebdfe08aa173 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4fb5cb754661486f18c9ebdfe08aa173">getId</a> (())</td></tr>
-<tr class="separator:a4fb5cb754661486f18c9ebdfe08aa173 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7030cb156e4fdf316207cdbafa313da2 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7030cb156e4fdf316207cdbafa313da2">getGroup</a> (())</td></tr>
-<tr class="separator:a7030cb156e4fdf316207cdbafa313da2 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a57e814e5d34e9dfd8245a06f8d8921 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a5a57e814e5d34e9dfd8245a06f8d8921">getId</a> (())</td></tr>
+<tr class="separator:a5a57e814e5d34e9dfd8245a06f8d8921 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69854b3d2980a9af24db4ae9d3bd09e0 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_sim_group.html">SimGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a69854b3d2980a9af24db4ae9d3bd09e0">getGroup</a> (())</td></tr>
+<tr class="separator:a69854b3d2980a9af24db4ae9d3bd09e0 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0dfb89a1081f8afae7ae80a2851e585 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac0dfb89a1081f8afae7ae80a2851e585">delete</a> (())</td></tr>
 <tr class="separator:ac0dfb89a1081f8afae7ae80a2851e585 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d04645b5d8ea49388b75e42cfb732d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a42d04645b5d8ea49388b75e42cfb732d">schedule</a> ((float time, string method, string args...))</td></tr>
-<tr class="separator:a42d04645b5d8ea49388b75e42cfb732d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcf7cf72456066bf7fd8cc3b0ac6e3f6 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#afcf7cf72456066bf7fd8cc3b0ac6e3f6">getDynamicFieldCount</a> (())</td></tr>
-<tr class="separator:afcf7cf72456066bf7fd8cc3b0ac6e3f6 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5a8034dd39e38e08cf6de327f10c82 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a7b5a8034dd39e38e08cf6de327f10c82">getDynamicField</a> ((int index))</td></tr>
-<tr class="separator:a7b5a8034dd39e38e08cf6de327f10c82 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd4d63a0545e56be35586e899067143 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a8cd4d63a0545e56be35586e899067143">getFieldCount</a> (())</td></tr>
-<tr class="separator:a8cd4d63a0545e56be35586e899067143 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0406289f1c972716706bfdb32b15cbf inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a> ((int index))</td></tr>
-<tr class="separator:ac0406289f1c972716706bfdb32b15cbf inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4148c954b72b9053c4ecc0d65eb3e4b7 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a4148c954b72b9053c4ecc0d65eb3e4b7">schedule</a> ((float time, string method, string args...)...)</td></tr>
+<tr class="separator:a4148c954b72b9053c4ecc0d65eb3e4b7 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e95f91c70b440dccde0608a4bed4014 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2e95f91c70b440dccde0608a4bed4014">getDynamicFieldCount</a> (())</td></tr>
+<tr class="separator:a2e95f91c70b440dccde0608a4bed4014 inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1f771ccd19d250eff21357e68a864d inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#abc1f771ccd19d250eff21357e68a864d">getDynamicField</a> ((int index))</td></tr>
+<tr class="separator:abc1f771ccd19d250eff21357e68a864d inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf18f598c953c3550d56aa39cb0ca7f inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual S32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a1cf18f598c953c3550d56aa39cb0ca7f">getFieldCount</a> (())</td></tr>
+<tr class="separator:a1cf18f598c953c3550d56aa39cb0ca7f inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2863d42acdd3266003465d542c4c24fa inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a> ((int index))</td></tr>
+<tr class="separator:a2863d42acdd3266003465d542c4c24fa inherit pub_methods_class_sim_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea04a2b7d1545f39b05a43249948a800 inherit pub_methods_class_sim_object"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea04a2b7d1545f39b05a43249948a800"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sim_object.html#aea04a2b7d1545f39b05a43249948a800">dumpGroupHierarchy</a> ()</td></tr>
 <tr class="memdesc:aea04a2b7d1545f39b05a43249948a800 inherit pub_methods_class_sim_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the hierarchy of this object up to <a class="el" href="class_root_group.html">RootGroup</a> to the console. <br /></td></tr>
@@ -512,9 +524,9 @@ Binding Functions</h1>
 <p>Keyboard</p>
 <p>Joystick/Gamepad</p>
 <p>Xbox 360 Controller</p>
-<p>The two most commonly used binding methods are <a class="el" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind()</a> and <a class="el" href="class_action_map.html#af7ed9cb5bfa8f7a3988974ec1c23fe29" title="Associates a make command and optional break command to a specified input device action. ">bindCmd()</a>. Both are similar in that they will bind functionality to a device and event, but different in how the event is interpreted. With <a class="el" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind()</a>, you specify a device, action to bind, then a function to be called when the event happens.</p>
+<p>The two most commonly used binding methods are <a class="el" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind()</a> and <a class="el" href="class_action_map.html#af7ed9cb5bfa8f7a3988974ec1c23fe29" title="Associates a make command and optional break command to a specified input device action. ">bindCmd()</a>. Both are similar in that they will bind functionality to a device and event, but different in how the event is interpreted. With <a class="el" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind()</a>, you specify a device, action to bind, then a function to be called when the event happens.</p>
 <dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Simple function that prints to console</span></div><div class="line"><span class="comment">// %val - Sent by the device letting the user know</span></div><div class="line"><span class="comment">// if an input was pressed (true) or released (false)</span></div><div class="line"><span class="keyword">function</span> testInput(%val)</div><div class="line">{</div><div class="line">   <span class="keywordflow">if</span>(%val)</div><div class="line">    <a class="code" href="group___logging.html#gadda60a90d6b71f2d19f027847c0cb6f9">echo</a>(<span class="stringliteral">&quot;Key is down&quot;</span>);</div><div class="line">   <span class="keywordflow">else</span></div><div class="line">    <a class="code" href="group___logging.html#gadda60a90d6b71f2d19f027847c0cb6f9">echo</a>(<span class="stringliteral">&quot;Key was released&quot;</span>);</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">// Bind the &#39;K&#39; key to the testInput function</span></div><div class="line">moveMap.bind(keyboard, <span class="stringliteral">&quot;k&quot;</span>, testInput);</div></div><!-- fragment --></dd></dl>
-<p>bindCmd is an alternative method for binding commands. This function is similar to <a class="el" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind()</a>, except two functions are set to be called when the event is processed.</p>
+<p>bindCmd is an alternative method for binding commands. This function is similar to <a class="el" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind()</a>, except two functions are set to be called when the event is processed.</p>
 <p>One will be called when the event is activated (input down), while the other is activated when the event is broken (input release). When using <a class="el" href="class_action_map.html#af7ed9cb5bfa8f7a3988974ec1c23fe29" title="Associates a make command and optional break command to a specified input device action. ">bindCmd()</a>, pass the functions as strings rather than the function names.</p>
 <dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Print to the console when the spacebar is pressed</span></div><div class="line"><span class="keyword">function</span> onSpaceDown()</div><div class="line">{</div><div class="line">   <a class="code" href="group___logging.html#gadda60a90d6b71f2d19f027847c0cb6f9">echo</a>(<span class="stringliteral">&quot;Space bar down!&quot;</span>);</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">// Print to the console when the spacebar is released</span></div><div class="line"><span class="keyword">function</span> onSpaceUp()</div><div class="line">{</div><div class="line">   <a class="code" href="group___logging.html#gadda60a90d6b71f2d19f027847c0cb6f9">echo</a>(<span class="stringliteral">&quot;Space bar up!&quot;</span>);</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">// Bind the commands onSpaceDown and onSpaceUp to spacebar events</span></div><div class="line">moveMap.bindCmd(keyboard, <span class="stringliteral">&quot;space&quot;</span>, <span class="stringliteral">&quot;onSpaceDown();&quot;</span>, <span class="stringliteral">&quot;onSpaceUp();&quot;</span>);</div></div><!-- fragment --></dd></dl>
 <h1><a class="anchor" id="ActionMap_switching"></a>
@@ -530,7 +542,7 @@ Switching ActionMaps</h1>
 <p>To switch ActionMaps, first <a class="el" href="class_action_map.html#aa083112ebcabbb07b399669ce0e5e10a" title="Pop the ActionMap off the ActionMap stack. ">pop()</a> the old one. Then you can <a class="el" href="class_action_map.html#aa1820b6c2218d57714d8c5cfa802fd8c" title="Push the ActionMap onto the ActionMap stack. ">push()</a> the new one:</p>
 <dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Deactivate moveMap</span></div><div class="line">moveMap.pop();</div><div class="line"></div><div class="line"><span class="comment">// Activate carMap</span></div><div class="line">carMap.push();</div></div><!-- fragment --> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad44e04dead3b65ac8c0b6dcc1381e7ed"></a>
+<a class="anchor" id="a2b4369132d21a37d31f876a99ddc45d6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -540,7 +552,8 @@ Switching ActionMaps</h1>
         <tr>
           <td class="memname">virtual bool ActionMap::bind </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -550,7 +563,7 @@ Switching ActionMaps</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>actionMap.bind( device, action, [modifier spec, mod...], command ) </p>
+<p>actionMap.bind( device, action, [modifier, spec, mod...], command ) </p>
 
 </div>
 </div>
@@ -624,7 +637,7 @@ Switching ActionMaps</h1>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the binding was successful, false if the device was unknown or description failed.</dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Simple function that adjusts the pitch of the camera based on the mouse&#39;s movement along the X axis.</span></div><div class="line"><span class="keyword">function</span> testPitch(%val)</div><div class="line">{</div><div class="line">   %pitchAdj = getMouseAdjustAmount(%val);</div><div class="line">   <a class="code" href="group___game.html#gad37d31999dacf930581cca620ef5f1c8">$mvPitch</a> += %pitchAdj;</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">// Bind the mouse&#39;s X axis to the testPitch function</span></div><div class="line"><span class="comment">// DI is flagged, meaning input is inverted and has a deadzone</span></div><div class="line">%this.<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a>( mouse, <span class="stringliteral">&quot;xaxis&quot;</span>, <span class="stringliteral">&quot;DI&quot;</span>, <span class="stringliteral">&quot;-0.23 0.23&quot;</span>, testPitch );</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Simple function that adjusts the pitch of the camera based on the mouse&#39;s movement along the X axis.</span></div><div class="line"><span class="keyword">function</span> testPitch(%val)</div><div class="line">{</div><div class="line">   %pitchAdj = getMouseAdjustAmount(%val);</div><div class="line">   <a class="code" href="group___game.html#gad37d31999dacf930581cca620ef5f1c8">$mvPitch</a> += %pitchAdj;</div><div class="line">}</div><div class="line"></div><div class="line"><span class="comment">// Bind the mouse&#39;s X axis to the testPitch function</span></div><div class="line"><span class="comment">// DI is flagged, meaning input is inverted and has a deadzone</span></div><div class="line">%this.<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a>( mouse, <span class="stringliteral">&quot;xaxis&quot;</span>, <span class="stringliteral">&quot;DI&quot;</span>, <span class="stringliteral">&quot;-0.23 0.23&quot;</span>, testPitch );</div></div><!-- fragment --> </dd></dl>
 
 </div>
 </div>
@@ -763,7 +776,57 @@ Switching ActionMaps</h1>
 
 </div>
 </div>
-<a class="anchor" id="a886acacaed53f44811de27e4b1da15a5"></a>
+<a class="anchor" id="a4a6d4cac2bc5019ddaaaec85a1405a58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ActionMap::bindContext </td>
+          <td>(</td>
+          <td class="paramtype">(string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, string tapFunction=&quot;&quot;, uint holdTime=0)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>actionMap.bindCmd( device, action, holdFunction, tapFunction, holdTime) </p>
+
+</div>
+</div>
+<a class="anchor" id="a4615cd50991dde28366879463d4dee42"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ActionMap::bindHold </td>
+          <td>(</td>
+          <td class="paramtype">(string device=&quot;&quot;, string action=&quot;&quot;, string holdFunction=&quot;&quot;, bool returnHoldTime=false)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>actionMap.bindCmd( device, action, holdFunction, returnHoldTime) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7a8dfe39a0e930d427fa73c78599d956"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -773,8 +836,8 @@ Switching ActionMaps</h1>
         <tr>
           <td class="memname">virtual bool ActionMap::bindObj </td>
           <td>(</td>
-          <td class="paramtype">(device, action,[modifier spec, mod...], command, object)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">(device, action, [modifier, spec, mod...], command, object)&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -864,7 +927,7 @@ Switching ActionMaps</h1>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the binding was successful, false if the device was unknown or description failed.</dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Bind the mouse&#39;s movement along the x-axis to the testInput function of the Player class</span></div><div class="line"><span class="comment">// DSI is flagged, meaning input is inverted, has scale and has a deadzone</span></div><div class="line">%this.<a class="code" href="class_action_map.html#a886acacaed53f44811de27e4b1da15a5">bindObj</a>( mouse, <span class="stringliteral">&quot;xaxis&quot;</span>, <span class="stringliteral">&quot;DSI&quot;</span>, %deadZone, %scale, <span class="stringliteral">&quot;testInput&quot;</span>, %player );</div></div><!-- fragment --> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Bind the mouse&#39;s movement along the x-axis to the testInput function of the Player class</span></div><div class="line"><span class="comment">// DSI is flagged, meaning input is inverted, has scale and has a deadzone</span></div><div class="line">%this.<a class="code" href="class_action_map.html#a7a8dfe39a0e930d427fa73c78599d956">bindObj</a>( mouse, <span class="stringliteral">&quot;xaxis&quot;</span>, <span class="stringliteral">&quot;DSI&quot;</span>, %deadZone, %scale, <span class="stringliteral">&quot;testInput&quot;</span>, %player );</div></div><!-- fragment --> </dd></dl>
 
 </div>
 </div>
@@ -920,7 +983,7 @@ Switching ActionMaps</h1>
 
 </div>
 </div>
-<a class="anchor" id="a8a3d82097d35c464a2387554771fda8e"></a>
+<a class="anchor" id="a62db9b22e1e6bce80eb7906e4bb92bde"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -928,7 +991,7 @@ Switching ActionMaps</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string ActionMap::getBinding </td>
+          <td class="memname">virtual const char* ActionMap::getBinding </td>
           <td>(</td>
           <td class="paramtype">(string command)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -943,15 +1006,15 @@ Switching ActionMaps</h1>
 </div><div class="memdoc">
 
 <p>Gets the <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> binding for the specified command. </p>
-<p>Use <a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField()</a> on the return value to get the device and action of the binding. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Use <a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField()</a> on the return value to get the device and action of the binding. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">command</td><td>The function to search bindings for. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The binding against the specified command. Returns an empty string("") if a binding wasn't found. </dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Find what the function &quot;jump()&quot; is bound to in moveMap</span></div><div class="line">%<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a> = moveMap.getBinding( <span class="stringliteral">&quot;jump&quot;</span> );</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> ( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a> !$= <span class="stringliteral">&quot;&quot;</span> )</div><div class="line">{</div><div class="line"><span class="comment">// Find out what device is used in the binding</span></div><div class="line">  %device = <a class="code" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a>( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a>, 0 );</div><div class="line"></div><div class="line"><span class="comment">// Find out what action (such as a key) is used in the binding</span></div><div class="line">  %action = <a class="code" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a>( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a>, 1 );</div><div class="line">}</div></div><!-- fragment --></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Find what the function &quot;jump()&quot; is bound to in moveMap</span></div><div class="line">%<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a> = moveMap.getBinding( <span class="stringliteral">&quot;jump&quot;</span> );</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> ( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a> !$= <span class="stringliteral">&quot;&quot;</span> )</div><div class="line">{</div><div class="line"><span class="comment">// Find out what device is used in the binding</span></div><div class="line">  %device = <a class="code" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a>( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a>, 0 );</div><div class="line"></div><div class="line"><span class="comment">// Find out what action (such as a key) is used in the binding</span></div><div class="line">  %action = <a class="code" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a>( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a>, 1 );</div><div class="line">}</div></div><!-- fragment --></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a> </dd></dl>
 
 </div>
 </div>
@@ -970,19 +1033,19 @@ Switching ActionMaps</h1>
 </div><div class="memdoc">
 
 <p>Gets the <a class="el" href="class_action_map.html" title="ActionMaps assign platform input events to console commands. ">ActionMap</a> binding for the specified command. </p>
-<p>Use <a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField()</a> on the return value to get the device and action of the binding. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Use <a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField()</a> on the return value to get the device and action of the binding. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">command</td><td>The function to search bindings for. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The binding against the specified command. Returns an empty string("") if a binding wasn't found. </dd></dl>
-<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Find what the function &quot;jump()&quot; is bound to in moveMap</span></div><div class="line">%<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a> = moveMap.getBinding( <span class="stringliteral">&quot;jump&quot;</span> );</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> ( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a> !$= <span class="stringliteral">&quot;&quot;</span> )</div><div class="line">{</div><div class="line"><span class="comment">// Find out what device is used in the binding</span></div><div class="line">  %device = <a class="code" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a>( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a>, 0 );</div><div class="line"></div><div class="line"><span class="comment">// Find out what action (such as a key) is used in the binding</span></div><div class="line">  %action = <a class="code" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a>( %<a class="code" href="class_action_map.html#ad44e04dead3b65ac8c0b6dcc1381e7ed">bind</a>, 1 );</div><div class="line">}</div></div><!-- fragment --></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_sim_object.html#ac0406289f1c972716706bfdb32b15cbf">getField</a> </dd></dl>
+<dl class="section user"><dt>Example:</dt><dd><div class="fragment"><div class="line"><span class="comment">// Find what the function &quot;jump()&quot; is bound to in moveMap</span></div><div class="line">%<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a> = moveMap.getBinding( <span class="stringliteral">&quot;jump&quot;</span> );</div><div class="line"></div><div class="line"><span class="keywordflow">if</span> ( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a> !$= <span class="stringliteral">&quot;&quot;</span> )</div><div class="line">{</div><div class="line"><span class="comment">// Find out what device is used in the binding</span></div><div class="line">  %device = <a class="code" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a>( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a>, 0 );</div><div class="line"></div><div class="line"><span class="comment">// Find out what action (such as a key) is used in the binding</span></div><div class="line">  %action = <a class="code" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a>( %<a class="code" href="class_action_map.html#a2b4369132d21a37d31f876a99ddc45d6">bind</a>, 1 );</div><div class="line">}</div></div><!-- fragment --></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_sim_object.html#a2863d42acdd3266003465d542c4c24fa">getField</a> </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a51332891639e5c7f699f13adeb062091"></a>
+<a class="anchor" id="a40602d59ba3e64f6f6dedd19f98af9e2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -990,7 +1053,7 @@ Switching ActionMaps</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string ActionMap::getCommand </td>
+          <td class="memname">virtual const char* ActionMap::getCommand </td>
           <td>(</td>
           <td class="paramtype">(string device, string action)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1054,7 +1117,7 @@ Switching ActionMaps</h1>
 
 </div>
 </div>
-<a class="anchor" id="a84bb3bdb998696a7d5be9d10464a54e0"></a>
+<a class="anchor" id="aaf5ba5907b532741293f95dac98a8223"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1062,7 +1125,7 @@ Switching ActionMaps</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual string ActionMap::getDeadZone </td>
+          <td class="memname">virtual const char* ActionMap::getDeadZone </td>
           <td>(</td>
           <td class="paramtype">(string device, string action)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1126,7 +1189,7 @@ Switching ActionMaps</h1>
 
 </div>
 </div>
-<a class="anchor" id="a998734d93908d321a93a65210a682b70"></a>
+<a class="anchor" id="a343be4445e65da2372d673e689805a4b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1134,7 +1197,7 @@ Switching ActionMaps</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual float ActionMap::getScale </td>
+          <td class="memname">virtual F32 ActionMap::getScale </td>
           <td>(</td>
           <td class="paramtype">(string device, string action)&#160;</td>
           <td class="paramname"></td><td>)</td>

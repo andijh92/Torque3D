@@ -29,8 +29,8 @@
 <area shape="rect" id="node21" href="$class_hash_table.html" title="HashTable\&lt; RenderInstType\lHash, AddInstSignal \&gt;" alt="" coords="1767,430,1953,471"/>
 <area shape="rect" id="node25" href="$class_scene_zone_space_manager.html" title="Object that manages zone spaces in a scene. " alt="" coords="2524,1245,2699,1272"/>
 <area shape="rect" id="node26" href="$class_vector.html" title="Vector\&lt; SceneObject * \&gt;" alt="" coords="2147,1223,2315,1249"/>
-<area shape="rect" id="node27" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2576,1347,2647,1373"/>
-<area shape="rect" id="node28" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; ColorF \&gt;" alt="" coords="2520,1398,2703,1439"/>
+<area shape="rect" id="node27" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="2520,1347,2703,1389"/>
+<area shape="rect" id="node28" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="2576,1413,2647,1440"/>
 <area shape="rect" id="node30" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1517,1205,1583,1232"/>
 <area shape="rect" id="node31" href="$class_matrix_f.html" title="MatrixF" alt="" coords="2197,1447,2264,1473"/>
 <area shape="rect" id="node33" href="$class_scene_camera_state.html" title="SceneCameraState" alt="" coords="2544,1296,2679,1323"/>
