@@ -1,0 +1,51 @@
+<map id="TimeOfDay" name="TimeOfDay">
+<area shape="rect" id="node2" href="$class_scene_object.html" title="SceneObject" alt="" coords="1481,780,1578,807"/>
+<area shape="rect" id="node26" href="$struct_scene_object_1_1_mount_info.html" title="Mounted object. " alt="" coords="1835,856,1996,883"/>
+<area shape="rect" id="node28" href="$class_scene_object_ref_base.html" title="SceneObjectRefBase\l\&lt; SceneObjectRef \&gt;" alt="" coords="1842,681,1989,722"/>
+<area shape="rect" id="node29" href="$class_scene_object_link.html" title="A SceneObjectLink represents the link between a SceneObject and a SceneTracker. " alt="" coords="1855,960,1976,987"/>
+<area shape="rect" id="node3" href="$class_net_object.html" title="NetObject" alt="" coords="694,235,774,261"/>
+<area shape="rect" id="node6" href="$struct_ghost_info.html" title="GhostInfo" alt="" coords="1070,268,1147,295"/>
+<area shape="rect" id="node4" href="$class_sim_group.html" title="SimGroup" alt="" coords="282,217,362,244"/>
+<area shape="rect" id="node5" href="$class_bit_set32.html" title="BitSet32" alt="" coords="286,411,358,437"/>
+<area shape="rect" id="node15" href="$struct_d_d_s_file.html" title="DDSFile" alt="" coords="699,879,769,905"/>
+<area shape="rect" id="node7" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; NetObject \&gt;" alt="" coords="231,268,413,295"/>
+<area shape="rect" id="node8" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="1035,1119,1182,1145"/>
+<area shape="rect" id="node9" href="$class_process_object.html" title="ProcessObject" alt="" coords="1055,1611,1163,1637"/>
+<area shape="rect" id="node10" href="$struct_process_object_1_1_link.html" title="ProcessObject::Link" alt="" coords="1459,1611,1599,1637"/>
+<area shape="rect" id="node11" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="1045,1015,1173,1041"/>
+<area shape="rect" id="node12" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="679,676,789,703"/>
+<area shape="rect" id="node22" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1059,84,1158,111"/>
+<area shape="rect" id="node13" href="$class_g_f_x_resource.html" title="GFXResource" alt="" coords="271,1305,373,1332"/>
+<area shape="rect" id="node17" href="$class_g_f_x_device.html" title="GFXDevice" alt="" coords="691,1364,777,1391"/>
+<area shape="rect" id="node14" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="294,1129,350,1156"/>
+<area shape="rect" id="node39" href="$class_light_manager.html" title="LightManager" alt="" coords="1479,328,1579,355"/>
+<area shape="rect" id="node50" href="$struct_time_of_day_event.html" title="TimeOfDayEvent" alt="" coords="675,1263,793,1289"/>
+<area shape="rect" id="node16" href="$class_point3_i.html" title="Point3I" alt="" coords="703,983,765,1009"/>
+<area shape="rect" id="node18" href="$class_point3_f.html" title="Point3F" alt="" coords="23,1393,90,1420"/>
+<area shape="rect" id="node32" href="$class_sphere_f.html" title="SphereF" alt="" coords="491,1477,561,1504"/>
+<area shape="rect" id="node33" href="$class_box3_f.html" title="Box3F" alt="" coords="292,565,352,592"/>
+<area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="289,899,355,925"/>
+<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="1054,319,1163,345"/>
+<area shape="rect" id="node20" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="671,1033,797,1060"/>
+<area shape="rect" id="node21" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="697,1084,771,1111"/>
+<area shape="rect" id="node25" href="$class_sim_object.html" title="SimObject" alt="" coords="1488,64,1571,91"/>
+<area shape="rect" id="node23" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="649,5,819,32"/>
+<area shape="rect" id="node24" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="685,95,783,121"/>
+<area shape="rect" id="node41" href="$class_render_pass_manager.html" title="RenderPassManager" alt="" coords="1844,116,1987,143"/>
+<area shape="rect" id="node27" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="2101,715,2217,741"/>
+<area shape="rect" id="node30" href="$class_scene_tracker.html" title="SceneTracker" alt="" coords="1478,1229,1581,1256"/>
+<area shape="rect" id="node31" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="1011,425,1207,452"/>
+<area shape="rect" id="node40" href="$class_scene_zone_space_manager.html" title="Object that manages zone spaces in a scene. " alt="" coords="647,461,821,488"/>
+<area shape="rect" id="node34" href="$class_box_base.html" title="Base class for box geometries. " alt="" coords="19,116,94,143"/>
+<area shape="rect" id="node35" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="1009,628,1208,655"/>
+<area shape="rect" id="node36" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SceneObject \&gt;" alt="" coords="639,625,829,652"/>
+<area shape="rect" id="node37" href="$class_scene_container.html" title="SceneContainer" alt="" coords="265,635,379,661"/>
+<area shape="rect" id="node42" href="$class_interpolated_change_property.html" title="InterpolatedChangeProperty\l\&lt; LinearColorF \&gt;" alt="" coords="643,345,825,386"/>
+<area shape="rect" id="node43" href="$struct_fog_data.html" title="The aerial fog settings. " alt="" coords="699,293,769,320"/>
+<area shape="rect" id="node44" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="1033,577,1185,604"/>
+<area shape="rect" id="node45" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="1019,679,1198,705"/>
+<area shape="rect" id="node46" href="$class_vector.html" title="Vector\&lt; COLOR_TARGET \&gt;" alt="" coords="1436,1661,1623,1688"/>
+<area shape="rect" id="node47" href="$struct_c_o_l_o_r___t_a_r_g_e_t.html" title="COLOR_TARGET" alt="" coords="1046,1701,1171,1728"/>
+<area shape="rect" id="node48" href="$class_signal.html" title="Signal\&lt; Signature \&gt;" alt="" coords="1461,1712,1598,1739"/>
+<area shape="rect" id="node49" href="$class_vector.html" title="Vector\&lt; TimeOfDayEvent \&gt;" alt="" coords="1232,1405,1412,1432"/>
+</map>

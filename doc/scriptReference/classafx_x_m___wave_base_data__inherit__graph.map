@@ -1,0 +1,9 @@
+<map id="afxXM_WaveBaseData" name="afxXM_WaveBaseData">
+<area shape="rect" id="node7" href="$classafx_x_m___wave_color_data.html" title="An xmod datablock. " alt="" coords="5,453,159,480"/>
+<area shape="rect" id="node8" href="$classafx_x_m___wave_scalar_data.html" title="An xmod datablock. " alt="" coords="183,453,343,480"/>
+<area shape="rect" id="node2" href="$classafx_x_m___weighted_base_data.html" title="afxXM_WeightedBaseData" alt="" coords="85,304,261,331"/>
+<area shape="rect" id="node3" href="$classafx_x_m___base_data.html" title="afxXM_BaseData" alt="" coords="112,229,233,256"/>
+<area shape="rect" id="node4" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="115,155,230,181"/>
+<area shape="rect" id="node5" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="120,80,225,107"/>
+<area shape="rect" id="node6" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="131,5,214,32"/>
+</map>

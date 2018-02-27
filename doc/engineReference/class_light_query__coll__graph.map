@@ -1,0 +1,10 @@
+<map id="LightQuery" name="LightQuery">
+<area shape="rect" id="node2" href="$class_sphere_f.html" title="SphereF" alt="" coords="5,325,76,352"/>
+<area shape="rect" id="node3" href="$class_point3_f.html" title="Point3F" alt="" coords="6,133,73,159"/>
+<area shape="rect" id="node5" href="$class_light_info.html" title="LightInfo" alt="" coords="160,275,231,301"/>
+<area shape="rect" id="node4" href="$class_vector.html" title="Vector\&lt; LightInfo * \&gt;" alt="" coords="125,376,266,403"/>
+<area shape="rect" id="node6" href="$class_matrix_f.html" title="MatrixF" alt="" coords="155,133,222,159"/>
+<area shape="rect" id="node7" href="$class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="317,133,474,159"/>
+<area shape="rect" id="node8" href="$class_light_info_ex.html" title="LightInfoEx" alt="" coords="352,5,439,32"/>
+<area shape="rect" id="node9" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="499,133,593,159"/>
+</map>

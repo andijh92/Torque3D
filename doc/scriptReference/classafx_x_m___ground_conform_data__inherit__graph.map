@@ -1,0 +1,7 @@
+<map id="afxXM_GroundConformData" name="afxXM_GroundConformData">
+<area shape="rect" id="node2" href="$classafx_x_m___weighted_base_data.html" title="afxXM_WeightedBaseData" alt="" coords="8,304,184,331"/>
+<area shape="rect" id="node3" href="$classafx_x_m___base_data.html" title="afxXM_BaseData" alt="" coords="35,229,157,256"/>
+<area shape="rect" id="node4" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="39,155,153,181"/>
+<area shape="rect" id="node5" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="43,80,149,107"/>
+<area shape="rect" id="node6" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="55,5,137,32"/>
+</map>

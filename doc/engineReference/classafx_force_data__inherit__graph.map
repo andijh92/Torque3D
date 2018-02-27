@@ -1,0 +1,12 @@
+<map id="afxForceData" name="afxForceData">
+<area shape="rect" id="node10" href="$classafx_f___drag_data.html" title="afxF_DragData" alt="" coords="5,603,113,629"/>
+<area shape="rect" id="node11" href="$classafx_f___gravity_data.html" title="afxF_GravityData" alt="" coords="137,603,259,629"/>
+<area shape="rect" id="node2" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="71,453,186,480"/>
+<area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="76,379,181,405"/>
+<area shape="rect" id="node4" href="$class_sim_object.html" title="SimObject" alt="" coords="87,304,170,331"/>
+<area shape="rect" id="node5" href="$class_console_object.html" title="ConsoleObject" alt="" coords="10,229,117,256"/>
+<area shape="rect" id="node6" href="$class_engine_object.html" title="EngineObject" alt="" coords="13,155,113,181"/>
+<area shape="rect" id="node7" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="9,80,118,107"/>
+<area shape="rect" id="node8" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="11,5,116,32"/>
+<area shape="rect" id="node9" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="141,229,247,256"/>
+</map>

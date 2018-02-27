@@ -1,0 +1,51 @@
+<map id="SFXTrack" name="SFXTrack">
+<area shape="rect" id="node2" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="1793,1163,1898,1189"/>
+<area shape="rect" id="node24" href="$class_s_f_x_description.html" title="SFXDescription" alt="" coords="2084,1057,2195,1084"/>
+<area shape="rect" id="node3" href="$class_sim_object.html" title="SimObject" alt="" coords="689,351,772,377"/>
+<area shape="rect" id="node9" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1080,156,1179,183"/>
+<area shape="rect" id="node14" href="$union_namespace_1_1_entry_1_1_callback_union.html" title="Namespace::Entry::Callback\lUnion" alt="" coords="1035,218,1223,259"/>
+<area shape="rect" id="node27" href="$class_sim_set.html" title="SimSet" alt="" coords="1097,1116,1162,1143"/>
+<area shape="rect" id="node35" href="$class_s_f_x_parameter.html" title="SFXParameter" alt="" coords="1076,540,1183,567"/>
+<area shape="rect" id="node4" href="$class_console_object.html" title="ConsoleObject" alt="" coords="468,249,575,276"/>
+<area shape="rect" id="node5" href="$class_engine_object.html" title="EngineObject" alt="" coords="319,204,419,231"/>
+<area shape="rect" id="node6" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,168,269,195"/>
+<area shape="rect" id="node7" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,168,111,195"/>
+<area shape="rect" id="node8" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="468,351,575,377"/>
+<area shape="rect" id="node10" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="645,95,816,121"/>
+<area shape="rect" id="node11" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="681,44,780,71"/>
+<area shape="rect" id="node12" href="$class_namespace.html" title="Namespace" alt="" coords="1800,352,1891,379"/>
+<area shape="rect" id="node13" href="$struct_namespace_1_1_entry.html" title="A function entry in the namespace. " alt="" coords="1408,284,1539,311"/>
+<area shape="rect" id="node19" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="2076,252,2203,279"/>
+<area shape="rect" id="node15" href="$class_code_block.html" title="CodeBlock" alt="" coords="1087,323,1172,349"/>
+<area shape="rect" id="node16" href="$struct_console_function_header.html" title="Extended information about a console function. " alt="" coords="1049,105,1209,132"/>
+<area shape="rect" id="node17" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1425,424,1522,451"/>
+<area shape="rect" id="node18" href="$struct_data_chunker_1_1_data_block.html" title="DataChunker::DataBlock" alt="" coords="1047,463,1212,489"/>
+<area shape="rect" id="node20" href="$class_console_base_type.html" title="Information about a console type. " alt="" coords="1782,168,1909,195"/>
+<area shape="rect" id="node21" href="$class_vector.html" title="Vector\&lt; Field \&gt;" alt="" coords="1789,219,1901,245"/>
+<area shape="rect" id="node22" href="$class_vector.html" title="Vector\&lt; SimDataBlock\l::SubstitutionStatement * \&gt;" alt="" coords="1383,1214,1563,1255"/>
+<area shape="rect" id="node23" href="$struct_sim_data_block_1_1_substitution_statement.html" title="SimDataBlock::Substitution\lStatement" alt="" coords="1038,1214,1221,1255"/>
+<area shape="rect" id="node25" href="$class_s_f_x_source.html" title="Baseclass for sources and controllers. " alt="" coords="1802,783,1889,809"/>
+<area shape="rect" id="node26" href="$class_sim_group.html" title="SimGroup" alt="" coords="1433,935,1513,961"/>
+<area shape="rect" id="node28" href="$class_taml_children.html" title="TamlChildren" alt="" coords="682,1181,779,1208"/>
+<area shape="rect" id="node29" href="$class_sim_object_list.html" title="SimObjectList" alt="" coords="679,1232,783,1259"/>
+<area shape="rect" id="node30" href="$class_signal.html" title="Signal\&lt; void(SetModification\l modification, SimSet *set,\l SimObject *object) \&gt;" alt="" coords="638,1101,823,1157"/>
+<area shape="rect" id="node31" href="$class_ease_f.html" title="EaseF" alt="" coords="1443,833,1503,860"/>
+<area shape="rect" id="node32" href="$class_ease.html" title="Ease" alt="" coords="1103,860,1155,887"/>
+<area shape="rect" id="node33" href="$class_torque_1_1_list.html" title="Torque::List\&lt; SFXModifier * \&gt;" alt="" coords="1377,475,1569,501"/>
+<area shape="rect" id="node34" href="$class_vector.html" title="Vector\&lt; SFXParameter * \&gt;" alt="" coords="1385,665,1562,692"/>
+<area shape="rect" id="node36" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="703,1051,759,1077"/>
+<area shape="rect" id="node37" href="$class_signal.html" title="Signal\&lt; void(SFXParameter\l *parameter, SFXParameterEvent\l event) \&gt;" alt="" coords="624,525,837,581"/>
+<area shape="rect" id="node38" href="$class_point3_f.html" title="Point3F" alt="" coords="1440,1112,1507,1139"/>
+<area shape="rect" id="node39" href="$class_matrix_f.html" title="MatrixF" alt="" coords="1440,564,1507,591"/>
+<area shape="rect" id="node40" href="$class_bit_set32.html" title="BitSet32" alt="" coords="1437,615,1509,641"/>
+<area shape="rect" id="node41" href="$class_generic_time_source.html" title="GenericTimeSource\&lt;\l RealMSTimer \&gt;" alt="" coords="1401,717,1545,758"/>
+<area shape="rect" id="node42" href="$class_i_positionable.html" title="IPositionable\&lt; typename\l RealMSTimer::TickType \&gt;" alt="" coords="1041,591,1217,633"/>
+<area shape="rect" id="node43" href="$class_i_process.html" title="Interface for structures that represent processes. " alt="" coords="1093,657,1166,684"/>
+<area shape="rect" id="node44" href="$class_i_resettable.html" title="Interface for structures that allow their state to be reset. " alt="" coords="1086,708,1173,735"/>
+<area shape="rect" id="node45" href="$struct_real_m_s_timer.html" title="Timer that queries the real&#45;time ticker. " alt="" coords="1079,759,1179,785"/>
+<area shape="rect" id="node46" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SFXDescription \&gt;" alt="" coords="1367,783,1580,809"/>
+<area shape="rect" id="node47" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SFXDescription \&gt;" alt="" coords="1027,809,1232,836"/>
+<area shape="rect" id="node48" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SFXTrack \&gt;" alt="" coords="1383,884,1563,911"/>
+<area shape="rect" id="node49" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SFXTrack \&gt;" alt="" coords="1043,911,1215,937"/>
+<area shape="rect" id="node50" href="$class_s_f_x_sound_reverb_properties.html" title="SFXSoundReverbProperties" alt="" coords="1755,951,1936,977"/>
+</map>

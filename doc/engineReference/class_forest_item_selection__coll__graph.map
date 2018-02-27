@@ -1,0 +1,51 @@
+<map id="ForestItemSelection" name="ForestItemSelection">
+<area shape="rect" id="node2" href="$class_selection.html" title="Selection\&lt; ForestItem \&gt;" alt="" coords="2383,200,2545,227"/>
+<area shape="rect" id="node3" href="$class_vector.html" title="Vector\&lt; ForestItem \&gt;" alt="" coords="1800,133,1947,160"/>
+<area shape="rect" id="node4" href="$class_forest_item.html" title="ForestItem" alt="" coords="1417,132,1501,159"/>
+<area shape="rect" id="node5" href="$class_forest_item_data.html" title="ForestItemData" alt="" coords="1067,88,1177,115"/>
+<area shape="rect" id="node6" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="718,192,823,219"/>
+<area shape="rect" id="node7" href="$class_sim_object.html" title="SimObject" alt="" coords="374,307,457,333"/>
+<area shape="rect" id="node10" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="721,560,820,587"/>
+<area shape="rect" id="node14" href="$class_sim_set.html" title="SimSet" alt="" coords="738,63,803,89"/>
+<area shape="rect" id="node8" href="$class_console_object.html" title="ConsoleObject" alt="" coords="43,256,150,283"/>
+<area shape="rect" id="node9" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="43,307,150,333"/>
+<area shape="rect" id="node27" href="$class_scene_object.html" title="SceneObject" alt="" coords="1073,643,1171,669"/>
+<area shape="rect" id="node11" href="$class_namespace.html" title="Namespace" alt="" coords="51,440,142,467"/>
+<area shape="rect" id="node12" href="$class_vector.html" title="Vector\&lt; SimDataBlock\l::SubstitutionStatement * \&gt;" alt="" coords="325,189,505,230"/>
+<area shape="rect" id="node13" href="$struct_sim_data_block_1_1_substitution_statement.html" title="SimDataBlock::Substitution\lStatement" alt="" coords="5,189,188,230"/>
+<area shape="rect" id="node15" href="$class_taml_children.html" title="TamlChildren" alt="" coords="367,5,464,32"/>
+<area shape="rect" id="node16" href="$class_sim_object_list.html" title="SimObjectList" alt="" coords="363,56,467,83"/>
+<area shape="rect" id="node17" href="$class_vector_ptr.html" title="VectorPtr\&lt; SimObject * \&gt;" alt="" coords="11,56,182,83"/>
+<area shape="rect" id="node18" href="$class_signal.html" title="Signal\&lt; void(SetModification\l modification, SimSet *set,\l SimObject *object) \&gt;" alt="" coords="323,107,508,163"/>
+<area shape="rect" id="node19" href="$class_box3_f.html" title="Box3F" alt="" coords="741,405,801,432"/>
+<area shape="rect" id="node26" href="$class_terrain_block.html" title="TerrainBlock" alt="" coords="1412,808,1507,835"/>
+<area shape="rect" id="node36" href="$class_terr_cell.html" title="The TerrCell is a single quadrant of the terrain geometry quadtree. " alt="" coords="1971,825,2037,852"/>
+<area shape="rect" id="node20" href="$class_box_base.html" title="Base class for box geometries. " alt="" coords="378,405,453,432"/>
+<area shape="rect" id="node21" href="$class_point3_f.html" title="Point3F" alt="" coords="382,612,449,639"/>
+<area shape="rect" id="node22" href="$class_matrix_f.html" title="MatrixF" alt="" coords="737,281,804,308"/>
+<area shape="rect" id="node23" href="$class_vector.html" title="Vector\&lt; GridInfo \&gt;" alt="" coords="2137,200,2265,227"/>
+<area shape="rect" id="node24" href="$class_grid_info.html" title="GridInfo" alt="" coords="1971,212,2037,239"/>
+<area shape="rect" id="node25" href="$struct_grid_point.html" title="GridPoint" alt="" coords="1673,213,1749,240"/>
+<area shape="rect" id="node33" href="$class_terrain_cell_material.html" title="TerrainCellMaterial" alt="" coords="1647,953,1776,980"/>
+<area shape="rect" id="node28" href="$class_net_object.html" title="NetObject" alt="" coords="731,724,811,751"/>
+<area shape="rect" id="node29" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="697,509,844,536"/>
+<area shape="rect" id="node30" href="$class_process_object.html" title="ProcessObject" alt="" coords="717,673,825,700"/>
+<area shape="rect" id="node31" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="1061,887,1183,913"/>
+<area shape="rect" id="node32" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXShaderConst\lBuffer \&gt;" alt="" coords="1018,938,1226,979"/>
+<area shape="rect" id="node34" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="717,843,825,869"/>
+<area shape="rect" id="node40" href="$class_vector.html" title="Vector\&lt; GFXTexHandle \&gt;" alt="" coords="1037,836,1207,863"/>
+<area shape="rect" id="node35" href="$class_g_f_x_shader_const_handle.html" title="GFXShaderConstHandle" alt="" coords="1041,1004,1203,1031"/>
+<area shape="rect" id="node46" href="$class_vector.html" title="Vector\&lt; TerrCell * \&gt;" alt="" coords="2133,759,2270,785"/>
+<area shape="rect" id="node37" href="$class_point2_i.html" title="Point2I" alt="" coords="1428,265,1491,292"/>
+<area shape="rect" id="node38" href="$class_g_f_x_primitive_buffer_handle.html" title="GFXPrimitiveBufferHandle" alt="" coords="1037,1293,1207,1320"/>
+<area shape="rect" id="node39" href="$class_physics_body.html" title="Simple physics object that represents a single rigid body. " alt="" coords="1073,1055,1171,1081"/>
+<area shape="rect" id="node41" href="$class_resource.html" title="Resource\&lt; TerrainFile \&gt;" alt="" coords="1041,1105,1203,1132"/>
+<area shape="rect" id="node42" href="$class_signal.html" title="Signal\&lt; void(U32, Terrain\lBlock *, const Point2I\l &amp;, const Point2I &amp;)\&gt;" alt="" coords="1039,1156,1205,1212"/>
+<area shape="rect" id="node43" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXShader \&gt;" alt="" coords="1029,361,1215,388"/>
+<area shape="rect" id="node44" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lTarget \&gt;" alt="" coords="1034,413,1210,454"/>
+<area shape="rect" id="node45" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="1017,479,1227,505"/>
+<area shape="rect" id="node47" href="$class_file_name.html" title="FileName" alt="" coords="1083,529,1161,556"/>
+<area shape="rect" id="node48" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="1085,785,1159,812"/>
+<area shape="rect" id="node49" href="$class_forest_data.html" title="This is the data file for Forests. " alt="" coords="2421,255,2507,281"/>
+<area shape="rect" id="node50" href="$class_hash_table.html" title="HashTable\&lt; Point2I,\l ForestCell * \&gt;" alt="" coords="2132,251,2271,293"/>
+</map>

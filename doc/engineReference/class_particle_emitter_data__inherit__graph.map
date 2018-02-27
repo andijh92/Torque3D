@@ -1,0 +1,15 @@
+<map id="ParticleEmitterData" name="ParticleEmitterData">
+<area shape="rect" id="node10" href="$classafx_particle_emitter_data.html" title="afxParticleEmitterData" alt="" coords="1248,81,1400,108"/>
+<area shape="rect" id="node2" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="903,81,1017,108"/>
+<area shape="rect" id="node3" href="$class_sim_data_block.html" title="SimDataBlock" alt="" coords="749,81,855,108"/>
+<area shape="rect" id="node4" href="$class_sim_object.html" title="SimObject" alt="" coords="619,81,701,108"/>
+<area shape="rect" id="node5" href="$class_console_object.html" title="ConsoleObject" alt="" coords="464,56,571,83"/>
+<area shape="rect" id="node6" href="$class_engine_object.html" title="EngineObject" alt="" coords="316,56,416,83"/>
+<area shape="rect" id="node7" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="159,56,268,83"/>
+<area shape="rect" id="node8" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,56,111,83"/>
+<area shape="rect" id="node9" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="464,107,571,133"/>
+<area shape="rect" id="node11" href="$classafx_particle_emitter_cone_data.html" title="afxParticleEmitterConeData" alt="" coords="1452,5,1635,32"/>
+<area shape="rect" id="node12" href="$classafx_particle_emitter_disc_data.html" title="afxParticleEmitterDiscData" alt="" coords="1454,56,1633,83"/>
+<area shape="rect" id="node13" href="$classafx_particle_emitter_path_data.html" title="afxParticleEmitterPathData" alt="" coords="1454,107,1633,133"/>
+<area shape="rect" id="node14" href="$classafx_particle_emitter_vector_data.html" title="afxParticleEmitterVectorData" alt="" coords="1448,157,1639,184"/>
+</map>

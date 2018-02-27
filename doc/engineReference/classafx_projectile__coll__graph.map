@@ -1,0 +1,51 @@
+<map id="afxProjectile" name="afxProjectile">
+<area shape="rect" id="node2" href="$class_projectile.html" title="Base class for all projectiles. " alt="" coords="1847,963,1923,989"/>
+<area shape="rect" id="node3" href="$class_game_base.html" title="GameBase" alt="" coords="1502,937,1589,964"/>
+<area shape="rect" id="node4" href="$class_scene_object.html" title="SceneObject" alt="" coords="776,920,873,947"/>
+<area shape="rect" id="node8" href="$class_water_object.html" title="WaterObject" alt="" coords="1113,937,1207,964"/>
+<area shape="rect" id="node5" href="$class_point3_f.html" title="Point3F" alt="" coords="35,1093,102,1120"/>
+<area shape="rect" id="node13" href="$class_light_info.html" title="LightInfo" alt="" coords="789,405,860,432"/>
+<area shape="rect" id="node16" href="$class_s_f_x_source.html" title="Baseclass for sources and controllers. " alt="" coords="781,456,868,483"/>
+<area shape="rect" id="node24" href="$class_physics_world.html" title="PhysicsWorld" alt="" coords="373,21,475,48"/>
+<area shape="rect" id="node31" href="$class_projectile_data.html" title="Datablock for projectiles. This class is the base class for all other projectiles. " alt="" coords="1494,1481,1597,1508"/>
+<area shape="rect" id="node34" href="$class_particle_emitter_data.html" title="ParticleEmitterData" alt="" coords="357,1607,491,1633"/>
+<area shape="rect" id="node37" href="$class_explosion_data.html" title="ExplosionData" alt="" coords="771,1479,878,1505"/>
+<area shape="rect" id="node39" href="$class_splash_data.html" title="SplashData" alt="" coords="1115,1563,1205,1589"/>
+<area shape="rect" id="node47" href="$class_t_s_shape.html" title="TSShape" alt="" coords="387,2313,461,2340"/>
+<area shape="rect" id="node6" href="$class_matrix_f.html" title="MatrixF" alt="" coords="391,657,457,684"/>
+<area shape="rect" id="node12" href="$struct_light_flare_state.html" title="LightFlareState" alt="" coords="1105,601,1215,628"/>
+<area shape="rect" id="node15" href="$struct_light_anim_state.html" title="The light animation state required by LightAnimData. " alt="" coords="769,781,880,808"/>
+<area shape="rect" id="node40" href="$class_t_s_shape_instance.html" title="TSShapeInstance" alt="" coords="763,2039,887,2065"/>
+<area shape="rect" id="node7" href="$class_bit_set32.html" title="BitSet32" alt="" coords="388,811,460,837"/>
+<area shape="rect" id="node9" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="377,1271,471,1297"/>
+<area shape="rect" id="node36" href="$class_light_description.html" title="LightDescription" alt="" coords="915,1216,1030,1243"/>
+<area shape="rect" id="node10" href="$class_i_scene_light.html" title="ISceneLight" alt="" coords="1500,715,1591,741"/>
+<area shape="rect" id="node11" href="$struct_light_state.html" title="LightState" alt="" coords="1505,765,1586,792"/>
+<area shape="rect" id="node14" href="$class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="345,72,503,99"/>
+<area shape="rect" id="node17" href="$class_sim_group.html" title="SimGroup" alt="" coords="384,236,464,263"/>
+<area shape="rect" id="node18" href="$class_ease_f.html" title="EaseF" alt="" coords="394,287,454,313"/>
+<area shape="rect" id="node19" href="$class_torque_1_1_list.html" title="Torque::List\&lt; SFXModifier * \&gt;" alt="" coords="328,337,520,364"/>
+<area shape="rect" id="node20" href="$class_vector.html" title="Vector\&lt; SFXParameter * \&gt;" alt="" coords="335,388,513,415"/>
+<area shape="rect" id="node21" href="$class_generic_time_source.html" title="GenericTimeSource\&lt;\l RealMSTimer \&gt;" alt="" coords="352,439,496,481"/>
+<area shape="rect" id="node22" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SFXDescription \&gt;" alt="" coords="317,505,531,532"/>
+<area shape="rect" id="node23" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SFXTrack \&gt;" alt="" coords="334,185,514,212"/>
+<area shape="rect" id="node25" href="$class_signal_3_01void_07_08_4.html" title="Signal\&lt; void()\&gt;" alt="" coords="15,21,123,48"/>
+<area shape="rect" id="node26" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; ParticleEmitter \&gt;" alt="" coords="1440,988,1651,1015"/>
+<area shape="rect" id="node27" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; ParticleEmitter \&gt;" alt="" coords="1059,988,1261,1015"/>
+<area shape="rect" id="node28" href="$class_t_s_thread.html" title="TSThread" alt="" coords="30,2501,107,2528"/>
+<area shape="rect" id="node42" href="$class_vector.html" title="Vector\&lt; TSThread * \&gt;" alt="" coords="350,2501,498,2528"/>
+<area shape="rect" id="node29" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; ShapeBase \&gt;" alt="" coords="1450,1039,1641,1065"/>
+<area shape="rect" id="node30" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; ShapeBase \&gt;" alt="" coords="1069,1039,1251,1065"/>
+<area shape="rect" id="node32" href="$struct_game_base_data.html" title="GameBaseData" alt="" coords="11,1704,126,1731"/>
+<area shape="rect" id="node33" href="$class_s_f_x_track.html" title="A datablock that describes sound data for playback. " alt="" coords="385,1372,463,1399"/>
+<area shape="rect" id="node35" href="$class_decal_data.html" title="DataBlock implementation for decals. " alt="" coords="1119,1512,1201,1539"/>
+<area shape="rect" id="node38" href="$class_resource.html" title="Resource\&lt; TSShape \&gt;" alt="" coords="347,1772,501,1799"/>
+<area shape="rect" id="node41" href="$class_vector.html" title="Vector\&lt; TSShapeInstance\l::TSCallbackRecord \&gt;" alt="" coords="337,1874,511,1915"/>
+<area shape="rect" id="node43" href="$class_t_s_integer_set.html" title="TSIntegerSet" alt="" coords="375,2212,473,2239"/>
+<area shape="rect" id="node44" href="$class_vector.html" title="Vector\&lt; TSScale \&gt;" alt="" coords="357,2109,491,2136"/>
+<area shape="rect" id="node45" href="$class_vector.html" title="Vector\&lt; QuatF \&gt;" alt="" coords="364,2263,484,2289"/>
+<area shape="rect" id="node46" href="$class_t_s_material_list.html" title="Specialized material list for 3space objects. " alt="" coords="16,2341,121,2368"/>
+<area shape="rect" id="node48" href="$class_vector.html" title="Vector\&lt; Quat16 \&gt;" alt="" coords="5,2067,132,2093"/>
+<area shape="rect" id="node49" href="$class_vector.html" title="Vector\&lt; F32 \&gt;" alt="" coords="15,2185,122,2212"/>
+<area shape="rect" id="node50" href="$classafx_effect_defs.html" title="afxEffectDefs" alt="" coords="1836,1013,1935,1040"/>
+</map>

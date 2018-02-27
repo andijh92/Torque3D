@@ -1,0 +1,14 @@
+<map id="Component" name="Component">
+<area shape="rect" id="node3" href="$class_animation_component.html" title="AnimationComponent" alt="" coords="289,5,435,32"/>
+<area shape="rect" id="node4" href="$class_camera_component.html" title="CameraComponent" alt="" coords="295,56,429,83"/>
+<area shape="rect" id="node5" href="$class_camera_orbiter_component.html" title="CameraOrbiterComponent" alt="" coords="276,107,448,133"/>
+<area shape="rect" id="node6" href="$class_collision_component.html" title="The Box Collider component uses a box or rectangular convex shape for collisions. ..." alt="" coords="293,157,431,184"/>
+<area shape="rect" id="node7" href="$class_mesh_component.html" title="MeshComponent" alt="" coords="302,208,422,235"/>
+<area shape="rect" id="node8" href="$class_physics_component.html" title="PhysicsComponent" alt="" coords="295,259,429,285"/>
+<area shape="rect" id="node9" href="$class_player_controller_component.html" title="PlayerControllerComponent" alt="" coords="272,309,452,336"/>
+<area shape="rect" id="node10" href="$class_rigid_body_component.html" title="RigidBodyComponent" alt="" coords="289,360,435,387"/>
+<area shape="rect" id="node11" href="$class_sound_component.html" title="SoundComponent" alt="" coords="299,411,425,437"/>
+<area shape="rect" id="node12" href="$class_state_machine_component.html" title="StateMachineComponent" alt="" coords="278,461,446,488"/>
+<area shape="rect" id="node13" href="$class_trigger_component.html" title="TriggerComponent" alt="" coords="299,512,425,539"/>
+<area shape="rect" id="node2" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="5,259,88,285"/>
+</map>

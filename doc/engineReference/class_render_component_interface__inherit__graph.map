@@ -1,0 +1,5 @@
+<map id="RenderComponentInterface" name="RenderComponentInterface">
+<area shape="rect" id="node3" href="$class_mesh_component.html" title="MeshComponent" alt="" coords="5,169,125,196"/>
+<area shape="rect" id="node4" href="$class_sound_component.html" title="SoundComponent" alt="" coords="149,169,275,196"/>
+<area shape="rect" id="node2" href="$class_interface.html" title="Interface\&lt; RenderComponent\lInterface \&gt;" alt="" coords="43,5,234,47"/>
+</map>

@@ -1,0 +1,47 @@
+<map id="GuiInspectorField" name="GuiInspectorField">
+<area shape="rect" id="node6" href="$classafx_gui_substitution_field.html" title="A customized variation of GuiInspectorField. " alt="" coords="702,5,858,32"/>
+<area shape="rect" id="node7" href="$class_gui_inspector_custom_field.html" title="A control that allows to edit the custom properties (text) of one or more SimObjects. " alt="" coords="696,56,864,83"/>
+<area shape="rect" id="node8" href="$class_gui_inspector_dynamic_field.html" title="Custom field type for dynamic variable modification on SimObjects. " alt="" coords="693,107,867,133"/>
+<area shape="rect" id="node9" href="$class_gui_inspector_node_list_field.html" title="A control that allows to edit the custom properties (text) of one or more SimObjects. " alt="" coords="693,157,867,184"/>
+<area shape="rect" id="node10" href="$class_gui_inspector_type_bit_mask32.html" title="Inspector field type for TypeBitMask32. " alt="" coords="687,208,873,235"/>
+<area shape="rect" id="node11" href="$class_gui_inspector_type_bit_mask32_helper.html" title="Inspector field type support for TypeBitMask32. " alt="" coords="687,259,873,301"/>
+<area shape="rect" id="node12" href="$class_gui_inspector_type_check_box.html" title="Inspector field type for CheckBox. " alt="" coords="689,325,871,352"/>
+<area shape="rect" id="node13" href="$class_gui_inspector_type_color.html" title="Inspector field type for TypeColor. " alt="" coords="703,376,857,403"/>
+<area shape="rect" id="node16" href="$class_gui_inspector_type_command.html" title="Inspector field type for Command. " alt="" coords="689,427,871,453"/>
+<area shape="rect" id="node17" href="$class_gui_inspector_type_ease_f.html" title="Inspector field type for TypeEaseF. " alt="" coords="699,477,861,504"/>
+<area shape="rect" id="node18" href="$class_gui_inspector_type_file_name.html" title="Inspector field type for FileName. " alt="" coords="691,528,869,555"/>
+<area shape="rect" id="node28" href="$class_gui_inspector_type_material_name.html" title="Inspector field type for Material. " alt="" coords="679,703,881,729"/>
+<area shape="rect" id="node31" href="$class_gui_inspector_type_menu_base.html" title="Inspector field type for MenuBase. " alt="" coords="687,837,873,864"/>
+<area shape="rect" id="node43" href="$class_gui_inspector_type_name.html" title="Inspector field type for Name. " alt="" coords="701,888,859,915"/>
+<area shape="rect" id="node44" href="$class_gui_inspector_type_rect_u_v.html" title="Inspector field type for TypeRectUV. " alt="" coords="696,939,864,965"/>
+<area shape="rect" id="node45" href="$class_gui_inspector_type_s32.html" title="Inspector field type for S32. " alt="" coords="707,989,853,1016"/>
+<area shape="rect" id="node46" href="$class_gui_inspector_variable_field.html" title="Inspector support for variables in a GuiVariableInspector. " alt="" coords="695,1040,865,1067"/>
+<area shape="rect" id="node2" href="$class_gui_control.html" title="Base class for all Gui control objects. " alt="" coords="377,401,460,428"/>
+<area shape="rect" id="node3" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="249,401,329,428"/>
+<area shape="rect" id="node4" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="136,401,201,428"/>
+<area shape="rect" id="node5" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="5,401,88,428"/>
+<area shape="rect" id="node14" href="$class_gui_inspector_type_color_f.html" title="Inspector field type for LinearColorF. " alt="" coords="970,76,1131,103"/>
+<area shape="rect" id="node15" href="$class_gui_inspector_type_color_i.html" title="Inspector field type for ColorI. " alt="" coords="973,127,1129,153"/>
+<area shape="rect" id="node19" href="$class_gui_inspector_type_game_object_asset_ptr.html" title="Inspector field type for Game Objects. " alt="" coords="953,178,1149,219"/>
+<area shape="rect" id="node20" href="$class_gui_inspector_type_g_u_i_asset_ptr.html" title="Inspector field type for GUI Asset Objects. " alt="" coords="953,244,1149,271"/>
+<area shape="rect" id="node21" href="$class_gui_inspector_type_image_file_name.html" title="Inspector field type for FileName. " alt="" coords="944,295,1157,321"/>
+<area shape="rect" id="node22" href="$class_gui_inspector_type_material_asset_ptr.html" title="Inspector field type for Material Asset Objects. " alt="" coords="966,346,1135,387"/>
+<area shape="rect" id="node23" href="$class_gui_inspector_type_particle_asset_ptr.html" title="Inspector field type for Partial Asset Objects. " alt="" coords="967,411,1134,453"/>
+<area shape="rect" id="node24" href="$class_gui_inspector_type_prefab_filename.html" title="Inspector field type for PrefabFilename. " alt="" coords="944,477,1157,504"/>
+<area shape="rect" id="node25" href="$class_gui_inspector_type_shape_asset_ptr.html" title="Inspector field type for Shapes. " alt="" coords="945,528,1156,555"/>
+<area shape="rect" id="node26" href="$class_gui_inspector_type_shape_filename.html" title="Inspector field type for Shapes. " alt="" coords="944,579,1157,605"/>
+<area shape="rect" id="node27" href="$class_gui_inspector_type_state_machine_asset_ptr.html" title="Inspector field type for State Machines. " alt="" coords="949,630,1152,671"/>
+<area shape="rect" id="node29" href="$class_gui_inspector_type_terrain_material_index.html" title="Inspector field type for TerrainMaterialIndex. " alt="" coords="947,695,1155,737"/>
+<area shape="rect" id="node30" href="$class_gui_inspector_type_terrain_material_name.html" title="Inspector field type for TerrainMaterial. " alt="" coords="929,761,1172,788"/>
+<area shape="rect" id="node32" href="$class_gui_inspector_datablock_field.html" title="Custom field type for datablock enumeration. " alt="" coords="960,812,1141,839"/>
+<area shape="rect" id="node37" href="$class_gui_inspector_type_cubemap_name.html" title="Inspector field type for Cubemap. " alt="" coords="945,863,1157,889"/>
+<area shape="rect" id="node38" href="$class_gui_inspector_type_enum.html" title="Inspector field type for Enum. " alt="" coords="972,913,1129,940"/>
+<area shape="rect" id="node39" href="$class_gui_inspector_type_gui_profile.html" title="Inspector field type for GuiProfile. " alt="" coords="961,964,1140,991"/>
+<area shape="rect" id="node40" href="$class_gui_inspector_type_s_f_x_parameter_name.html" title="Inspector field type for SFXParameter. " alt="" coords="930,1015,1171,1041"/>
+<area shape="rect" id="node41" href="$class_gui_inspector_type_s_f_x_source_name.html" title="Inspector field type for SFXSource. " alt="" coords="939,1065,1162,1092"/>
+<area shape="rect" id="node42" href="$class_gui_inspector_type_s_f_x_state_name.html" title="Inspector field type for SFXState. " alt="" coords="945,1116,1157,1143"/>
+<area shape="rect" id="node33" href="$class_gui_inspector_type_s_f_x_ambience_name.html" title="Inspector field type for SFXAmbience. " alt="" coords="1227,736,1465,763"/>
+<area shape="rect" id="node34" href="$class_gui_inspector_type_s_f_x_description_name.html" title="Inspector field type for SFXDescriptionName. " alt="" coords="1223,787,1469,813"/>
+<area shape="rect" id="node35" href="$class_gui_inspector_type_s_f_x_environment_name.html" title="Inspector field type for SFXEnvironment. " alt="" coords="1220,837,1472,864"/>
+<area shape="rect" id="node36" href="$class_gui_inspector_type_s_f_x_track_name.html" title="Inspector field type for SFXTrackName. " alt="" coords="1239,888,1453,915"/>
+</map>

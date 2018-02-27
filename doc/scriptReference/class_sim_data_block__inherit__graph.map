@@ -1,0 +1,50 @@
+<map id="SimDataBlock" name="SimDataBlock">
+<area shape="rect" id="node3" href="$classafx_audio_bank.html" title="A datablock that specifies an Audio Bank effect. " alt="" coords="315,613,417,640"/>
+<area shape="rect" id="node4" href="$class_decal_data.html" title="A datablock describing an individual decal. " alt="" coords="325,664,407,691"/>
+<area shape="rect" id="node5" href="$class_forest_item_data.html" title="Base class for defining a type of ForestItem. It does not implement loading or rendering of the shape..." alt="" coords="311,715,421,741"/>
+<area shape="rect" id="node7" href="$class_game_base_data.html" title="Scriptable, demo&#45;able datablock. Used by GameBase objects. " alt="" coords="309,765,423,792"/>
+<area shape="rect" id="node38" href="$class_light_anim_data.html" title="A datablock which defines and performs light animation, such as rotation, brightness fade..." alt="" coords="313,816,419,843"/>
+<area shape="rect" id="node39" href="$class_light_description.html" title="A helper datablock used by classes (such as shapebase) that submit lights to the scene but do not use..." alt="" coords="309,867,423,893"/>
+<area shape="rect" id="node40" href="$class_light_flare_data.html" title="Defines a light flare effect usable by scene lights. " alt="" coords="313,917,419,944"/>
+<area shape="rect" id="node41" href="$class_particle_data.html" title="Contains information for how specific particles should look and react including particle colors..." alt="" coords="319,968,413,995"/>
+<area shape="rect" id="node42" href="$class_reflector_desc.html" title="A datablock which defines performance and quality properties for dynamic reflections. " alt="" coords="315,1019,417,1045"/>
+<area shape="rect" id="node43" href="$class_s_f_x_ambience.html" title="A datablock that describes an ambient sound space. " alt="" coords="314,1069,418,1096"/>
+<area shape="rect" id="node44" href="$class_s_f_x_description.html" title="A description for how a sound should be played. " alt="" coords="311,1120,421,1147"/>
+<area shape="rect" id="node45" href="$class_s_f_x_environment.html" title="Description of a reverb environment. " alt="" coords="307,1171,425,1197"/>
+<area shape="rect" id="node46" href="$class_s_f_x_state.html" title="A boolean switch used to modify playlist behavior. " alt="" coords="327,1221,405,1248"/>
+<area shape="rect" id="node47" href="$class_s_f_x_track.html" title="Abstract base class for sound data that can be played back by the sound system. " alt="" coords="327,1272,405,1299"/>
+<area shape="rect" id="node48" href="$class_wheeled_vehicle_spring.html" title="Defines the properties of a WheeledVehicle spring. " alt="" coords="289,1323,443,1349"/>
+<area shape="rect" id="node49" href="$class_wheeled_vehicle_tire.html" title="Defines the properties of a WheeledVehicle tire. " alt="" coords="297,1373,435,1400"/>
+<area shape="rect" id="node2" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="5,993,88,1020"/>
+<area shape="rect" id="node6" href="$class_t_s_forest_item_data.html" title="Concrete implementation of ForestItemData which loads and renders dts format shapeFiles. " alt="" coords="511,5,637,32"/>
+<area shape="rect" id="node8" href="$classafx_anim_clip_data.html" title="A datablock that specifies an Animation Clip effect. " alt="" coords="515,56,633,83"/>
+<area shape="rect" id="node9" href="$classafx_anim_lock_data.html" title="A datablock that specifies an Animation Lock effect. " alt="" coords="512,107,636,133"/>
+<area shape="rect" id="node10" href="$classafx_area_damage_data.html" title="A datablock that specifies an Area Damage effect. " alt="" coords="503,157,645,184"/>
+<area shape="rect" id="node11" href="$classafx_billboard_data.html" title="A datablock that specifies a Billboard effect. " alt="" coords="516,208,632,235"/>
+<area shape="rect" id="node12" href="$classafx_camera_puppet_data.html" title="A datablock that specifies a Camera Puppet effect. " alt="" coords="498,259,650,285"/>
+<area shape="rect" id="node13" href="$classafx_camera_shake_data.html" title="A datablock that specifies a Camera Shake effect. " alt="" coords="500,309,648,336"/>
+<area shape="rect" id="node14" href="$classafx_choreographer_data.html" title="Datablock base class used by choreographers. " alt="" coords="499,360,649,387"/>
+<area shape="rect" id="node15" href="$classafx_collision_event_data.html" title="A datablock that specifies a Collision Event effect. " alt="" coords="501,411,647,437"/>
+<area shape="rect" id="node16" href="$classafx_console_message_data.html" title="A datablock that specifies a Console Message effect. " alt="" coords="491,461,657,488"/>
+<area shape="rect" id="node17" href="$classafx_damage_data.html" title="A datablock that specifies a Damage effect. " alt="" coords="517,512,631,539"/>
+<area shape="rect" id="node18" href="$classafx_effect_base_data.html" title="A datablock baseclass for afxEffectWrapperData and afxEffectGroupData. " alt="" coords="509,563,639,589"/>
+<area shape="rect" id="node19" href="$classafx_f___drag_data.html" title="A datablock for specifiying AFX drag forces. " alt="" coords="520,613,628,640"/>
+<area shape="rect" id="node20" href="$classafx_f___gravity_data.html" title="A datablock for specifiying AFX gravity forces. " alt="" coords="513,664,635,691"/>
+<area shape="rect" id="node21" href="$classafx_foot_switch_data.html" title="A datablock that specifies a Foot Switch effect. " alt="" coords="509,715,639,741"/>
+<area shape="rect" id="node22" href="$classafx_gui_controller_data.html" title="A datablock that specifies a Gui Controller effect. " alt="" coords="503,765,645,792"/>
+<area shape="rect" id="node23" href="$classafx_gui_text_data.html" title="A datablock that specifies a Gui Text effect. " alt="" coords="519,816,629,843"/>
+<area shape="rect" id="node24" href="$classafx_light_data.html" title="afxLightData is a legacy datablock which is not supported for T3D. " alt="" coords="527,867,621,893"/>
+<area shape="rect" id="node25" href="$classafx_machine_gun_data.html" title="A datablock that specifies a Machine Gun effect. " alt="" coords="505,917,643,944"/>
+<area shape="rect" id="node26" href="$classafx_magic_missile_data.html" title="Defines a particular magic&#45;missile type. (Use with afxMagicSpellData.) " alt="" coords="503,968,645,995"/>
+<area shape="rect" id="node27" href="$classafx_model_data.html" title="A datablock that specifies a Model effect. " alt="" coords="523,1019,625,1045"/>
+<area shape="rect" id="node28" href="$classafx_mooring_data.html" title="A datablock that specifies a Mooring effect. " alt="" coords="518,1069,630,1096"/>
+<area shape="rect" id="node29" href="$classafx_multi_light_data.html" title="afxMultiLightData is a legacy datablock which is not supported for T3D. " alt="" coords="513,1120,635,1147"/>
+<area shape="rect" id="node30" href="$classafx_particle_pool_data.html" title="A ParticlePool datablock. " alt="" coords="506,1171,642,1197"/>
+<area shape="rect" id="node31" href="$classafx_path_data.html" title="A datablock for specifiying a 3D path for use with AFX. " alt="" coords="527,1221,621,1248"/>
+<area shape="rect" id="node32" href="$classafx_phrase_effect_data.html" title="A datablock that specifies a Phrase Effect, a grouping of other effects. " alt="" coords="504,1272,644,1299"/>
+<area shape="rect" id="node33" href="$classafx_physical_zone_data.html" title="A datablock that specifies a PhysicalZone effect. " alt="" coords="502,1323,646,1349"/>
+<area shape="rect" id="node34" href="$classafx_player_movement_data.html" title="A datablock that specifies a Player Movement effect. " alt="" coords="493,1373,655,1400"/>
+<area shape="rect" id="node35" href="$classafx_player_puppet_data.html" title="A datablock that specifies a Player Puppet effect. " alt="" coords="502,1424,646,1451"/>
+<area shape="rect" id="node36" href="$classafx_r_p_g_magic_spell_data.html" title="A datablock for defining RPG aspects of a spell. " alt="" coords="495,1475,653,1501"/>
+<area shape="rect" id="node37" href="$classafx_script_event_data.html" title="A datablock that specifies a Script Event effect. " alt="" coords="508,1525,640,1552"/>
+</map>

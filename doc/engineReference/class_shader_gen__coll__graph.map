@@ -1,0 +1,25 @@
+<map id="ShaderGen" name="ShaderGen">
+<area shape="rect" id="node2" href="$class_map.html" title="Map\&lt; String, GFXShaderRef \&gt;" alt="" coords="1319,17,1517,44"/>
+<area shape="rect" id="node3" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="16,188,72,215"/>
+<area shape="rect" id="node17" href="$class_feature_set.html" title="FeatureSet" alt="" coords="1041,164,1128,191"/>
+<area shape="rect" id="node20" href="$class_feature_type.html" title="FeatureType" alt="" coords="210,188,305,215"/>
+<area shape="rect" id="node21" href="$class_g_f_x_vertex_format.html" title="GFXVertexFormat" alt="" coords="773,260,899,287"/>
+<area shape="rect" id="node24" href="$class_g_f_x_vertex_element.html" title="GFXVertexElement" alt="" coords="191,289,324,316"/>
+<area shape="rect" id="node4" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; FileSystem \&gt;" alt="" coords="1325,275,1511,301"/>
+<area shape="rect" id="node5" href="$class_strong_object_ref.html" title="Base class for StrongRefBase strong reference pointers. " alt="" coords="1026,333,1143,360"/>
+<area shape="rect" id="node6" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="781,376,891,403"/>
+<area shape="rect" id="node7" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="498,391,603,417"/>
+<area shape="rect" id="node8" href="$class_auto_ptr.html" title="AutoPtr\&lt; ShaderGenComponent\lFactory \&gt;" alt="" coords="1313,326,1523,367"/>
+<area shape="rect" id="node9" href="$class_auto_ptr.html" title="AutoPtr\&lt; ShaderGenPrinter \&gt;" alt="" coords="1321,392,1515,419"/>
+<area shape="rect" id="node10" href="$class_vector.html" title="Vector\&lt; ShaderComponent * \&gt;" alt="" coords="1318,443,1518,469"/>
+<area shape="rect" id="node11" href="$class_shader_component.html" title="ShaderComponent" alt="" coords="1020,443,1149,469"/>
+<area shape="rect" id="node12" href="$class_signal.html" title="Signal\&lt; void(GFXAdapterType\l type)\&gt;" alt="" coords="1321,494,1515,535"/>
+<area shape="rect" id="node13" href="$class_multi_line.html" title="MultiLine" alt="" coords="1381,560,1455,587"/>
+<area shape="rect" id="node14" href="$struct_lang_element.html" title="LangElement" alt="" coords="1035,595,1134,621"/>
+<area shape="rect" id="node15" href="$class_vector.html" title="Vector\&lt; LangElement * \&gt;" alt="" coords="1333,625,1503,652"/>
+<area shape="rect" id="node16" href="$struct_material_feature_data.html" title="MaterialFeatureData" alt="" coords="1349,168,1487,195"/>
+<area shape="rect" id="node18" href="$class_vector.html" title="Vector\&lt; FeatureSet\l::FeatureInfo \&gt;" alt="" coords="768,181,904,222"/>
+<area shape="rect" id="node19" href="$struct_feature_set_1_1_feature_info.html" title="FeatureSet::FeatureInfo" alt="" coords="471,188,630,215"/>
+<area shape="rect" id="node22" href="$class_g_f_x_vertex_decl.html" title="GFXVertexDecl" alt="" coords="495,340,606,367"/>
+<area shape="rect" id="node23" href="$class_vector.html" title="Vector\&lt; GFXVertexElement \&gt;" alt="" coords="453,289,648,316"/>
+</map>

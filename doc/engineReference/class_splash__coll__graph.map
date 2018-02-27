@@ -1,0 +1,51 @@
+<map id="Splash" name="Splash">
+<area shape="rect" id="node2" href="$class_game_base.html" title="GameBase" alt="" coords="2024,799,2111,825"/>
+<area shape="rect" id="node3" href="$class_scene_object.html" title="SceneObject" alt="" coords="1373,744,1470,771"/>
+<area shape="rect" id="node26" href="$struct_scene_object_1_1_mount_info.html" title="Mounted object. " alt="" coords="1684,619,1845,645"/>
+<area shape="rect" id="node28" href="$class_scene_object_link.html" title="A SceneObjectLink represents the link between a SceneObject and a SceneTracker. " alt="" coords="1704,735,1825,761"/>
+<area shape="rect" id="node40" href="$class_water_object.html" title="WaterObject" alt="" coords="1717,1361,1812,1388"/>
+<area shape="rect" id="node4" href="$class_net_object.html" title="NetObject" alt="" coords="657,356,737,383"/>
+<area shape="rect" id="node7" href="$struct_ghost_info.html" title="GhostInfo" alt="" coords="1003,456,1081,483"/>
+<area shape="rect" id="node5" href="$class_sim_group.html" title="SimGroup" alt="" coords="262,381,342,408"/>
+<area shape="rect" id="node6" href="$class_bit_set32.html" title="BitSet32" alt="" coords="266,331,338,357"/>
+<area shape="rect" id="node16" href="$struct_d_d_s_file.html" title="DDSFile" alt="" coords="662,953,733,980"/>
+<area shape="rect" id="node8" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; NetObject \&gt;" alt="" coords="211,123,393,149"/>
+<area shape="rect" id="node9" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="969,703,1115,729"/>
+<area shape="rect" id="node10" href="$class_process_object.html" title="ProcessObject" alt="" coords="988,2016,1096,2043"/>
+<area shape="rect" id="node11" href="$struct_process_object_1_1_link.html" title="ProcessObject::Link" alt="" coords="1351,2027,1491,2053"/>
+<area shape="rect" id="node12" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="978,1227,1106,1253"/>
+<area shape="rect" id="node13" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="643,1055,752,1081"/>
+<area shape="rect" id="node25" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="993,1057,1091,1084"/>
+<area shape="rect" id="node14" href="$class_g_f_x_resource.html" title="GFXResource" alt="" coords="251,1117,353,1144"/>
+<area shape="rect" id="node18" href="$class_g_f_x_device.html" title="GFXDevice" alt="" coords="655,1439,740,1465"/>
+<area shape="rect" id="node15" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="274,1253,330,1280"/>
+<area shape="rect" id="node41" href="$class_named_tex_target.html" title="NamedTexTarget" alt="" coords="637,1540,757,1567"/>
+<area shape="rect" id="node17" href="$class_point3_i.html" title="Point3I" alt="" coords="666,1287,729,1313"/>
+<area shape="rect" id="node19" href="$class_point3_f.html" title="Point3F" alt="" coords="23,1019,90,1045"/>
+<area shape="rect" id="node30" href="$class_sphere_f.html" title="SphereF" alt="" coords="484,567,555,593"/>
+<area shape="rect" id="node31" href="$class_box3_f.html" title="Box3F" alt="" coords="823,679,883,705"/>
+<area shape="rect" id="node37" href="$class_plane_f.html" title="PlaneF" alt="" coords="271,1645,333,1672"/>
+<area shape="rect" id="node44" href="$class_plane_reflector.html" title="PlaneReflector" alt="" coords="644,1797,751,1824"/>
+<area shape="rect" id="node20" href="$class_matrix_f.html" title="MatrixF" alt="" coords="269,244,335,271"/>
+<area shape="rect" id="node34" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="987,956,1097,983"/>
+<area shape="rect" id="node21" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="255,1517,349,1544"/>
+<area shape="rect" id="node22" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="197,1577,407,1604"/>
+<area shape="rect" id="node23" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="248,1852,356,1879"/>
+<area shape="rect" id="node49" href="$class_cubemap_data.html" title="A script interface for creating static or dynamic cubemaps. " alt="" coords="1183,1856,1287,1883"/>
+<area shape="rect" id="node24" href="$class_g_f_x_texture_profile.html" title="GFXTextureProfile" alt="" coords="634,1105,761,1132"/>
+<area shape="rect" id="node27" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="984,753,1100,780"/>
+<area shape="rect" id="node29" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="944,804,1140,831"/>
+<area shape="rect" id="node32" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="943,855,1141,881"/>
+<area shape="rect" id="node33" href="$class_scene_container.html" title="SceneContainer" alt="" coords="985,905,1099,932"/>
+<area shape="rect" id="node35" href="$struct_water_fog_data.html" title="The water fog settings. " alt="" coords="644,903,751,929"/>
+<area shape="rect" id="node36" href="$class_color_i.html" title="ColorI" alt="" coords="275,912,329,939"/>
+<area shape="rect" id="node38" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="966,1007,1118,1033"/>
+<area shape="rect" id="node39" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="953,287,1131,313"/>
+<area shape="rect" id="node42" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="1360,899,1483,925"/>
+<area shape="rect" id="node43" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; PostEffect \&gt;" alt="" coords="1329,949,1513,976"/>
+<area shape="rect" id="node45" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="1382,1051,1461,1077"/>
+<area shape="rect" id="node46" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="1388,1235,1455,1261"/>
+<area shape="rect" id="node47" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="1369,1285,1473,1312"/>
+<area shape="rect" id="node48" href="$class_reflector_desc.html" title="ReflectorDesc" alt="" coords="1370,1336,1473,1363"/>
+<area shape="rect" id="node50" href="$struct_water_mat_params.html" title="WaterMatParams" alt="" coords="1359,1387,1483,1413"/>
+</map>

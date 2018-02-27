@@ -1,0 +1,11 @@
+<map id="afxZodiacMgr" name="afxZodiacMgr">
+<area shape="rect" id="node2" href="$classafx_zodiac_defs.html" title="afxZodiacDefs" alt="" coords="47,517,149,544"/>
+<area shape="rect" id="node4" href="$class_color_i.html" title="ColorI" alt="" coords="5,375,60,402"/>
+<area shape="rect" id="node5" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="155,375,222,402"/>
+<area shape="rect" id="node6" href="$class_point3_f.html" title="Point3F" alt="" coords="299,375,366,402"/>
+<area shape="rect" id="node7" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="449,375,557,402"/>
+<area shape="rect" id="node8" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="415,247,591,288"/>
+<area shape="rect" id="node9" href="$class_strong_object_ref.html" title="Base class for StrongRefBase strong reference pointers. " alt="" coords="445,171,562,197"/>
+<area shape="rect" id="node10" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="449,81,558,108"/>
+<area shape="rect" id="node11" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="451,5,556,32"/>
+</map>

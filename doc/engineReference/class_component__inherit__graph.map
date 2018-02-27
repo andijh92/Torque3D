@@ -1,0 +1,21 @@
+<map id="Component" name="Component">
+<area shape="rect" id="node10" href="$class_animation_component.html" title="AnimationComponent" alt="" coords="1010,5,1157,32"/>
+<area shape="rect" id="node11" href="$class_camera_component.html" title="CameraComponent" alt="" coords="1017,56,1150,83"/>
+<area shape="rect" id="node12" href="$class_camera_orbiter_component.html" title="CameraOrbiterComponent" alt="" coords="997,107,1169,133"/>
+<area shape="rect" id="node13" href="$class_collision_component.html" title="CollisionComponent" alt="" coords="1015,157,1152,184"/>
+<area shape="rect" id="node14" href="$class_mesh_component.html" title="MeshComponent" alt="" coords="1023,208,1143,235"/>
+<area shape="rect" id="node15" href="$class_physics_component.html" title="PhysicsComponent" alt="" coords="1016,259,1151,285"/>
+<area shape="rect" id="node16" href="$class_player_controller_component.html" title="PlayerControllerComponent" alt="" coords="993,309,1173,336"/>
+<area shape="rect" id="node17" href="$class_rigid_body_component.html" title="RigidBodyComponent" alt="" coords="1010,360,1157,387"/>
+<area shape="rect" id="node18" href="$class_sound_component.html" title="SoundComponent" alt="" coords="1021,411,1146,437"/>
+<area shape="rect" id="node19" href="$class_state_machine_component.html" title="StateMachineComponent" alt="" coords="999,461,1167,488"/>
+<area shape="rect" id="node20" href="$class_trigger_component.html" title="TriggerComponent" alt="" coords="1020,512,1147,539"/>
+<area shape="rect" id="node2" href="$class_sim_object.html" title="SimObject" alt="" coords="712,233,795,260"/>
+<area shape="rect" id="node3" href="$class_console_object.html" title="ConsoleObject" alt="" coords="503,183,610,209"/>
+<area shape="rect" id="node4" href="$class_engine_object.html" title="EngineObject" alt="" coords="316,183,416,209"/>
+<area shape="rect" id="node5" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="159,183,268,209"/>
+<area shape="rect" id="node6" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,183,111,209"/>
+<area shape="rect" id="node7" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="503,233,610,260"/>
+<area shape="rect" id="node8" href="$class_update_interface.html" title="UpdateInterface" alt="" coords="697,284,809,311"/>
+<area shape="rect" id="node9" href="$class_interface.html" title="Interface\&lt; UpdateInterface \&gt;" alt="" coords="464,284,649,311"/>
+</map>

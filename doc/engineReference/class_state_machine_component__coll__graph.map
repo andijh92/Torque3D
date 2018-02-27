@@ -1,0 +1,51 @@
+<map id="StateMachineComponent" name="StateMachineComponent">
+<area shape="rect" id="node2" href="$class_component.html" title="Component" alt="" coords="2902,683,2990,710"/>
+<area shape="rect" id="node3" href="$class_sim_object.html" title="SimObject" alt="" coords="681,662,764,689"/>
+<area shape="rect" id="node9" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1043,611,1142,638"/>
+<area shape="rect" id="node14" href="$union_namespace_1_1_entry_1_1_callback_union.html" title="Namespace::Entry::Callback\lUnion" alt="" coords="999,752,1187,793"/>
+<area shape="rect" id="node50" href="$struct_state_machine_1_1_unique_reference.html" title="StateMachine::UniqueReference" alt="" coords="1211,293,1419,319"/>
+<area shape="rect" id="node4" href="$class_console_object.html" title="ConsoleObject" alt="" coords="468,678,575,705"/>
+<area shape="rect" id="node5" href="$class_engine_object.html" title="EngineObject" alt="" coords="319,639,419,666"/>
+<area shape="rect" id="node6" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,601,269,627"/>
+<area shape="rect" id="node7" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,601,111,627"/>
+<area shape="rect" id="node8" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="468,627,575,654"/>
+<area shape="rect" id="node27" href="$class_scene_object.html" title="SceneObject" alt="" coords="1505,655,1603,682"/>
+<area shape="rect" id="node10" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="637,255,808,282"/>
+<area shape="rect" id="node11" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="673,205,772,231"/>
+<area shape="rect" id="node12" href="$class_namespace.html" title="Namespace" alt="" coords="1887,895,1978,922"/>
+<area shape="rect" id="node13" href="$struct_namespace_1_1_entry.html" title="A function entry in the namespace. " alt="" coords="1489,850,1619,877"/>
+<area shape="rect" id="node19" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="2242,847,2369,874"/>
+<area shape="rect" id="node15" href="$class_code_block.html" title="CodeBlock" alt="" coords="1050,907,1135,934"/>
+<area shape="rect" id="node16" href="$struct_console_function_header.html" title="Extended information about a console function. " alt="" coords="1013,818,1173,845"/>
+<area shape="rect" id="node17" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1505,737,1603,763"/>
+<area shape="rect" id="node18" href="$struct_data_chunker_1_1_data_block.html" title="DataChunker::DataBlock" alt="" coords="1010,701,1175,727"/>
+<area shape="rect" id="node20" href="$class_console_base_type.html" title="Information about a console type. " alt="" coords="1869,762,1996,789"/>
+<area shape="rect" id="node21" href="$class_update_interface.html" title="UpdateInterface" alt="" coords="2540,1077,2652,1103"/>
+<area shape="rect" id="node23" href="$class_vector.html" title="Vector\&lt; UpdateInterface * \&gt;" alt="" coords="2855,1073,3037,1099"/>
+<area shape="rect" id="node22" href="$class_interface.html" title="Interface\&lt; UpdateInterface \&gt;" alt="" coords="3103,1099,3288,1126"/>
+<area shape="rect" id="node24" href="$class_vector.html" title="Vector\&lt; StringTableEntry \&gt;" alt="" coords="2506,543,2686,570"/>
+<area shape="rect" id="node25" href="$class_entity.html" title="Entity" alt="" coords="2568,645,2624,671"/>
+<area shape="rect" id="node26" href="$class_game_base.html" title="GameBase" alt="" coords="2262,641,2349,667"/>
+<area shape="rect" id="node29" href="$class_water_object.html" title="WaterObject" alt="" coords="1885,606,1980,633"/>
+<area shape="rect" id="node28" href="$class_point3_f.html" title="Point3F" alt="" coords="1059,561,1126,587"/>
+<area shape="rect" id="node32" href="$struct_entity_1_1_state_delta.html" title="Entity::StateDelta" alt="" coords="2243,527,2368,554"/>
+<area shape="rect" id="node41" href="$struct_state_machine_1_1_state_field.html" title="StateMachine::StateField" alt="" coords="1469,353,1639,379"/>
+<area shape="rect" id="node30" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="1065,383,1121,410"/>
+<area shape="rect" id="node31" href="$struct_move.html" title="Move" alt="" coords="1907,553,1959,579"/>
+<area shape="rect" id="node33" href="$class_quat_f.html" title="QuatF" alt="" coords="1903,450,1962,477"/>
+<area shape="rect" id="node34" href="$class_signal.html" title="Signal\&lt; void(SimObject\l *, String, String) \&gt;" alt="" coords="2227,695,2384,736"/>
+<area shape="rect" id="node35" href="$class_vector.html" title="Vector\&lt; ComponentField \&gt;" alt="" coords="2507,594,2685,621"/>
+<area shape="rect" id="node36" href="$struct_component_field.html" title="ComponentField" alt="" coords="2247,477,2363,503"/>
+<area shape="rect" id="node37" href="$class_asset_ptr.html" title="AssetPtr\&lt; ComponentAsset \&gt;" alt="" coords="2497,831,2695,858"/>
+<area shape="rect" id="node38" href="$class_asset_ptr_base.html" title="AssetPtrBase" alt="" coords="2254,898,2357,925"/>
+<area shape="rect" id="node39" href="$class_state_machine.html" title="StateMachine" alt="" coords="2254,222,2357,249"/>
+<area shape="rect" id="node40" href="$class_vector.html" title="Vector\&lt; StateMachine\l::StateField \&gt;" alt="" coords="1857,345,2009,387"/>
+<area shape="rect" id="node42" href="$class_signal.html" title="Signal\&lt; void(StateMachine\l *, S32 stateIdx) \&gt;" alt="" coords="1845,5,2021,47"/>
+<area shape="rect" id="node43" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SimXMLDocument \&gt;" alt="" coords="1817,71,2048,98"/>
+<area shape="rect" id="node44" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; SimXMLDocument \&gt;" alt="" coords="1443,71,1665,98"/>
+<area shape="rect" id="node45" href="$class_vector.html" title="Vector\&lt; StateMachine\l::State \&gt;" alt="" coords="1857,215,2009,256"/>
+<area shape="rect" id="node46" href="$struct_state_machine_1_1_state.html" title="StateMachine::State" alt="" coords="1483,153,1625,179"/>
+<area shape="rect" id="node47" href="$class_vector.html" title="Vector\&lt; StateMachine\l::StateTransition \&gt;" alt="" coords="1017,111,1169,152"/>
+<area shape="rect" id="node48" href="$struct_state_machine_1_1_state_transition.html" title="StateMachine::StateTransition" alt="" coords="624,115,821,142"/>
+<area shape="rect" id="node49" href="$class_vector.html" title="Vector\&lt; StateMachine\l::UniqueReference \&gt;" alt="" coords="1857,280,2009,321"/>
+</map>

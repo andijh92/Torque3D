@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classafx_x_m___waveform.html" title="afxXM_Waveform" alt="" coords="5,132,127,159"/>
+<area shape="rect" id="node2" href="$classafx_x_m___waveform_noise.html" title="afxXM_WaveformNoise" alt="" coords="185,5,339,32"/>
+<area shape="rect" id="node3" href="$classafx_x_m___waveform_one.html" title="afxXM_WaveformOne" alt="" coords="189,56,335,83"/>
+<area shape="rect" id="node4" href="$classafx_x_m___waveform_sawtooth.html" title="afxXM_WaveformSawtooth" alt="" coords="175,107,349,133"/>
+<area shape="rect" id="node5" href="$classafx_x_m___waveform_sine.html" title="afxXM_WaveformSine" alt="" coords="189,157,335,184"/>
+<area shape="rect" id="node6" href="$classafx_x_m___waveform_square.html" title="afxXM_WaveformSquare" alt="" coords="181,208,343,235"/>
+<area shape="rect" id="node7" href="$classafx_x_m___waveform_triangle.html" title="afxXM_WaveformTriangle" alt="" coords="179,259,345,285"/>
+</map>

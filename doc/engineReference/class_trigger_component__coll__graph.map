@@ -1,0 +1,51 @@
+<map id="TriggerComponent" name="TriggerComponent">
+<area shape="rect" id="node2" href="$class_component.html" title="Component" alt="" coords="2695,360,2783,387"/>
+<area shape="rect" id="node3" href="$class_sim_object.html" title="SimObject" alt="" coords="701,145,784,172"/>
+<area shape="rect" id="node8" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1057,279,1155,305"/>
+<area shape="rect" id="node4" href="$class_console_object.html" title="ConsoleObject" alt="" coords="416,112,523,139"/>
+<area shape="rect" id="node5" href="$class_engine_object.html" title="EngineObject" alt="" coords="164,112,264,139"/>
+<area shape="rect" id="node6" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="5,112,115,139"/>
+<area shape="rect" id="node26" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="1042,499,1170,525"/>
+<area shape="rect" id="node7" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="416,163,523,189"/>
+<area shape="rect" id="node21" href="$class_scene_object.html" title="SceneObject" alt="" coords="1403,731,1500,757"/>
+<area shape="rect" id="node9" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="657,279,828,305"/>
+<area shape="rect" id="node10" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="693,85,792,112"/>
+<area shape="rect" id="node11" href="$class_namespace.html" title="Namespace" alt="" coords="424,1105,515,1132"/>
+<area shape="rect" id="node12" href="$struct_namespace_1_1_entry.html" title="A function entry in the namespace. " alt="" coords="677,1063,808,1089"/>
+<area shape="rect" id="node14" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="679,1196,806,1223"/>
+<area shape="rect" id="node13" href="$class_data_chunker.html" title="DataChunker" alt="" coords="165,1105,263,1132"/>
+<area shape="rect" id="node15" href="$class_update_interface.html" title="UpdateInterface" alt="" coords="2333,560,2445,587"/>
+<area shape="rect" id="node17" href="$class_vector.html" title="Vector\&lt; UpdateInterface * \&gt;" alt="" coords="2648,556,2831,583"/>
+<area shape="rect" id="node16" href="$class_interface.html" title="Interface\&lt; UpdateInterface \&gt;" alt="" coords="2896,581,3081,608"/>
+<area shape="rect" id="node18" href="$class_vector.html" title="Vector\&lt; StringTableEntry \&gt;" alt="" coords="2299,496,2479,523"/>
+<area shape="rect" id="node19" href="$class_entity.html" title="Entity" alt="" coords="2361,445,2417,472"/>
+<area shape="rect" id="node20" href="$class_game_base.html" title="GameBase" alt="" coords="2055,1197,2142,1224"/>
+<area shape="rect" id="node28" href="$struct_scene_object_1_1_mount_info.html" title="Mounted object. " alt="" coords="1673,595,1834,621"/>
+<area shape="rect" id="node31" href="$class_scene_object_link.html" title="A SceneObjectLink represents the link between a SceneObject and a SceneTracker. " alt="" coords="1693,711,1814,737"/>
+<area shape="rect" id="node39" href="$class_vector.html" title="Vector\&lt; SceneObject * \&gt;" alt="" coords="1669,281,1837,308"/>
+<area shape="rect" id="node42" href="$class_water_object.html" title="WaterObject" alt="" coords="1706,1228,1801,1255"/>
+<area shape="rect" id="node22" href="$class_net_object.html" title="NetObject" alt="" coords="1066,549,1146,576"/>
+<area shape="rect" id="node23" href="$class_bit_set32.html" title="BitSet32" alt="" coords="707,576,779,603"/>
+<area shape="rect" id="node24" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="1033,835,1179,861"/>
+<area shape="rect" id="node25" href="$class_process_object.html" title="ProcessObject" alt="" coords="1052,948,1160,975"/>
+<area shape="rect" id="node27" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="715,499,771,525"/>
+<area shape="rect" id="node29" href="$class_matrix_f.html" title="MatrixF" alt="" coords="1073,228,1139,255"/>
+<area shape="rect" id="node38" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="2044,383,2153,409"/>
+<area shape="rect" id="node30" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="1048,999,1164,1025"/>
+<area shape="rect" id="node32" href="$class_point3_f.html" title="Point3F" alt="" coords="709,973,776,1000"/>
+<area shape="rect" id="node34" href="$class_sphere_f.html" title="SphereF" alt="" coords="1071,1201,1141,1228"/>
+<area shape="rect" id="node35" href="$class_box3_f.html" title="Box3F" alt="" coords="1076,731,1136,757"/>
+<area shape="rect" id="node44" href="$struct_entity_1_1_state_delta.html" title="Entity::StateDelta" alt="" coords="2036,1036,2161,1063"/>
+<area shape="rect" id="node33" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="1008,1049,1204,1076"/>
+<area shape="rect" id="node36" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="1007,1100,1205,1127"/>
+<area shape="rect" id="node37" href="$class_scene_container.html" title="SceneContainer" alt="" coords="1049,1151,1163,1177"/>
+<area shape="rect" id="node40" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="1030,329,1182,356"/>
+<area shape="rect" id="node41" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="1017,380,1195,407"/>
+<area shape="rect" id="node43" href="$struct_move.html" title="Move" alt="" coords="1727,1117,1779,1144"/>
+<area shape="rect" id="node45" href="$class_quat_f.html" title="QuatF" alt="" coords="1724,1013,1783,1040"/>
+<area shape="rect" id="node46" href="$class_signal.html" title="Signal\&lt; void(SimObject\l *, String, String) \&gt;" alt="" coords="2020,435,2177,477"/>
+<area shape="rect" id="node47" href="$class_vector.html" title="Vector\&lt; ComponentField \&gt;" alt="" coords="2300,332,2479,359"/>
+<area shape="rect" id="node48" href="$struct_component_field.html" title="ComponentField" alt="" coords="2041,332,2157,359"/>
+<area shape="rect" id="node49" href="$class_asset_ptr.html" title="AssetPtr\&lt; ComponentAsset \&gt;" alt="" coords="2291,281,2488,308"/>
+<area shape="rect" id="node50" href="$class_asset_ptr_base.html" title="AssetPtrBase" alt="" coords="2047,281,2150,308"/>
+</map>

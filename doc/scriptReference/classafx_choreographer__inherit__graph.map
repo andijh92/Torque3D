@@ -1,0 +1,11 @@
+<map id="afxChoreographer" name="afxChoreographer">
+<area shape="rect" id="node8" href="$classafx_effectron.html" title="A basic effects choreographer. " alt="" coords="5,528,96,555"/>
+<area shape="rect" id="node9" href="$classafx_magic_spell.html" title="A magic spell effects choreographer. " alt="" coords="121,528,223,555"/>
+<area shape="rect" id="node10" href="$classafx_selectron.html" title="A choreographer for selection effects. " alt="" coords="247,528,342,555"/>
+<area shape="rect" id="node2" href="$class_game_base.html" title="Base class for game objects which use datablocks, networking, are editable, and need to process ticks..." alt="" coords="129,379,215,405"/>
+<area shape="rect" id="node3" href="$class_scene_object.html" title="A networkable object that exists in the 3D world. " alt="" coords="123,304,221,331"/>
+<area shape="rect" id="node4" href="$class_net_object.html" title="Superclass for all ghostable networked objects. " alt="" coords="132,229,212,256"/>
+<area shape="rect" id="node5" href="$class_sim_group.html" title="A collection of SimObjects that are owned by the group. " alt="" coords="132,155,212,181"/>
+<area shape="rect" id="node6" href="$class_sim_set.html" title="A collection of SimObjects. " alt="" coords="139,80,205,107"/>
+<area shape="rect" id="node7" href="$class_sim_object.html" title="Base class for almost all objects involved in the simulation. " alt="" coords="131,5,213,32"/>
+</map>

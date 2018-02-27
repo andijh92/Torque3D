@@ -1,0 +1,4 @@
+<map id="StockColorItem" name="StockColorItem">
+<area shape="rect" id="node2" href="$class_color_i.html" title="ColorI" alt="" coords="5,43,60,70"/>
+<area shape="rect" id="node3" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="155,43,249,70"/>
+</map>

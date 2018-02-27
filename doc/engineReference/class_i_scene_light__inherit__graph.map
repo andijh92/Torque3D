@@ -1,0 +1,35 @@
+<map id="ISceneLight" name="ISceneLight">
+<area shape="rect" id="node2" href="$classafx_magic_missile.html" title="afxMagicMissile" alt="" coords="144,5,259,32"/>
+<area shape="rect" id="node3" href="$class_explosion.html" title="Explosion" alt="" coords="162,56,241,83"/>
+<area shape="rect" id="node4" href="$class_light_base.html" title="LightBase" alt="" coords="161,107,241,133"/>
+<area shape="rect" id="node9" href="$class_projectile.html" title="Base class for all projectiles. " alt="" coords="163,157,239,184"/>
+<area shape="rect" id="node11" href="$class_scatter_sky.html" title="ScatterSky" alt="" coords="158,208,245,235"/>
+<area shape="rect" id="node12" href="$class_shape_base.html" title="ShapeBase" alt="" coords="157,360,246,387"/>
+<area shape="rect" id="node34" href="$class_sun.html" title="Sun" alt="" coords="179,411,224,437"/>
+<area shape="rect" id="node5" href="$class_point_light.html" title="PointLight" alt="" coords="320,56,400,83"/>
+<area shape="rect" id="node7" href="$class_spot_light.html" title="SpotLight" alt="" coords="321,107,399,133"/>
+<area shape="rect" id="node6" href="$class_point_light_proxy.html" title="PointLightProxy" alt="" coords="473,56,588,83"/>
+<area shape="rect" id="node8" href="$class_spot_light_proxy.html" title="SpotLightProxy" alt="" coords="475,107,586,133"/>
+<area shape="rect" id="node10" href="$classafx_projectile.html" title="afxProjectile" alt="" coords="313,157,407,184"/>
+<area shape="rect" id="node13" href="$classafx_camera.html" title="afxCamera" alt="" coords="318,208,402,235"/>
+<area shape="rect" id="node14" href="$class_camera.html" title="Implements a basic camera object. " alt="" coords="327,259,393,285"/>
+<area shape="rect" id="node15" href="$class_item.html" title="Item" alt="" coords="337,309,383,336"/>
+<area shape="rect" id="node19" href="$class_mission_marker.html" title="MissionMarker" alt="" coords="307,360,413,387"/>
+<area shape="rect" id="node23" href="$class_path_camera.html" title="PathCamera" alt="" coords="313,411,407,437"/>
+<area shape="rect" id="node24" href="$class_player.html" title="Player" alt="" coords="331,461,389,488"/>
+<area shape="rect" id="node26" href="$class_rigid_shape.html" title="RigidShape" alt="" coords="316,512,404,539"/>
+<area shape="rect" id="node27" href="$class_static_shape.html" title="StaticShape" alt="" coords="313,563,407,589"/>
+<area shape="rect" id="node30" href="$class_vehicle.html" title="Vehicle" alt="" coords="327,639,393,665"/>
+<area shape="rect" id="node16" href="$class_proximity_mine.html" title="ProximityMine" alt="" coords="478,208,583,235"/>
+<area shape="rect" id="node17" href="$class_turret_shape.html" title="TurretShape" alt="" coords="485,259,577,285"/>
+<area shape="rect" id="node18" href="$class_a_i_turret_shape.html" title="AITurretShape" alt="" coords="648,259,752,285"/>
+<area shape="rect" id="node20" href="$class_camera_bookmark.html" title="CameraBookmark" alt="" coords="467,309,594,336"/>
+<area shape="rect" id="node21" href="$class_spawn_sphere.html" title="SpawnSphere" alt="" coords="479,360,582,387"/>
+<area shape="rect" id="node22" href="$class_way_point.html" title="WayPoint" alt="" coords="491,411,570,437"/>
+<area shape="rect" id="node25" href="$class_a_i_player.html" title="AIPlayer" alt="" coords="495,461,566,488"/>
+<area shape="rect" id="node28" href="$classafx_static_shape.html" title="afxStaticShape" alt="" coords="475,512,586,539"/>
+<area shape="rect" id="node29" href="$class_scope_always_shape.html" title="ScopeAlwaysShape" alt="" coords="461,563,600,589"/>
+<area shape="rect" id="node31" href="$class_flying_vehicle.html" title="FlyingVehicle" alt="" coords="481,613,581,640"/>
+<area shape="rect" id="node32" href="$class_hover_vehicle.html" title="HoverVehicle" alt="" coords="482,664,579,691"/>
+<area shape="rect" id="node33" href="$class_wheeled_vehicle.html" title="WheeledVehicle" alt="" coords="473,715,589,741"/>
+</map>

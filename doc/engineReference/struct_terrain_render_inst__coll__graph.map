@@ -1,0 +1,51 @@
+<map id="TerrainRenderInst" name="TerrainRenderInst">
+<area shape="rect" id="node2" href="$struct_render_inst.html" title="RenderInst" alt="" coords="1477,2305,1561,2331"/>
+<area shape="rect" id="node3" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="771,1007,893,1034"/>
+<area shape="rect" id="node9" href="$class_terrain_block.html" title="TerrainBlock" alt="" coords="1152,857,1247,883"/>
+<area shape="rect" id="node4" href="$class_vector.html" title="Vector\&lt; MatInstanceHook * \&gt;" alt="" coords="311,682,506,709"/>
+<area shape="rect" id="node5" href="$class_mat_instance_hook.html" title="MatInstanceHook" alt="" coords="32,682,155,709"/>
+<area shape="rect" id="node6" href="$class_terrain_cell_material.html" title="TerrainCellMaterial" alt="" coords="1455,707,1584,734"/>
+<area shape="rect" id="node7" href="$class_vector.html" title="Vector\&lt; TerrainCellMaterial * \&gt;" alt="" coords="1723,729,1923,755"/>
+<area shape="rect" id="node16" href="$class_terr_cell.html" title="The TerrCell is a single quadrant of the terrain geometry quadtree. " alt="" coords="1789,1025,1856,1051"/>
+<area shape="rect" id="node8" href="$class_weak_ref_ptr.html" title="WeakRefPtr\&lt; NamedTexTarget \&gt;" alt="" coords="1092,285,1307,311"/>
+<area shape="rect" id="node10" href="$class_scene_object.html" title="SceneObject" alt="" coords="783,1374,881,1401"/>
+<area shape="rect" id="node11" href="$class_point3_f.html" title="Point3F" alt="" coords="60,1458,127,1485"/>
+<area shape="rect" id="node12" href="$class_box3_f.html" title="Box3F" alt="" coords="379,1275,439,1302"/>
+<area shape="rect" id="node38" href="$class_g_f_x_device.html" title="GFXDevice" alt="" coords="789,1771,875,1798"/>
+<area shape="rect" id="node49" href="$class_light_info.html" title="LightInfo" alt="" coords="797,2342,867,2369"/>
+<area shape="rect" id="node13" href="$class_matrix_f.html" title="MatrixF" alt="" coords="375,2165,442,2191"/>
+<area shape="rect" id="node14" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXShaderConst\lBuffer \&gt;" alt="" coords="305,5,513,47"/>
+<area shape="rect" id="node32" href="$class_terrain_cell_material_1_1_pass.html" title="TerrainCellMaterial\l::Pass" alt="" coords="767,136,897,177"/>
+<area shape="rect" id="node15" href="$class_g_f_x_shader_const_handle.html" title="GFXShaderConstHandle" alt="" coords="327,281,490,307"/>
+<area shape="rect" id="node27" href="$class_vector.html" title="Vector\&lt; TerrCell * \&gt;" alt="" coords="2017,907,2155,934"/>
+<area shape="rect" id="node17" href="$class_g_f_x_primitive_buffer_handle.html" title="GFXPrimitiveBufferHandle" alt="" coords="747,1222,917,1249"/>
+<area shape="rect" id="node18" href="$class_physics_body.html" title="Simple physics object that represents a single rigid body. " alt="" coords="783,709,881,735"/>
+<area shape="rect" id="node19" href="$class_vector.html" title="Vector\&lt; GFXTexHandle \&gt;" alt="" coords="747,566,917,593"/>
+<area shape="rect" id="node20" href="$class_g_f_x_tex_handle.html" title="A reference counted handle to a texture resource. " alt="" coords="355,623,463,650"/>
+<area shape="rect" id="node21" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lObject \&gt;" alt="" coords="5,616,181,657"/>
+<area shape="rect" id="node22" href="$class_resource.html" title="Resource\&lt; TerrainFile \&gt;" alt="" coords="751,759,913,786"/>
+<area shape="rect" id="node23" href="$class_signal.html" title="Signal\&lt; void(U32, Terrain\lBlock *, const Point2I\l &amp;, const Point2I &amp;)\&gt;" alt="" coords="749,810,915,866"/>
+<area shape="rect" id="node24" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXShader \&gt;" alt="" coords="739,890,925,917"/>
+<area shape="rect" id="node25" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTexture\lTarget \&gt;" alt="" coords="744,941,920,983"/>
+<area shape="rect" id="node26" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXStateBlock \&gt;" alt="" coords="304,505,513,531"/>
+<area shape="rect" id="node28" href="$class_file_name.html" title="FileName" alt="" coords="793,1171,871,1198"/>
+<area shape="rect" id="node29" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="381,1087,437,1114"/>
+<area shape="rect" id="node33" href="$class_vector.html" title="Vector\&lt; String \&gt;" alt="" coords="949,453,1068,479"/>
+<area shape="rect" id="node48" href="$class_g_f_x_vertex_format.html" title="GFXVertexFormat" alt="" coords="769,1273,895,1299"/>
+<area shape="rect" id="node30" href="$class_g_bitmap.html" title="GBitmap" alt="" coords="795,1121,869,1147"/>
+<area shape="rect" id="node31" href="$class_vector.html" title="Vector\&lt; TerrainCellMaterial\l::Pass \&gt;" alt="" coords="1110,336,1289,377"/>
+<area shape="rect" id="node34" href="$class_g_f_x_primitive_buffer.html" title="GFXPrimitiveBuffer" alt="" coords="1135,1733,1264,1759"/>
+<area shape="rect" id="node35" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="777,1526,887,1553"/>
+<area shape="rect" id="node47" href="$class_g_f_x_vertex_buffer.html" title="GFXVertexBuffer" alt="" coords="1140,1510,1259,1537"/>
+<area shape="rect" id="node36" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="356,1509,461,1535"/>
+<area shape="rect" id="node37" href="$class_g_f_x_resource.html" title="GFXResource" alt="" coords="357,1559,460,1586"/>
+<area shape="rect" id="node39" href="$class_g_f_x_device_statistics.html" title="GFXDeviceStatistics" alt="" coords="339,1706,479,1733"/>
+<area shape="rect" id="node40" href="$class_g_f_x_cubemap_handle.html" title="A reference counted handle to a cubemap resource. " alt="" coords="337,1757,480,1783"/>
+<area shape="rect" id="node41" href="$class_swizzle.html" title="Swizzle\&lt; U8, 3 \&gt;" alt="" coords="347,1807,470,1834"/>
+<area shape="rect" id="node42" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXTarget \&gt;" alt="" coords="318,2075,499,2102"/>
+<area shape="rect" id="node43" href="$class_swizzle.html" title="Swizzle\&lt; U8, 4 \&gt;" alt="" coords="347,1921,470,1947"/>
+<area shape="rect" id="node44" href="$class_rect_i.html" title="RectI" alt="" coords="383,2025,435,2051"/>
+<area shape="rect" id="node45" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="361,2342,456,2369"/>
+<area shape="rect" id="node46" href="$struct_g_f_x_primitive.html" title="GFXPrimitive" alt="" coords="784,1822,880,1849"/>
+<area shape="rect" id="node50" href="$class_vector.html" title="Vector\&lt; LightInfoEx * \&gt;" alt="" coords="330,2455,487,2482"/>
+</map>

@@ -1,0 +1,50 @@
+<map id="afxPhrase" name="afxPhrase">
+<area shape="rect" id="node2" href="$class_vector.html" title="Vector\&lt; T \&gt;" alt="" coords="1860,636,1951,663"/>
+<area shape="rect" id="node4" href="$classafx_choreographer.html" title="afxChoreographer" alt="" coords="1844,688,1967,715"/>
+<area shape="rect" id="node5" href="$class_game_base.html" title="GameBase" alt="" coords="1538,960,1625,987"/>
+<area shape="rect" id="node6" href="$class_scene_object.html" title="SceneObject" alt="" coords="726,867,823,893"/>
+<area shape="rect" id="node18" href="$struct_scene_object_1_1_mount_info.html" title="Mounted object. " alt="" coords="1072,909,1233,936"/>
+<area shape="rect" id="node21" href="$class_scene_object_link.html" title="A SceneObjectLink represents the link between a SceneObject and a SceneTracker. " alt="" coords="1092,747,1213,773"/>
+<area shape="rect" id="node31" href="$class_water_object.html" title="WaterObject" alt="" coords="1105,1635,1200,1661"/>
+<area shape="rect" id="node46" href="$structafx_choreographer_1_1dyn_constraint_def.html" title="afxChoreographer::dynConstraintDef" alt="" coords="1037,571,1268,597"/>
+<area shape="rect" id="node7" href="$class_net_object.html" title="NetObject" alt="" coords="346,1672,426,1699"/>
+<area shape="rect" id="node48" href="$class_net_connection.html" title="NetConnection" alt="" coords="721,2103,828,2129"/>
+<area shape="rect" id="node8" href="$class_bit_set32.html" title="BitSet32" alt="" coords="21,1511,93,1537"/>
+<area shape="rect" id="node9" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="313,517,459,544"/>
+<area shape="rect" id="node10" href="$class_process_object.html" title="ProcessObject" alt="" coords="332,568,440,595"/>
+<area shape="rect" id="node11" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="322,1493,450,1520"/>
+<area shape="rect" id="node12" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="29,2000,85,2027"/>
+<area shape="rect" id="node32" href="$class_named_tex_target.html" title="NamedTexTarget" alt="" coords="524,1892,644,1919"/>
+<area shape="rect" id="node13" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="337,261,435,288"/>
+<area shape="rect" id="node14" href="$class_sim_object.html" title="SimObject" alt="" coords="733,204,816,231"/>
+<area shape="rect" id="node15" href="$class_console_object.html" title="ConsoleObject" alt="" coords="333,189,439,216"/>
+<area shape="rect" id="node16" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="333,5,439,32"/>
+<area shape="rect" id="node17" href="$class_namespace.html" title="Namespace" alt="" coords="341,139,431,165"/>
+<area shape="rect" id="node19" href="$class_matrix_f.html" title="MatrixF" alt="" coords="23,737,90,764"/>
+<area shape="rect" id="node28" href="$class_scene_manager.html" title="An object that manages the SceneObjects belonging to a scene. " alt="" coords="331,413,441,440"/>
+<area shape="rect" id="node20" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="328,619,444,645"/>
+<area shape="rect" id="node22" href="$class_point3_f.html" title="Point3F" alt="" coords="23,1099,90,1125"/>
+<area shape="rect" id="node24" href="$class_sphere_f.html" title="SphereF" alt="" coords="351,928,421,955"/>
+<area shape="rect" id="node25" href="$class_box3_f.html" title="Box3F" alt="" coords="356,1047,416,1073"/>
+<area shape="rect" id="node35" href="$class_plane_reflector.html" title="PlaneReflector" alt="" coords="721,1363,828,1389"/>
+<area shape="rect" id="node36" href="$class_plane_f.html" title="PlaneF" alt="" coords="355,1621,417,1648"/>
+<area shape="rect" id="node23" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="288,669,484,696"/>
+<area shape="rect" id="node26" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="287,720,485,747"/>
+<area shape="rect" id="node27" href="$class_scene_container.html" title="SceneContainer" alt="" coords="329,771,443,797"/>
+<area shape="rect" id="node29" href="$struct_scene_object_1_1_zone_ref.html" title="Bidirectional link between a zone manager and its objects. " alt="" coords="310,1160,462,1187"/>
+<area shape="rect" id="node30" href="$class_scene_object_lighting_plugin.html" title="SceneObjectLightingPlugin" alt="" coords="297,1211,475,1237"/>
+<area shape="rect" id="node33" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="713,1837,836,1864"/>
+<area shape="rect" id="node34" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; PostEffect \&gt;" alt="" coords="683,1951,867,1977"/>
+<area shape="rect" id="node37" href="$class_matrix_set.html" title="MatrixSet" alt="" coords="735,2001,814,2028"/>
+<area shape="rect" id="node38" href="$class_color_i.html" title="ColorI" alt="" coords="747,1261,802,1288"/>
+<area shape="rect" id="node39" href="$class_point2_f.html" title="2D floating&#45;point point. " alt="" coords="741,1496,808,1523"/>
+<area shape="rect" id="node40" href="$class_s_f_x_ambience.html" title="SFXAmbience" alt="" coords="723,1547,827,1573"/>
+<area shape="rect" id="node41" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="727,1724,822,1751"/>
+<area shape="rect" id="node42" href="$classafx_effect_defs.html" title="afxEffectDefs" alt="" coords="1103,797,1202,824"/>
+<area shape="rect" id="node44" href="$classafx_constraint_mgr.html" title="afxConstraintMgr" alt="" coords="1521,797,1641,824"/>
+<area shape="rect" id="node43" href="$classafx_magic_missile_callback.html" title="afxMagicMissileCallback" alt="" coords="1499,629,1664,656"/>
+<area shape="rect" id="node45" href="$class_vector.html" title="Vector\&lt; afxChoreographer\l::dynConstraintDef * \&gt;" alt="" coords="1495,563,1668,605"/>
+<area shape="rect" id="node49" href="$class_vector.html" title="Vector\&lt; afxChoreographer\l::dynConstraintDef \&gt;" alt="" coords="1495,681,1668,722"/>
+<area shape="rect" id="node47" href="$class_vector.html" title="Vector\&lt; NetConnection * \&gt;" alt="" coords="1292,1823,1471,1849"/>
+<area shape="rect" id="node50" href="$classafx_effect_vector.html" title="afxEffectVector" alt="" coords="1850,745,1961,772"/>
+</map>

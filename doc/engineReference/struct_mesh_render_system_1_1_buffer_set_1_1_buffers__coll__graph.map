@@ -1,0 +1,12 @@
+<map id="MeshRenderSystem::BufferSet::Buffers" name="MeshRenderSystem::BufferSet::Buffers">
+<area shape="rect" id="node2" href="$class_vector.html" title="Vector\&lt; U32 \&gt;" alt="" coords="1244,5,1351,32"/>
+<area shape="rect" id="node3" href="$class_vector.html" title="Vector\&lt; GFXVertexPNTT \&gt;" alt="" coords="1208,56,1387,83"/>
+<area shape="rect" id="node4" href="$class_g_f_x_vertex_buffer_handle.html" title="GFXVertexBufferHandle\l\&lt; GFXVertexPNTT \&gt;" alt="" coords="1218,107,1377,149"/>
+<area shape="rect" id="node5" href="$class_g_f_x_vertex_buffer_handle_base.html" title="GFXVertexBufferHandleBase" alt="" coords="803,116,991,143"/>
+<area shape="rect" id="node6" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXVertexBuffer \&gt;" alt="" coords="537,116,753,143"/>
+<area shape="rect" id="node7" href="$class_strong_object_ref.html" title="Base class for StrongRefBase strong reference pointers. " alt="" coords="371,152,488,179"/>
+<area shape="rect" id="node11" href="$class_strong_ref_ptr.html" title="StrongRefPtr\&lt; GFXPrimitive\lBuffer \&gt;" alt="" coords="554,167,737,209"/>
+<area shape="rect" id="node8" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,152,269,179"/>
+<area shape="rect" id="node9" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,152,111,179"/>
+<area shape="rect" id="node10" href="$class_g_f_x_primitive_buffer_handle.html" title="GFXPrimitiveBufferHandle" alt="" coords="1015,175,1184,201"/>
+</map>

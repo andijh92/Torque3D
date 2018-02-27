@@ -1,0 +1,50 @@
+<map id="GameBase" name="GameBase">
+<area shape="rect" id="node15" href="$classafx_billboard.html" title="afxBillboard" alt="" coords="1513,5,1602,32"/>
+<area shape="rect" id="node16" href="$classafx_choreographer.html" title="afxChoreographer" alt="" coords="1496,56,1619,83"/>
+<area shape="rect" id="node20" href="$classafx_magic_missile.html" title="afxMagicMissile" alt="" coords="1500,107,1615,133"/>
+<area shape="rect" id="node21" href="$classafx_model.html" title="afxModel" alt="" coords="1520,157,1595,184"/>
+<area shape="rect" id="node22" href="$classafx_mooring.html" title="afxMooring" alt="" coords="1515,208,1600,235"/>
+<area shape="rect" id="node23" href="$classafx_particle_pool.html" title="afxParticlePool" alt="" coords="1503,259,1612,285"/>
+<area shape="rect" id="node24" href="$classafx_residue_mgr.html" title="afxResidueMgr" alt="" coords="1503,309,1611,336"/>
+<area shape="rect" id="node25" href="$classafx_spell_book.html" title="afxSpellBook" alt="" coords="1508,360,1607,387"/>
+<area shape="rect" id="node26" href="$classafx_zodiac_plane.html" title="afxZodiacPlane" alt="" coords="1502,411,1613,437"/>
+<area shape="rect" id="node27" href="$class_collision_trigger.html" title="CollisionTrigger" alt="" coords="1502,461,1613,488"/>
+<area shape="rect" id="node28" href="$class_debris.html" title="Debris" alt="" coords="1528,512,1587,539"/>
+<area shape="rect" id="node29" href="$class_entity.html" title="Entity" alt="" coords="1529,563,1585,589"/>
+<area shape="rect" id="node30" href="$class_explosion.html" title="Explosion" alt="" coords="1518,613,1597,640"/>
+<area shape="rect" id="node31" href="$class_lightning.html" title="Lightning" alt="" coords="1520,664,1595,691"/>
+<area shape="rect" id="node32" href="$class_open_v_r_tracked_object.html" title="Implements a GameObject which tracks an OpenVR controller. " alt="" coords="1480,715,1635,741"/>
+<area shape="rect" id="node33" href="$class_particle_emitter.html" title="ParticleEmitter" alt="" coords="1503,765,1611,792"/>
+<area shape="rect" id="node35" href="$class_particle_emitter_node.html" title="ParticleEmitterNode" alt="" coords="1488,816,1627,843"/>
+<area shape="rect" id="node36" href="$class_physics_debris.html" title="PhysicsDebris" alt="" coords="1504,867,1611,893"/>
+<area shape="rect" id="node37" href="$class_physics_shape.html" title="A simple single body dynamic physics object. " alt="" coords="1504,917,1611,944"/>
+<area shape="rect" id="node38" href="$class_precipitation.html" title="Precipitation" alt="" coords="1510,968,1605,995"/>
+<area shape="rect" id="node39" href="$class_projectile.html" title="Base class for all projectiles. " alt="" coords="1519,1019,1595,1045"/>
+<area shape="rect" id="node41" href="$class_ribbon.html" title="Ribbon" alt="" coords="1526,1069,1589,1096"/>
+<area shape="rect" id="node42" href="$class_ribbon_node.html" title="RibbonNode" alt="" coords="1511,1120,1603,1147"/>
+<area shape="rect" id="node43" href="$class_shape_base.html" title="ShapeBase" alt="" coords="1513,1171,1602,1197"/>
+<area shape="rect" id="node48" href="$class_splash.html" title="Splash" alt="" coords="1526,1221,1589,1248"/>
+<area shape="rect" id="node49" href="$class_trigger.html" title="Trigger" alt="" coords="1527,1272,1588,1299"/>
+<area shape="rect" id="node2" href="$class_scene_object.html" title="SceneObject" alt="" coords="1200,639,1297,665"/>
+<area shape="rect" id="node3" href="$class_net_object.html" title="NetObject" alt="" coords="1039,588,1119,615"/>
+<area shape="rect" id="node4" href="$class_sim_group.html" title="SimGroup" alt="" coords="877,588,957,615"/>
+<area shape="rect" id="node5" href="$class_sim_set.html" title="SimSet" alt="" coords="764,588,829,615"/>
+<area shape="rect" id="node6" href="$class_sim_object.html" title="SimObject" alt="" coords="626,563,709,589"/>
+<area shape="rect" id="node7" href="$class_console_object.html" title="ConsoleObject" alt="" coords="464,537,571,564"/>
+<area shape="rect" id="node8" href="$class_engine_object.html" title="EngineObject" alt="" coords="316,537,416,564"/>
+<area shape="rect" id="node9" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="159,537,268,564"/>
+<area shape="rect" id="node10" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,537,111,564"/>
+<area shape="rect" id="node11" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="464,588,571,615"/>
+<area shape="rect" id="node12" href="$class_taml_children.html" title="TamlChildren" alt="" coords="619,613,716,640"/>
+<area shape="rect" id="node13" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="1005,639,1152,665"/>
+<area shape="rect" id="node14" href="$class_process_object.html" title="ProcessObject" alt="" coords="1025,689,1133,716"/>
+<area shape="rect" id="node17" href="$classafx_effectron.html" title="afxEffectron" alt="" coords="1700,5,1791,32"/>
+<area shape="rect" id="node18" href="$classafx_magic_spell.html" title="afxMagicSpell" alt="" coords="1694,56,1797,83"/>
+<area shape="rect" id="node19" href="$classafx_selectron.html" title="afxSelectron" alt="" coords="1698,107,1793,133"/>
+<area shape="rect" id="node34" href="$classafx_particle_emitter.html" title="afxParticleEmitter" alt="" coords="1683,765,1808,792"/>
+<area shape="rect" id="node40" href="$classafx_projectile.html" title="afxProjectile" alt="" coords="1699,1019,1792,1045"/>
+<area shape="rect" id="node44" href="$classafx_camera.html" title="afxCamera" alt="" coords="1703,1095,1787,1121"/>
+<area shape="rect" id="node45" href="$class_camera.html" title="Implements a basic camera object. " alt="" coords="1712,1145,1779,1172"/>
+<area shape="rect" id="node46" href="$class_item.html" title="Item" alt="" coords="1722,1196,1769,1223"/>
+<area shape="rect" id="node47" href="$class_mission_marker.html" title="MissionMarker" alt="" coords="1692,1247,1799,1273"/>
+</map>

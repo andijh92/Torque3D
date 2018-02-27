@@ -1,0 +1,6 @@
+<map id="GroundCoverCell::Placement" name="GroundCoverCell::Placement">
+<area shape="rect" id="node2" href="$class_point3_f.html" title="Point3F" alt="" coords="5,43,72,70"/>
+<area shape="rect" id="node3" href="$class_box3_f.html" title="Box3F" alt="" coords="103,223,163,250"/>
+<area shape="rect" id="node4" href="$class_box_base.html" title="Base class for box geometries. " alt="" coords="155,43,229,70"/>
+<area shape="rect" id="node5" href="$class_linear_color_f.html" title="LinearColorF" alt="" coords="247,223,342,250"/>
+</map>

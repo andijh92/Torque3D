@@ -1,0 +1,51 @@
+<map id="PhysicsComponent" name="PhysicsComponent">
+<area shape="rect" id="node2" href="$class_component.html" title="Component" alt="" coords="2847,300,2935,327"/>
+<area shape="rect" id="node3" href="$class_sim_object.html" title="SimObject" alt="" coords="795,956,877,983"/>
+<area shape="rect" id="node9" href="$class_sim_persist_i_d.html" title="A globally unique persistent ID for a SimObject. " alt="" coords="1149,879,1247,905"/>
+<area shape="rect" id="node14" href="$union_namespace_1_1_entry_1_1_callback_union.html" title="Namespace::Entry::Callback\lUnion" alt="" coords="1104,1193,1292,1234"/>
+<area shape="rect" id="node4" href="$class_console_object.html" title="ConsoleObject" alt="" coords="595,833,701,860"/>
+<area shape="rect" id="node5" href="$class_engine_object.html" title="EngineObject" alt="" coords="319,811,419,837"/>
+<area shape="rect" id="node6" href="$class_strong_ref_base.html" title="StrongRefBase" alt="" coords="160,753,269,780"/>
+<area shape="rect" id="node32" href="$class_g_f_x_texture_object.html" title="GFXTextureObject" alt="" coords="443,229,571,256"/>
+<area shape="rect" id="node7" href="$class_weak_ref_base.html" title="WeakRefBase" alt="" coords="5,753,111,780"/>
+<area shape="rect" id="node8" href="$class_taml_callbacks.html" title="TamlCallbacks" alt="" coords="595,956,701,983"/>
+<area shape="rect" id="node28" href="$class_scene_object.html" title="SceneObject" alt="" coords="1502,555,1599,581"/>
+<area shape="rect" id="node10" href="$class_hash_table.html" title="HashTable\&lt; Key, Value \&gt;" alt="" coords="751,804,921,831"/>
+<area shape="rect" id="node11" href="$class_torque_1_1_u_u_i_d.html" title="A universally unique identifier. " alt="" coords="787,893,885,920"/>
+<area shape="rect" id="node12" href="$class_namespace.html" title="Namespace" alt="" coords="1821,1188,1911,1215"/>
+<area shape="rect" id="node13" href="$struct_namespace_1_1_entry.html" title="A function entry in the namespace. " alt="" coords="1485,1141,1616,1168"/>
+<area shape="rect" id="node19" href="$class_abstract_class_rep.html" title="AbstractClassRep" alt="" coords="2164,1088,2291,1115"/>
+<area shape="rect" id="node15" href="$class_code_block.html" title="CodeBlock" alt="" coords="1155,1091,1241,1117"/>
+<area shape="rect" id="node16" href="$struct_console_function_header.html" title="Extended information about a console function. " alt="" coords="1118,1141,1278,1168"/>
+<area shape="rect" id="node17" href="$class_data_chunker.html" title="DataChunker" alt="" coords="1502,1249,1599,1276"/>
+<area shape="rect" id="node18" href="$struct_data_chunker_1_1_data_block.html" title="DataChunker::DataBlock" alt="" coords="1115,1297,1281,1324"/>
+<area shape="rect" id="node20" href="$class_console_base_type.html" title="Information about a console type. " alt="" coords="1803,1004,1929,1031"/>
+<area shape="rect" id="node21" href="$class_vector.html" title="Vector\&lt; Field \&gt;" alt="" coords="1810,1055,1922,1081"/>
+<area shape="rect" id="node22" href="$class_update_interface.html" title="UpdateInterface" alt="" coords="2485,879,2597,905"/>
+<area shape="rect" id="node24" href="$class_vector.html" title="Vector\&lt; UpdateInterface * \&gt;" alt="" coords="2800,929,2983,956"/>
+<area shape="rect" id="node23" href="$class_interface.html" title="Interface\&lt; UpdateInterface \&gt;" alt="" coords="3048,900,3233,927"/>
+<area shape="rect" id="node25" href="$class_vector.html" title="Vector\&lt; StringTableEntry \&gt;" alt="" coords="2451,300,2631,327"/>
+<area shape="rect" id="node26" href="$class_entity.html" title="Entity" alt="" coords="2513,351,2569,377"/>
+<area shape="rect" id="node27" href="$class_game_base.html" title="GameBase" alt="" coords="2184,424,2271,451"/>
+<area shape="rect" id="node33" href="$struct_scene_object_1_1_mount_info.html" title="Mounted object. " alt="" coords="1785,652,1947,679"/>
+<area shape="rect" id="node35" href="$class_scene_object_link.html" title="A SceneObjectLink represents the link between a SceneObject and a SceneTracker. " alt="" coords="1805,555,1927,581"/>
+<area shape="rect" id="node41" href="$class_water_object.html" title="WaterObject" alt="" coords="1819,451,1913,477"/>
+<area shape="rect" id="node29" href="$class_net_object.html" title="NetObject" alt="" coords="1158,777,1238,804"/>
+<area shape="rect" id="node30" href="$struct_scene_container_1_1_link.html" title="SceneContainer::Link" alt="" coords="1125,292,1271,319"/>
+<area shape="rect" id="node31" href="$class_process_object.html" title="ProcessObject" alt="" coords="1144,343,1252,369"/>
+<area shape="rect" id="node34" href="$class_scene_object_ref.html" title="Reference to a scene object. " alt="" coords="1140,563,1256,589"/>
+<area shape="rect" id="node36" href="$class_point3_f.html" title="Point3F" alt="" coords="803,461,869,488"/>
+<area shape="rect" id="node38" href="$class_sphere_f.html" title="SphereF" alt="" coords="1163,512,1233,539"/>
+<area shape="rect" id="node39" href="$class_box3_f.html" title="Box3F" alt="" coords="1168,461,1228,488"/>
+<area shape="rect" id="node43" href="$struct_entity_1_1_state_delta.html" title="Entity::StateDelta" alt="" coords="2165,304,2290,331"/>
+<area shape="rect" id="node50" href="$struct_physics_component_1_1_state_delta.html" title="PhysicsComponent::StateDelta" alt="" coords="2125,85,2329,112"/>
+<area shape="rect" id="node37" href="$class_signal.html" title="Signal\&lt; void(SceneObject *) \&gt;" alt="" coords="1100,613,1296,640"/>
+<area shape="rect" id="node40" href="$class_sim_object_ptr.html" title="SimObjectPtr\&lt; SceneObject \&gt;" alt="" coords="1099,727,1297,753"/>
+<area shape="rect" id="node42" href="$struct_move.html" title="Move" alt="" coords="1840,304,1892,331"/>
+<area shape="rect" id="node44" href="$class_quat_f.html" title="QuatF" alt="" coords="1837,140,1895,167"/>
+<area shape="rect" id="node45" href="$class_signal.html" title="Signal\&lt; void(SimObject\l *, String, String) \&gt;" alt="" coords="2149,238,2306,279"/>
+<area shape="rect" id="node46" href="$class_vector.html" title="Vector\&lt; ComponentField \&gt;" alt="" coords="2452,187,2631,213"/>
+<area shape="rect" id="node47" href="$struct_component_field.html" title="ComponentField" alt="" coords="2169,187,2285,213"/>
+<area shape="rect" id="node48" href="$class_asset_ptr.html" title="AssetPtr\&lt; ComponentAsset \&gt;" alt="" coords="2443,136,2640,163"/>
+<area shape="rect" id="node49" href="$class_asset_ptr_base.html" title="AssetPtrBase" alt="" coords="2176,136,2279,163"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="MeshRenderSystem::BufferMaterials" name="MeshRenderSystem::BufferMaterials">
+<area shape="rect" id="node2" href="$class_base_mat_instance.html" title="BaseMatInstance" alt="" coords="41,184,164,211"/>
+<area shape="rect" id="node3" href="$class_vector.html" title="Vector\&lt; MatInstanceHook * \&gt;" alt="" coords="5,95,200,121"/>
+<area shape="rect" id="node4" href="$class_mat_instance_hook.html" title="MatInstanceHook" alt="" coords="41,5,164,32"/>
+<area shape="rect" id="node5" href="$class_string.html" title="The String class represents a 0&#45;terminated array of characters. " alt="" coords="188,184,244,211"/>
+</map>
